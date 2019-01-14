@@ -1,7 +1,7 @@
 from libsbml import *
 import csv
 
-sbmlFile = "../iPAE1146.xml"
+sbmlFile = "../iPAE1146_with_groups.xml"
 # Code for later use (convert sbml to json)
 # cobra_model = cobra.io.read_sbml_model(path2sbml)
 # cobra.io.save_json_model(cobra_model, "iPAE1146.json")
