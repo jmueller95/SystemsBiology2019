@@ -1,5 +1,6 @@
 from libsbml import *
-import csv
+from collections import Counter
+from sbml_analysis_functions import reactions_of_subsystem, reactionIds_to_subsystems, metabolites_dict
 
 sbmlFile = "../iPAE1146_with_groups.xml"
 # Code for later use (convert sbml to json)
@@ -10,15 +11,8 @@ reader = SBMLReader()
 document = reader.readSBML(sbmlFile)
 libsbml_model = document.getModel()
 
-# Map all the reactions in the model to their subsystems
-reactionIds_to_subsystems = {reaction.getId(): tag[tag.find(":") + 2:tag.find("<")] for reaction in
-                             libsbml_model.getListOfReactions()
-                             for tag in reaction.getNotesString().split("<p>")
-                             if tag.startswith("SUBSYSTEM")}
-
 # Get list of reactions associated with lipopolysaccharide synthesis
-lipopolysaccharide_reactions = [reaction for reaction in reactionIds_to_subsystems.keys()
-                                if reactionIds_to_subsystems[reaction] == 'Lipopolysaccharide biosynthesis']
+lipopolysaccharide_reactions = reactions_of_subsystem('Lipopolysaccharide biosynthesis')
 
 # Get set of metabolites that occur in lipopolysaccharide synthesis
 lipopolysaccharide_metabolites = set()
@@ -28,15 +22,6 @@ for reaction in [libsbml_model.getReaction(id) for id in lipopolysaccharide_reac
     for reagent in reagent_list:
         if reagent not in lipopolysaccharide_metabolites:
             lipopolysaccharide_metabolites.add(reagent.getSpecies())
-
-# Use csv file to generate metabolite id to metabolite name
-metabolites_dict = {}
-with open('../iPae1146_metabolites.csv', 'rb') as csvfile:
-    metabolites_reader = csv.reader(csvfile, delimiter=",", quotechar="\"")
-    for row in metabolites_reader:
-        id = "M_" + row[0][:-3] + "_c"
-        name = row[1]
-        metabolites_dict[id] = name
 
 # Map metabolites of lipopolysaccharide biosynthesis to all subsystems they occur in
 metabolites_to_subsystems = {}
@@ -51,5 +36,12 @@ for metabolite_id in lipopolysaccharide_metabolites:
                     reactionIds_to_subsystems[reaction.getId()])
             else:
                 metabolites_to_subsystems[metabolites_dict[metabolite_id]] = {
-                reactionIds_to_subsystems[reaction.getId()]}
+                    reactionIds_to_subsystems[reaction.getId()]}
 
+# Count occurrences of subsystems
+counter = Counter([value for list in metabolites_to_subsystems.values() for value in list])
+most_common_subsystems = counter.most_common(5)
+reaction_counts = {subsystem + " (" + str(counter[subsystem]) + ")": len(reactions_of_subsystem(subsystem)) for
+                   subsystem in [tuple[0] for tuple in most_common_subsystems]}
+"""Top three would be Lipopolysaccharide synthesis, pyrimidine metabolism and fatty acid biosynthesis,
+however fatty acid biosynthesis has a lot of reactions so I suggest we take pyrimidine metabolism instead"""
