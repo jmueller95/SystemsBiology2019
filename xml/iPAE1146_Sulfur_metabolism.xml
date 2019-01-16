@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" level="3" version="1">
+  <model substanceUnits="substance" timeUnits="second" volumeUnits="volume" areaUnits="area" lengthUnits="metre" extentUnits="substance">
+    <listOfUnitDefinitions>
+      <unitDefinition id="mmol_per_gDW_per_hr">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="-3" multiplier="1"/>
+          <unit kind="gram" exponent="-1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="0.000277777777777778"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="volume">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="substance">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="area">
+        <listOfUnits>
+          <unit kind="metre" exponent="2" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="c" name="Cytoplasm" spatialDimensions="3" units="volume" constant="false"/>
+      <compartment id="e" name="Extracellular" spatialDimensions="3" units="volume" constant="false"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="M_cpd00067_c" name="H+" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H</p>
+            <p>CHARGE: 1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00001_c" name="H2O" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H2O</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00006_c" name="NADP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H26N7O17P3</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00005_c" name="NADPH" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H27N7O17P3</p>
+            <p>CHARGE: -3</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00009_c" name="Phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: HO4P</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00239_c" name="H2S" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H2S</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00081_c" name="Sulfite" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: HO3S</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00002_c" name="ATP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H13N5O13P3</p>
+            <p>CHARGE: -3</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00008_c" name="ADP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H13N5O10P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd11420_c" name="trdox" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C6H7NO2R2S2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd11421_c" name="trdrd" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C6H9NO2R2S2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00012_c" name="PPi" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H2O7P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00018_c" name="AMP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H13N5O7P</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00048_c" name="Sulfate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: O4S</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00268_c" name="H2S2O3" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: O3S2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00038_c" name="GTP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H13N5O14P3</p>
+            <p>CHARGE: -3</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00031_c" name="GDP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H13N5O11P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00193_c" name="APS" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H12N5O10PS</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00045_c" name="Adenosine 3-5-bisphosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H13N5O10P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00044_c" name="3-phosphoadenylylsulfate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H12N5O13P2S</p>
+            <p>CHARGE: -3</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00150_c" name="HCN" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: CHN</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd01211_c" name="Thiocyanate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: CNS</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="R_rxn00623" name="sulfite reductase (NADPH2)" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA1838 or (PA2906 or PA4130))</p>
+            <p>SUBSYSTEM: Sulfur metabolism</p>
+            <p>EC Number: 1.8.1.2,1.8.2.2</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c" stoichiometry="3" constant="true"/>
+          <speciesReference species="M_cpd00006_c" stoichiometry="3" constant="true"/>
+          <speciesReference species="M_cpd00239_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="4" constant="true"/>
+          <speciesReference species="M_cpd00005_c" stoichiometry="3" constant="true"/>
+          <speciesReference species="M_cpd00081_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn09240" name="sulfate adenylyltransferase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA4443 and PA4442)</p>
+            <p>SUBSYSTEM: Sulfur metabolism</p>
+            <p>EC Number: 2.7.7.4</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00048_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00038_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00009_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00031_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00193_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn00361" name="adenylyl-sulfate kinase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA1393</p>
+            <p>SUBSYSTEM: Sulfur metabolism</p>
+            <p>EC Number: 2.7.1.25</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00193_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00044_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn05256" name="APSPTi" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA1756</p>
+            <p>SUBSYSTEM: Sulfur metabolism</p>
+            <p>EC Number: 1.8.4.10</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd11421_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00193_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00081_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd11420_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00018_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn01416" name="thiosulfate sulfurtransferase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA4956</p>
+            <p>SUBSYSTEM: Sulfur metabolism</p>
+            <p>EC Number: 2.8.1.1</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00268_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00150_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00081_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd01211_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn00137" name="3&apos;,5&apos;-bisphosphate nucleotidase" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA5175</p>
+            <p>SUBSYSTEM: Sulfur metabolism</p>
+            <p>EC Number: 3.1.3.7</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00045_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00009_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00018_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+    <groups:listOfGroups>
+      <groups:group groups:id="s_b061dd80b755c6378d7ba3c8b25bdf5b" groups:name="Sulfur metabolism" groups:kind="partonomy">
+        <groups:listOfMembers>
+          <groups:member groups:idRef="R_rxn00623"/>
+          <groups:member groups:idRef="R_rxn09240"/>
+          <groups:member groups:idRef="R_rxn00361"/>
+          <groups:member groups:idRef="R_rxn05256"/>
+          <groups:member groups:idRef="R_rxn01416"/>
+          <groups:member groups:idRef="R_rxn00137"/>
+        </groups:listOfMembers>
+      </groups:group>
+    </groups:listOfGroups>
+  </model>
+</sbml>

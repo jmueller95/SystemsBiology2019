@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" level="3" version="1">
+  <model substanceUnits="substance" timeUnits="second" volumeUnits="volume" areaUnits="area" lengthUnits="metre" extentUnits="substance">
+    <listOfUnitDefinitions>
+      <unitDefinition id="mmol_per_gDW_per_hr">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="-3" multiplier="1"/>
+          <unit kind="gram" exponent="-1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="0.000277777777777778"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="volume">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="substance">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="area">
+        <listOfUnits>
+          <unit kind="metre" exponent="2" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="c" name="Cytoplasm" spatialDimensions="3" units="volume" constant="false"/>
+      <compartment id="e" name="Extracellular" spatialDimensions="3" units="volume" constant="false"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="M_cpd00067_c" name="H+" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H</p>
+            <p>CHARGE: 1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00001_c" name="H2O" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H2O</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00010_c" name="CoA" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H33N7O16P3S</p>
+            <p>CHARGE: -3</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00011_c" name="CO2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: CO2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd15561_c" name="Ubiquinol-8" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C49H76O4</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cJB00125_c" name="Ubiquinol-9" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C54H84O4</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00007_c" name="O2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: O2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00020_c" name="Pyruvate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C3H3O3</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00017_c" name="S-Adenosyl-L-methionine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C15H23N6O5S</p>
+            <p>CHARGE: 1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00019_c" name="S-Adenosyl-homocysteine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C14H20N6O5S</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd11669_c" name="Ubiquinone" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C19H26O4</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00136_c" name="4-Hydroxybenzoate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C7H5O3</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00868_c" name="p-hydroxyphenylpyruvate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C9H7O4</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00012_c" name="PPi" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H2O7P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00216_c" name="Chorismate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H8O6</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd02021_c" name="Succinylbenzoyl-CoA" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C32H40N7O20P3S</p>
+            <p>CHARGE: -4</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00426_c" name="Homogentisate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C8H7O4</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd03443_c" name="3-Octaprenyl-4-hydroxybenzoate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C47H69O3</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd03444_c" name="2-Octaprenylphenol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C46H70O</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00659_c" name="Nitrous oxide" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: HN2O</p>
+            <p>CHARGE: 1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00658_c" name="Isochorismate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H8O6</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd16768_c" name="2-nonaprenylphenol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C51H78O</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd16765_c" name="2-nonaprenyl-6-hydroxyphenol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C51H78O2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd03445_c" name="2-Octaprenyl-6-hydroxyphenol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C46H70O2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd16764_c" name="2-nonaprenyl-3-methyl-6-methoxy-1,4-benzoquinol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C53H82O3</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cJB00124_c" name="3-Demethylubiquinol-9" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C53H82O4</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd02295_c" name="1-4-Dihydroxy-2-naphthoate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C11H7O4</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd16767_c" name="2-nonaprenyl-6-methoxyphenol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C52H80O2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd15360_c" name="2-Octaprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C48H74O4</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd03446_c" name="2-Octaprenyl-6-methoxyphenol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C47H72O2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00528_c" name="N2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: N2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd02419_c" name="Nonaprenyl-4-hydroxybenzoate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C52H77O3</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd02557_c" name="Farnesylfarnesylgeraniol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C40H66O7P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd02172_c" name="Solanesyl diphosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C45H74O7P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd16766_c" name="2-nonaprenyl-6-methoxy-1,4-benzoquinol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C52H80O3</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd15359_c" name="2-Octaprenyl-6-methoxy-1,4-benzoquinol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C47H72O3</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd15361_c" name="2-Octaprenyl3-methyl-6-methoxy- 1,4-benzoquinol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C48H74O3</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="R_rxn01827" name="4-hydroxyphenylpyruvate dioxygenase" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA0242 or PA0865)</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: 1.13.11.27</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00007_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00868_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00011_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00426_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn03393" name="3-octaprenyl-4-hydroxybenzoate carboxy-lyase" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA0254 or PA5237)</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: 4.1.1.-</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd03443_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00011_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd03444_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn13107" name="2-Nonaprenylphenol hydroxylase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA5236 or PA5065)</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: 1.14.13.-</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00007_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd16768_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd16765_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn09044" name="2-Octaprenylphenol hydroxylase" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA5236 or PA5065)</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00007_c" stoichiometry="0.5" constant="true"/>
+          <speciesReference species="M_cpd03444_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd03445_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn12880" name="5-demethoxyubiquinol hydroxylyase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA0655</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: 1.14.-.-</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00007_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd16764_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cJB00124_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn02898" name="naphthoate synthase" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA2013</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: 4.1.3.36</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd02021_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00010_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd02295_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn12892" name="2-polyprenyl-6-hydroxyphenol methylase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA3171</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: 2.1.1.222</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00017_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd16765_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00019_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd16767_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn05003" name="3-demethylubiquinone-9 3-methyltransferase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA3171</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: 2.1.1.64</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00017_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cJB00124_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cJB00125_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00019_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn08353" name="3-Dimethylubiquinonol 3-methyltransferase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA3171</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00017_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd15360_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd15561_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00019_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn03395" name="R04988" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA3171</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: 2.1.1.64</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00017_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd03445_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00019_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd03446_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn13864" name="nitrous-oxide reductase precursor" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA3392</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd15561_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00659_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd11669_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00528_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn13044" name="nonaprenyl-4-hydroxybenzoate decarboxylase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA4019 or PA5237</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: 4.1.1.-</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd02419_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00011_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd16768_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn01258" name="Isochorismate Synthase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA4231</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: 5.4.4.2</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00216_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00658_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn12879" name="2-methoxy-6-polyprenyl-1,4-benzoquinol methylase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA5063</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: 2.1.1.201</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00017_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd16766_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00019_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd16764_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn09039" name="2-Octaprenyl-6-methoxy-benzoquinol methylase" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA5063</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00017_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd15359_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00019_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd15361_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn09040" name="2-Octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA5221</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00007_c" stoichiometry="0.5" constant="true"/>
+          <speciesReference species="M_cpd15361_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd15360_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn13108" name="2-nonaprenyl-6-methoxyphenol hydroxylase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA5223</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: 1.14.3.-</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00007_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd16767_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd16766_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn09042" name="2-octaprenyl-6-methoxyphenol hydroxylase" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA5223</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00007_c" stoichiometry="0.5" constant="true"/>
+          <speciesReference species="M_cpd03446_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd15359_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn00966" name="chorismate pyruvate lyase" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA5357</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: 4.1.3.40</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00216_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00020_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00136_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn03893" name="4-hydroxybenzoate octaprenyltransferase" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA5358</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: 2.5.1.-</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00136_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd02557_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd03443_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn05034" name="4-hydroxybenzoate polyprenyltransferase" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA5358</p>
+            <p>SUBSYSTEM: Ubiquinone biosynthesis</p>
+            <p>EC Number: 2.5.1.39</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00136_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd02172_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd02419_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+    <groups:listOfGroups>
+      <groups:group groups:id="s_b54689c018d46ba0fe2f758717a96062" groups:name="Ubiquinone biosynthesis" groups:kind="partonomy">
+        <groups:listOfMembers>
+          <groups:member groups:idRef="R_rxn01827"/>
+          <groups:member groups:idRef="R_rxn03393"/>
+          <groups:member groups:idRef="R_rxn13107"/>
+          <groups:member groups:idRef="R_rxn09044"/>
+          <groups:member groups:idRef="R_rxn12880"/>
+          <groups:member groups:idRef="R_rxn02898"/>
+          <groups:member groups:idRef="R_rxn12892"/>
+          <groups:member groups:idRef="R_rxn05003"/>
+          <groups:member groups:idRef="R_rxn08353"/>
+          <groups:member groups:idRef="R_rxn03395"/>
+          <groups:member groups:idRef="R_rxn13864"/>
+          <groups:member groups:idRef="R_rxn13044"/>
+          <groups:member groups:idRef="R_rxn01258"/>
+          <groups:member groups:idRef="R_rxn12879"/>
+          <groups:member groups:idRef="R_rxn09039"/>
+          <groups:member groups:idRef="R_rxn09040"/>
+          <groups:member groups:idRef="R_rxn13108"/>
+          <groups:member groups:idRef="R_rxn09042"/>
+          <groups:member groups:idRef="R_rxn00966"/>
+          <groups:member groups:idRef="R_rxn03893"/>
+          <groups:member groups:idRef="R_rxn05034"/>
+        </groups:listOfMembers>
+      </groups:group>
+    </groups:listOfGroups>
+  </model>
+</sbml>

@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" level="3" version="1">
+  <model substanceUnits="substance" timeUnits="second" volumeUnits="volume" areaUnits="area" lengthUnits="metre" extentUnits="substance">
+    <listOfUnitDefinitions>
+      <unitDefinition id="mmol_per_gDW_per_hr">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="-3" multiplier="1"/>
+          <unit kind="gram" exponent="-1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="0.000277777777777778"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="volume">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="substance">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="area">
+        <listOfUnits>
+          <unit kind="metre" exponent="2" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="c" name="Cytoplasm" spatialDimensions="3" units="volume" constant="false"/>
+      <compartment id="e" name="Extracellular" spatialDimensions="3" units="volume" constant="false"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="M_cpd00003_c" name="NAD" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H26N7O14P2</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00004_c" name="NADH" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H27N7O14P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00067_c" name="H+" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H</p>
+            <p>CHARGE: 1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00001_c" name="H2O" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H2O</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00011_c" name="CO2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: CO2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00007_c" name="O2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: O2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00020_c" name="Pyruvate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C3H3O3</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00002_c" name="ATP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H13N5O13P3</p>
+            <p>CHARGE: -3</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00017_c" name="S-Adenosyl-L-methionine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C15H23N6O5S</p>
+            <p>CHARGE: 1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00019_c" name="S-Adenosyl-homocysteine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C14H20N6O5S</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00023_c" name="L-Glutamate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C5H8NO4</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00053_c" name="L-Glutamine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C5H10N2O3</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00012_c" name="PPi" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H2O7P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd17083_c" name="phenazine-1-carboxylic acid" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C13H8N2O2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd17044_c" name="1-hydroxyphenazine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C12H8ON2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd17053_c" name="5-methylphenazine-1-carboxylic acid betaine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C14H11N2O2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd01206_c" name="pyocyanin" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C13H12N2O</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00018_c" name="AMP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H13N5O7P</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00216_c" name="Chorismate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H8O6</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd17077_c" name="trans-2,3-dihydro-3-hydroxyanthranilic acid" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C7H8O3N</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00035_c" name="L-Alanine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C3H7NO2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00016_c" name="Pyridoxal phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C8H9NO6P</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00493_c" name="Pyridoxamine phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C8H13N2O5P</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd17073_c" name="2-amino-2-deoxyisochorismic acid" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H10O5N</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd17084_c" name="phenazine-1-carboxamide" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C13H9ON3</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="R_rxn13787" name="pyocyanin synthesis" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA4217</p>
+            <p>SUBSYSTEM: Phenazine biosynthesis</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00004_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00007_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd17083_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00003_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00011_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd17044_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn13896" name="pyocyanin synthesis" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA4217</p>
+            <p>SUBSYSTEM: Phenazine biosynthesis</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00004_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00007_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd17053_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00003_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00011_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd01206_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn13885" name="phenazine-1-carboxylic acid synthesis, step 3" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: ((PA1899 and PA1900 and PA1901 and PA1904 and PA1905) or (PA4210 and PA4211 and PA4212 and PA4215 and PA4216))</p>
+            <p>SUBSYSTEM: Phenazine biosynthesis</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd17077_c" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="4" constant="true"/>
+          <speciesReference species="M_cpd00001_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00011_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd17083_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn13823" name="phenazine-1-carboxylic acid synthesis, step 2" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA4213 or PA1902)</p>
+            <p>SUBSYSTEM: Phenazine biosynthesis</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd17073_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00020_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd17077_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn13801" name="phenazine-1-carboxylic acid synthesis, step 1" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA4214 or PA1903)</p>
+            <p>SUBSYSTEM: Phenazine biosynthesis</p>
+            <p>EC Number: 2.6.1.86</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00053_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00216_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00023_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd17073_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn08103" name="alanine transaminase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA5415 or PA2444 or PA4602)</p>
+            <p>SUBSYSTEM: Phenazine biosynthesis</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00035_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00016_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00020_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00493_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn13890" name="phenazine-1-carboxamide synthetase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA0051</p>
+            <p>SUBSYSTEM: Phenazine biosynthesis</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00053_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd17083_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00023_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00018_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd17084_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn13798" name="probable phenazine-specific methyltransferase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA4209</p>
+            <p>SUBSYSTEM: Phenazine biosynthesis</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00017_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd17083_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00019_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd17053_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+    <groups:listOfGroups>
+      <groups:group groups:id="s_5d8cd6425fd3b92ec8039f5e033f47ce" groups:name="Phenazine biosynthesis" groups:kind="partonomy">
+        <groups:listOfMembers>
+          <groups:member groups:idRef="R_rxn13787"/>
+          <groups:member groups:idRef="R_rxn13896"/>
+          <groups:member groups:idRef="R_rxn13885"/>
+          <groups:member groups:idRef="R_rxn13823"/>
+          <groups:member groups:idRef="R_rxn13801"/>
+          <groups:member groups:idRef="R_rxn08103"/>
+          <groups:member groups:idRef="R_rxn13890"/>
+          <groups:member groups:idRef="R_rxn13798"/>
+        </groups:listOfMembers>
+      </groups:group>
+    </groups:listOfGroups>
+  </model>
+</sbml>

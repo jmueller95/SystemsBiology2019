@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" level="3" version="1">
+  <model substanceUnits="substance" timeUnits="second" volumeUnits="volume" areaUnits="area" lengthUnits="metre" extentUnits="substance">
+    <listOfUnitDefinitions>
+      <unitDefinition id="mmol_per_gDW_per_hr">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="-3" multiplier="1"/>
+          <unit kind="gram" exponent="-1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="0.000277777777777778"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="volume">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="substance">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="area">
+        <listOfUnits>
+          <unit kind="metre" exponent="2" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="c" name="Cytoplasm" spatialDimensions="3" units="volume" constant="false"/>
+      <compartment id="e" name="Extracellular" spatialDimensions="3" units="volume" constant="false"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="M_cpd00015_c" name="FAD" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C27H31N9O15P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00982_c" name="FADH2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C27H33N9O15P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00003_c" name="NAD" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H26N7O14P2</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00004_c" name="NADH" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H27N7O14P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00067_c" name="H+" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H</p>
+            <p>CHARGE: 1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00001_c" name="H2O" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H2O</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00006_c" name="NADP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H26N7O17P3</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00005_c" name="NADPH" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H27N7O17P3</p>
+            <p>CHARGE: -3</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00080_c" name="Glycerol-3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C3H8O6P</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00095_c" name="Glycerone-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C3H6O6P</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00067_e" name="H+" compartment="e" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H</p>
+            <p>CHARGE: 1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00009_c" name="Phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: HO4P</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd15560_c" name="Ubiquinone-8" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C49H74O4</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd15561_c" name="Ubiquinol-8" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C49H76O4</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd01351_c" name="Ubiquinone-9" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C54H82O4</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cJB00125_c" name="Ubiquinol-9" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C54H84O4</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00007_c" name="O2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: O2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00025_c" name="H2O2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H2O2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00002_c" name="ATP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H13N5O13P3</p>
+            <p>CHARGE: -3</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00008_c" name="ADP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H13N5O10P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd11669_c" name="Ubiquinone" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C19H26O4</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd17097_c" name="semiquinone-8" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C49H75O4</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd17016_c" name="ferrodoxin (oxidized form 4:2)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: Fe8S8X</p>
+            <p>CHARGE: NaN</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd17017_c" name="ferrodoxin (reduced form 4:2)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: Fe8S8X</p>
+            <p>CHARGE: NaN</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00012_c" name="PPi" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H2O7P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00109_c" name="Cytochrome c3+" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C42H52FeN8O6S2</p>
+            <p>CHARGE: 5</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00110_c" name="Cytochrome c2+" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C42H52FeN8O6S2</p>
+            <p>CHARGE: 4</p>
+          </body>
+        </notes>
+      </species>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="R_rxn10126" name="succinate dehydrogenase" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA1583 and PA1584 and PA1581 and PA1582)</p>
+            <p>SUBSYSTEM: Oxidative phosphorylation</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00982_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd15560_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00015_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd15561_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn13726" name="NADH dehydrogenase (ubiquinone-8 &amp; 5 protons)" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA2637 and PA2638 and PA2639 and PA2640 and PA2641 and PA2642 and PA2643 and PA2644 and PA2645 and PA2646 and PA2647 and PA2648 and PA2649)</p>
+            <p>SUBSYSTEM: Oxidative phosphorylation</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00004_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="5" constant="true"/>
+          <speciesReference species="M_cpd15560_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00003_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="4" constant="true"/>
+          <speciesReference species="M_cpd15561_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rJB00264" name="NADH dehydrogenase (ubiquinone-9 &amp; 5 protons)" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA2637 and PA2638 and PA2639 and PA2640 and PA2641 and PA2642 and PA2643 and PA2644 and PA2645 and PA2646 and PA2647 and PA2648 and PA2649)</p>
+            <p>SUBSYSTEM: Oxidative phosphorylation</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00004_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="5" constant="true"/>
+          <speciesReference species="M_cpd01351_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00003_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="4" constant="true"/>
+          <speciesReference species="M_cJB00125_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn10122" name="NADH dehydrogenase (ubiquinone-8  3.5 protons)" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA2649 and PA2648 and PA2647 and PA2646 and PA2645 and PA2644 and PA2643 and PA2642 and PA2641 and PA2640 and PA2639 and PA2638 and PA2637)</p>
+            <p>SUBSYSTEM: Oxidative phosphorylation</p>
+            <p>EC Number: 1.6.5.3</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00004_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="45" constant="true"/>
+          <speciesReference species="M_cpd15560_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00003_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="35" constant="true"/>
+          <speciesReference species="M_cpd15561_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn08975" name="NADH dehydrogenase (ubiquinone-8 )" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA4538 or PA4975)</p>
+            <p>SUBSYSTEM: Oxidative phosphorylation</p>
+            <p>EC Number: 1.6.5.3, 1.6.5.8, 1.6.5.9</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00004_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd15560_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00003_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd15561_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rJB00263" name="NADH dehydrogenase (ubiquinone-9 )" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA4538 or PA4975)</p>
+            <p>SUBSYSTEM: Oxidative phosphorylation</p>
+            <p>EC Number: 1.6.5.3, 1.6.5.8, 1.6.5.9</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00004_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd01351_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00003_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cJB00125_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn13898" name="quinone oxidoreductase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA0023</p>
+            <p>SUBSYSTEM: Oxidative phosphorylation</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd11669_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd17097_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn13705" name="ferredoxin-NADP reductase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA3397</p>
+            <p>SUBSYSTEM: Oxidative phosphorylation</p>
+            <p>EC Number: 1.18.1.2</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd17017_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd17016_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn08977" name="NADPH quinone oxidoreductase" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA4975</p>
+            <p>SUBSYSTEM: Oxidative phosphorylation</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd15560_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd15561_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rJB00265" name="NADPH quinone oxidoreductase" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA4975</p>
+            <p>SUBSYSTEM: Oxidative phosphorylation</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd01351_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cJB00125_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn10113" name="cytochrome oxidase bo3 (ubiquinol-8: 2.5 protons)" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA1317 and PA1318 and PA1319 and PA1320 and PA1321)</p>
+            <p>SUBSYSTEM: Oxidative phosphorylation</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2.5" constant="true"/>
+          <speciesReference species="M_cpd15561_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00007_c" stoichiometry="0.5" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="2.5" constant="true"/>
+          <speciesReference species="M_cpd15560_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rJB00267" name="cytochrome oxidase bo3 (ubiquinol-9: 2.5 protons)" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA1317 and PA1318 and PA1319 and PA1320 and PA1321)</p>
+            <p>SUBSYSTEM: Oxidative phosphorylation</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2.5" constant="true"/>
+          <speciesReference species="M_cJB00125_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00007_c" stoichiometry="0.5" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="2.5" constant="true"/>
+          <speciesReference species="M_cpd01351_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn08556" name="glycerol-3-phosphate dehydrogenase (ubiquinone-8)" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA3025 or PA3584)</p>
+            <p>SUBSYSTEM: Oxidative phosphorylation</p>
+            <p>EC Number: 1.1.5.3</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd15560_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00095_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd15561_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rJB00260" name="glycerol-3-phosphate dehydrogenase (ubiquinone-9)" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA3025 or PA3584)</p>
+            <p>SUBSYSTEM: Oxidative phosphorylation</p>
+            <p>EC Number: 1.1.5.3</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd01351_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00095_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cJB00125_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn13689" name="cytochrome-c reductase (ubiquinone)" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA4431 and PA4430 and PA4429)</p>
+            <p>SUBSYSTEM: Oxidative phosphorylation</p>
+            <p>EC Number: 1.10.2.2</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd15561_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00109_c" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_e" stoichiometry="4" constant="true"/>
+          <speciesReference species="M_cpd15560_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00110_c" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rJB00271" name="cytochrome-c reductase (ubiquinone)" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA4431 and PA4430 and PA4429)</p>
+            <p>SUBSYSTEM: Oxidative phosphorylation</p>
+            <p>EC Number: 1.10.2.2</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cJB00125_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00109_c" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_e" stoichiometry="4" constant="true"/>
+          <speciesReference species="M_cpd01351_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00110_c" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn10042" name="ATP synthase (four protons for one ATP)" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA5556 and PA5560 and PA5553 and PA5554 and PA5559 and PA5558 and PA5555 and PA5557 and PA5561)</p>
+            <p>SUBSYSTEM: Oxidative phosphorylation</p>
+            <p>EC Number: 3.6.3.14</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_e" stoichiometry="4" constant="true"/>
+          <speciesReference species="M_cpd00009_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="3" constant="true"/>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn00001" name="inorganic diphosphatase" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA4031</p>
+            <p>SUBSYSTEM: Oxidative phosphorylation</p>
+            <p>EC Number: 3.6.1.1</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00009_c" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn00014" name="cytochrome-c peroxidase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA4587</p>
+            <p>SUBSYSTEM: Oxidative phosphorylation</p>
+            <p>EC Number: 1.11.1.5</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00025_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00110_c" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00001_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00109_c" stoichiometry="2" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+    <groups:listOfGroups>
+      <groups:group groups:id="s_748b1992b2158ef3c91ecf6fc58f0f7f" groups:name="Oxidative phosphorylation" groups:kind="partonomy">
+        <groups:listOfMembers>
+          <groups:member groups:idRef="R_rxn10126"/>
+          <groups:member groups:idRef="R_rxn13726"/>
+          <groups:member groups:idRef="R_rJB00264"/>
+          <groups:member groups:idRef="R_rxn10122"/>
+          <groups:member groups:idRef="R_rxn08975"/>
+          <groups:member groups:idRef="R_rJB00263"/>
+          <groups:member groups:idRef="R_rxn13898"/>
+          <groups:member groups:idRef="R_rxn13705"/>
+          <groups:member groups:idRef="R_rxn08977"/>
+          <groups:member groups:idRef="R_rJB00265"/>
+          <groups:member groups:idRef="R_rxn10113"/>
+          <groups:member groups:idRef="R_rJB00267"/>
+          <groups:member groups:idRef="R_rxn08556"/>
+          <groups:member groups:idRef="R_rJB00260"/>
+          <groups:member groups:idRef="R_rxn13689"/>
+          <groups:member groups:idRef="R_rJB00271"/>
+          <groups:member groups:idRef="R_rxn10042"/>
+          <groups:member groups:idRef="R_rxn00001"/>
+          <groups:member groups:idRef="R_rxn00014"/>
+        </groups:listOfMembers>
+      </groups:group>
+    </groups:listOfGroups>
+  </model>
+</sbml>

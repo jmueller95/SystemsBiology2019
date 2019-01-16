@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" level="3" version="1">
+  <model substanceUnits="substance" timeUnits="second" volumeUnits="volume" areaUnits="area" lengthUnits="metre" extentUnits="substance">
+    <listOfUnitDefinitions>
+      <unitDefinition id="mmol_per_gDW_per_hr">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="-3" multiplier="1"/>
+          <unit kind="gram" exponent="-1" scale="0" multiplier="1"/>
+          <unit kind="second" exponent="-1" scale="0" multiplier="0.000277777777777778"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="volume">
+        <listOfUnits>
+          <unit kind="litre" exponent="1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="substance">
+        <listOfUnits>
+          <unit kind="mole" exponent="1" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="area">
+        <listOfUnits>
+          <unit kind="metre" exponent="2" scale="0" multiplier="1"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="c" name="Cytoplasm" spatialDimensions="3" units="volume" constant="false"/>
+      <compartment id="e" name="Extracellular" spatialDimensions="3" units="volume" constant="false"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="M_cpd00015_c" name="FAD" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C27H31N9O15P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00982_c" name="FADH2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C27H33N9O15P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00003_c" name="NAD" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H26N7O14P2</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00004_c" name="NADH" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H27N7O14P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00067_c" name="H+" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H</p>
+            <p>CHARGE: 1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00001_c" name="H2O" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H2O</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00006_c" name="NADP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H26N7O17P3</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00005_c" name="NADPH" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H27N7O17P3</p>
+            <p>CHARGE: -3</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00095_c" name="Glycerone-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C3H6O6P</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00011_c" name="CO2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: CO2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00067_e" name="H+" compartment="e" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H</p>
+            <p>CHARGE: 1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00041_c" name="L-Aspartate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C4H6NO4</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00009_c" name="Phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: HO4P</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd02333_c" name="Quinolinate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C7H3NO4</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00007_c" name="O2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: O2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00025_c" name="H2O2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H2O2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd03470_c" name="Iminoaspartate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C4H3NO4</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00002_c" name="ATP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H13N5O13P3</p>
+            <p>CHARGE: -3</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00008_c" name="ADP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C10H13N5O10P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00355_c" name="Nicotinamide ribonucleotide" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C11H15N2O8P</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00012_c" name="PPi" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H2O7P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00638_c" name="Deamido-NAD" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H24N6O15P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00103_c" name="PRPP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C5H10O14P3</p>
+            <p>CHARGE: -3</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd08325_c" name="NAC" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C17H18N2O2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species id="M_cpd00873_c" name="Nicotinate ribonucleotide" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C11H13NO9P</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="R_rxn10125" name="NAD(P) transhydrogenase (membrane bound)" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA0195 and PA0196)</p>
+            <p>SUBSYSTEM: Nicotinate and nicotinamide metabolism</p>
+            <p>EC Number: 1.6.1.1</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00004_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_e" stoichiometry="2" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00003_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn13812" name="L-aspartate oxidase" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA1004 and PA0761)</p>
+            <p>SUBSYSTEM: Nicotinate and nicotinamide metabolism</p>
+            <p>EC Number: </p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00015_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00095_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00041_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00982_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00001_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00009_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd02333_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn00338" name="L-aspartate oxidase" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA0761</p>
+            <p>SUBSYSTEM: Nicotinate and nicotinamide metabolism</p>
+            <p>EC Number: 1.4.3.16</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00041_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00007_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00025_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd03470_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn00083" name="NAD transhydrogenase (soluble)" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA2991</p>
+            <p>SUBSYSTEM: Nicotinate and nicotinamide metabolism</p>
+            <p>EC Number: 1.6.1.1,1.6.1.2</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00003_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00004_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn00077" name="NAD kinase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA3088</p>
+            <p>SUBSYSTEM: Nicotinate and nicotinamide metabolism</p>
+            <p>EC Number: 2.7.1.23</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00003_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn00105" name="nicotinamide-nucleotide adenylyltransferase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA4006</p>
+            <p>SUBSYSTEM: Nicotinate and nicotinamide metabolism</p>
+            <p>EC Number: 2.7.7.1,2.7.7.18</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00355_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00003_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn13859" name="NAPRTase" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA4919 or PA4376)</p>
+            <p>SUBSYSTEM: Nicotinate and nicotinamide metabolism</p>
+            <p>EC Number: 6.3.4.21</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00103_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd08325_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00873_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn02988" name="quinolinate synthase" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA1004</p>
+            <p>SUBSYSTEM: Nicotinate and nicotinamide metabolism</p>
+            <p>EC Number: Undetermined</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00001_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd00009_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd02333_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00095_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd03470_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn02155" name="nicotinate-nucleotide adenylyltransferase" reversible="true" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA4006</p>
+            <p>SUBSYSTEM: Nicotinate and nicotinamide metabolism</p>
+            <p>EC Number: 2.7.7.1,2.7.7.18</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00873_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00638_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_rxn02402" name="nicotinate-nucleotide diphosphorylase (carboxylating)" reversible="false" fast="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA4524</p>
+            <p>SUBSYSTEM: Nicotinate and nicotinamide metabolism</p>
+            <p>EC Number: 2.4.2.19</p>
+            <p>Confidence Level: </p>
+            <p>AUTHORS: </p>
+            <p/>
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_cpd00067_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_cpd02333_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00103_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_cpd00011_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00873_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FLUX_VALUE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+            <localParameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+    <groups:listOfGroups>
+      <groups:group groups:id="s_7ac90779638e5e16b4602bde4650097b" groups:name="Nicotinate and nicotinamide metabolism" groups:kind="partonomy">
+        <groups:listOfMembers>
+          <groups:member groups:idRef="R_rxn10125"/>
+          <groups:member groups:idRef="R_rxn13812"/>
+          <groups:member groups:idRef="R_rxn00338"/>
+          <groups:member groups:idRef="R_rxn00083"/>
+          <groups:member groups:idRef="R_rxn00077"/>
+          <groups:member groups:idRef="R_rxn00105"/>
+          <groups:member groups:idRef="R_rxn13859"/>
+          <groups:member groups:idRef="R_rxn02988"/>
+          <groups:member groups:idRef="R_rxn02155"/>
+          <groups:member groups:idRef="R_rxn02402"/>
+        </groups:listOfMembers>
+      </groups:group>
+    </groups:listOfGroups>
+  </model>
+</sbml>

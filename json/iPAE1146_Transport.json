@@ -1,0 +1,10763 @@
+{
+"metabolites":[
+{
+"id":"cpd00134_c",
+"name":"Palmitoyl-CoA",
+"compartment":"c",
+"charge":-3,
+"formula":"C37H63N7O17P3S"
+},
+{
+"id":"cpd01695_c",
+"name":"Myristoyl-CoA",
+"compartment":"c",
+"charge":-3,
+"formula":"C35H59N7O17P3S"
+},
+{
+"id":"cpd00067_c",
+"name":"H+",
+"compartment":"c",
+"charge":1,
+"formula":"H"
+},
+{
+"id":"cpd00001_c",
+"name":"H2O",
+"compartment":"c",
+"charge":0,
+"formula":"H2O"
+},
+{
+"id":"cpd00609_c",
+"name":"D-Glucarate",
+"compartment":"c",
+"charge":-2,
+"formula":"C6H8O8"
+},
+{
+"id":"cpd00080_c",
+"name":"Glycerol-3-phosphate",
+"compartment":"c",
+"charge":-1,
+"formula":"C3H8O6P"
+},
+{
+"id":"cpd00010_c",
+"name":"CoA",
+"compartment":"c",
+"charge":-3,
+"formula":"C21H33N7O16P3S"
+},
+{
+"id":"cpd00011_c",
+"name":"CO2",
+"compartment":"c",
+"charge":0,
+"formula":"CO2"
+},
+{
+"id":"cpd00067_e",
+"name":"H+",
+"compartment":"e",
+"charge":1,
+"formula":"H"
+},
+{
+"id":"cpd00281_c",
+"name":"GABA",
+"compartment":"c",
+"charge":0,
+"formula":"C4H9NO2"
+},
+{
+"id":"cpd00041_c",
+"name":"L-Aspartate",
+"compartment":"c",
+"charge":-1,
+"formula":"C4H6NO4"
+},
+{
+"id":"cpd00009_c",
+"name":"Phosphate",
+"compartment":"c",
+"charge":-2,
+"formula":"HO4P"
+},
+{
+"id":"cpd00226_c",
+"name":"HYXN",
+"compartment":"c",
+"charge":0,
+"formula":"C5H4N4O"
+},
+{
+"id":"cpd00309_c",
+"name":"XAN",
+"compartment":"c",
+"charge":0,
+"formula":"C5H4N4O2"
+},
+{
+"id":"cpd00036_c",
+"name":"Succinate",
+"compartment":"c",
+"charge":-2,
+"formula":"C4H4O4"
+},
+{
+"id":"cpd00106_c",
+"name":"Fumarate",
+"compartment":"c",
+"charge":-2,
+"formula":"C4H2O4"
+},
+{
+"id":"cpd00075_c",
+"name":"Nitrite",
+"compartment":"c",
+"charge":-1,
+"formula":"NO2"
+},
+{
+"id":"cpd00029_c",
+"name":"Acetate",
+"compartment":"c",
+"charge":-1,
+"formula":"C2H3O2"
+},
+{
+"id":"cpd00007_c",
+"name":"O2",
+"compartment":"c",
+"charge":0,
+"formula":"O2"
+},
+{
+"id":"cpd00130_c",
+"name":"L-Malate",
+"compartment":"c",
+"charge":-2,
+"formula":"C4H4O5"
+},
+{
+"id":"cpd00386_c",
+"name":"D-Malate",
+"compartment":"c",
+"charge":-2,
+"formula":"C4H4O5"
+},
+{
+"id":"cpd00020_c",
+"name":"Pyruvate",
+"compartment":"c",
+"charge":-1,
+"formula":"C3H3O3"
+},
+{
+"id":"cpd00024_c",
+"name":"2-Oxoglutarate",
+"compartment":"c",
+"charge":-2,
+"formula":"C5H4O5"
+},
+{
+"id":"cpd00002_c",
+"name":"ATP",
+"compartment":"c",
+"charge":-3,
+"formula":"C10H13N5O13P3"
+},
+{
+"id":"cpd00149_c",
+"name":"Co2+",
+"compartment":"c",
+"charge":2,
+"formula":"Co"
+},
+{
+"id":"cpd00008_c",
+"name":"ADP",
+"compartment":"c",
+"charge":-2,
+"formula":"C10H13N5O10P2"
+},
+{
+"id":"cpd00222_e",
+"name":"GLCN",
+"compartment":"e",
+"charge":-1,
+"formula":"C6H11O7"
+},
+{
+"id":"cpd00480_e",
+"name":"2-Dehydro-D-gluconate",
+"compartment":"e",
+"charge":-1,
+"formula":"C6H9O7"
+},
+{
+"id":"cpd00159_c",
+"name":"L-Lactate",
+"compartment":"c",
+"charge":-1,
+"formula":"C3H5O3"
+},
+{
+"id":"cpd00540_c",
+"name":"BET",
+"compartment":"c",
+"charge":0,
+"formula":"C5H11NO2"
+},
+{
+"id":"cpd00489_c",
+"name":"4-Hydroxyphenylacetate",
+"compartment":"c",
+"charge":-1,
+"formula":"C8H7O3"
+},
+{
+"id":"cpd00084_c",
+"name":"L-Cysteine",
+"compartment":"c",
+"charge":0,
+"formula":"C3H7NO2S"
+},
+{
+"id":"cpd00047_c",
+"name":"Formate",
+"compartment":"c",
+"charge":-1,
+"formula":"CHO2"
+},
+{
+"id":"cpd00023_c",
+"name":"L-Glutamate",
+"compartment":"c",
+"charge":-1,
+"formula":"C5H8NO4"
+},
+{
+"id":"cpd00053_c",
+"name":"L-Glutamine",
+"compartment":"c",
+"charge":0,
+"formula":"C5H10N2O3"
+},
+{
+"id":"cpd00098_c",
+"name":"Choline",
+"compartment":"c",
+"charge":1,
+"formula":"C5H14NO"
+},
+{
+"id":"cpd00136_c",
+"name":"4-Hydroxybenzoate",
+"compartment":"c",
+"charge":-1,
+"formula":"C7H5O3"
+},
+{
+"id":"cpd00229_c",
+"name":"Glycolaldehyde",
+"compartment":"c",
+"charge":0,
+"formula":"C2H4O2"
+},
+{
+"id":"cpd00139_c",
+"name":"Glycolate",
+"compartment":"c",
+"charge":-1,
+"formula":"C2H3O3"
+},
+{
+"id":"cpd00129_c",
+"name":"L-Proline",
+"compartment":"c",
+"charge":-1,
+"formula":"C5H8NO2"
+},
+{
+"id":"cpd00221_c",
+"name":"D-Lactate",
+"compartment":"c",
+"charge":-1,
+"formula":"C3H5O3"
+},
+{
+"id":"cpd00060_c",
+"name":"L-Methionine",
+"compartment":"c",
+"charge":0,
+"formula":"C5H11NO2S"
+},
+{
+"id":"cpd03091_c",
+"name":"5'-Deoxyadenosine",
+"compartment":"c",
+"charge":0,
+"formula":"C10H13N5O3"
+},
+{
+"id":"cpd00797_c",
+"name":"(R)-3-Hydroxybutanoate",
+"compartment":"c",
+"charge":-1,
+"formula":"C4H7O3"
+},
+{
+"id":"cpd00142_c",
+"name":"Acetoacetate",
+"compartment":"c",
+"charge":-1,
+"formula":"C4H5O3"
+},
+{
+"id":"cpd00027_e",
+"name":"D-Glucose",
+"compartment":"e",
+"charge":0,
+"formula":"C6H12O6"
+},
+{
+"id":"cpd00314_c",
+"name":"D-Mannitol",
+"compartment":"c",
+"charge":0,
+"formula":"C6H14O6"
+},
+{
+"id":"cpd00072_c",
+"name":"D-fructose-6-phosphate",
+"compartment":"c",
+"charge":-1,
+"formula":"C6H12O9P"
+},
+{
+"id":"cpd00064_c",
+"name":"Ornithine",
+"compartment":"c",
+"charge":1,
+"formula":"C5H13N2O2"
+},
+{
+"id":"cpd17085_c",
+"name":"2-heptyl-3-hydroxy-4-quinolone",
+"compartment":"c",
+"charge":0,
+"formula":"C16H21O2N"
+},
+{
+"id":"cpd00322_c",
+"name":"L-Isoleucine",
+"compartment":"c",
+"charge":0,
+"formula":"C6H13NO2"
+},
+{
+"id":"cpd00013_c",
+"name":"NH3",
+"compartment":"c",
+"charge":1,
+"formula":"H4N"
+},
+{
+"id":"cpd00156_c",
+"name":"L-Valine",
+"compartment":"c",
+"charge":0,
+"formula":"C5H11NO2"
+},
+{
+"id":"cpd00100_c",
+"name":"Glycerol",
+"compartment":"c",
+"charge":0,
+"formula":"C3H8O3"
+},
+{
+"id":"cpd00264_c",
+"name":"Spermidine",
+"compartment":"c",
+"charge":3,
+"formula":"C7H22N3"
+},
+{
+"id":"cpd00012_c",
+"name":"PPi",
+"compartment":"c",
+"charge":-2,
+"formula":"H2O7P2"
+},
+{
+"id":"cpd01947_c",
+"name":"BDOH",
+"compartment":"c",
+"charge":0,
+"formula":"C4H10O2"
+},
+{
+"id":"cpd00119_c",
+"name":"L-Histidine",
+"compartment":"c",
+"charge":0,
+"formula":"C6H9N3O2"
+},
+{
+"id":"cpd00018_c",
+"name":"AMP",
+"compartment":"c",
+"charge":-1,
+"formula":"C10H13N5O7P"
+},
+{
+"id":"cpd00117_c",
+"name":"D-Alanine",
+"compartment":"c",
+"charge":0,
+"formula":"C3H7NO2"
+},
+{
+"id":"cpd00085_c",
+"name":"beta-Alanine",
+"compartment":"c",
+"charge":0,
+"formula":"C3H7NO2"
+},
+{
+"id":"cpd00379_c",
+"name":"Glutarate",
+"compartment":"c",
+"charge":-2,
+"formula":"C5H6O4"
+},
+{
+"id":"cpd00161_c",
+"name":"L-Threonine",
+"compartment":"c",
+"charge":0,
+"formula":"C4H9NO3"
+},
+{
+"id":"cpd00870_e",
+"name":"gamma-butyrobetaine",
+"compartment":"e",
+"charge":0,
+"formula":"C7H15NO2"
+},
+{
+"id":"cpd00870_c",
+"name":"gamma-butyrobetaine",
+"compartment":"c",
+"charge":0,
+"formula":"C7H15NO2"
+},
+{
+"id":"cpd00098_e",
+"name":"Choline",
+"compartment":"e",
+"charge":1,
+"formula":"C5H14NO"
+},
+{
+"id":"cpd00266_e",
+"name":"Carnitine",
+"compartment":"e",
+"charge":0,
+"formula":"C7H15NO3"
+},
+{
+"id":"cpd00266_c",
+"name":"Carnitine",
+"compartment":"c",
+"charge":0,
+"formula":"C7H15NO3"
+},
+{
+"id":"cpd07061_e",
+"name":"Stachydrine",
+"compartment":"e",
+"charge":0,
+"formula":"C7H13NO2"
+},
+{
+"id":"cpd07061_c",
+"name":"Stachydrine",
+"compartment":"c",
+"charge":0,
+"formula":"C7H13NO2"
+},
+{
+"id":"cpd00264_e",
+"name":"Spermidine",
+"compartment":"e",
+"charge":3,
+"formula":"C7H22N3"
+},
+{
+"id":"cpd11574_e",
+"name":"Molybdate",
+"compartment":"e",
+"charge":0,
+"formula":"H2MoO4"
+},
+{
+"id":"cpd11574_c",
+"name":"Molybdate",
+"compartment":"c",
+"charge":0,
+"formula":"H2MoO4"
+},
+{
+"id":"cpd00118_e",
+"name":"Putrescine",
+"compartment":"e",
+"charge":2,
+"formula":"C4H14N2"
+},
+{
+"id":"cpd00118_c",
+"name":"Putrescine",
+"compartment":"c",
+"charge":2,
+"formula":"C4H14N2"
+},
+{
+"id":"cpd00106_e",
+"name":"Fumarate",
+"compartment":"e",
+"charge":-2,
+"formula":"C4H2O4"
+},
+{
+"id":"cpd00386_e",
+"name":"D-Malate",
+"compartment":"e",
+"charge":-2,
+"formula":"C4H4O5"
+},
+{
+"id":"cpd00051_e",
+"name":"L-Arginine",
+"compartment":"e",
+"charge":1,
+"formula":"C6H15N4O2"
+},
+{
+"id":"cpd00051_c",
+"name":"L-Arginine",
+"compartment":"c",
+"charge":1,
+"formula":"C6H15N4O2"
+},
+{
+"id":"cpd00107_e",
+"name":"L-Leucine",
+"compartment":"e",
+"charge":0,
+"formula":"C6H13NO2"
+},
+{
+"id":"cpd00107_c",
+"name":"L-Leucine",
+"compartment":"c",
+"charge":0,
+"formula":"C6H13NO2"
+},
+{
+"id":"cpd00156_e",
+"name":"L-Valine",
+"compartment":"e",
+"charge":0,
+"formula":"C5H11NO2"
+},
+{
+"id":"cpd00053_e",
+"name":"L-Glutamine",
+"compartment":"e",
+"charge":0,
+"formula":"C5H10N2O3"
+},
+{
+"id":"cpd00226_e",
+"name":"HYXN",
+"compartment":"e",
+"charge":0,
+"formula":"C5H4N4O"
+},
+{
+"id":"cpd11596_e",
+"name":"butanesulfonate",
+"compartment":"e",
+"charge":-1,
+"formula":"C4H9O3S"
+},
+{
+"id":"cpd11596_c",
+"name":"butanesulfonate",
+"compartment":"c",
+"charge":-1,
+"formula":"C4H9O3S"
+},
+{
+"id":"cpd00064_e",
+"name":"Ornithine",
+"compartment":"e",
+"charge":1,
+"formula":"C5H13N2O2"
+},
+{
+"id":"cpd00119_e",
+"name":"L-Histidine",
+"compartment":"e",
+"charge":0,
+"formula":"C6H9N3O2"
+},
+{
+"id":"cpd03847_e",
+"name":"Myristic acid",
+"compartment":"e",
+"charge":-1,
+"formula":"C14H27O2"
+},
+{
+"id":"cpd00214_e",
+"name":"Palmitate",
+"compartment":"e",
+"charge":-1,
+"formula":"C16H31O2"
+},
+{
+"id":"cpd04099_e",
+"name":"Phosphonate",
+"compartment":"e",
+"charge":-1,
+"formula":"H2O3P"
+},
+{
+"id":"cpd04099_c",
+"name":"Phosphonate",
+"compartment":"c",
+"charge":-1,
+"formula":"H2O3P"
+},
+{
+"id":"cpd00058_e",
+"name":"Cu2+",
+"compartment":"e",
+"charge":2,
+"formula":"Cu"
+},
+{
+"id":"cpd00058_c",
+"name":"Cu2+",
+"compartment":"c",
+"charge":2,
+"formula":"Cu"
+},
+{
+"id":"cpd04097_c",
+"name":"Pb_Pb",
+"compartment":"c",
+"charge":2,
+"formula":"Pb"
+},
+{
+"id":"cpd04097_e",
+"name":"Pb_Pb",
+"compartment":"e",
+"charge":2,
+"formula":"Pb"
+},
+{
+"id":"cpd00531_c",
+"name":"Hg2+",
+"compartment":"c",
+"charge":2,
+"formula":"Hg"
+},
+{
+"id":"cpd00531_e",
+"name":"Hg2+",
+"compartment":"e",
+"charge":2,
+"formula":"Hg"
+},
+{
+"id":"cpd00141_c",
+"name":"Propionate",
+"compartment":"c",
+"charge":-1,
+"formula":"C3H5O2"
+},
+{
+"id":"cpd00205_e",
+"name":"K+",
+"compartment":"e",
+"charge":1,
+"formula":"K"
+},
+{
+"id":"cpd00205_c",
+"name":"K+",
+"compartment":"c",
+"charge":1,
+"formula":"K"
+},
+{
+"id":"cpd00129_e",
+"name":"L-Proline",
+"compartment":"e",
+"charge":-1,
+"formula":"C5H8NO2"
+},
+{
+"id":"cpd00540_e",
+"name":"BET",
+"compartment":"e",
+"charge":0,
+"formula":"C5H11NO2"
+},
+{
+"id":"cpd00247_e",
+"name":"Orotate",
+"compartment":"e",
+"charge":-1,
+"formula":"C5H3N2O4"
+},
+{
+"id":"cpd00247_c",
+"name":"Orotate",
+"compartment":"c",
+"charge":-1,
+"formula":"C5H3N2O4"
+},
+{
+"id":"cpd00021_e",
+"name":"Fe2+",
+"compartment":"e",
+"charge":0,
+"formula":"Fe"
+},
+{
+"id":"cpd00021_c",
+"name":"Fe2+",
+"compartment":"c",
+"charge":0,
+"formula":"Fe"
+},
+{
+"id":"cpd00054_c",
+"name":"L-Serine",
+"compartment":"c",
+"charge":0,
+"formula":"C3H7NO3"
+},
+{
+"id":"cpd00065_c",
+"name":"L-Tryptophan",
+"compartment":"c",
+"charge":0,
+"formula":"C11H12N2O2"
+},
+{
+"id":"cpd00132_c",
+"name":"L-Asparagine",
+"compartment":"c",
+"charge":0,
+"formula":"C4H8N2O3"
+},
+{
+"id":"cpd00048_e",
+"name":"Sulfate",
+"compartment":"e",
+"charge":-2,
+"formula":"O4S"
+},
+{
+"id":"cpd00048_c",
+"name":"Sulfate",
+"compartment":"c",
+"charge":-2,
+"formula":"O4S"
+},
+{
+"id":"cpd00281_e",
+"name":"GABA",
+"compartment":"e",
+"charge":0,
+"formula":"C4H9NO2"
+},
+{
+"id":"cpd00308_c",
+"name":"Malonate",
+"compartment":"c",
+"charge":-2,
+"formula":"C3H2O4"
+},
+{
+"id":"cpd00971_e",
+"name":"Na+",
+"compartment":"e",
+"charge":1,
+"formula":"Na"
+},
+{
+"id":"cpd00308_e",
+"name":"Malonate",
+"compartment":"e",
+"charge":-2,
+"formula":"C3H2O4"
+},
+{
+"id":"cpd00971_c",
+"name":"Na+",
+"compartment":"c",
+"charge":1,
+"formula":"Na"
+},
+{
+"id":"cpd00268_e",
+"name":"H2S2O3",
+"compartment":"e",
+"charge":0,
+"formula":"O3S2"
+},
+{
+"id":"cpd00268_c",
+"name":"H2S2O3",
+"compartment":"c",
+"charge":-2,
+"formula":"O3S2"
+},
+{
+"id":"cpd00152_c",
+"name":"Agmatine",
+"compartment":"c",
+"charge":2,
+"formula":"C5H16N4"
+},
+{
+"id":"cpd00073_c",
+"name":"Urea",
+"compartment":"c",
+"charge":0,
+"formula":"CH4N2O"
+},
+{
+"id":"cpd00084_e",
+"name":"L-Cysteine",
+"compartment":"e",
+"charge":0,
+"formula":"C3H7NO2S"
+},
+{
+"id":"cpd00381_e",
+"name":"L-Cystine",
+"compartment":"e",
+"charge":0,
+"formula":"C6H12N2O4S2"
+},
+{
+"id":"cpd00381_c",
+"name":"L-Cystine",
+"compartment":"c",
+"charge":0,
+"formula":"C6H12N2O4S2"
+},
+{
+"id":"cpd00305_e",
+"name":"Thiamin",
+"compartment":"e",
+"charge":1,
+"formula":"C12H17N4OS"
+},
+{
+"id":"cpd00305_c",
+"name":"Thiamin",
+"compartment":"c",
+"charge":1,
+"formula":"C12H17N4OS"
+},
+{
+"id":"cpd00309_e",
+"name":"XAN",
+"compartment":"e",
+"charge":0,
+"formula":"C5H4N4O2"
+},
+{
+"id":"cpd01092_e",
+"name":"Allantoin",
+"compartment":"e",
+"charge":0,
+"formula":"C4H6N4O3"
+},
+{
+"id":"cpd01092_c",
+"name":"Allantoin",
+"compartment":"c",
+"charge":0,
+"formula":"C4H6N4O3"
+},
+{
+"id":"cpd00009_e",
+"name":"Phosphate",
+"compartment":"e",
+"charge":-2,
+"formula":"HO4P"
+},
+{
+"id":"cpd00307_e",
+"name":"Cytosine",
+"compartment":"e",
+"charge":0,
+"formula":"C4H5N3O"
+},
+{
+"id":"cpd00307_c",
+"name":"Cytosine",
+"compartment":"c",
+"charge":0,
+"formula":"C4H5N3O"
+},
+{
+"id":"cpd00182_e",
+"name":"Adenosine",
+"compartment":"e",
+"charge":0,
+"formula":"C10H13N5O4"
+},
+{
+"id":"cpd00182_c",
+"name":"Adenosine",
+"compartment":"c",
+"charge":0,
+"formula":"C10H13N5O4"
+},
+{
+"id":"cpd00367_e",
+"name":"Cytidine",
+"compartment":"e",
+"charge":0,
+"formula":"C9H13N3O5"
+},
+{
+"id":"cpd00367_c",
+"name":"Cytidine",
+"compartment":"c",
+"charge":0,
+"formula":"C9H13N3O5"
+},
+{
+"id":"cpd00438_e",
+"name":"Deoxyadenosine",
+"compartment":"e",
+"charge":0,
+"formula":"C10H13N5O3"
+},
+{
+"id":"cpd00438_c",
+"name":"Deoxyadenosine",
+"compartment":"c",
+"charge":0,
+"formula":"C10H13N5O3"
+},
+{
+"id":"cpd00654_e",
+"name":"Deoxycytidine",
+"compartment":"e",
+"charge":0,
+"formula":"C9H13N3O4"
+},
+{
+"id":"cpd00654_c",
+"name":"Deoxycytidine",
+"compartment":"c",
+"charge":0,
+"formula":"C9H13N3O4"
+},
+{
+"id":"cpd00246_e",
+"name":"Inosine",
+"compartment":"e",
+"charge":0,
+"formula":"C10H12N4O5"
+},
+{
+"id":"cpd00246_c",
+"name":"Inosine",
+"compartment":"c",
+"charge":0,
+"formula":"C10H12N4O5"
+},
+{
+"id":"cpd00184_e",
+"name":"Thymidine",
+"compartment":"e",
+"charge":0,
+"formula":"C10H14N2O5"
+},
+{
+"id":"cpd00184_c",
+"name":"Thymidine",
+"compartment":"c",
+"charge":0,
+"formula":"C10H14N2O5"
+},
+{
+"id":"cpd00249_e",
+"name":"Uridine",
+"compartment":"e",
+"charge":0,
+"formula":"C9H12N2O6"
+},
+{
+"id":"cpd00249_c",
+"name":"Uridine",
+"compartment":"c",
+"charge":0,
+"formula":"C9H12N2O6"
+},
+{
+"id":"cpd00277_e",
+"name":"Deoxyguanosine",
+"compartment":"e",
+"charge":0,
+"formula":"C10H13N5O4"
+},
+{
+"id":"cpd00277_c",
+"name":"Deoxyguanosine",
+"compartment":"c",
+"charge":0,
+"formula":"C10H13N5O4"
+},
+{
+"id":"cpd03279_e",
+"name":"Deoxyinosine",
+"compartment":"e",
+"charge":0,
+"formula":"C10H12N4O4"
+},
+{
+"id":"cpd03279_c",
+"name":"Deoxyinosine",
+"compartment":"c",
+"charge":0,
+"formula":"C10H12N4O4"
+},
+{
+"id":"cpd00412_e",
+"name":"Deoxyuridine",
+"compartment":"e",
+"charge":0,
+"formula":"C9H12N2O5"
+},
+{
+"id":"cpd00412_c",
+"name":"Deoxyuridine",
+"compartment":"c",
+"charge":0,
+"formula":"C9H12N2O5"
+},
+{
+"id":"cpd00137_c",
+"name":"Citrate",
+"compartment":"c",
+"charge":-3,
+"formula":"C6H5O7"
+},
+{
+"id":"cpd00065_e",
+"name":"L-Tryptophan",
+"compartment":"e",
+"charge":0,
+"formula":"C11H12N2O2"
+},
+{
+"id":"cpd00066_c",
+"name":"L-Phenylalanine",
+"compartment":"c",
+"charge":0,
+"formula":"C9H11NO2"
+},
+{
+"id":"cpd00380_e",
+"name":"Itaconate",
+"compartment":"e",
+"charge":-2,
+"formula":"C5H4O4"
+},
+{
+"id":"cpd00380_c",
+"name":"Itaconate",
+"compartment":"c",
+"charge":-2,
+"formula":"C5H4O4"
+},
+{
+"id":"cpd01502_e",
+"name":"Citraconate",
+"compartment":"e",
+"charge":-2,
+"formula":"C5H4O4"
+},
+{
+"id":"cpd01502_c",
+"name":"Citraconate",
+"compartment":"c",
+"charge":-2,
+"formula":"C5H4O4"
+},
+{
+"id":"cpd00130_e",
+"name":"L-Malate",
+"compartment":"e",
+"charge":-2,
+"formula":"C4H4O5"
+},
+{
+"id":"cpd00036_e",
+"name":"Succinate",
+"compartment":"e",
+"charge":-2,
+"formula":"C4H4O4"
+},
+{
+"id":"cpd00322_e",
+"name":"L-Isoleucine",
+"compartment":"e",
+"charge":0,
+"formula":"C6H13NO2"
+},
+{
+"id":"cpd00035_e",
+"name":"L-Alanine",
+"compartment":"e",
+"charge":0,
+"formula":"C3H7NO2"
+},
+{
+"id":"cpd00035_c",
+"name":"L-Alanine",
+"compartment":"c",
+"charge":0,
+"formula":"C3H7NO2"
+},
+{
+"id":"cpd00161_e",
+"name":"L-Threonine",
+"compartment":"e",
+"charge":0,
+"formula":"C4H9NO3"
+},
+{
+"id":"cpd00209_c",
+"name":"Nitrate",
+"compartment":"c",
+"charge":-1,
+"formula":"NO3"
+},
+{
+"id":"cpd00033_c",
+"name":"Glycine",
+"compartment":"c",
+"charge":0,
+"formula":"C2H5NO2"
+},
+{
+"id":"cpd00034_c",
+"name":"Zn2+",
+"compartment":"c",
+"charge":2,
+"formula":"Zn"
+},
+{
+"id":"cpd00034_e",
+"name":"Zn2+",
+"compartment":"e",
+"charge":2,
+"formula":"Zn"
+},
+{
+"id":"cpd00041_e",
+"name":"L-Aspartate",
+"compartment":"e",
+"charge":-1,
+"formula":"C4H6NO4"
+},
+{
+"id":"cpd00023_e",
+"name":"L-Glutamate",
+"compartment":"e",
+"charge":-1,
+"formula":"C5H8NO4"
+},
+{
+"id":"cpd00092_e",
+"name":"Uracil",
+"compartment":"e",
+"charge":0,
+"formula":"C4H4N2O2"
+},
+{
+"id":"cpd00092_c",
+"name":"Uracil",
+"compartment":"c",
+"charge":0,
+"formula":"C4H4N2O2"
+},
+{
+"id":"cpd00061_c",
+"name":"Phosphoenolpyruvate",
+"compartment":"c",
+"charge":-2,
+"formula":"C3H3O6P"
+},
+{
+"id":"cpd00331_c",
+"name":"cis-Aconitate",
+"compartment":"c",
+"charge":-3,
+"formula":"C6H3O6"
+},
+{
+"id":"cpd11608_e",
+"name":"Peptide",
+"compartment":"e",
+"charge":0,
+"formula":"C4H6N2O3R2"
+},
+{
+"id":"cpd11608_c",
+"name":"Peptide",
+"compartment":"c",
+"charge":0,
+"formula":"C4H6N2O3R2"
+},
+{
+"id":"cpd00105_e",
+"name":"D-Ribose",
+"compartment":"e",
+"charge":0,
+"formula":"C5H10O5"
+},
+{
+"id":"cpd00105_c",
+"name":"D-Ribose",
+"compartment":"c",
+"charge":0,
+"formula":"C5H10O5"
+},
+{
+"id":"cpd01242_e",
+"name":"Thyminose",
+"compartment":"e",
+"charge":0,
+"formula":"C5H10O4"
+},
+{
+"id":"cpd01242_c",
+"name":"Thyminose",
+"compartment":"c",
+"charge":0,
+"formula":"C5H10O4"
+},
+{
+"id":"cpd00154_e",
+"name":"Xylose",
+"compartment":"e",
+"charge":0,
+"formula":"C5H10O5"
+},
+{
+"id":"cpd00154_c",
+"name":"Xylose",
+"compartment":"c",
+"charge":0,
+"formula":"C5H10O5"
+},
+{
+"id":"cpd00224_e",
+"name":"L-Arabinose",
+"compartment":"e",
+"charge":0,
+"formula":"C5H10O5"
+},
+{
+"id":"cpd00224_c",
+"name":"L-Arabinose",
+"compartment":"c",
+"charge":0,
+"formula":"C5H10O5"
+},
+{
+"id":"cpd00550_e",
+"name":"D-Serine",
+"compartment":"e",
+"charge":0,
+"formula":"C3H7NO3"
+},
+{
+"id":"cpd00550_c",
+"name":"D-Serine",
+"compartment":"c",
+"charge":0,
+"formula":"C3H7NO3"
+},
+{
+"id":"cpd00054_e",
+"name":"L-Serine",
+"compartment":"e",
+"charge":0,
+"formula":"C3H7NO3"
+},
+{
+"id":"cpd00059_e",
+"name":"L-Ascorbate",
+"compartment":"e",
+"charge":-1,
+"formula":"C6H7O6"
+},
+{
+"id":"cpd00059_c",
+"name":"L-Ascorbate",
+"compartment":"c",
+"charge":-1,
+"formula":"C6H7O6"
+},
+{
+"id":"cpd00209_e",
+"name":"Nitrate",
+"compartment":"e",
+"charge":-1,
+"formula":"NO3"
+},
+{
+"id":"cpd00314_e",
+"name":"D-Mannitol",
+"compartment":"e",
+"charge":0,
+"formula":"C6H14O6"
+},
+{
+"id":"cpd00138_e",
+"name":"D-Mannose",
+"compartment":"e",
+"charge":0,
+"formula":"C6H12O6"
+},
+{
+"id":"cpd00138_c",
+"name":"D-Mannose",
+"compartment":"c",
+"charge":0,
+"formula":"C6H12O6"
+},
+{
+"id":"cpd01262_e",
+"name":"Amylotriose",
+"compartment":"e",
+"charge":0,
+"formula":"C18H32O16"
+},
+{
+"id":"cpd01262_c",
+"name":"Amylotriose",
+"compartment":"c",
+"charge":0,
+"formula":"C18H32O16"
+},
+{
+"id":"cpd00588_e",
+"name":"Sorbitol",
+"compartment":"e",
+"charge":0,
+"formula":"C6H14O6"
+},
+{
+"id":"cpd00588_c",
+"name":"Sorbitol",
+"compartment":"c",
+"charge":0,
+"formula":"C6H14O6"
+},
+{
+"id":"cpd11576_e",
+"name":"L-methionine_R-oxide",
+"compartment":"e",
+"charge":0,
+"formula":"C5H11NO3S"
+},
+{
+"id":"cpd11576_c",
+"name":"L-methionine_R-oxide",
+"compartment":"c",
+"charge":0,
+"formula":"C5H11NO3S"
+},
+{
+"id":"cpd01914_e",
+"name":"L-Methionine S-oxide",
+"compartment":"e",
+"charge":0,
+"formula":"C5H11NO3S"
+},
+{
+"id":"cpd01914_c",
+"name":"L-Methionine S-oxide",
+"compartment":"c",
+"charge":0,
+"formula":"C5H11NO3S"
+},
+{
+"id":"cpd00069_c",
+"name":"L-Tyrosine",
+"compartment":"c",
+"charge":0,
+"formula":"C9H11NO3"
+},
+{
+"id":"cpd00039_c",
+"name":"L-Lysine",
+"compartment":"c",
+"charge":1,
+"formula":"C6H15N2O2"
+},
+{
+"id":"cpd00030_e",
+"name":"Mn2+",
+"compartment":"e",
+"charge":2,
+"formula":"Mn"
+},
+{
+"id":"cpd00030_c",
+"name":"Mn2+",
+"compartment":"c",
+"charge":2,
+"formula":"Mn"
+},
+{
+"id":"cpd00136_e",
+"name":"4-Hydroxybenzoate",
+"compartment":"e",
+"charge":-1,
+"formula":"C7H5O3"
+},
+{
+"id":"cpd01012_c",
+"name":"Cd2+",
+"compartment":"c",
+"charge":2,
+"formula":"Cd"
+},
+{
+"id":"cpd01012_e",
+"name":"Cd2+",
+"compartment":"e",
+"charge":2,
+"formula":"Cd"
+},
+{
+"id":"cpd00149_e",
+"name":"Co2+",
+"compartment":"e",
+"charge":2,
+"formula":"Co"
+},
+{
+"id":"cpd03424_e",
+"name":"Vitamin_B12",
+"compartment":"e",
+"charge":6,
+"formula":"C61H86CoN13O14PR"
+},
+{
+"id":"cpd03424_c",
+"name":"Vitamin_B12",
+"compartment":"c",
+"charge":6,
+"formula":"C61H86CoN13O14PR"
+},
+{
+"id":"cpd00039_e",
+"name":"L-Lysine",
+"compartment":"e",
+"charge":1,
+"formula":"C6H15N2O2"
+},
+{
+"id":"cpd01329_e",
+"name":"Maltohexaose",
+"compartment":"e",
+"charge":0,
+"formula":"C36H62O31"
+},
+{
+"id":"cpd01329_c",
+"name":"Maltohexaose",
+"compartment":"c",
+"charge":0,
+"formula":"C36H62O31"
+},
+{
+"id":"cpd00080_e",
+"name":"Glycerol-3-phosphate",
+"compartment":"e",
+"charge":-1,
+"formula":"C3H8O6P"
+},
+{
+"id":"cpd00027_c",
+"name":"D-Glucose",
+"compartment":"c",
+"charge":0,
+"formula":"C6H12O6"
+},
+{
+"id":"cpd11579_e",
+"name":"ethanesulfonate",
+"compartment":"e",
+"charge":-1,
+"formula":"C2H5O3S"
+},
+{
+"id":"cpd11579_c",
+"name":"ethanesulfonate",
+"compartment":"c",
+"charge":-1,
+"formula":"C2H5O3S"
+},
+{
+"id":"cpd11578_e",
+"name":"hexanesulfonate",
+"compartment":"e",
+"charge":-1,
+"formula":"C6H13O3S"
+},
+{
+"id":"cpd11578_c",
+"name":"hexanesulfonate",
+"compartment":"c",
+"charge":-1,
+"formula":"C6H13O3S"
+},
+{
+"id":"cpd08023_e",
+"name":"methanesulfonate",
+"compartment":"e",
+"charge":-1,
+"formula":"CH3O3S"
+},
+{
+"id":"cpd08023_c",
+"name":"methanesulfonate",
+"compartment":"c",
+"charge":-1,
+"formula":"CH3O3S"
+},
+{
+"id":"cpd11575_e",
+"name":"MOPS",
+"compartment":"e",
+"charge":-1,
+"formula":"C7H14NO4S"
+},
+{
+"id":"cpd11575_c",
+"name":"MOPS",
+"compartment":"c",
+"charge":-1,
+"formula":"C7H14NO4S"
+},
+{
+"id":"cpd09878_e",
+"name":"Sulfoacetate",
+"compartment":"e",
+"charge":-2,
+"formula":"C2H2O5S"
+},
+{
+"id":"cpd09878_c",
+"name":"Sulfoacetate",
+"compartment":"c",
+"charge":-2,
+"formula":"C2H2O5S"
+},
+{
+"id":"cpd17074_c",
+"name":"Acetylated Alginate",
+"compartment":"c",
+"charge":0,
+"formula":"C14H18O13"
+},
+{
+"id":"cpd00082_e",
+"name":"D-Fructose",
+"compartment":"e",
+"charge":0,
+"formula":"C6H12O6"
+},
+{
+"id":"cpd00802_c",
+"name":"D-fructose-1-phosphate",
+"compartment":"c",
+"charge":-1,
+"formula":"C6H12O9P"
+},
+{
+"id":"cpd00122_e",
+"name":"N-Acetyl-D-glucosamine",
+"compartment":"e",
+"charge":0,
+"formula":"C8H15NO6"
+},
+{
+"id":"cpd00293_c",
+"name":"N-Acetyl-D-glucosamine 6-phosphate",
+"compartment":"c",
+"charge":-1,
+"formula":"C8H15NO9P"
+},
+{
+"id":"cpd00075_e",
+"name":"Nitrite",
+"compartment":"e",
+"charge":-1,
+"formula":"NO2"
+},
+{
+"id":"cpd00033_e",
+"name":"Glycine",
+"compartment":"e",
+"charge":0,
+"formula":"C2H5NO2"
+},
+{
+"id":"cpd00210_e",
+"name":"Taurine",
+"compartment":"e",
+"charge":0,
+"formula":"C2H7NO3S"
+},
+{
+"id":"cpd00210_c",
+"name":"Taurine",
+"compartment":"c",
+"charge":0,
+"formula":"C2H7NO3S"
+},
+{
+"id":"cpd00162_c",
+"name":"Aminoethanol",
+"compartment":"c",
+"charge":1,
+"formula":"C2H8NO"
+},
+{
+"id":"cpd00489_e",
+"name":"4-Hydroxyphenylacetate",
+"compartment":"e",
+"charge":0,
+"formula":"C8H7O3"
+},
+{
+"id":"cpd00666_e",
+"name":"Tartrate",
+"compartment":"e",
+"charge":-2,
+"formula":"C4H4O6"
+},
+{
+"id":"cpd00666_c",
+"name":"Tartrate",
+"compartment":"c",
+"charge":-2,
+"formula":"C4H4O6"
+},
+{
+"id":"cpd03726_e",
+"name":"Fe-enterochlin",
+"compartment":"e",
+"charge":0,
+"formula":"C30H27FeN3O15"
+},
+{
+"id":"cpd03726_c",
+"name":"Fe-enterochlin",
+"compartment":"c",
+"charge":0,
+"formula":"C30H27FeN3O15"
+},
+{
+"id":"cpd00244_e",
+"name":"Ni2+",
+"compartment":"e",
+"charge":2,
+"formula":"Ni"
+},
+{
+"id":"cpd00244_c",
+"name":"Ni2+",
+"compartment":"c",
+"charge":2,
+"formula":"Ni"
+},
+{
+"id":"cpd11593_e",
+"name":"ala-L-asp-L",
+"compartment":"e",
+"charge":-1,
+"formula":"C7H11N2O5"
+},
+{
+"id":"cpd11593_c",
+"name":"ala-L-asp-L",
+"compartment":"c",
+"charge":-1,
+"formula":"C7H11N2O5"
+},
+{
+"id":"cpd11587_e",
+"name":"Ala-Gln",
+"compartment":"e",
+"charge":0,
+"formula":"C8H15N3O4"
+},
+{
+"id":"cpd11587_c",
+"name":"Ala-Gln",
+"compartment":"c",
+"charge":0,
+"formula":"C8H15N3O4"
+},
+{
+"id":"cpd11586_e",
+"name":"ala-L-glu-L",
+"compartment":"e",
+"charge":-1,
+"formula":"C8H13N2O5"
+},
+{
+"id":"cpd11586_c",
+"name":"ala-L-glu-L",
+"compartment":"c",
+"charge":-1,
+"formula":"C8H13N2O5"
+},
+{
+"id":"cpd11585_e",
+"name":"L-alanylglycine",
+"compartment":"e",
+"charge":0,
+"formula":"C5H10N2O3"
+},
+{
+"id":"cpd11585_c",
+"name":"L-alanylglycine",
+"compartment":"c",
+"charge":0,
+"formula":"C5H10N2O3"
+},
+{
+"id":"cpd11584_e",
+"name":"Ala-His",
+"compartment":"e",
+"charge":0,
+"formula":"C9H14N4O3"
+},
+{
+"id":"cpd11584_c",
+"name":"Ala-His",
+"compartment":"c",
+"charge":0,
+"formula":"C9H14N4O3"
+},
+{
+"id":"cpd11583_e",
+"name":"Ala-Leu",
+"compartment":"e",
+"charge":0,
+"formula":"C9H18N2O3"
+},
+{
+"id":"cpd11583_c",
+"name":"Ala-Leu",
+"compartment":"c",
+"charge":0,
+"formula":"C9H18N2O3"
+},
+{
+"id":"cpd11582_e",
+"name":"ala-L-Thr-L",
+"compartment":"e",
+"charge":0,
+"formula":"C7H14N2O4"
+},
+{
+"id":"cpd11582_c",
+"name":"ala-L-Thr-L",
+"compartment":"c",
+"charge":0,
+"formula":"C7H14N2O4"
+},
+{
+"id":"cpd01017_e",
+"name":"Cys-Gly",
+"compartment":"e",
+"charge":0,
+"formula":"C5H10N2O3S"
+},
+{
+"id":"cpd01017_c",
+"name":"Cys-Gly",
+"compartment":"c",
+"charge":0,
+"formula":"C5H10N2O3S"
+},
+{
+"id":"cpd11581_e",
+"name":"gly-asn-L",
+"compartment":"e",
+"charge":0,
+"formula":"C6H11N3O4"
+},
+{
+"id":"cpd11581_c",
+"name":"gly-asn-L",
+"compartment":"c",
+"charge":0,
+"formula":"C6H11N3O4"
+},
+{
+"id":"cpd11589_e",
+"name":"gly-asp-L",
+"compartment":"e",
+"charge":-1,
+"formula":"C6H9N2O5"
+},
+{
+"id":"cpd11589_c",
+"name":"gly-asp-L",
+"compartment":"c",
+"charge":-1,
+"formula":"C6H9N2O5"
+},
+{
+"id":"cpd11580_e",
+"name":"Gly-Gln",
+"compartment":"e",
+"charge":0,
+"formula":"C7H13N3O4"
+},
+{
+"id":"cpd11580_c",
+"name":"Gly-Gln",
+"compartment":"c",
+"charge":0,
+"formula":"C7H13N3O4"
+},
+{
+"id":"cpd11592_e",
+"name":"gly-glu-L",
+"compartment":"e",
+"charge":-1,
+"formula":"C7H11N2O5"
+},
+{
+"id":"cpd11592_c",
+"name":"gly-glu-L",
+"compartment":"c",
+"charge":-1,
+"formula":"C7H11N2O5"
+},
+{
+"id":"cpd11591_e",
+"name":"Gly-Met",
+"compartment":"e",
+"charge":0,
+"formula":"C7H14N2O3S"
+},
+{
+"id":"cpd11591_c",
+"name":"Gly-Met",
+"compartment":"c",
+"charge":0,
+"formula":"C7H14N2O3S"
+},
+{
+"id":"cpd11588_e",
+"name":"gly-pro-L",
+"compartment":"e",
+"charge":0,
+"formula":"C7H12N2O3"
+},
+{
+"id":"cpd11588_c",
+"name":"gly-pro-L",
+"compartment":"c",
+"charge":0,
+"formula":"C7H12N2O3"
+},
+{
+"id":"cpd11590_e",
+"name":"met-L-ala-L",
+"compartment":"e",
+"charge":-1,
+"formula":"C8H15N2O3S"
+},
+{
+"id":"cpd11590_c",
+"name":"met-L-ala-L",
+"compartment":"c",
+"charge":-1,
+"formula":"C8H15N2O3S"
+},
+{
+"id":"cpd15603_e",
+"name":"Gly-Cys",
+"compartment":"e",
+"charge":0,
+"formula":"C5H10N2O3S"
+},
+{
+"id":"cpd15603_c",
+"name":"Gly-Cys",
+"compartment":"c",
+"charge":0,
+"formula":"C5H10N2O3S"
+},
+{
+"id":"cpd15604_e",
+"name":"Gly-Leu",
+"compartment":"e",
+"charge":0,
+"formula":"C8H16N2O3"
+},
+{
+"id":"cpd15604_c",
+"name":"Gly-Leu",
+"compartment":"c",
+"charge":0,
+"formula":"C8H16N2O3"
+},
+{
+"id":"cpd15605_e",
+"name":"Gly-Phe",
+"compartment":"e",
+"charge":0,
+"formula":"C11H14N2O3"
+},
+{
+"id":"cpd15605_c",
+"name":"Gly-Phe",
+"compartment":"c",
+"charge":0,
+"formula":"C11H14N2O3"
+},
+{
+"id":"cpd15606_e",
+"name":"Gly-Tyr",
+"compartment":"e",
+"charge":0,
+"formula":"C11H14N2O4"
+},
+{
+"id":"cpd15606_c",
+"name":"Gly-Tyr",
+"compartment":"c",
+"charge":0,
+"formula":"C11H14N2O4"
+},
+{
+"id":"cpd00851_e",
+"name":"trans-4-Hydroxy-L-proline",
+"compartment":"e",
+"charge":-1,
+"formula":"C5H8NO3"
+},
+{
+"id":"cpd00851_c",
+"name":"trans-4-Hydroxy-L-proline",
+"compartment":"c",
+"charge":-1,
+"formula":"C5H8NO3"
+},
+{
+"id":"cpd00581_c",
+"name":"Urocanate",
+"compartment":"c",
+"charge":-1,
+"formula":"C6H5N2O2"
+},
+{
+"id":"cpd10516_e",
+"name":"fe3",
+"compartment":"e",
+"charge":3,
+"formula":"Fe"
+},
+{
+"id":"cpd10516_c",
+"name":"fe3",
+"compartment":"c",
+"charge":3,
+"formula":"Fe"
+},
+{
+"id":"cpd00013_e",
+"name":"NH3",
+"compartment":"e",
+"charge":1,
+"formula":"H4N"
+},
+{
+"id":"cpd00363_c",
+"name":"Ethanol",
+"compartment":"c",
+"charge":0,
+"formula":"C2H6O"
+},
+{
+"id":"cpd15665_c",
+"name":"Peptidoglycan polymer (n subunits)",
+"compartment":"c",
+"charge":-4,
+"formula":"C80H125N16O42R"
+},
+{
+"id":"cpd15663_c",
+"name":"Prenol-45n teichoic acid-alanine substituted",
+"compartment":"c",
+"charge":-47,
+"formula":"C341H611N47O287P47"
+},
+{
+"id":"cpd00286_c",
+"name":"Undecaprenylphosphate",
+"compartment":"c",
+"charge":-1,
+"formula":"C55H90O4P"
+},
+{
+"id":"cpd15668_c",
+"name":"glycerol teichoic acid (n=45), linked, D-ala substituted",
+"compartment":"c",
+"charge":-48,
+"formula":"C326H584N55O304P46R"
+},
+{
+"id":"cpd15662_c",
+"name":"Prenol-45n teichoic acid-glucose substituted",
+"compartment":"c",
+"charge":-47,
+"formula":"C476H836N2O467P47"
+},
+{
+"id":"cpd15669_c",
+"name":"glycerol teichoic acid (n=45), linked, glucose substituted",
+"compartment":"c",
+"charge":-48,
+"formula":"C461H809N10O484P46R"
+},
+{
+"id":"cpd15661_c",
+"name":"Prenol-45n teichoic acid",
+"compartment":"c",
+"charge":-47,
+"formula":"C206H386N2O242P47"
+},
+{
+"id":"cpd15667_c",
+"name":"glycerol teichoic acid (n=45), linked, unsubstituted",
+"compartment":"c",
+"charge":-48,
+"formula":"C191H359N10O259P46R"
+},
+{
+"id":"cpd00637_e",
+"name":"D-Methionine",
+"compartment":"e",
+"charge":0,
+"formula":"C5H11NO2S"
+},
+{
+"id":"cpd00637_c",
+"name":"D-Methionine",
+"compartment":"c",
+"charge":0,
+"formula":"C5H11NO2S"
+},
+{
+"id":"cpd00060_e",
+"name":"L-Methionine",
+"compartment":"e",
+"charge":0,
+"formula":"C5H11NO2S"
+},
+{
+"id":"cpd15901_e",
+"name":"2-oxohexanedioic acid",
+"compartment":"e",
+"charge":-2,
+"formula":"C6H6O5"
+},
+{
+"id":"cpd15901_c",
+"name":"2-oxohexanedioic acid",
+"compartment":"c",
+"charge":-2,
+"formula":"C6H6O5"
+},
+{
+"id":"cpd00280_e",
+"name":"D-Galacturonate",
+"compartment":"e",
+"charge":-1,
+"formula":"C6H9O7"
+},
+{
+"id":"cpd00280_c",
+"name":"D-Galacturonate",
+"compartment":"c",
+"charge":-1,
+"formula":"C6H9O7"
+},
+{
+"id":"cpd00164_e",
+"name":"Glucuronate",
+"compartment":"e",
+"charge":-1,
+"formula":"C6H9O7"
+},
+{
+"id":"cpd00164_c",
+"name":"Glucuronate",
+"compartment":"c",
+"charge":-1,
+"formula":"C6H9O7"
+},
+{
+"id":"cpd01015_e",
+"name":"Cyanate",
+"compartment":"e",
+"charge":0,
+"formula":"CNO"
+},
+{
+"id":"cpd01015_c",
+"name":"Cyanate",
+"compartment":"c",
+"charge":-1,
+"formula":"CNO"
+},
+{
+"id":"cpd00132_e",
+"name":"L-Asparagine",
+"compartment":"e",
+"charge":0,
+"formula":"C4H8N2O3"
+},
+{
+"id":"cpd00012_e",
+"name":"PPi",
+"compartment":"e",
+"charge":0,
+"formula":"H2O7P2"
+},
+{
+"id":"cpd00331_e",
+"name":"cis-Aconitate",
+"compartment":"e",
+"charge":-3,
+"formula":"C6H3O6"
+},
+{
+"id":"cpd01630_e",
+"name":"cis,cis-Muconate",
+"compartment":"e",
+"charge":-2,
+"formula":"C6H4O4"
+},
+{
+"id":"cpd01630_c",
+"name":"cis,cis-Muconate",
+"compartment":"c",
+"charge":-2,
+"formula":"C6H4O4"
+},
+{
+"id":"cpd02012_c",
+"name":"N-Formyl-L-methionine",
+"compartment":"c",
+"charge":-1,
+"formula":"C6H10NO3S"
+},
+{
+"id":"cpd00147_c",
+"name":"5-Methylthioadenosine",
+"compartment":"c",
+"charge":0,
+"formula":"C11H15N5O3S"
+},
+{
+"id":"cpd00073_e",
+"name":"Urea",
+"compartment":"e",
+"charge":0,
+"formula":"CH4N2O"
+},
+{
+"id":"cpd00152_e",
+"name":"Agmatine",
+"compartment":"e",
+"charge":2,
+"formula":"C5H16N4"
+},
+{
+"id":"cpd00142_e",
+"name":"Acetoacetate",
+"compartment":"e",
+"charge":0,
+"formula":"C4H5O3"
+},
+{
+"id":"cpd00211_e",
+"name":"Butyrate",
+"compartment":"e",
+"charge":0,
+"formula":"C4H7O2"
+},
+{
+"id":"cpd00211_c",
+"name":"Butyrate",
+"compartment":"c",
+"charge":-1,
+"formula":"C4H7O2"
+},
+{
+"id":"cpd00797_e",
+"name":"(R)-3-Hydroxybutanoate",
+"compartment":"e",
+"charge":0,
+"formula":"C4H7O3"
+},
+{
+"id":"cpd00653_e",
+"name":"D-Galactonate",
+"compartment":"e",
+"charge":-1,
+"formula":"C6H11O7"
+},
+{
+"id":"cpd00653_c",
+"name":"D-Galactonate",
+"compartment":"c",
+"charge":-1,
+"formula":"C6H11O7"
+},
+{
+"id":"cpd00652_e",
+"name":"D-Mucic_acid",
+"compartment":"e",
+"charge":-2,
+"formula":"C6H8O8"
+},
+{
+"id":"cpd00652_c",
+"name":"D-Mucic_acid",
+"compartment":"c",
+"charge":-2,
+"formula":"C6H8O8"
+},
+{
+"id":"cpd00609_e",
+"name":"D-Glucarate",
+"compartment":"e",
+"charge":-2,
+"formula":"C6H8O8"
+},
+{
+"id":"cpd00480_c",
+"name":"2-Dehydro-D-gluconate",
+"compartment":"c",
+"charge":-1,
+"formula":"C6H9O7"
+},
+{
+"id":"cpd00222_c",
+"name":"GLCN",
+"compartment":"c",
+"charge":-1,
+"formula":"C6H11O7"
+},
+{
+"id":"cpd00069_e",
+"name":"L-Tyrosine",
+"compartment":"e",
+"charge":0,
+"formula":"C9H11NO3"
+},
+{
+"id":"cpd00047_e",
+"name":"Formate",
+"compartment":"e",
+"charge":-1,
+"formula":"CHO2"
+},
+{
+"id":"cpd03294_e",
+"name":"Aerobactin",
+"compartment":"e",
+"charge":-3,
+"formula":"C22H33N4O13"
+},
+{
+"id":"cpd03294_c",
+"name":"Aerobactin",
+"compartment":"c",
+"charge":-3,
+"formula":"C22H33N4O13"
+},
+{
+"id":"cpd03724_e",
+"name":"Ferrichrome",
+"compartment":"e",
+"charge":0,
+"formula":"C27H45FeN9O12"
+},
+{
+"id":"cpd03724_c",
+"name":"Ferrichrome",
+"compartment":"c",
+"charge":0,
+"formula":"C27H45FeN9O12"
+},
+{
+"id":"cpd00066_e",
+"name":"L-Phenylalanine",
+"compartment":"e",
+"charge":0,
+"formula":"C9H11NO2"
+},
+{
+"id":"cpd00186_e",
+"name":"D-Glutamate",
+"compartment":"e",
+"charge":-1,
+"formula":"C5H8NO4"
+},
+{
+"id":"cpd00186_c",
+"name":"D-Glutamate",
+"compartment":"c",
+"charge":-1,
+"formula":"C5H8NO4"
+},
+{
+"id":"cpd00141_e",
+"name":"Propionate",
+"compartment":"e",
+"charge":-1,
+"formula":"C3H5O2"
+},
+{
+"id":"cpd00528_c",
+"name":"N2",
+"compartment":"c",
+"charge":0,
+"formula":"N2"
+},
+{
+"id":"cpd17074_e",
+"name":"Acetylated Alginate",
+"compartment":"e",
+"charge":0,
+"formula":"C14H18O13"
+},
+{
+"id":"cpd00100_e",
+"name":"Glycerol",
+"compartment":"e",
+"charge":0,
+"formula":"C3H8O3"
+},
+{
+"id":"cpd00794_e",
+"name":"TRHL",
+"compartment":"e",
+"charge":0,
+"formula":"C12H22O11"
+},
+{
+"id":"cpd00523_c",
+"name":"Trehalose 6-phosphate",
+"compartment":"c",
+"charge":-1,
+"formula":"C12H22O14P"
+},
+{
+"id":"cpd00137_e",
+"name":"Citrate",
+"compartment":"e",
+"charge":-3,
+"formula":"C6H5O7"
+},
+{
+"id":"cpd00162_e",
+"name":"Aminoethanol",
+"compartment":"e",
+"charge":0,
+"formula":"C2H8NO"
+},
+{
+"id":"cpd00423_e",
+"name":"Vitamin_B12r",
+"compartment":"e",
+"charge":1,
+"formula":"C62H89CoN13O14P"
+},
+{
+"id":"cpd00423_c",
+"name":"Vitamin_B12r",
+"compartment":"c",
+"charge":1,
+"formula":"C62H89CoN13O14P"
+},
+{
+"id":"cpd00121_e",
+"name":"L-Inositol",
+"compartment":"e",
+"charge":0,
+"formula":"C6H12O6"
+},
+{
+"id":"cpd00121_c",
+"name":"L-Inositol",
+"compartment":"c",
+"charge":0,
+"formula":"C6H12O6"
+},
+{
+"id":"cpd11595_c",
+"name":"chromate_H2O4Cr",
+"compartment":"c",
+"charge":-2,
+"formula":""
+},
+{
+"id":"cpd11595_e",
+"name":"chromate_H2O4Cr",
+"compartment":"e",
+"charge":-2,
+"formula":""
+},
+{
+"id":"cpd01293_e",
+"name":"5-Oxoproline",
+"compartment":"e",
+"charge":-1,
+"formula":"C5H6NO3"
+},
+{
+"id":"cpd01293_c",
+"name":"5-Oxoproline",
+"compartment":"c",
+"charge":-1,
+"formula":"C5H6NO3"
+},
+{
+"id":"cpd00221_e",
+"name":"D-Lactate",
+"compartment":"e",
+"charge":0,
+"formula":"C3H5O3"
+},
+{
+"id":"cpd00139_e",
+"name":"Glycolate",
+"compartment":"e",
+"charge":0,
+"formula":"C2H3O3"
+},
+{
+"id":"cpd00159_e",
+"name":"L-Lactate",
+"compartment":"e",
+"charge":-1,
+"formula":"C3H5O3"
+},
+{
+"id":"cpd00254_e",
+"name":"Mg",
+"compartment":"e",
+"charge":2,
+"formula":"Mg"
+},
+{
+"id":"cpd00254_c",
+"name":"Mg",
+"compartment":"c",
+"charge":2,
+"formula":"Mg"
+},
+{
+"id":"cpd00117_e",
+"name":"D-Alanine",
+"compartment":"e",
+"charge":0,
+"formula":"C3H7NO2"
+},
+{
+"id":"cpd00581_e",
+"name":"Urocanate",
+"compartment":"e",
+"charge":-1,
+"formula":"C6H5N2O2"
+},
+{
+"id":"cpd02012_e",
+"name":"N-Formyl-L-methionine",
+"compartment":"e",
+"charge":-1,
+"formula":"C6H10NO3S"
+},
+{
+"id":"cpd00024_e",
+"name":"2-Oxoglutarate",
+"compartment":"e",
+"charge":-2,
+"formula":"C5H4O5"
+},
+{
+"id":"cpd00011_e",
+"name":"CO2",
+"compartment":"e",
+"charge":0,
+"formula":"CO2"
+},
+{
+"id":"cpd00001_e",
+"name":"H2O",
+"compartment":"e",
+"charge":0,
+"formula":"H2O"
+},
+{
+"id":"cpd00528_e",
+"name":"N2",
+"compartment":"e",
+"charge":0,
+"formula":"N2"
+},
+{
+"id":"cpd00007_e",
+"name":"O2",
+"compartment":"e",
+"charge":0,
+"formula":"O2"
+},
+{
+"id":"cpd00147_e",
+"name":"5-Methylthioadenosine",
+"compartment":"e",
+"charge":0,
+"formula":"C11H15N5O3S"
+},
+{
+"id":"cpd00029_e",
+"name":"Acetate",
+"compartment":"e",
+"charge":-1,
+"formula":"C2H3O2"
+},
+{
+"id":"cpd00085_e",
+"name":"beta-Alanine",
+"compartment":"e",
+"charge":0,
+"formula":"C3H7NO2"
+},
+{
+"id":"cpd01947_e",
+"name":"BDOH",
+"compartment":"e",
+"charge":0,
+"formula":"C4H10O2"
+},
+{
+"id":"cpd03091_e",
+"name":"5'-Deoxyadenosine",
+"compartment":"e",
+"charge":0,
+"formula":"C10H13N5O3"
+},
+{
+"id":"cpd00363_e",
+"name":"Ethanol",
+"compartment":"e",
+"charge":0,
+"formula":"C2H6O"
+},
+{
+"id":"cpd17085_e",
+"name":"2-heptyl-3-hydroxy-4-quinolone",
+"compartment":"e",
+"charge":0,
+"formula":"C16H21O2N"
+},
+{
+"id":"cpd00020_e",
+"name":"Pyruvate",
+"compartment":"e",
+"charge":-1,
+"formula":"C3H3O3"
+},
+{
+"id":"cpd00379_e",
+"name":"Glutarate",
+"compartment":"e",
+"charge":-2,
+"formula":"C5H6O4"
+},
+{
+"id":"cpd00229_e",
+"name":"Glycolaldehyde",
+"compartment":"e",
+"charge":0,
+"formula":"C2H4O2"
+},
+{
+"id":"cJB00127_c",
+"name":"cis-2-Decenoic acid",
+"compartment":"c",
+"charge":-1,
+"formula":"C10H17O2"
+},
+{
+"id":"cJB00127_e",
+"name":"cis-2-Decenoic acid",
+"compartment":"e",
+"charge":-1,
+"formula":"C10H17O2"
+}
+],
+"reactions":[
+{
+"id":"rxn05570",
+"name":"gamma-butyrobetaine transport in via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00870_c":1.0,
+"cpd00870_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(((PA3891 or PA5376) and (PA3890 or PA5377) and (PA5378 or PA3889)) or ((PA3891 or PA5376) and (PA3890 or PA5377) and (PA5378 or PA3889) and PA3888))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(((PA3891 or PA5376) and (PA3890 or PA5377) and (PA5378 or PA3889)) or ((PA3891 or PA5376) and (PA3890 or PA5377) and (PA5378 or PA3889) and PA3888))"
+]
+}
+},
+{
+"id":"rxn05159",
+"name":"choline transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00098_c":1.0,
+"cpd00098_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(((PA3891 or PA5376) and (PA3890 or PA5377) and (PA5378 or PA3889)) or (PA3891 and PA3890 and PA3889 and PA3888))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(((PA3891 or PA5376) and (PA3890 or PA5377) and (PA5378 or PA3889)) or (PA3891 and PA3890 and PA3889 and PA3888))"
+]
+}
+},
+{
+"id":"rxn05180",
+"name":"L-carnitine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00266_c":1.0,
+"cpd00266_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(((PA3891 or PA5376) and (PA3890 or PA5377) and (PA5378 or PA3889)) or (PA3891 and PA3890 and PA3889 and PA3888))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(((PA3891 or PA5376) and (PA3890 or PA5377) and (PA5378 or PA3889)) or (PA3891 and PA3890 and PA3889 and PA3888))"
+]
+}
+},
+{
+"id":"rxn10073",
+"name":"proline betaine transport in via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd07061_c":1.0,
+"cpd07061_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(((PA3891 or PA5376) and (PA3890 or PA5377) and (PA5378 or PA3889)) or (PA3891 and PA3890 and PA3889 and PA3888))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(((PA3891 or PA5376) and (PA3890 or PA5377) and (PA5378 or PA3889)) or (PA3891 and PA3890 and PA3889 and PA3888))"
+]
+}
+},
+{
+"id":"rxn05175",
+"name":"spermidine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00264_c":1.0,
+"cpd00264_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA0206 and PA0205 and PA0204 and PA0203) or (PA3254 and PA3252 and PA3253 and PA3250) or (PA0326 and PA0325 and PA0324 and PA0323) or (PA0603 and PA0605 and PA0606 and PA0604 and PA0602) or (PA3607 and PA3608 and PA3609 and PA3610))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"((PA0206 and PA0205 and PA0204 and PA0203) or (PA3254 and PA3252 and PA3253 and PA3250) or (PA0326 and PA0325 and PA0324 and PA0323) or (PA0603 and PA0605 and PA0606 and PA0604 and PA0602) or (PA3607 and PA3608 and PA3609 and PA3610))"
+]
+}
+},
+{
+"id":"rxn05619",
+"name":"molybdate transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11574_c":1.0,
+"cpd11574_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA0281 and PA0280 and PA0282) or (PA1862 and PA1861 and PA1863))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.1.8,3.A.1.8"
+],
+"GENE ASSOCIATION":[
+"((PA0281 and PA0280 and PA0282) or (PA1862 and PA1861 and PA1863))"
+]
+}
+},
+{
+"id":"rxn05163",
+"name":"putrescine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00118_c":1.0,
+"cpd00118_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA0326 and PA0325 and PA0324 and PA0323) or (PA3254 and PA3252 and PA3253 and PA3250) or (PA0206 and PA0205 and PA0204 and PA0203) or (PA3607 and PA3608 and PA3609 and PA3610) or (PA0603 and PA0605 and PA0606 and PA0604 and PA0602) or (PA0300 and PA0301 and PA0302 and PA0303 and PA0304))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"((PA0326 and PA0325 and PA0324 and PA0323) or (PA3254 and PA3252 and PA3253 and PA3250) or (PA0206 and PA0205 and PA0204 and PA0203) or (PA3607 and PA3608 and PA3609 and PA3610) or (PA0603 and PA0605 and PA0606 and PA0604 and PA0602) or (PA0300 and PA0301 and PA0302 and PA0303 and PA0304))"
+]
+}
+},
+{
+"id":"rxn10158",
+"name":"fumarate transport in via proton symport (3 h+)",
+"metabolites":{
+"cpd00067_c":3.0,
+"cpd00067_e":-3.0,
+"cpd00106_c":1.0,
+"cpd00106_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA0886 and PA0884 and PA0885) or (PA5169 and PA5167 and PA5168))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"((PA0886 and PA0884 and PA0885) or (PA5169 and PA5167 and PA5168))"
+]
+}
+},
+{
+"id":"rxn05603",
+"name":"D-malate transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00386_c":1.0,
+"cpd00386_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA0886 and PA0884 and PA0885) or PA0119 or (PA5169 and PA5167 and PA5168) or PA1183)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"((PA0886 and PA0884 and PA0885) or PA0119 or (PA5169 and PA5167 and PA5168) or PA1183)"
+]
+}
+},
+{
+"id":"rxn05154",
+"name":"L-arginine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00051_c":1.0,
+"cpd00051_e":-1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA0888 and PA0890 and PA0892 and PA0889) or (PA2923 and PA2924 and PA2925 and PA2926) or (PA5152 and PA5153 and PA5154 and PA5155))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"((PA0888 and PA0890 and PA0892 and PA0889) or (PA2923 and PA2924 and PA2925 and PA2926) or (PA5152 and PA5153 and PA5154 and PA5155))"
+]
+}
+},
+{
+"id":"rxn05161",
+"name":"L-leucine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00107_c":1.0,
+"cpd00107_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA1074 and PA1073 and PA1072 and PA1071 and PA1070) or (PA4909 and PA4910 and PA4912 and PA4913 and PA4911))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"((PA1074 and PA1073 and PA1072 and PA1071 and PA1070) or (PA4909 and PA4910 and PA4912 and PA4913 and PA4911))"
+]
+}
+},
+{
+"id":"rxn05168",
+"name":"L-valine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00156_c":1.0,
+"cpd00156_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA1074 and PA1073 and PA1072 and PA1071 and PA1070) or (PA4909 and PA4910 and PA4912 and PA4913 and PA4911))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"((PA1074 and PA1073 and PA1072 and PA1071 and PA1070) or (PA4909 and PA4910 and PA4912 and PA4913 and PA4911))"
+]
+}
+},
+{
+"id":"rxn05155",
+"name":"L-glutamate transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00053_c":1.0,
+"cpd00053_e":-1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA1339 and PA1340 and PA1341 and PA1342) or (PA4192 and PA4193 and PA4194 and PA4195) or (PA5074 and PA5075 and PA5076))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"3.A.1.3"
+],
+"GENE ASSOCIATION":[
+"((PA1339 and PA1340 and PA1341 and PA1342) or (PA4192 and PA4193 and PA4194 and PA4195) or (PA5074 and PA5075 and PA5076))"
+]
+}
+},
+{
+"id":"rxn05201",
+"name":"Hypoxanthine ion-coupled transport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00226_c":1.0,
+"cpd00226_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA1507) or (PA0352) or (PA4647) or (PA4719) or (PA1519))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"((PA1507) or (PA0352) or (PA4647) or (PA4719) or (PA1519))"
+]
+}
+},
+{
+"id":"rxn05512",
+"name":"butanesulfonate transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11596_c":1.0,
+"cpd11596_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA2296 and PA2295 and PA2294) or (PA2309 and PA2308 and PA2307) or (PA3447 and PA3448 and PA3449))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"((PA2296 and PA2295 and PA2294) or (PA2309 and PA2308 and PA2307) or (PA3447 and PA3448 and PA3449))"
+]
+}
+},
+{
+"id":"rxn05156",
+"name":"ornithine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00064_c":1.0,
+"cpd00064_e":-1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA2923 and PA2924 and PA2925 and PA2926) or (PA5153 and PA5154 and PA5155 and PA5152) or (PA0888 and PA0890 and PA0892 and PA0889))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"((PA2923 and PA2924 and PA2925 and PA2926) or (PA5153 and PA5154 and PA5155 and PA5152) or (PA0888 and PA0890 and PA0892 and PA0889))"
+]
+}
+},
+{
+"id":"rxn05164",
+"name":"L-histidine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00119_c":1.0,
+"cpd00119_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA2923 and PA2925 and PA2026 and PA2924) or (PA5153 and PA5154 and PA5155 and PA5152))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"((PA2923 and PA2925 and PA2026 and PA2924) or (PA5153 and PA5154 and PA5155 and PA5152))"
+]
+}
+},
+{
+"id":"rxn13828",
+"name":"fatty-acid--CoA ligase (n-C14:0) transport",
+"metabolites":{
+"cpd00002_c":-1.0,
+"cpd00010_c":-1.0,
+"cpd00012_c":1.0,
+"cpd00018_c":1.0,
+"cpd01695_c":1.0,
+"cpd03847_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA3299 and PA1288) or (PA3299 and PA4589) or (PA3300 and PA4589) or (PA3300 and PA1288))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"((PA3299 and PA1288) or (PA3299 and PA4589) or (PA3300 and PA4589) or (PA3300 and PA1288))"
+]
+}
+},
+{
+"id":"rxn13829",
+"name":"fatty-acid--CoA ligase (hexadecanoate) transport",
+"metabolites":{
+"cpd00002_c":-1.0,
+"cpd00010_c":-1.0,
+"cpd00012_c":1.0,
+"cpd00018_c":1.0,
+"cpd00134_c":1.0,
+"cpd00214_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA3299 and PA1288) or (PA3300 and PA1288) or (PA3299 and PA4589) or (PA3300 and PA4589))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"((PA3299 and PA1288) or (PA3300 and PA1288) or (PA3299 and PA4589) or (PA3300 and PA4589))"
+]
+}
+},
+{
+"id":"rxn13892",
+"name":"phosphonate transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd04099_c":1.0,
+"cpd04099_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA3314 and PA3313 and PA3315 and PA3316) or (PA3376 and PA3375) or (PA3384 and PA3383 and PA3382))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"((PA3314 and PA3313 and PA3315 and PA3316) or (PA3376 and PA3375) or (PA3384 and PA3383 and PA3382))"
+]
+}
+},
+{
+"id":"rxn10481",
+"name":"Copper transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00058_c":1.0,
+"cpd00058_e":-1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA3690) or (PA3920))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"((PA3690) or (PA3920))"
+]
+}
+},
+{
+"id":"rxn10344",
+"name":"Lead (Pb+2) ABC transporter",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd04097_c":-1.0,
+"cpd04097_e":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA3690) or (PA3920))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"((PA3690) or (PA3920))"
+]
+}
+},
+{
+"id":"rxn10343",
+"name":"Mercury (Hg+2) ABC transporter",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00531_c":-1.0,
+"cpd00531_e":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA3690) or (PA3920))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"((PA3690) or (PA3920))"
+]
+}
+},
+{
+"id":"rxn05206",
+"name":"Potassium uptake",
+"metabolites":{
+"cpd00205_c":1.0,
+"cpd00205_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA4925) or (PA5121) or (PA1408) or (PA3739) or (PA5021))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.A.1"
+],
+"GENE ASSOCIATION":[
+"((PA4925) or (PA5121) or (PA1408) or (PA3739) or (PA5021))"
+]
+}
+},
+{
+"id":"rxn05165",
+"name":"L-proline transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00129_c":1.0,
+"cpd00129_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA5094 and PA5095 and PA5096 and PA5097) or (PA3891 and PA3890 and PA3889))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"((PA5094 and PA5095 and PA5096 and PA5097) or (PA3891 and PA3890 and PA3889))"
+]
+}
+},
+{
+"id":"rxn05181",
+"name":"glycine betaine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00540_c":1.0,
+"cpd00540_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA5096 and PA5095 and PA5094) or (PA3891 and PA3890 and PA3889 and PA3888) or (PA5376 and PA5377 and PA5378))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"3.A.1.12"
+],
+"GENE ASSOCIATION":[
+"((PA5096 and PA5095 and PA5094) or (PA3891 and PA3890 and PA3889 and PA3888) or (PA5376 and PA5377 and PA5378))"
+]
+}
+},
+{
+"id":"rxn10978",
+"name":"orotate efflux via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00247_c":1.0,
+"cpd00247_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA5169 and PA5167 and PA5168) or (PA0886 and PA0884 and PA0885) or PA1183 or PA0119)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"((PA5169 and PA5167 and PA5168) or (PA0886 and PA0884 and PA0885) or PA1183 or PA0119)"
+]
+}
+},
+{
+"id":"rxn13831",
+"name":"iron (II) transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00021_c":1.0,
+"cpd00021_e":-1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA5217 and PA3538 and PA5216) or (PA4687 and PA4688))",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"((PA5217 and PA3538 and PA5216) or (PA4687 and PA4688))"
+]
+}
+},
+{
+"id":"rxn05651",
+"name":"sulfate transport in via proton symport",
+"metabolites":{
+"cpd00048_c":1.0,
+"cpd00048_e":-1.0,
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0103)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-2.A.53,2.A.53"
+],
+"GENE ASSOCIATION":[
+"(PA0103)"
+]
+}
+},
+{
+"id":"rxn05564",
+"name":"Gamma-aminobutyrate permease",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00281_c":1.0,
+"cpd00281_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0129) or (PA0789) or (PA3000) or (PA0866)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0129) or (PA0789) or (PA3000) or (PA0866)"
+]
+}
+},
+{
+"id":"rxn12432",
+"name":"malonate transport",
+"metabolites":{
+"cpd00308_c":1.0,
+"cpd00308_e":-1.0,
+"cpd00971_c":1.0,
+"cpd00971_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0215 and PA0216)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0215 and PA0216)"
+]
+}
+},
+{
+"id":"rxn05176",
+"name":"Thiosulfate-ABC transport",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00268_c":1.0,
+"cpd00268_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0282 and PA0281 and PA0280)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0282 and PA0281 and PA0280)"
+]
+}
+},
+{
+"id":"rxn05153",
+"name":"sulfate transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00048_c":1.0,
+"cpd00048_e":-1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0283 and PA0282 and PA0281 and PA0280)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0283 and PA0282 and PA0281 and PA0280)"
+]
+}
+},
+{
+"id":"rxn05237",
+"name":"L-cysteine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00084_c":1.0,
+"cpd00084_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0313 and PA0314) or (PA2204 and PA2203 and PA2202)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA0313 and PA0314) or (PA2204 and PA2203 and PA2202)"
+]
+}
+},
+{
+"id":"rxn11080",
+"name":"L-cystine transport via ABC system",
+"metabolites":{
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00381_c":1.0,
+"cpd00381_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0313 and PA0314) or (PA2204 and PA2203 and PA2202)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA0313 and PA0314) or (PA2204 and PA2203 and PA2202)"
+]
+}
+},
+{
+"id":"rxn09657",
+"name":"Thiamine transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00305_c":1.0,
+"cpd00305_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0438 or PA0443 or PA2073 or PA0476 or PA1419 or PA5099)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0438 or PA0443 or PA2073 or PA0476 or PA1419 or PA5099)"
+]
+}
+},
+{
+"id":"rxn05202",
+"name":"xanthine transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00309_c":1.0,
+"cpd00309_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0438 or PA0476 or PA5099 or PA1519 or PA1419 or PA0166 or PA0352 or PA2938 or PA0443 or PA2073 or PA4647 or PA1507 or PA4719)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-2.A.40,2.A.40"
+],
+"GENE ASSOCIATION":[
+"(PA0438 or PA0476 or PA5099 or PA1519 or PA1419 or PA0166 or PA0352 or PA2938 or PA0443 or PA2073 or PA4647 or PA1507 or PA4719)"
+]
+}
+},
+{
+"id":"rxn05682",
+"name":"allantoin transport in/out via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd01092_c":1.0,
+"cpd01092_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0443 or PA1419 or PA2073 or PA0438 or PA0476 or PA5099)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0443 or PA1419 or PA2073 or PA0438 or PA0476 or PA5099)"
+]
+}
+},
+{
+"id":"rxn05312",
+"name":"phosphate transport in/out via proton symporter",
+"metabolites":{
+"cpd00009_c":1.0,
+"cpd00009_e":-1.0,
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0450 or PA5207 or PA4292)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-2.A.20,2.A.20"
+],
+"GENE ASSOCIATION":[
+"(PA0450 or PA5207 or PA4292)"
+]
+}
+},
+{
+"id":"rxn05527",
+"name":"cytosine transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00307_c":1.0,
+"cpd00307_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0476 or PA1419 or PA0438 or PA5099 or PA0443 or PA2073)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0476 or PA1419 or PA0438 or PA5099 or PA0443 or PA2073)"
+]
+}
+},
+{
+"id":"rxn05318",
+"name":"ADNt2r",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00182_c":1.0,
+"cpd00182_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0476) or (PA0443) or (PA5099) or (PA1419)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0476) or (PA0443) or (PA5099) or (PA1419)"
+]
+}
+},
+{
+"id":"rxn05198",
+"name":"Cytidine ion-coupled transport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00367_c":1.0,
+"cpd00367_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0476) or (PA0443) or (PA5099) or (PA1419)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0476) or (PA0443) or (PA5099) or (PA1419)"
+]
+}
+},
+{
+"id":"rxn05317",
+"name":"DADNt2",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00438_c":1.0,
+"cpd00438_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0476) or (PA0443) or (PA5099) or (PA1419)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0476) or (PA0443) or (PA5099) or (PA1419)"
+]
+}
+},
+{
+"id":"rxn05205",
+"name":"Deoxycytidine ion-coupled transport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00654_c":1.0,
+"cpd00654_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0476) or (PA0443) or (PA5099) or (PA1419)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0476) or (PA0443) or (PA5099) or (PA1419)"
+]
+}
+},
+{
+"id":"rxn05316",
+"name":"INSt2r",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00246_c":1.0,
+"cpd00246_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0476) or (PA0443) or (PA5099) or (PA1419)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0476) or (PA0443) or (PA5099) or (PA1419)"
+]
+}
+},
+{
+"id":"rxn05200",
+"name":"Thymidine ion-coupled transport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00184_c":1.0,
+"cpd00184_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0476) or (PA0443) or (PA5099) or (PA1419)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0476) or (PA0443) or (PA5099) or (PA1419)"
+]
+}
+},
+{
+"id":"rxn05199",
+"name":"Uridine ion-coupled transport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00249_c":1.0,
+"cpd00249_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0476) or (PA0443) or (PA5099) or (PA1419)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0476) or (PA0443) or (PA5099) or (PA1419)"
+]
+}
+},
+{
+"id":"rxn09688",
+"name":"deoxyguanosine transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00277_c":1.0,
+"cpd00277_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0476) or (PA1419) or (PA5099)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0476) or (PA1419) or (PA5099)"
+]
+}
+},
+{
+"id":"rxn09687",
+"name":"deoxyinosine transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd03279_c":1.0,
+"cpd03279_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0476) or (PA1419) or (PA5099)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0476) or (PA1419) or (PA5099)"
+]
+}
+},
+{
+"id":"rxn09685",
+"name":"deoxyuridine transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00412_c":1.0,
+"cpd00412_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0476) or (PA1419) or (PA5099)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0476) or (PA1419) or (PA5099)"
+]
+}
+},
+{
+"id":"rxn05663",
+"name":"L-tryptophan transport in via proton symport",
+"metabolites":{
+"cpd00065_c":1.0,
+"cpd00065_e":-1.0,
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0866 or PA3000 or PA5434)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-2.A.3.1,2.A.3.1"
+],
+"GENE ASSOCIATION":[
+"(PA0866 or PA3000 or PA5434)"
+]
+}
+},
+{
+"id":"rxn12562",
+"name":"Itaconate transporter",
+"metabolites":{
+"cpd00067_c":2.0,
+"cpd00067_e":-2.0,
+"cpd00380_c":1.0,
+"cpd00380_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0884 and PA0885 and PA0886)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA0884 and PA0885 and PA0886)"
+]
+}
+},
+{
+"id":"rJB00237",
+"name":"Sodium-citraconate symporter (dctA and dctPQM)",
+"metabolites":{
+"cpd00971_c":1.0,
+"cpd00971_e":-1.0,
+"cpd01502_c":1.0,
+"cpd01502_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0884 and PA0885 and PA0886) or (PA5169 and PA5168 and PA5167)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0884 and PA0885 and PA0886) or (PA5169 and PA5168 and PA5167)"
+]
+}
+},
+{
+"id":"rJB00240",
+"name":"Sodium-fumarate symporter (dctA and dctPQM)",
+"metabolites":{
+"cpd00106_c":1.0,
+"cpd00106_e":-1.0,
+"cpd00971_c":1.0,
+"cpd00971_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0884 and PA0885 and PA0886) or (PA5169 and PA5168 and PA5167)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0884 and PA0885 and PA0886) or (PA5169 and PA5168 and PA5167)"
+]
+}
+},
+{
+"id":"rxn05207",
+"name":"Sodium-malate symporter (dctA and dctPQM)",
+"metabolites":{
+"cpd00130_c":1.0,
+"cpd00130_e":-1.0,
+"cpd00971_c":1.0,
+"cpd00971_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0884 and PA0885 and PA0886) or (PA5169 and PA5168 and PA5167)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0884 and PA0885 and PA0886) or (PA5169 and PA5168 and PA5167)"
+]
+}
+},
+{
+"id":"rJB00238",
+"name":"Sodium-succinate symporter (dctA and dctPQM)",
+"metabolites":{
+"cpd00036_c":1.0,
+"cpd00036_e":-1.0,
+"cpd00971_c":1.0,
+"cpd00971_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0884 and PA0885 and PA0886) or (PA5169 and PA5168 and PA5167)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA0884 and PA0885 and PA0886) or (PA5169 and PA5168 and PA5167)"
+]
+}
+},
+{
+"id":"rxn05179",
+"name":"L-isoleucine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00322_c":1.0,
+"cpd00322_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1070 and PA1071 and PA1072 and PA1073) or (PA4910 and PA4912 and PA4911 and PA4909)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA1070 and PA1071 and PA1072 and PA1073) or (PA4910 and PA4912 and PA4911 and PA4909)"
+]
+}
+},
+{
+"id":"rxn13794",
+"name":"4-Aminobutyrate transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00281_c":1.0,
+"cpd00281_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1074 and PA1073 and PA1072 and PA1071 and PA1070)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA1074 and PA1073 and PA1072 and PA1071 and PA1070)"
+]
+}
+},
+{
+"id":"rxn10170",
+"name":"L-alanine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00035_c":1.0,
+"cpd00035_e":-1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1074 and PA1073 and PA1072 and PA1071 and PA1070)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA1074 and PA1073 and PA1072 and PA1071 and PA1070)"
+]
+}
+},
+{
+"id":"rxn05169",
+"name":"L-threonine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00161_c":1.0,
+"cpd00161_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1074 and PA1073 and PA1072 and PA1071 and PA1070)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA1074 and PA1073 and PA1072 and PA1071 and PA1070)"
+]
+}
+},
+{
+"id":"rxn05561",
+"name":"fumarate transport in/out via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00106_c":1.0,
+"cpd00106_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1183 or PA0119)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-2.A.56,2.A.56"
+],
+"GENE ASSOCIATION":[
+"(PA1183 or PA0119)"
+]
+}
+},
+{
+"id":"rxn10154",
+"name":"Succinate efflux via proton symport",
+"metabolites":{
+"cpd00036_c":1.0,
+"cpd00036_e":-1.0,
+"cpd00067_c":2.0,
+"cpd00067_e":-2.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1183 or PA0119)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA1183 or PA0119)"
+]
+}
+},
+{
+"id":"rxn05315",
+"name":"ZN2t4",
+"metabolites":{
+"cpd00034_c":-1.0,
+"cpd00034_e":1.0,
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00205_c":1.0,
+"cpd00205_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1297)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA1297)"
+]
+}
+},
+{
+"id":"rxn05152",
+"name":"L-aspartate transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00041_c":1.0,
+"cpd00041_e":-1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1339 and PA1340 and PA1341 and PA1342) or (PA4192 and PA4193 and PA4194 and PA4195)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA1339 and PA1340 and PA1341 and PA1342) or (PA4192 and PA4193 and PA4194 and PA4195)"
+]
+}
+},
+{
+"id":"rxn05146",
+"name":"L-Glutamate-ABC transport",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00023_c":1.0,
+"cpd00023_e":-1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1339 and PA1340 and PA1341) or (PA4192 and PA4193 and PA4194 and PA4195)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA1339 and PA1340 and PA1341) or (PA4192 and PA4193 and PA4194 and PA4195)"
+]
+}
+},
+{
+"id":"rxn05197",
+"name":"uracil transport in/out via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00092_c":1.0,
+"cpd00092_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1507 or PA2938 or PA0443 or PA0438 or PA0476 or PA1419 or PA2073 or PA5099 or PA1519 or PA4647 or PA0166 or PA0352 or PA4719)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-2.A.40,2.A.40"
+],
+"GENE ASSOCIATION":[
+"(PA1507 or PA2938 or PA0443 or PA0438 or PA0476 or PA1419 or PA2073 or PA5099 or PA1519 or PA4647 or PA0166 or PA0352 or PA4719)"
+]
+}
+},
+{
+"id":"rxn10168",
+"name":"potassium transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00205_c":1.0,
+"cpd00205_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1633 and PA1634 and PA1635)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA1633 and PA1634 and PA1635)"
+]
+}
+},
+{
+"id":"rxn13886",
+"name":"peptide transport in via ABC transport",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11608_c":1.0,
+"cpd11608_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1807 and PA1808 and PA1809 and PA1810)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA1807 and PA1808 and PA1809 and PA1810)"
+]
+}
+},
+{
+"id":"rxn05160",
+"name":"D-ribose transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00105_c":1.0,
+"cpd00105_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1946) and (PA1947) and (PA1948)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"3.A.1.2"
+],
+"GENE ASSOCIATION":[
+"(PA1946) and (PA1947) and (PA1948)"
+]
+}
+},
+{
+"id":"rxn05549",
+"name":"Deoxyribose transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd01242_c":1.0,
+"cpd01242_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1948 and PA1947 and PA1946)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA1948 and PA1947 and PA1946)"
+]
+}
+},
+{
+"id":"rxn05644",
+"name":"D-ribose transport out via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00105_c":-1.0,
+"cpd00105_e":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1948 and PA1947 and PA1946)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.1.2,3.A.1.2"
+],
+"GENE ASSOCIATION":[
+"(PA1948 and PA1947 and PA1946)"
+]
+}
+},
+{
+"id":"rxn05167",
+"name":"D-xylose transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00154_c":1.0,
+"cpd00154_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1948 and PA1947 and PA1946)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA1948 and PA1947 and PA1946)"
+]
+}
+},
+{
+"id":"rxn05173",
+"name":"L-Arabinose-ABC transport",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00224_c":1.0,
+"cpd00224_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1948 and PA1947 and PA1946)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"3.A.1.2"
+],
+"GENE ASSOCIATION":[
+"(PA1948 and PA1947 and PA1946)"
+]
+}
+},
+{
+"id":"rxn05649",
+"name":"D-serine transport in/out via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00550_c":1.0,
+"cpd00550_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA2041 and PA2042)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA2041 and PA2042)"
+]
+}
+},
+{
+"id":"rxn05307",
+"name":"L-Serine transport via ABC system",
+"metabolites":{
+"cpd00054_c":1.0,
+"cpd00054_e":-1.0,
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA2041 and PA2042)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA2041 and PA2042)"
+]
+}
+},
+{
+"id":"rxn05300",
+"name":"L-threonine symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00161_c":1.0,
+"cpd00161_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA2041 and PA2042)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA2041 and PA2042)"
+]
+}
+},
+{
+"id":"rxn13811",
+"name":"ascorbate transport in via proton symport",
+"metabolites":{
+"cpd00059_c":1.0,
+"cpd00059_e":-1.0,
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA2073 or PA0166 or PA2938 or PA0476 or PA5099 or PA0352 or PA0438 or PA0443 or PA1419 or PA4647 or PA1507)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA2073 or PA0166 or PA2938 or PA0476 or PA5099 or PA0352 or PA0438 or PA0443 or PA1419 or PA4647 or PA1507)"
+]
+}
+},
+{
+"id":"rxn05171",
+"name":"nitrate transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00209_c":1.0,
+"cpd00209_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA2328 and PA2327 and PA2329) or (PA3449 and PA3448 and PA3447) or (PA2296 and PA2295 and PA2294) or (PA0186 and PA0185 and PA0184)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA2328 and PA2327 and PA2329) or (PA3449 and PA3448 and PA3447) or (PA2296 and PA2295 and PA2294) or (PA0186 and PA0185 and PA0184)"
+]
+}
+},
+{
+"id":"rxn13853",
+"name":"D-mannitol transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00314_c":1.0,
+"cpd00314_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA2338 and PA2339 and PA2340 and PA2341)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA2338 and PA2339 and PA2340 and PA2341)"
+]
+}
+},
+{
+"id":"rxn13849",
+"name":"D-mannose transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00138_c":1.0,
+"cpd00138_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA2338 and PA2339 and PA2340 and PA2341)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA2338 and PA2339 and PA2340 and PA2341)"
+]
+}
+},
+{
+"id":"rxn05608",
+"name":"Maltotriose transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd01262_c":1.0,
+"cpd01262_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA2340 and PA2339 and PA2341)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA2340 and PA2339 and PA2341)"
+]
+}
+},
+{
+"id":"rJB00222",
+"name":"Sorbitol-ABC transport",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00588_c":1.0,
+"cpd00588_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA2341) and (PA2340) and (PA2339) and (PA2338)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA2341) and (PA2340) and (PA2339) and (PA2338)"
+]
+}
+},
+{
+"id":"rxn05614",
+"name":"L-methionine R-oxide transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11576_c":1.0,
+"cpd11576_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA2351 and PA2350 and PA2349)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA2351 and PA2350 and PA2349)"
+]
+}
+},
+{
+"id":"rxn05613",
+"name":"L-methionine S-oxide transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd01914_c":1.0,
+"cpd01914_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA2351 and PA2350 and PA2349)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA2351 and PA2350 and PA2349)"
+]
+}
+},
+{
+"id":"rxn05149",
+"name":"manganese transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00030_c":1.0,
+"cpd00030_e":-1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA2407 and PA2409 and PA2408)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA2407 and PA2409 and PA2408)"
+]
+}
+},
+{
+"id":"rxn12549",
+"name":"4-Hydroxybenzoate transport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00136_c":1.0,
+"cpd00136_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA2472) or (PA0235)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA2472) or (PA0235)"
+]
+}
+},
+{
+"id":"rxn13814",
+"name":"cadmium transport out via antiport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd01012_c":-1.0,
+"cpd01012_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA2520 and PA2521 and PA2522)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA2520 and PA2521 and PA2522)"
+]
+}
+},
+{
+"id":"rxn13681",
+"name":"cobalt transport out via antiport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00149_c":-1.0,
+"cpd00149_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA2520 and PA2521 and PA2522)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA2520 and PA2521 and PA2522)"
+]
+}
+},
+{
+"id":"rxn13919",
+"name":"zinc transport out via antiport",
+"metabolites":{
+"cpd00034_c":-1.0,
+"cpd00034_e":1.0,
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA2520 and PA2521 and PA2522)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA2520 and PA2521 and PA2522)"
+]
+}
+},
+{
+"id":"rxn05187",
+"name":"Vitamin B12 ABC transport",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd03424_c":1.0,
+"cpd03424_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA2912 and PA2913 and PA2914)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA2912 and PA2913 and PA2914)"
+]
+}
+},
+{
+"id":"rxn05151",
+"name":"L-lysine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00039_c":1.0,
+"cpd00039_e":-1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA2923 and PA2924 and PA2925 and PA2926) or (PA5153 and PA5154 and PA5155 and PA5152)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA2923 and PA2924 and PA2925 and PA2926) or (PA5153 and PA5154 and PA5155 and PA5152)"
+]
+}
+},
+{
+"id":"rxn10174",
+"name":"maltohexaose transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd01329_c":1.0,
+"cpd01329_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3187 and PA3189 and PA3188)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA3187 and PA3189 and PA3188)"
+]
+}
+},
+{
+"id":"rxn05158",
+"name":"sn-Glycerol ABC transport",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00080_c":1.0,
+"cpd00080_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3187 and PA3189 and PA3188)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA3187 and PA3189 and PA3188)"
+]
+}
+},
+{
+"id":"rxn05147",
+"name":"D-glucose transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00027_c":1.0,
+"cpd00027_e":-1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3190 and PA3189 and PA3188 and PA3187)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA3190 and PA3189 and PA3188 and PA3187)"
+]
+}
+},
+{
+"id":"rxn05552",
+"name":"ethanesulfonate transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11579_c":1.0,
+"cpd11579_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3445 and ((PA3442 and PA3443) or (PA3447 and PA3448))) or (PA2296 and PA2295 and PA2294)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA3445 and ((PA3442 and PA3443) or (PA3447 and PA3448))) or (PA2296 and PA2295 and PA2294)"
+]
+}
+},
+{
+"id":"rxn05585",
+"name":"hexanesulfonate transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11578_c":1.0,
+"cpd11578_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3445 and ((PA3442 and PA3443) or (PA3447 and PA3448))) or (PA2296 and PA2295 and PA2294)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA3445 and ((PA3442 and PA3443) or (PA3447 and PA3448))) or (PA2296 and PA2295 and PA2294)"
+]
+}
+},
+{
+"id":"rxn05621",
+"name":"methanesulfonate transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd08023_c":1.0,
+"cpd08023_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3445 and ((PA3442 and PA3443) or (PA3447 and PA3448))) or (PA2296 and PA2295 and PA2294)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA3445 and ((PA3442 and PA3443) or (PA3447 and PA3448))) or (PA2296 and PA2295 and PA2294)"
+]
+}
+},
+{
+"id":"rxn05620",
+"name":"MOPS transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11575_c":1.0,
+"cpd11575_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3445 and ((PA3442 and PA3443) or (PA3447 and PA3448))) or (PA2296 and PA2295 and PA2294)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA3445 and ((PA3442 and PA3443) or (PA3447 and PA3448))) or (PA2296 and PA2295 and PA2294)"
+]
+}
+},
+{
+"id":"rxn05656",
+"name":"sulfoacetate transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd09878_c":1.0,
+"cpd09878_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3445 and ((PA3442 and PA3443) or (PA3447 and PA3448))) or (PA2296 and PA2295 and PA2294)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA3445 and ((PA3442 and PA3443) or (PA3447 and PA3448))) or (PA2296 and PA2295 and PA2294)"
+]
+}
+},
+{
+"id":"rxn05215",
+"name":"probable AGCS sodium/alanine/glycine symporter",
+"metabolites":{
+"cpd00035_c":1.0,
+"cpd00035_e":-1.0,
+"cpd00971_c":1.0,
+"cpd00971_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3461 or PA2252 or PA2533)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA3461 or PA2252 or PA2533)"
+]
+}
+},
+{
+"id":"rJB00225",
+"name":"D-Fructose transport via PEP:Pyr PTS",
+"metabolites":{
+"cpd00020_c":1.0,
+"cpd00061_c":-1.0,
+"cpd00072_c":1.0,
+"cpd00082_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3560 and PA3561 and PA3562)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA3560 and PA3561 and PA3562)"
+]
+}
+},
+{
+"id":"rxn05560",
+"name":"D-fructose transport via PEP:Pyr PTS",
+"metabolites":{
+"cpd00020_c":1.0,
+"cpd00061_c":-1.0,
+"cpd00082_e":-1.0,
+"cpd00802_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3560 and PA3562)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA3560 and PA3562)"
+]
+}
+},
+{
+"id":"rxn05528",
+"name":"Copper export via ATPase",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00058_c":-1.0,
+"cpd00058_e":1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3690) or (PA3920)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.3,3.A.3"
+],
+"GENE ASSOCIATION":[
+"(PA3690) or (PA3920)"
+]
+}
+},
+{
+"id":"rxn05485",
+"name":"N-Acetyl-D-glucosamine transport via PEPPyr PTS",
+"metabolites":{
+"cpd00020_c":1.0,
+"cpd00061_c":-1.0,
+"cpd00122_e":-1.0,
+"cpd00293_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3761) and (PA3760)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.7.1.69"
+],
+"GENE ASSOCIATION":[
+"(PA3761) and (PA3760)"
+]
+}
+},
+{
+"id":"rxn05626",
+"name":"nitrite transport out via proton antiport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00075_c":-1.0,
+"cpd00075_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3877 or PA3876)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA3877 or PA3876)"
+]
+}
+},
+{
+"id":"rxn05209",
+"name":"sodium transport in/out via proton antiport (one H+)",
+"metabolites":{
+"cpd00067_c":-1.0,
+"cpd00067_e":1.0,
+"cpd00971_c":1.0,
+"cpd00971_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3887) or (PA5021) or (PA3660) or (PA2135)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA3887) or (PA5021) or (PA3660) or (PA2135)"
+]
+}
+},
+{
+"id":"rxn05582",
+"name":"glycine transport in/out via proton symport",
+"metabolites":{
+"cpd00033_c":1.0,
+"cpd00033_e":-1.0,
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3933) or (PA5291) or (PA5375)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA3933) or (PA5291) or (PA5375)"
+]
+}
+},
+{
+"id":"rxn05172",
+"name":"taurine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00210_c":1.0,
+"cpd00210_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3938 and PA3937 and PA3936)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"3.A.1.17"
+],
+"GENE ASSOCIATION":[
+"(PA3938 and PA3937 and PA3936)"
+]
+}
+},
+{
+"id":"rJB00234",
+"name":"4-Hydroxyphenylacetate permease",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00489_c":1.0,
+"cpd00489_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4126) or (PA2214)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA4126) or (PA2214)"
+]
+}
+},
+{
+"id":"rxn12591",
+"name":"Tartrate permease",
+"metabolites":{
+"cpd00067_c":2.0,
+"cpd00067_e":-2.0,
+"cpd00666_c":1.0,
+"cpd00666_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4126) or (PA2214)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA4126) or (PA2214)"
+]
+}
+},
+{
+"id":"rxn05190",
+"name":"Ferroxamine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd03726_c":1.0,
+"cpd03726_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4159 and PA4158 and PA4160 and PA4161 and PA4156)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA4159 and PA4158 and PA4160 and PA4161 and PA4156)"
+]
+}
+},
+{
+"id":"rxn05174",
+"name":"nickel transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00244_c":1.0,
+"cpd00244_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4502 and PA4503 and PA4504 and PA4505)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA4502 and PA4503 and PA4504 and PA4505)"
+]
+}
+},
+{
+"id":"rxn05533",
+"name":"Dipeptide transport via ABC system (ala-asp)",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11593_c":1.0,
+"cpd11593_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4503 and PA4504 and PA4505 and PA4506)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.1.5,3.A.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA4503 and PA4504 and PA4505 and PA4506)"
+]
+}
+},
+{
+"id":"rxn05540",
+"name":"Dipeptide transport via ABC system (ala-gln)",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11587_c":1.0,
+"cpd11587_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4503 and PA4504 and PA4505 and PA4506)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.1.5,3.A.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA4503 and PA4504 and PA4505 and PA4506)"
+]
+}
+},
+{
+"id":"rxn05541",
+"name":"Dipeptide transport via ABC system (ala-glu)",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11586_c":1.0,
+"cpd11586_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4503 and PA4504 and PA4505 and PA4506)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.1.5,3.A.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA4503 and PA4504 and PA4505 and PA4506)"
+]
+}
+},
+{
+"id":"rxn05542",
+"name":"Dipeptide transport via ABC system (ala-gly)",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11585_c":1.0,
+"cpd11585_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4503 and PA4504 and PA4505 and PA4506)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.1.5,3.A.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA4503 and PA4504 and PA4505 and PA4506)"
+]
+}
+},
+{
+"id":"rxn05543",
+"name":"Dipeptide transport via ABC system (ala-his)",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11584_c":1.0,
+"cpd11584_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4503 and PA4504 and PA4505 and PA4506)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.1.5,3.A.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA4503 and PA4504 and PA4505 and PA4506)"
+]
+}
+},
+{
+"id":"rxn05544",
+"name":"Dipeptide transport via ABC system (ala-leu)",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11583_c":1.0,
+"cpd11583_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4503 and PA4504 and PA4505 and PA4506)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.1.5,3.A.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA4503 and PA4504 and PA4505 and PA4506)"
+]
+}
+},
+{
+"id":"rxn05545",
+"name":"Dipeptide transport via ABC system (ala-thr)",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11582_c":1.0,
+"cpd11582_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4503 and PA4504 and PA4505 and PA4506)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.1.5,3.A.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA4503 and PA4504 and PA4505 and PA4506)"
+]
+}
+},
+{
+"id":"rxn05539",
+"name":"Dipeptide transport via ABC system (cgly)",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd01017_c":1.0,
+"cpd01017_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4503 and PA4504 and PA4505 and PA4506)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.1.5,3.A.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA4503 and PA4504 and PA4505 and PA4506)"
+]
+}
+},
+{
+"id":"rxn05546",
+"name":"Dipeptide transport via ABC system (gly-asn)",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11581_c":1.0,
+"cpd11581_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4503 and PA4504 and PA4505 and PA4506)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.1.5,3.A.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA4503 and PA4504 and PA4505 and PA4506)"
+]
+}
+},
+{
+"id":"rxn05537",
+"name":"Dipeptide transport via ABC system (gly-asp)",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11589_c":1.0,
+"cpd11589_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4503 and PA4504 and PA4505 and PA4506)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.1.5,3.A.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA4503 and PA4504 and PA4505 and PA4506)"
+]
+}
+},
+{
+"id":"rxn05547",
+"name":"Dipeptide transport via ABC system (gly-gln)",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11580_c":1.0,
+"cpd11580_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4503 and PA4504 and PA4505 and PA4506)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.1.5,3.A.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA4503 and PA4504 and PA4505 and PA4506)"
+]
+}
+},
+{
+"id":"rxn05534",
+"name":"Dipeptide transport via ABC system (gly-glu)",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11592_c":1.0,
+"cpd11592_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4503 and PA4504 and PA4505 and PA4506)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.1.5,3.A.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA4503 and PA4504 and PA4505 and PA4506)"
+]
+}
+},
+{
+"id":"rxn05535",
+"name":"Dipeptide transport via ABC system (gly-met)",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11591_c":1.0,
+"cpd11591_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4503 and PA4504 and PA4505 and PA4506)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.1.5,3.A.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA4503 and PA4504 and PA4505 and PA4506)"
+]
+}
+},
+{
+"id":"rxn05538",
+"name":"Dipeptide transport via ABC system (gly-pro-L)",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11588_c":1.0,
+"cpd11588_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4503 and PA4504 and PA4505 and PA4506)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.1.5,3.A.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA4503 and PA4504 and PA4505 and PA4506)"
+]
+}
+},
+{
+"id":"rxn05536",
+"name":"Dipeptide transport via ABC system (met-ala)",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd11590_c":1.0,
+"cpd11590_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4503 and PA4504 and PA4505 and PA4506)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.1.5,3.A.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA4503 and PA4504 and PA4505 and PA4506)"
+]
+}
+},
+{
+"id":"rxn12848",
+"name":"Gly-Cys ABC transporters",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd15603_c":1.0,
+"cpd15603_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4503 and PA4504 and PA4505 and PA4506)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"3.A.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA4503 and PA4504 and PA4505 and PA4506)"
+]
+}
+},
+{
+"id":"rxn12849",
+"name":"Gly-Leu ABC transporters",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd15604_c":1.0,
+"cpd15604_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4503 and PA4504 and PA4505 and PA4506)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"3.A.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA4503 and PA4504 and PA4505 and PA4506)"
+]
+}
+},
+{
+"id":"rxn12850",
+"name":"Gly-Phe ABC transporters",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd15605_c":1.0,
+"cpd15605_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4503 and PA4504 and PA4505 and PA4506)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"3.A.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA4503 and PA4504 and PA4505 and PA4506)"
+]
+}
+},
+{
+"id":"rxn12851",
+"name":"Gly-Try ABC transporters",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd15606_c":1.0,
+"cpd15606_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4503 and PA4504 and PA4505 and PA4506)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"3.A.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA4503 and PA4504 and PA4505 and PA4506)"
+]
+}
+},
+{
+"id":"rJB00232",
+"name":"trans-4-Hydroxy-L-proline-ABC transport",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00851_c":1.0,
+"cpd00851_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA5094 and PA5095 and PA5096)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA5094 and PA5095 and PA5096)"
+]
+}
+},
+{
+"id":"rxn05195",
+"name":"Fe3+-ABC transport",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd10516_c":1.0,
+"cpd10516_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA5216 and PA5217 and PA5218)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"3.6.3.30"
+],
+"GENE ASSOCIATION":[
+"(PA5216 and PA5217 and PA5218)"
+]
+}
+},
+{
+"id":"rxn05466",
+"name":"ammonium transport via diffusion",
+"metabolites":{
+"cpd00013_c":1.0,
+"cpd00013_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA5287 or PA3039)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA5287 or PA3039)"
+]
+}
+},
+{
+"id":"rxn09692",
+"name":"choline transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00098_c":1.0,
+"cpd00098_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA5291 or PA5375 or PA3933)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA5291 or PA5375 or PA3933)"
+]
+}
+},
+{
+"id":"rxn05145",
+"name":"phosphate transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":2.0,
+"cpd00009_e":-1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA5367 and PA5366 and PA5368 and PA5369)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.1.7,3.A.1.7"
+],
+"GENE ASSOCIATION":[
+"(PA5367 and PA5366 and PA5368 and PA5369)"
+]
+}
+},
+{
+"id":"rxn10196",
+"name":"Teichoic acid (D-alanine substituted) export",
+"metabolites":{
+"cpd00286_c":1.0,
+"cpd15663_c":-1.0,
+"cpd15665_c":-1.0,
+"cpd15668_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA5450 and PA5451)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA5450 and PA5451)"
+]
+}
+},
+{
+"id":"rxn10195",
+"name":"Teichoic acid (glucose substituted) export",
+"metabolites":{
+"cpd00286_c":1.0,
+"cpd15662_c":-1.0,
+"cpd15665_c":-1.0,
+"cpd15669_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA5450 and PA5451)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA5450 and PA5451)"
+]
+}
+},
+{
+"id":"rxn10194",
+"name":"Teichoic acid (unsubstituted) export",
+"metabolites":{
+"cpd00286_c":1.0,
+"cpd15661_c":-1.0,
+"cpd15665_c":-1.0,
+"cpd15667_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA5450 and PA5451)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA5450 and PA5451)"
+]
+}
+},
+{
+"id":"rxn05605",
+"name":"L-malate transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00130_c":1.0,
+"cpd00130_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA5479) or (PA0119) or (PA1183)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-2.A.56,2.A.56"
+],
+"GENE ASSOCIATION":[
+"(PA5479) or (PA0119) or (PA1183)"
+]
+}
+},
+{
+"id":"rxn05654",
+"name":"succinate transporter in/out via proton symport",
+"metabolites":{
+"cpd00036_c":1.0,
+"cpd00036_e":-1.0,
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA5479) or (PA0119) or (PA1183)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-2.A.56,2.A.56"
+],
+"GENE ASSOCIATION":[
+"(PA5479) or (PA0119) or (PA1183)"
+]
+}
+},
+{
+"id":"rxn05150",
+"name":"zinc transport in via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00034_c":1.0,
+"cpd00034_e":-1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA5498 and PA5501 and PA5500)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.1.15,3.A.1.15"
+],
+"GENE ASSOCIATION":[
+"(PA5498 and PA5501 and PA5500)"
+]
+}
+},
+{
+"id":"rxn13918",
+"name":"zinc transport out via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00034_c":-1.0,
+"cpd00034_e":1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA5498 and PA5501 and PA5500)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA5498 and PA5501 and PA5500)"
+]
+}
+},
+{
+"id":"rxn05183",
+"name":"D-methionine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00637_c":1.0,
+"cpd00637_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA5505 and PA5504 and PA5503) or (PA2349 and PA2350 and PA2351)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA5505 and PA5504 and PA5503) or (PA2349 and PA2350 and PA2351)"
+]
+}
+},
+{
+"id":"rxn05219",
+"name":"L-methionine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00060_c":1.0,
+"cpd00060_e":-1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA5505 and PA5504 and PA5503) or (PA2349 and PA2350 and PA2351)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"(PA5505 and PA5504 and PA5503) or (PA2349 and PA2350 and PA2351)"
+]
+}
+},
+{
+"id":"rxn13865",
+"name":"2-oxohexanedioic acid transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd15901_c":1.0,
+"cpd15901_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA0229",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA0229"
+]
+}
+},
+{
+"id":"rxn05673",
+"name":"galacturonate transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00280_c":1.0,
+"cpd00280_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA0241",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-2.A.1.14,2.A.1.14"
+],
+"GENE ASSOCIATION":[
+"PA0241"
+]
+}
+},
+{
+"id":"rxn05574",
+"name":"glucuronate transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00164_c":1.0,
+"cpd00164_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA0241",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-2.A.1.14,2.A.1.14"
+],
+"GENE ASSOCIATION":[
+"PA0241"
+]
+}
+},
+{
+"id":"rxn10132",
+"name":"Cyanate transport via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd01015_c":1.0,
+"cpd01015_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA0273",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA0273"
+]
+}
+},
+{
+"id":"rxn05508",
+"name":"L-asparagine permease",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00132_c":1.0,
+"cpd00132_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA0322",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA0322"
+]
+}
+},
+{
+"id":"rxn11268",
+"name":"phosphate ABC transporter permease protein",
+"metabolites":{
+"cpd00012_c":-1.0,
+"cpd00012_e":1.0,
+"cpd00067_c":-1.0,
+"cpd00067_e":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA0450",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA0450"
+]
+}
+},
+{
+"id":"rxn12788",
+"name":"cis-Aconitate porin opdH",
+"metabolites":{
+"cpd00331_c":1.0,
+"cpd00331_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA0755",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA0755"
+]
+}
+},
+{
+"id":"rxn05221",
+"name":"sodium-proline symport",
+"metabolites":{
+"cpd00129_c":1.0,
+"cpd00129_e":-1.0,
+"cpd00971_c":1.0,
+"cpd00971_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA0783",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA0783"
+]
+}
+},
+{
+"id":"rxn10474",
+"name":"cobalt transport in/out via permease (no H+)",
+"metabolites":{
+"cpd00149_c":-1.0,
+"cpd00149_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA0913 or PA0397 or PA3983",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA0913 or PA0397 or PA3983"
+]
+}
+},
+{
+"id":"rxn13854",
+"name":"muconate transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd01630_c":1.0,
+"cpd01630_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1019",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA1019"
+]
+}
+},
+{
+"id":"rxn05517",
+"name":"cadminum transport out via antiport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00205_c":1.0,
+"cpd00205_e":-1.0,
+"cpd01012_c":-1.0,
+"cpd01012_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1297",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA1297"
+]
+}
+},
+{
+"id":"rxn05305",
+"name":"LYSt3r",
+"metabolites":{
+"cpd00039_c":-1.0,
+"cpd00039_e":1.0,
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1485",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA1485"
+]
+}
+},
+{
+"id":"rxn09653",
+"name":"urea reversible transport via proton symport (2 H+)",
+"metabolites":{
+"cpd00067_c":2.0,
+"cpd00067_e":-2.0,
+"cpd00073_c":1.0,
+"cpd00073_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1497",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA1497"
+]
+}
+},
+{
+"id":"rxn05241",
+"name":"L-isoleucine transport in via proton symport",
+"metabolites":{
+"cpd00322_c":1.0,
+"cpd00322_e":-1.0,
+"cpd00971_c":1.0,
+"cpd00971_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1590",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA1590"
+]
+}
+},
+{
+"id":"rxn05240",
+"name":"L-leucine transport in via proton symport",
+"metabolites":{
+"cpd00107_c":1.0,
+"cpd00107_e":-1.0,
+"cpd00971_c":1.0,
+"cpd00971_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1590",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA1590"
+]
+}
+},
+{
+"id":"rxn05242",
+"name":"L-valine transport in via proton symport",
+"metabolites":{
+"cpd00156_c":1.0,
+"cpd00156_e":-1.0,
+"cpd00971_c":1.0,
+"cpd00971_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1590",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA1590"
+]
+}
+},
+{
+"id":"rxn05627",
+"name":"nitrate transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00209_c":1.0,
+"cpd00209_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1783 or PA3876 or (PA3876 and PA3877)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA1783 or PA3876 or (PA3876 and PA3877)"
+]
+}
+},
+{
+"id":"rxn13809",
+"name":"Arginine:Agmatine antiporter",
+"metabolites":{
+"cpd00051_c":1.0,
+"cpd00051_e":-1.0,
+"cpd00152_c":-1.0,
+"cpd00152_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1819",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA1819"
+]
+}
+},
+{
+"id":"rxn05687",
+"name":"Putrescine transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00118_c":1.0,
+"cpd00118_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1819",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA1819"
+]
+}
+},
+{
+"id":"rxn10182",
+"name":"putrescine/ornithine antiporter",
+"metabolites":{
+"cpd00064_c":-1.0,
+"cpd00064_e":1.0,
+"cpd00118_c":1.0,
+"cpd00118_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1819",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA1819"
+]
+}
+},
+{
+"id":"rxn09660",
+"name":"Spermidine transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00264_c":1.0,
+"cpd00264_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1819",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA1819"
+]
+}
+},
+{
+"id":"rxn05244",
+"name":"L-isoleucine transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00322_c":1.0,
+"cpd00322_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1971",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA1971"
+]
+}
+},
+{
+"id":"rxn05243",
+"name":"L-leucine transport in/out via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00107_c":1.0,
+"cpd00107_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1971",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA1971"
+]
+}
+},
+{
+"id":"rxn05484",
+"name":"acetoacetate transport via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00142_c":1.0,
+"cpd00142_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2002",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA2002"
+]
+}
+},
+{
+"id":"rxn05683",
+"name":"butanoate transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00211_c":1.0,
+"cpd00211_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2002",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA2002"
+]
+}
+},
+{
+"id":"rxn12405",
+"name":"transport of (r)-3-hydroxybutanoate [extraorganism-cytosol](passive)",
+"metabolites":{
+"cpd00797_c":1.0,
+"cpd00797_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2004",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA2004"
+]
+}
+},
+{
+"id":"rxn10160",
+"name":"D-galactonate transport via proton symport, reversible",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00653_c":1.0,
+"cpd00653_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2210",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA2210"
+]
+}
+},
+{
+"id":"rxn05565",
+"name":"galactarate transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00652_c":1.0,
+"cpd00652_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2210",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-2.A.3.1,2.A.3.1"
+],
+"GENE ASSOCIATION":[
+"PA2210"
+]
+}
+},
+{
+"id":"rxn05572",
+"name":"glucarate transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00609_c":1.0,
+"cpd00609_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2210",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-2.A.3.1,2.A.3.1"
+],
+"GENE ASSOCIATION":[
+"PA2210"
+]
+}
+},
+{
+"id":"rxn10537",
+"name":"probable AGCS sodium/alanine/glycine symporter",
+"metabolites":{
+"cpd00033_c":1.0,
+"cpd00033_e":-1.0,
+"cpd00971_c":1.0,
+"cpd00971_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2252",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA2252"
+]
+}
+},
+{
+"id":"rxn13791",
+"name":"2-dehydro-D-gluconate transport (irreversible)",
+"metabolites":{
+"cpd00480_c":1.0,
+"cpd00480_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2262",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA2262"
+]
+}
+},
+{
+"id":"rxn05571",
+"name":"D-gluconate transport via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00222_c":1.0,
+"cpd00222_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2322",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA2322"
+]
+}
+},
+{
+"id":"rxn10974",
+"name":"Tyrosine porin opdT",
+"metabolites":{
+"cpd00069_c":1.0,
+"cpd00069_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2505",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA2505"
+]
+}
+},
+{
+"id":"rxn05559",
+"name":"Formate transporter",
+"metabolites":{
+"cpd00047_c":1.0,
+"cpd00047_e":-1.0,
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2777",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA2777"
+]
+}
+},
+{
+"id":"rxn13800",
+"name":"Aerobactin transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd03294_c":1.0,
+"cpd03294_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2912",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA2912"
+]
+}
+},
+{
+"id":"rxn05188",
+"name":"ferrichrome transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd03724_c":1.0,
+"cpd03724_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2912",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA2912"
+]
+}
+},
+{
+"id":"rxn05306",
+"name":"L-phenylalanine transport in/out via proton symport",
+"metabolites":{
+"cpd00066_c":1.0,
+"cpd00066_e":-1.0,
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3000 or PA0866 or PA3597",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-2.A.3.1,2.A.3.1"
+],
+"GENE ASSOCIATION":[
+"PA3000 or PA0866 or PA3597"
+]
+}
+},
+{
+"id":"rxn05672",
+"name":"D-glutamate transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00186_c":1.0,
+"cpd00186_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3176",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA3176"
+]
+}
+},
+{
+"id":"rxn05298",
+"name":"Na+/glutamate symport",
+"metabolites":{
+"cpd00023_c":1.0,
+"cpd00023_e":-1.0,
+"cpd00971_c":1.0,
+"cpd00971_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3176",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA3176"
+]
+}
+},
+{
+"id":"rxn05595",
+"name":"potassium transport in/out via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00205_c":1.0,
+"cpd00205_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3210",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA3210"
+]
+}
+},
+{
+"id":"rJB00226",
+"name":"Sodium-propionate symporter",
+"metabolites":{
+"cpd00141_c":1.0,
+"cpd00141_e":-1.0,
+"cpd00971_c":1.0,
+"cpd00971_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3234 or PA0783",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA3234 or PA0783"
+]
+}
+},
+{
+"id":"rxn13920",
+"name":"Alginate production outer membrane protein",
+"metabolites":{
+"cpd17074_c":-1.0,
+"cpd17074_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3544",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA3544"
+]
+}
+},
+{
+"id":"rxn05581",
+"name":"glycerol transport in/out via diffusion reversible",
+"metabolites":{
+"cpd00100_c":-1.0,
+"cpd00100_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3581",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA3581"
+]
+}
+},
+{
+"id":"rxn05516",
+"name":"cadmium transport out via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd01012_c":-1.0,
+"cpd01012_e":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3690",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-3.A.3,3.A.3"
+],
+"GENE ASSOCIATION":[
+"PA3690"
+]
+}
+},
+{
+"id":"rxn02005",
+"name":"trehalose transport via PEP:Pyr PTS",
+"metabolites":{
+"cpd00020_c":1.0,
+"cpd00061_c":-1.0,
+"cpd00523_c":1.0,
+"cpd00794_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3760",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA3760"
+]
+}
+},
+{
+"id":"rxn05301",
+"name":"L-tyrosine transport in/out via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00069_c":1.0,
+"cpd00069_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3766 or PA5434 or PA1916",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-2.A.3.1,2.A.3.1"
+],
+"GENE ASSOCIATION":[
+"PA3766 or PA5434 or PA1916"
+]
+}
+},
+{
+"id":"rxn10144",
+"name":"L-asparagine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00132_c":1.0,
+"cpd00132_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3858",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA3858"
+]
+}
+},
+{
+"id":"rxn05625",
+"name":"nitrite transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00075_c":1.0,
+"cpd00075_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3876 or (PA3876 and PA3877)",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA3876 or (PA3876 and PA3877)"
+]
+}
+},
+{
+"id":"rxn05557",
+"name":"iron (III) dicitrate transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00137_c":2.0,
+"cpd00137_e":-2.0,
+"cpd10516_c":1.0,
+"cpd10516_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3901",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA3901"
+]
+}
+},
+{
+"id":"rxn05551",
+"name":"ethanolamine transport in/out via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00162_c":1.0,
+"cpd00162_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4023",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-2.A.3.5,2.A.3.5"
+],
+"GENE ASSOCIATION":[
+"PA4023"
+]
+}
+},
+{
+"id":"rxn05515",
+"name":"Cobalamin uptake in via ABC transport",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00423_c":1.0,
+"cpd00423_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4045",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA4045"
+]
+}
+},
+{
+"id":"rJB00223",
+"name":"D-L-Inositol-ABC transport",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00121_c":1.0,
+"cpd00121_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4187",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA4187"
+]
+}
+},
+{
+"id":"rxn05526",
+"name":"chromate transport out via proton antiport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd11595_c":-1.0,
+"cpd11595_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4289",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-2.A.51,2.A.51"
+],
+"GENE ASSOCIATION":[
+"PA4289"
+]
+}
+},
+{
+"id":"rxn05618",
+"name":"manganese transport in via proton symport",
+"metabolites":{
+"cpd00030_c":1.0,
+"cpd00030_e":-1.0,
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4334 or PA0809",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-2.A.55,2.A.55"
+],
+"GENE ASSOCIATION":[
+"PA4334 or PA0809"
+]
+}
+},
+{
+"id":"rxn10963",
+"name":"FeoB iron (II) transporter",
+"metabolites":{
+"cpd00021_c":1.0,
+"cpd00021_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4358",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA4358"
+]
+}
+},
+{
+"id":"rJB00241",
+"name":"Pyroglutamate porin",
+"metabolites":{
+"cpd01293_c":1.0,
+"cpd01293_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4501",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA4501"
+]
+}
+},
+{
+"id":"rxn09674",
+"name":"L-lysine transport in/out via proton symport",
+"metabolites":{
+"cpd00039_c":1.0,
+"cpd00039_e":-1.0,
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4628",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA4628"
+]
+}
+},
+{
+"id":"rxn10171",
+"name":"D-Lactate permease",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00221_c":1.0,
+"cpd00221_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4770",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA4770"
+]
+}
+},
+{
+"id":"rxn05470",
+"name":"Glycolate permease",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00139_c":1.0,
+"cpd00139_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4770",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA4770"
+]
+}
+},
+{
+"id":"rxn05602",
+"name":"L-lactate transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00159_c":1.0,
+"cpd00159_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4770",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA4770"
+]
+}
+},
+{
+"id":"rxn10571",
+"name":"magnesium transport via ABC system irreversible",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00254_c":1.0,
+"cpd00254_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4825",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA4825"
+]
+}
+},
+{
+"id":"rxn05616",
+"name":"magnesium transport into cell",
+"metabolites":{
+"cpd00254_c":-1.0,
+"cpd00254_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4825 or PA1429 or PA0913",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"TC-1.A.35,1.A.35"
+],
+"GENE ASSOCIATION":[
+"PA4825 or PA1429 or PA0913"
+]
+}
+},
+{
+"id":"rxn05157",
+"name":"Urea transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00073_c":1.0,
+"cpd00073_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4859 and PA4860 and PA4861 and PA4862",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA4859 and PA4860 and PA4861 and PA4862"
+]
+}
+},
+{
+"id":"rxn05299",
+"name":"HISt2",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00119_c":1.0,
+"cpd00119_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5097",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA5097"
+]
+}
+},
+{
+"id":"rxn05494",
+"name":"D-alanine transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00117_c":1.0,
+"cpd00117_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5097 or PA0789",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA5097 or PA0789"
+]
+}
+},
+{
+"id":"rxn12604",
+"name":"Urocanate transporter",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00581_c":1.0,
+"cpd00581_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5099",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA5099"
+]
+}
+},
+{
+"id":"rxn10131",
+"name":"Arginine/ornithine antiporter",
+"metabolites":{
+"cpd00051_c":1.0,
+"cpd00051_e":-1.0,
+"cpd00064_c":-1.0,
+"cpd00064_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5170",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA5170"
+]
+}
+},
+{
+"id":"rxn10165",
+"name":"Glycerol-3-phosphate : phosphate antiporter",
+"metabolites":{
+"cpd00009_c":-1.0,
+"cpd00009_e":1.0,
+"cpd00080_c":1.0,
+"cpd00080_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5235",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA5235"
+]
+}
+},
+{
+"id":"rxn10581",
+"name":"nickel transport in/out via permease (no H+)",
+"metabolites":{
+"cpd00244_c":-1.0,
+"cpd00244_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5268",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA5268"
+]
+}
+},
+{
+"id":"rJB00235",
+"name":"Carnitine transporter",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00266_c":1.0,
+"cpd00266_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5291",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA5291"
+]
+}
+},
+{
+"id":"rxn05638",
+"name":"L-proline transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00129_c":1.0,
+"cpd00129_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5370",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA5370"
+]
+}
+},
+{
+"id":"rxn05214",
+"name":"citrate transport in via Mg complex",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00137_c":1.0,
+"cpd00137_e":-1.0,
+"cpd00254_c":1.0,
+"cpd00254_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5468",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA5468"
+]
+}
+},
+{
+"id":"rxn05211",
+"name":"citrate transport in/out via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00137_c":1.0,
+"cpd00137_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5476",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA5476"
+]
+}
+},
+{
+"id":"rxn10151",
+"name":"Aspartate transport via proton symport (2 H)",
+"metabolites":{
+"cpd00041_c":1.0,
+"cpd00041_e":-1.0,
+"cpd00067_c":2.0,
+"cpd00067_e":-2.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5479",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA5479"
+]
+}
+},
+{
+"id":"rxn05217",
+"name":"L-aspartate transport in via proton symport",
+"metabolites":{
+"cpd00041_c":1.0,
+"cpd00041_e":-1.0,
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5479",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA5479"
+]
+}
+},
+{
+"id":"rxn05297",
+"name":"L-glutamate transport in via proton symport",
+"metabolites":{
+"cpd00023_c":1.0,
+"cpd00023_e":-1.0,
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5479 or PA3176",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA5479 or PA3176"
+]
+}
+},
+{
+"id":"rxn13832",
+"name":"N-formyl-L-methionine transport via ABC system",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd02012_c":1.0,
+"cpd02012_e":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5504",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA5504"
+]
+}
+},
+{
+"id":"rxn05493",
+"name":"2-oxoglutarate transport in/out via proton symport",
+"metabolites":{
+"cpd00024_c":1.0,
+"cpd00024_e":-1.0,
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5530",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA5530"
+]
+}
+},
+{
+"id":"rxn05467",
+"name":"CO2 transport out via diffusion",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00011_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"SPONTANEOUS",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"SPONTANEOUS"
+]
+}
+},
+{
+"id":"rxn05319",
+"name":"H2O transport via diffusion",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd00001_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"SPONTANEOUS",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"SPONTANEOUS"
+]
+}
+},
+{
+"id":"rxn10577",
+"name":"nitrogen transport diffusion",
+"metabolites":{
+"cpd00528_c":1.0,
+"cpd00528_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"SPONTANEOUS",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"SPONTANEOUS"
+]
+}
+},
+{
+"id":"rxn05468",
+"name":"O2 transport in via diffusion",
+"metabolites":{
+"cpd00007_c":1.0,
+"cpd00007_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"SPONTANEOUS",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"SPONTANEOUS"
+]
+}
+},
+{
+"id":"rxn13799",
+"name":"5mta transport irreversible, extracellular",
+"metabolites":{
+"cpd00147_c":-1.0,
+"cpd00147_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+""
+]
+}
+},
+{
+"id":"rxn05488",
+"name":"acetate transport in/out via proton symport",
+"metabolites":{
+"cpd00029_c":1.0,
+"cpd00029_e":-1.0,
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3234",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA3234"
+]
+}
+},
+{
+"id":"rxn05495",
+"name":"beta-Alanine transport in via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00085_c":1.0,
+"cpd00085_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+""
+]
+}
+},
+{
+"id":"rxn05511",
+"name":"Butanediol transport in/out via proton symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd01947_c":1.0,
+"cpd01947_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+""
+]
+}
+},
+{
+"id":"rxn13822",
+"name":"deoxyadenosine transport",
+"metabolites":{
+"cpd03091_c":-1.0,
+"cpd03091_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+""
+]
+}
+},
+{
+"id":"rxn09683",
+"name":"ethanol transport in/out via diffusion",
+"metabolites":{
+"cpd00363_c":1.0,
+"cpd00363_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+""
+]
+}
+},
+{
+"id":"rxn13837",
+"name":"glutarate transport via h+ symport",
+"metabolites":{
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0,
+"cpd00379_c":1.0,
+"cpd00379_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+""
+]
+}
+},
+{
+"id":"rxn09680",
+"name":"Glycoaldehydye reversible transport",
+"metabolites":{
+"cpd00229_c":1.0,
+"cpd00229_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+""
+]
+}
+},
+{
+"id":"rxn13924",
+"name":"PQS release",
+"metabolites":{
+"cpd17085_c":-1.0,
+"cpd17085_e":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+""
+]
+}
+},
+{
+"id":"rxn05469",
+"name":"pyruvate reversible transport via proton symport",
+"metabolites":{
+"cpd00020_c":1.0,
+"cpd00020_e":-1.0,
+"cpd00067_c":1.0,
+"cpd00067_e":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+""
+]
+}
+},
+{
+"id":"rJB00285",
+"name":"cis-2-Decenoic acid(DSF) release",
+"metabolites":{
+"cJB00127_c":-1.0,
+"cJB00127_e":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"Unassigned",
+"subsystem":"Transport",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"Unassigned"
+]
+}
+}
+],
+"genes":[
+{
+"id":"PA5378",
+"name":""
+},
+{
+"id":"PA5376",
+"name":""
+},
+{
+"id":"PA3889",
+"name":""
+},
+{
+"id":"PA3891",
+"name":""
+},
+{
+"id":"PA3890",
+"name":""
+},
+{
+"id":"PA3888",
+"name":""
+},
+{
+"id":"PA5377",
+"name":""
+},
+{
+"id":"PA0203",
+"name":""
+},
+{
+"id":"PA0604",
+"name":""
+},
+{
+"id":"PA0323",
+"name":""
+},
+{
+"id":"PA0606",
+"name":""
+},
+{
+"id":"PA0325",
+"name":""
+},
+{
+"id":"PA3253",
+"name":""
+},
+{
+"id":"PA0204",
+"name":""
+},
+{
+"id":"PA3610",
+"name":""
+},
+{
+"id":"PA3608",
+"name":""
+},
+{
+"id":"PA0206",
+"name":""
+},
+{
+"id":"PA3254",
+"name":""
+},
+{
+"id":"PA0205",
+"name":""
+},
+{
+"id":"PA0602",
+"name":""
+},
+{
+"id":"PA3250",
+"name":""
+},
+{
+"id":"PA0605",
+"name":""
+},
+{
+"id":"PA0326",
+"name":""
+},
+{
+"id":"PA3607",
+"name":""
+},
+{
+"id":"PA0603",
+"name":""
+},
+{
+"id":"PA3252",
+"name":""
+},
+{
+"id":"PA0324",
+"name":""
+},
+{
+"id":"PA3609",
+"name":""
+},
+{
+"id":"PA0282",
+"name":""
+},
+{
+"id":"PA1861",
+"name":""
+},
+{
+"id":"PA1863",
+"name":""
+},
+{
+"id":"PA0280",
+"name":""
+},
+{
+"id":"PA1862",
+"name":""
+},
+{
+"id":"PA0281",
+"name":""
+},
+{
+"id":"PA0304",
+"name":""
+},
+{
+"id":"PA0302",
+"name":""
+},
+{
+"id":"PA0303",
+"name":""
+},
+{
+"id":"PA0301",
+"name":""
+},
+{
+"id":"PA0300",
+"name":""
+},
+{
+"id":"PA5168",
+"name":""
+},
+{
+"id":"PA5169",
+"name":""
+},
+{
+"id":"PA0885",
+"name":""
+},
+{
+"id":"PA0884",
+"name":""
+},
+{
+"id":"PA0886",
+"name":""
+},
+{
+"id":"PA5167",
+"name":""
+},
+{
+"id":"PA1183",
+"name":""
+},
+{
+"id":"PA0119",
+"name":""
+},
+{
+"id":"PA0888",
+"name":""
+},
+{
+"id":"PA2924",
+"name":""
+},
+{
+"id":"PA2926",
+"name":""
+},
+{
+"id":"PA2923",
+"name":""
+},
+{
+"id":"PA5153",
+"name":""
+},
+{
+"id":"PA5155",
+"name":""
+},
+{
+"id":"PA5154",
+"name":""
+},
+{
+"id":"PA5152",
+"name":""
+},
+{
+"id":"PA2925",
+"name":""
+},
+{
+"id":"PA0890",
+"name":""
+},
+{
+"id":"PA0892",
+"name":""
+},
+{
+"id":"PA0889",
+"name":""
+},
+{
+"id":"PA4912",
+"name":""
+},
+{
+"id":"PA1074",
+"name":""
+},
+{
+"id":"PA1073",
+"name":""
+},
+{
+"id":"PA1072",
+"name":""
+},
+{
+"id":"PA4911",
+"name":""
+},
+{
+"id":"PA4909",
+"name":""
+},
+{
+"id":"PA4913",
+"name":""
+},
+{
+"id":"PA4910",
+"name":""
+},
+{
+"id":"PA1070",
+"name":""
+},
+{
+"id":"PA1071",
+"name":""
+},
+{
+"id":"PA4193",
+"name":""
+},
+{
+"id":"PA1339",
+"name":""
+},
+{
+"id":"PA1340",
+"name":""
+},
+{
+"id":"PA4192",
+"name":""
+},
+{
+"id":"PA1342",
+"name":""
+},
+{
+"id":"PA5076",
+"name":""
+},
+{
+"id":"PA5075",
+"name":""
+},
+{
+"id":"PA4195",
+"name":""
+},
+{
+"id":"PA5074",
+"name":""
+},
+{
+"id":"PA1341",
+"name":""
+},
+{
+"id":"PA4194",
+"name":""
+},
+{
+"id":"PA4719",
+"name":""
+},
+{
+"id":"PA1519",
+"name":""
+},
+{
+"id":"PA0352",
+"name":""
+},
+{
+"id":"PA4647",
+"name":""
+},
+{
+"id":"PA1507",
+"name":""
+},
+{
+"id":"PA2295",
+"name":""
+},
+{
+"id":"PA3447",
+"name":""
+},
+{
+"id":"PA2307",
+"name":""
+},
+{
+"id":"PA2308",
+"name":""
+},
+{
+"id":"PA2309",
+"name":""
+},
+{
+"id":"PA2296",
+"name":""
+},
+{
+"id":"PA3449",
+"name":""
+},
+{
+"id":"PA2294",
+"name":""
+},
+{
+"id":"PA3448",
+"name":""
+},
+{
+"id":"PA2026",
+"name":""
+},
+{
+"id":"PA3299",
+"name":""
+},
+{
+"id":"PA3300",
+"name":""
+},
+{
+"id":"PA4589",
+"name":""
+},
+{
+"id":"PA1288",
+"name":""
+},
+{
+"id":"PA3314",
+"name":""
+},
+{
+"id":"PA3375",
+"name":""
+},
+{
+"id":"PA3376",
+"name":""
+},
+{
+"id":"PA3313",
+"name":""
+},
+{
+"id":"PA3316",
+"name":""
+},
+{
+"id":"PA3382",
+"name":""
+},
+{
+"id":"PA3383",
+"name":""
+},
+{
+"id":"PA3315",
+"name":""
+},
+{
+"id":"PA3384",
+"name":""
+},
+{
+"id":"PA3920",
+"name":""
+},
+{
+"id":"PA3690",
+"name":""
+},
+{
+"id":"PA3739",
+"name":""
+},
+{
+"id":"PA5121",
+"name":""
+},
+{
+"id":"PA4925",
+"name":""
+},
+{
+"id":"PA5021",
+"name":""
+},
+{
+"id":"PA1408",
+"name":""
+},
+{
+"id":"PA5096",
+"name":""
+},
+{
+"id":"PA5094",
+"name":""
+},
+{
+"id":"PA5095",
+"name":""
+},
+{
+"id":"PA5097",
+"name":""
+},
+{
+"id":"PA3538",
+"name":""
+},
+{
+"id":"PA5216",
+"name":""
+},
+{
+"id":"PA4688",
+"name":""
+},
+{
+"id":"PA4687",
+"name":""
+},
+{
+"id":"PA5217",
+"name":""
+},
+{
+"id":"PA0103",
+"name":""
+},
+{
+"id":"PA3000",
+"name":""
+},
+{
+"id":"PA0129",
+"name":""
+},
+{
+"id":"PA0789",
+"name":""
+},
+{
+"id":"PA0866",
+"name":""
+},
+{
+"id":"PA0216",
+"name":""
+},
+{
+"id":"PA0215",
+"name":""
+},
+{
+"id":"PA0283",
+"name":""
+},
+{
+"id":"PA2203",
+"name":""
+},
+{
+"id":"PA0313",
+"name":""
+},
+{
+"id":"PA2202",
+"name":""
+},
+{
+"id":"PA2204",
+"name":""
+},
+{
+"id":"PA0314",
+"name":""
+},
+{
+"id":"PA0438",
+"name":""
+},
+{
+"id":"PA0443",
+"name":""
+},
+{
+"id":"PA5099",
+"name":""
+},
+{
+"id":"PA2073",
+"name":""
+},
+{
+"id":"PA0476",
+"name":""
+},
+{
+"id":"PA1419",
+"name":""
+},
+{
+"id":"PA0166",
+"name":""
+},
+{
+"id":"PA2938",
+"name":""
+},
+{
+"id":"PA5207",
+"name":""
+},
+{
+"id":"PA4292",
+"name":""
+},
+{
+"id":"PA0450",
+"name":""
+},
+{
+"id":"PA5434",
+"name":""
+},
+{
+"id":"PA1297",
+"name":""
+},
+{
+"id":"PA1635",
+"name":""
+},
+{
+"id":"PA1634",
+"name":""
+},
+{
+"id":"PA1633",
+"name":""
+},
+{
+"id":"PA1809",
+"name":""
+},
+{
+"id":"PA1810",
+"name":""
+},
+{
+"id":"PA1807",
+"name":""
+},
+{
+"id":"PA1808",
+"name":""
+},
+{
+"id":"PA1947",
+"name":""
+},
+{
+"id":"PA1948",
+"name":""
+},
+{
+"id":"PA1946",
+"name":""
+},
+{
+"id":"PA2041",
+"name":""
+},
+{
+"id":"PA2042",
+"name":""
+},
+{
+"id":"PA2328",
+"name":""
+},
+{
+"id":"PA0185",
+"name":""
+},
+{
+"id":"PA0184",
+"name":""
+},
+{
+"id":"PA0186",
+"name":""
+},
+{
+"id":"PA2327",
+"name":""
+},
+{
+"id":"PA2329",
+"name":""
+},
+{
+"id":"PA2340",
+"name":""
+},
+{
+"id":"PA2339",
+"name":""
+},
+{
+"id":"PA2341",
+"name":""
+},
+{
+"id":"PA2338",
+"name":""
+},
+{
+"id":"PA2351",
+"name":""
+},
+{
+"id":"PA2349",
+"name":""
+},
+{
+"id":"PA2350",
+"name":""
+},
+{
+"id":"PA2409",
+"name":""
+},
+{
+"id":"PA2408",
+"name":""
+},
+{
+"id":"PA2407",
+"name":""
+},
+{
+"id":"PA0235",
+"name":""
+},
+{
+"id":"PA2472",
+"name":""
+},
+{
+"id":"PA2521",
+"name":""
+},
+{
+"id":"PA2522",
+"name":""
+},
+{
+"id":"PA2520",
+"name":""
+},
+{
+"id":"PA2914",
+"name":""
+},
+{
+"id":"PA2912",
+"name":""
+},
+{
+"id":"PA2913",
+"name":""
+},
+{
+"id":"PA3187",
+"name":""
+},
+{
+"id":"PA3188",
+"name":""
+},
+{
+"id":"PA3189",
+"name":""
+},
+{
+"id":"PA3190",
+"name":""
+},
+{
+"id":"PA3445",
+"name":""
+},
+{
+"id":"PA3442",
+"name":""
+},
+{
+"id":"PA3443",
+"name":""
+},
+{
+"id":"PA3461",
+"name":""
+},
+{
+"id":"PA2533",
+"name":""
+},
+{
+"id":"PA2252",
+"name":""
+},
+{
+"id":"PA3561",
+"name":""
+},
+{
+"id":"PA3562",
+"name":""
+},
+{
+"id":"PA3560",
+"name":""
+},
+{
+"id":"PA3761",
+"name":""
+},
+{
+"id":"PA3760",
+"name":""
+},
+{
+"id":"PA3877",
+"name":""
+},
+{
+"id":"PA3876",
+"name":""
+},
+{
+"id":"PA2135",
+"name":""
+},
+{
+"id":"PA3660",
+"name":""
+},
+{
+"id":"PA3887",
+"name":""
+},
+{
+"id":"PA3933",
+"name":""
+},
+{
+"id":"PA5291",
+"name":""
+},
+{
+"id":"PA5375",
+"name":""
+},
+{
+"id":"PA3937",
+"name":""
+},
+{
+"id":"PA3938",
+"name":""
+},
+{
+"id":"PA3936",
+"name":""
+},
+{
+"id":"PA2214",
+"name":""
+},
+{
+"id":"PA4126",
+"name":""
+},
+{
+"id":"PA4159",
+"name":""
+},
+{
+"id":"PA4161",
+"name":""
+},
+{
+"id":"PA4156",
+"name":""
+},
+{
+"id":"PA4160",
+"name":""
+},
+{
+"id":"PA4158",
+"name":""
+},
+{
+"id":"PA4505",
+"name":""
+},
+{
+"id":"PA4503",
+"name":""
+},
+{
+"id":"PA4502",
+"name":""
+},
+{
+"id":"PA4504",
+"name":""
+},
+{
+"id":"PA4506",
+"name":""
+},
+{
+"id":"PA5218",
+"name":""
+},
+{
+"id":"PA3039",
+"name":""
+},
+{
+"id":"PA5287",
+"name":""
+},
+{
+"id":"PA5369",
+"name":""
+},
+{
+"id":"PA5367",
+"name":""
+},
+{
+"id":"PA5366",
+"name":""
+},
+{
+"id":"PA5368",
+"name":""
+},
+{
+"id":"PA5450",
+"name":""
+},
+{
+"id":"PA5451",
+"name":""
+},
+{
+"id":"PA5479",
+"name":""
+},
+{
+"id":"PA5500",
+"name":""
+},
+{
+"id":"PA5501",
+"name":""
+},
+{
+"id":"PA5498",
+"name":""
+},
+{
+"id":"PA5505",
+"name":""
+},
+{
+"id":"PA5504",
+"name":""
+},
+{
+"id":"PA5503",
+"name":""
+},
+{
+"id":"PA0229",
+"name":""
+},
+{
+"id":"PA0241",
+"name":""
+},
+{
+"id":"PA0273",
+"name":""
+},
+{
+"id":"PA0322",
+"name":""
+},
+{
+"id":"PA0755",
+"name":""
+},
+{
+"id":"PA0783",
+"name":""
+},
+{
+"id":"PA3983",
+"name":""
+},
+{
+"id":"PA0397",
+"name":""
+},
+{
+"id":"PA0913",
+"name":""
+},
+{
+"id":"PA1019",
+"name":""
+},
+{
+"id":"PA1485",
+"name":""
+},
+{
+"id":"PA1497",
+"name":""
+},
+{
+"id":"PA1590",
+"name":""
+},
+{
+"id":"PA1783",
+"name":""
+},
+{
+"id":"PA1819",
+"name":""
+},
+{
+"id":"PA1971",
+"name":""
+},
+{
+"id":"PA2002",
+"name":""
+},
+{
+"id":"PA2004",
+"name":""
+},
+{
+"id":"PA2210",
+"name":""
+},
+{
+"id":"PA2262",
+"name":""
+},
+{
+"id":"PA2322",
+"name":""
+},
+{
+"id":"PA2505",
+"name":""
+},
+{
+"id":"PA2777",
+"name":""
+},
+{
+"id":"PA3597",
+"name":""
+},
+{
+"id":"PA3176",
+"name":""
+},
+{
+"id":"PA3210",
+"name":""
+},
+{
+"id":"PA3234",
+"name":""
+},
+{
+"id":"PA3544",
+"name":""
+},
+{
+"id":"PA3581",
+"name":""
+},
+{
+"id":"PA3766",
+"name":""
+},
+{
+"id":"PA1916",
+"name":""
+},
+{
+"id":"PA3858",
+"name":""
+},
+{
+"id":"PA3901",
+"name":""
+},
+{
+"id":"PA4023",
+"name":""
+},
+{
+"id":"PA4045",
+"name":""
+},
+{
+"id":"PA4187",
+"name":""
+},
+{
+"id":"PA4289",
+"name":""
+},
+{
+"id":"PA4334",
+"name":""
+},
+{
+"id":"PA0809",
+"name":""
+},
+{
+"id":"PA4358",
+"name":""
+},
+{
+"id":"PA4501",
+"name":""
+},
+{
+"id":"PA4628",
+"name":""
+},
+{
+"id":"PA4770",
+"name":""
+},
+{
+"id":"PA4825",
+"name":""
+},
+{
+"id":"PA1429",
+"name":""
+},
+{
+"id":"PA4862",
+"name":""
+},
+{
+"id":"PA4859",
+"name":""
+},
+{
+"id":"PA4861",
+"name":""
+},
+{
+"id":"PA4860",
+"name":""
+},
+{
+"id":"PA5170",
+"name":""
+},
+{
+"id":"PA5235",
+"name":""
+},
+{
+"id":"PA5268",
+"name":""
+},
+{
+"id":"PA5370",
+"name":""
+},
+{
+"id":"PA5468",
+"name":""
+},
+{
+"id":"PA5476",
+"name":""
+},
+{
+"id":"PA5530",
+"name":""
+},
+{
+"id":"SPONTANEOUS",
+"name":""
+},
+{
+"id":"Unassigned",
+"name":""
+}
+],
+"id":"",
+"compartments":{
+"c":"Cytoplasm",
+"e":"Extracellular"
+},
+"version":"1"
+}

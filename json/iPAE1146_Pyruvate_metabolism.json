@@ -1,0 +1,897 @@
+{
+"metabolites":[
+{
+"id":"cpd00015_c",
+"name":"FAD",
+"compartment":"c",
+"charge":-2,
+"formula":"C27H31N9O15P2"
+},
+{
+"id":"cpd00982_c",
+"name":"FADH2",
+"compartment":"c",
+"charge":-2,
+"formula":"C27H33N9O15P2"
+},
+{
+"id":"cpd00003_c",
+"name":"NAD",
+"compartment":"c",
+"charge":-1,
+"formula":"C21H26N7O14P2"
+},
+{
+"id":"cpd00004_c",
+"name":"NADH",
+"compartment":"c",
+"charge":-2,
+"formula":"C21H27N7O14P2"
+},
+{
+"id":"cpd00067_c",
+"name":"H+",
+"compartment":"c",
+"charge":1,
+"formula":"H"
+},
+{
+"id":"cpd00001_c",
+"name":"H2O",
+"compartment":"c",
+"charge":0,
+"formula":"H2O"
+},
+{
+"id":"cpd00006_c",
+"name":"NADP",
+"compartment":"c",
+"charge":-2,
+"formula":"C21H26N7O17P3"
+},
+{
+"id":"cpd00005_c",
+"name":"NADPH",
+"compartment":"c",
+"charge":-3,
+"formula":"C21H27N7O17P3"
+},
+{
+"id":"cpd00010_c",
+"name":"CoA",
+"compartment":"c",
+"charge":-3,
+"formula":"C21H33N7O16P3S"
+},
+{
+"id":"cpd00011_c",
+"name":"CO2",
+"compartment":"c",
+"charge":0,
+"formula":"CO2"
+},
+{
+"id":"cpd00022_c",
+"name":"Acetyl-CoA",
+"compartment":"c",
+"charge":-3,
+"formula":"C23H35N7O17P3S"
+},
+{
+"id":"cpd00009_c",
+"name":"Phosphate",
+"compartment":"c",
+"charge":-2,
+"formula":"HO4P"
+},
+{
+"id":"cpd15560_c",
+"name":"Ubiquinone-8",
+"compartment":"c",
+"charge":0,
+"formula":"C49H74O4"
+},
+{
+"id":"cpd15561_c",
+"name":"Ubiquinol-8",
+"compartment":"c",
+"charge":0,
+"formula":"C49H76O4"
+},
+{
+"id":"cpd01351_c",
+"name":"Ubiquinone-9",
+"compartment":"c",
+"charge":0,
+"formula":"C54H82O4"
+},
+{
+"id":"cJB00125_c",
+"name":"Ubiquinol-9",
+"compartment":"c",
+"charge":0,
+"formula":"C54H84O4"
+},
+{
+"id":"cpd00071_c",
+"name":"Acetaldehyde",
+"compartment":"c",
+"charge":0,
+"formula":"C2H4O"
+},
+{
+"id":"cpd00029_c",
+"name":"Acetate",
+"compartment":"c",
+"charge":-1,
+"formula":"C2H3O2"
+},
+{
+"id":"cpd00079_c",
+"name":"D-glucose-6-phosphate",
+"compartment":"c",
+"charge":-1,
+"formula":"C6H12O9P"
+},
+{
+"id":"cpd00911_c",
+"name":"6-phospho-D-glucono-1-5-lactone",
+"compartment":"c",
+"charge":-1,
+"formula":"C6H10O9P"
+},
+{
+"id":"cpd00130_c",
+"name":"L-Malate",
+"compartment":"c",
+"charge":-2,
+"formula":"C4H4O5"
+},
+{
+"id":"cpd00032_c",
+"name":"Oxaloacetate",
+"compartment":"c",
+"charge":-2,
+"formula":"C4H2O5"
+},
+{
+"id":"cpd00020_c",
+"name":"Pyruvate",
+"compartment":"c",
+"charge":-1,
+"formula":"C3H3O3"
+},
+{
+"id":"cpd00002_c",
+"name":"ATP",
+"compartment":"c",
+"charge":-3,
+"formula":"C10H13N5O13P3"
+},
+{
+"id":"cpd00008_c",
+"name":"ADP",
+"compartment":"c",
+"charge":-2,
+"formula":"C10H13N5O10P2"
+},
+{
+"id":"cpd00334_c",
+"name":"L-Lactaldehyde",
+"compartment":"c",
+"charge":0,
+"formula":"C3H6O2"
+},
+{
+"id":"cpd00159_c",
+"name":"L-Lactate",
+"compartment":"c",
+"charge":-1,
+"formula":"C3H5O3"
+},
+{
+"id":"cpd00221_c",
+"name":"D-Lactate",
+"compartment":"c",
+"charge":-1,
+"formula":"C3H5O3"
+},
+{
+"id":"cpd00042_c",
+"name":"GSH",
+"compartment":"c",
+"charge":-1,
+"formula":"C10H16N3O6S"
+},
+{
+"id":"cpd00012_c",
+"name":"PPi",
+"compartment":"c",
+"charge":-2,
+"formula":"H2O7P2"
+},
+{
+"id":"cpd00018_c",
+"name":"AMP",
+"compartment":"c",
+"charge":-1,
+"formula":"C10H13N5O7P"
+},
+{
+"id":"cpd00196_c",
+"name":"Acetylphosphate",
+"compartment":"c",
+"charge":-1,
+"formula":"C2H4O5P"
+},
+{
+"id":"cpd00061_c",
+"name":"Phosphoenolpyruvate",
+"compartment":"c",
+"charge":-2,
+"formula":"C3H3O6P"
+},
+{
+"id":"cpd02182_c",
+"name":"(R)-S-Lactoylglutathione",
+"compartment":"c",
+"charge":-1,
+"formula":"C13H20N3O8S"
+},
+{
+"id":"cpd00428_c",
+"name":"2-Oxopropanal",
+"compartment":"c",
+"charge":0,
+"formula":"C3H4O2"
+},
+{
+"id":"cpd00070_c",
+"name":"Malonyl-CoA",
+"compartment":"c",
+"charge":-4,
+"formula":"C24H34N7O19P3S"
+},
+{
+"id":"cpd12543_c",
+"name":"Carboxybiotin-carboxyl-carrier protein",
+"compartment":"c",
+"charge":-1,
+"formula":"C18H26N5O6R2S"
+},
+{
+"id":"cpd12848_c",
+"name":"Holo-[carboxylase]",
+"compartment":"c",
+"charge":0,
+"formula":"C17H27N5O4R2S"
+}
+],
+"reactions":[
+{
+"id":"rxn00506",
+"name":"aldehyde dehydrogenase (acetaldehyde, NAD)",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00003_c":-1.0,
+"cpd00004_c":1.0,
+"cpd00029_c":1.0,
+"cpd00067_c":2.0,
+"cpd00071_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1984 or PA4022 or PA0219 or PA5312)",
+"subsystem":"Pyruvate metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.2.1.3,1.2.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA1984 or PA4022 or PA0219 or PA5312)"
+]
+}
+},
+{
+"id":"rxn00604",
+"name":"glucose 6-phosphate dehydrogenase",
+"metabolites":{
+"cpd00005_c":1.0,
+"cpd00006_c":-1.0,
+"cpd00067_c":1.0,
+"cpd00079_c":-1.0,
+"cpd00911_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3183 or PA5439)",
+"subsystem":"Pyruvate metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.49"
+],
+"GENE ASSOCIATION":[
+"(PA3183 or PA5439)"
+]
+}
+},
+{
+"id":"rJB00276",
+"name":"glucose 6-phosphate dehydrogenase (NAD+)",
+"metabolites":{
+"cpd00003_c":-1.0,
+"cpd00004_c":1.0,
+"cpd00067_c":1.0,
+"cpd00079_c":-1.0,
+"cpd00911_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3183 or PA5439)",
+"subsystem":"Pyruvate metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.49"
+],
+"GENE ASSOCIATION":[
+"(PA3183 or PA5439)"
+]
+}
+},
+{
+"id":"rxn01053",
+"name":"lactaldehyde dehydrogenase",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00003_c":-1.0,
+"cpd00004_c":1.0,
+"cpd00067_c":2.0,
+"cpd00159_c":1.0,
+"cpd00334_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3629 or PA5312 or PA0219)",
+"subsystem":"Pyruvate metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.2.1.21,1.2.1.22"
+],
+"GENE ASSOCIATION":[
+"(PA3629 or PA5312 or PA0219)"
+]
+}
+},
+{
+"id":"rxn00159",
+"name":"malic enzyme (NAD)",
+"metabolites":{
+"cpd00003_c":-1.0,
+"cpd00004_c":1.0,
+"cpd00011_c":1.0,
+"cpd00020_c":1.0,
+"cpd00130_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":0.0,
+"gene_reaction_rule":"(PA5046 or PA3471)",
+"subsystem":"Pyruvate metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.38, 1.1.1.39"
+],
+"GENE ASSOCIATION":[
+"(PA5046 or PA3471)"
+]
+}
+},
+{
+"id":"rxn00161",
+"name":"malic enzyme (NADP)",
+"metabolites":{
+"cpd00005_c":1.0,
+"cpd00006_c":-1.0,
+"cpd00011_c":1.0,
+"cpd00020_c":1.0,
+"cpd00130_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA5046 or PA3471)",
+"subsystem":"Pyruvate metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.38,1.1.1.39,1.1.1.40,4.1.1.3"
+],
+"GENE ASSOCIATION":[
+"(PA5046 or PA3471)"
+]
+}
+},
+{
+"id":"rxn00500",
+"name":"D-lactate dehydrogenase",
+"metabolites":{
+"cpd00003_c":-1.0,
+"cpd00004_c":1.0,
+"cpd00020_c":1.0,
+"cpd00067_c":1.0,
+"cpd00221_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA0927",
+"subsystem":"Pyruvate metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.28"
+],
+"GENE ASSOCIATION":[
+"PA0927"
+]
+}
+},
+{
+"id":"rxn00935",
+"name":"(S)-Malate(acceptor) oxidoreductase",
+"metabolites":{
+"cpd00015_c":-1.0,
+"cpd00032_c":1.0,
+"cpd00130_c":-1.0,
+"cpd00982_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3452 or PA4640",
+"subsystem":"Pyruvate metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.5.4,1.1.99.16"
+],
+"GENE ASSOCIATION":[
+"PA3452 or PA4640"
+]
+}
+},
+{
+"id":"rxn00225",
+"name":"acetate kinase",
+"metabolites":{
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00029_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd00196_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0836 or (PA3751 or PA0836))",
+"subsystem":"Pyruvate metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.7.2.1, 2.7.2.15"
+],
+"GENE ASSOCIATION":[
+"(PA0836 or (PA3751 or PA0836))"
+]
+}
+},
+{
+"id":"rxn00175",
+"name":"acetyl-CoA synthetase",
+"metabolites":{
+"cpd00002_c":-1.0,
+"cpd00010_c":-1.0,
+"cpd00012_c":1.0,
+"cpd00018_c":1.0,
+"cpd00022_c":1.0,
+"cpd00029_c":-1.0,
+"cpd00067_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA2555 or PA4733 or PA0887)",
+"subsystem":"Pyruvate metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"6.2.1.1"
+],
+"GENE ASSOCIATION":[
+"(PA2555 or PA4733 or PA0887)"
+]
+}
+},
+{
+"id":"rxn01834",
+"name":"lactoylglutathione lyase",
+"metabolites":{
+"cpd00042_c":1.0,
+"cpd00428_c":1.0,
+"cpd02182_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3524 or PA0710 or PA5111)",
+"subsystem":"Pyruvate metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.4.1.5"
+],
+"GENE ASSOCIATION":[
+"(PA3524 or PA0710 or PA5111)"
+]
+}
+},
+{
+"id":"rxn00148",
+"name":"pyruvate kinase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd00002_c":1.0,
+"cpd00009_c":-1.0,
+"cpd00018_c":-1.0,
+"cpd00020_c":1.0,
+"cpd00061_c":-1.0,
+"cpd00067_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4329 or PA1498)",
+"subsystem":"Pyruvate metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.7.1.40"
+],
+"GENE ASSOCIATION":[
+"(PA4329 or PA1498)"
+]
+}
+},
+{
+"id":"rxn00162",
+"name":"oxaloacetate decarboxylase;",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00020_c":1.0,
+"cpd00032_c":-1.0,
+"cpd00067_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA5435 and PA5436)",
+"subsystem":"Pyruvate metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.38, 1.1.1.40, 4.1.1.3"
+],
+"GENE ASSOCIATION":[
+"(PA5435 and PA5436)"
+]
+}
+},
+{
+"id":"rxn00147",
+"name":"phosphoenolpyruvate synthase",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00002_c":-1.0,
+"cpd00009_c":1.0,
+"cpd00018_c":1.0,
+"cpd00020_c":-1.0,
+"cpd00061_c":1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1770",
+"subsystem":"Pyruvate metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.7.9.2"
+],
+"GENE ASSOCIATION":[
+"PA1770"
+]
+}
+},
+{
+"id":"rxn06673",
+"name":"Acetyl-CoA:carbon-dioxide ligase (ADP-forming)",
+"metabolites":{
+"cpd00022_c":-1.0,
+"cpd00070_c":1.0,
+"cpd12543_c":-1.0,
+"cpd12848_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3639 and PA4847 and PA4848 and PA3112",
+"subsystem":"Pyruvate metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"6.4.1.2"
+],
+"GENE ASSOCIATION":[
+"PA3639 and PA4847 and PA4848 and PA3112"
+]
+}
+},
+{
+"id":"rxn09167",
+"name":"pyruvate oxidase",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00011_c":1.0,
+"cpd00020_c":-1.0,
+"cpd00029_c":1.0,
+"cpd15560_c":-1.0,
+"cpd15561_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5297",
+"subsystem":"Pyruvate metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.2.5.1"
+],
+"GENE ASSOCIATION":[
+"PA5297"
+]
+}
+},
+{
+"id":"rJB00266",
+"name":"pyruvate oxidase",
+"metabolites":{
+"cJB00125_c":1.0,
+"cpd00001_c":-1.0,
+"cpd00011_c":1.0,
+"cpd00020_c":-1.0,
+"cpd00029_c":1.0,
+"cpd01351_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5297",
+"subsystem":"Pyruvate metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.2.5.1"
+],
+"GENE ASSOCIATION":[
+"PA5297"
+]
+}
+}
+],
+"genes":[
+{
+"id":"PA0219",
+"name":""
+},
+{
+"id":"PA5312",
+"name":""
+},
+{
+"id":"PA4022",
+"name":""
+},
+{
+"id":"PA1984",
+"name":""
+},
+{
+"id":"PA5439",
+"name":""
+},
+{
+"id":"PA3183",
+"name":""
+},
+{
+"id":"PA3629",
+"name":""
+},
+{
+"id":"PA3471",
+"name":""
+},
+{
+"id":"PA5046",
+"name":""
+},
+{
+"id":"PA0927",
+"name":""
+},
+{
+"id":"PA4640",
+"name":""
+},
+{
+"id":"PA3452",
+"name":""
+},
+{
+"id":"PA3751",
+"name":""
+},
+{
+"id":"PA0836",
+"name":""
+},
+{
+"id":"PA4733",
+"name":""
+},
+{
+"id":"PA0887",
+"name":""
+},
+{
+"id":"PA2555",
+"name":""
+},
+{
+"id":"PA5111",
+"name":""
+},
+{
+"id":"PA0710",
+"name":""
+},
+{
+"id":"PA3524",
+"name":""
+},
+{
+"id":"PA1498",
+"name":""
+},
+{
+"id":"PA4329",
+"name":""
+},
+{
+"id":"PA5435",
+"name":""
+},
+{
+"id":"PA5436",
+"name":""
+},
+{
+"id":"PA1770",
+"name":""
+},
+{
+"id":"PA3112",
+"name":""
+},
+{
+"id":"PA4848",
+"name":""
+},
+{
+"id":"PA4847",
+"name":""
+},
+{
+"id":"PA3639",
+"name":""
+},
+{
+"id":"PA5297",
+"name":""
+}
+],
+"id":"",
+"compartments":{
+"c":"Cytoplasm"
+},
+"version":"1"
+}

@@ -1,0 +1,5472 @@
+{
+"metabolites":[
+{
+"id":"cpd00134_c",
+"name":"Palmitoyl-CoA",
+"compartment":"c",
+"charge":-3,
+"formula":"C37H63N7O17P3S"
+},
+{
+"id":"cpd01695_c",
+"name":"Myristoyl-CoA",
+"compartment":"c",
+"charge":-3,
+"formula":"C35H59N7O17P3S"
+},
+{
+"id":"cpd00003_c",
+"name":"NAD",
+"compartment":"c",
+"charge":-1,
+"formula":"C21H26N7O14P2"
+},
+{
+"id":"cpd00004_c",
+"name":"NADH",
+"compartment":"c",
+"charge":-2,
+"formula":"C21H27N7O14P2"
+},
+{
+"id":"cpd00067_c",
+"name":"H+",
+"compartment":"c",
+"charge":1,
+"formula":"H"
+},
+{
+"id":"cpd00001_c",
+"name":"H2O",
+"compartment":"c",
+"charge":0,
+"formula":"H2O"
+},
+{
+"id":"cpd00006_c",
+"name":"NADP",
+"compartment":"c",
+"charge":-2,
+"formula":"C21H26N7O17P3"
+},
+{
+"id":"cpd00005_c",
+"name":"NADPH",
+"compartment":"c",
+"charge":-3,
+"formula":"C21H27N7O17P3"
+},
+{
+"id":"cpd00010_c",
+"name":"CoA",
+"compartment":"c",
+"charge":-3,
+"formula":"C21H33N7O16P3S"
+},
+{
+"id":"cpd00011_c",
+"name":"CO2",
+"compartment":"c",
+"charge":0,
+"formula":"CO2"
+},
+{
+"id":"cpd00022_c",
+"name":"Acetyl-CoA",
+"compartment":"c",
+"charge":-3,
+"formula":"C23H35N7O17P3S"
+},
+{
+"id":"cpd00009_c",
+"name":"Phosphate",
+"compartment":"c",
+"charge":-2,
+"formula":"HO4P"
+},
+{
+"id":"cpd00007_c",
+"name":"O2",
+"compartment":"c",
+"charge":0,
+"formula":"O2"
+},
+{
+"id":"cpd11465_c",
+"name":"But-2-enoyl-[acyl-carrier protein]",
+"compartment":"c",
+"charge":-1,
+"formula":"C15H25N2O8PRS"
+},
+{
+"id":"cpd11464_c",
+"name":"Butyryl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C15H27N2O8PRS"
+},
+{
+"id":"cpd11475_c",
+"name":"(2E)-Decenoyl-[acp]",
+"compartment":"c",
+"charge":-1,
+"formula":"C21H37N2O8PRS"
+},
+{
+"id":"cpd11474_c",
+"name":"Decanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C21H39N2O8PRS"
+},
+{
+"id":"cpd11469_c",
+"name":"(2E)-Dodecenoyl-[acp]",
+"compartment":"c",
+"charge":-1,
+"formula":"C23H41N2O8PRS"
+},
+{
+"id":"cpd11468_c",
+"name":"Dodecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C23H43N2O8PRS"
+},
+{
+"id":"cpd11477_c",
+"name":"(2E)-Hexadecenoyl-[acp]",
+"compartment":"c",
+"charge":-1,
+"formula":"C27H49N2O8PRS"
+},
+{
+"id":"cpd11476_c",
+"name":"hexadecanoyl-acp",
+"compartment":"c",
+"charge":-1,
+"formula":"C27H51N2O8PRS"
+},
+{
+"id":"cpd11473_c",
+"name":"(2E)-Hexenoyl-[acp]",
+"compartment":"c",
+"charge":-1,
+"formula":"C17H29N2O8PRS"
+},
+{
+"id":"cpd11472_c",
+"name":"Hexanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C17H31N2O8PRS"
+},
+{
+"id":"cpd11471_c",
+"name":"(2E)-Octenoyl-[acp]",
+"compartment":"c",
+"charge":-1,
+"formula":"C19H33N2O8PRS"
+},
+{
+"id":"cpd11470_c",
+"name":"Octanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C19H35N2O8PRS"
+},
+{
+"id":"cpd11467_c",
+"name":"(2E)-Tetradecenoyl-[acp]",
+"compartment":"c",
+"charge":-1,
+"formula":"C25H45N2O8PRS"
+},
+{
+"id":"cpd11466_c",
+"name":"Myristoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C25H47N2O8PRS"
+},
+{
+"id":"cpd11482_c",
+"name":"(R)-3-Hydroxydecanoyl-[acyl-carrier protein]",
+"compartment":"c",
+"charge":-1,
+"formula":"C21H39N2O9PRS"
+},
+{
+"id":"cpd11487_c",
+"name":"3-oxodecanoyl-acp",
+"compartment":"c",
+"charge":-1,
+"formula":"C21H37N2O9PRS"
+},
+{
+"id":"cpd11510_c",
+"name":"10-methyl-trans-dodec-2-enoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C24H43N2O8PRS"
+},
+{
+"id":"cpd11511_c",
+"name":"10-methyl-dodecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C24H45N2O8PRS"
+},
+{
+"id":"cpd11560_c",
+"name":"10-methyl-trans-undec-2-enoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C23H41N2O8PRS"
+},
+{
+"id":"cpd11561_c",
+"name":"10-methyl-undecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C23H43N2O8PRS"
+},
+{
+"id":"cpd11535_c",
+"name":"11-methyl-trans-dodec-2-enoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C24H43N2O8PRS"
+},
+{
+"id":"cpd11536_c",
+"name":"11-methyl-dodecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C24H45N2O8PRS"
+},
+{
+"id":"cpd11514_c",
+"name":"12-methyl-trans-tetra-dec-2-enoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C26H47N2O8PRS"
+},
+{
+"id":"cpd11515_c",
+"name":"12-methyl-tetra-decanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C26H49N2O8PRS"
+},
+{
+"id":"cpd11564_c",
+"name":"12-methyl-trans-tridec-2-enoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C25H45N2O8PRS"
+},
+{
+"id":"cpd11565_c",
+"name":"12-methyl-tridecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C25H47N2O8PRS"
+},
+{
+"id":"cpd11539_c",
+"name":"13-methyl-trans-tetra-dec-2-enoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C26H47N2O8PRS"
+},
+{
+"id":"cpd11540_c",
+"name":"13-methyl-tetra-decanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C26H49N2O8PRS"
+},
+{
+"id":"cpd11518_c",
+"name":"14-methyl-trans-hexa-dec-2-enoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C28H51N2O8PRS"
+},
+{
+"id":"cpd11519_c",
+"name":"14-methyl-hexa-decanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C28H53N2O8PRS"
+},
+{
+"id":"cpd11568_c",
+"name":"14-methyl-trans-pentadec-2-enoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C27H49N2O8PRS"
+},
+{
+"id":"cpd11569_c",
+"name":"14-methyl-pentadecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C27H51N2O8PRS"
+},
+{
+"id":"cpd11543_c",
+"name":"15-methyl-trans-hexa-dec-2-enoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C28H51N2O8PRS"
+},
+{
+"id":"cpd11544_c",
+"name":"15-methyl-hexa-decanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C28H53N2O8PRS"
+},
+{
+"id":"cpd11498_c",
+"name":"4-methyl-trans-hex-2-enoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C18H31N2O8PRS"
+},
+{
+"id":"cpd11499_c",
+"name":"4-methyl-hexanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C18H33N2O8PRS"
+},
+{
+"id":"cpd11548_c",
+"name":"4-methyl-trans-pent-2-enoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C17H29N2O8PRS"
+},
+{
+"id":"cpd11549_c",
+"name":"4-methyl-pentanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C17H31N2O8PRS"
+},
+{
+"id":"cpd11523_c",
+"name":"5-methyl-trans-hex-2-enoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C18H31N2O8PRS"
+},
+{
+"id":"cpd11524_c",
+"name":"5-methyl-hexanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C18H33N2O8PRS"
+},
+{
+"id":"cpd11552_c",
+"name":"6-methyl-trans-hept-2-enoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C19H33N2O8PRS"
+},
+{
+"id":"cpd11553_c",
+"name":"6-methyl-heptanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C19H35N2O8PRS"
+},
+{
+"id":"cpd11502_c",
+"name":"6-methyl-trans-oct-2-enoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C20H35N2O8PRS"
+},
+{
+"id":"cpd11503_c",
+"name":"6-methyl-octanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C20H37N2O8PRS"
+},
+{
+"id":"cpd11527_c",
+"name":"7-methyl-trans-oct-2-enoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C20H35N2O8PRS"
+},
+{
+"id":"cpd11528_c",
+"name":"7-methyl-octanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C20H37N2O8PRS"
+},
+{
+"id":"cpd11506_c",
+"name":"8-methyl-trans-dec-2-enoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C22H39N2O8PRS"
+},
+{
+"id":"cpd11507_c",
+"name":"8-methyl-decanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C22H41N2O8PRS"
+},
+{
+"id":"cpd11556_c",
+"name":"8-methyl-trans-non-2-enoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C21H37N2O8PRS"
+},
+{
+"id":"cpd11557_c",
+"name":"8-methyl-nonanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C21H39N2O8PRS"
+},
+{
+"id":"cpd11531_c",
+"name":"9-methyl-trans-dec-2-enoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C22H39N2O8PRS"
+},
+{
+"id":"cpd11532_c",
+"name":"9-methyl-decanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C22H41N2O8PRS"
+},
+{
+"id":"cpd15239_c",
+"name":"Hexadecenoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C27H49N2O8PRS"
+},
+{
+"id":"cpd15277_c",
+"name":"Palmitoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C27H51N2O8PRS"
+},
+{
+"id":"cpd15294_c",
+"name":"Tetradecenoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C25H45N2O8PRS"
+},
+{
+"id":"cpd15572_c",
+"name":"trans-octadec-2-enoyl-[acyl-carrier protein]",
+"compartment":"c",
+"charge":-1,
+"formula":"C29H53N2O8PRS"
+},
+{
+"id":"cpd15268_c",
+"name":"Octadecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C29H55N2O8PRS"
+},
+{
+"id":"cpd11572_c",
+"name":"trans-Octodec-2-enoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C29H53N2O8PRS"
+},
+{
+"id":"cpd11573_c",
+"name":"Octodecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C29H55N2O8PRS"
+},
+{
+"id":"cpd01882_c",
+"name":"Isovaleryl-CoA",
+"compartment":"c",
+"charge":-3,
+"formula":"C26H41N7O17P3S"
+},
+{
+"id":"cpd11478_c",
+"name":"(R)-3-Hydroxybutanoyl-[acyl-carrier protein]",
+"compartment":"c",
+"charge":-1,
+"formula":"C15H27N2O9PRS"
+},
+{
+"id":"cpd11488_c",
+"name":"Acetoacetyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C15H25N2O9PRS"
+},
+{
+"id":"cpd11479_c",
+"name":"D-3-Hydroxyhexanoyl-[acp]",
+"compartment":"c",
+"charge":-1,
+"formula":"C17H31N2O9PRS"
+},
+{
+"id":"cpd11486_c",
+"name":"3-Oxohexanoyl-[acp]",
+"compartment":"c",
+"charge":-1,
+"formula":"C17H29N2O9PRS"
+},
+{
+"id":"cpd14938_c",
+"name":"3-Oxostearoyl-[acp]",
+"compartment":"c",
+"charge":0,
+"formula":"C18H33O2RS"
+},
+{
+"id":"cpd17051_c",
+"name":"(3R)-3-Hydroxyoctadecanoyl-[acyl-carrier protein]",
+"compartment":"c",
+"charge":0,
+"formula":"C18H35O2X"
+},
+{
+"id":"cpd11483_c",
+"name":"(R)-3-Hydroxyoctanoyl-[acyl-carrier protein]",
+"compartment":"c",
+"charge":-1,
+"formula":"C19H35N2O9PRS"
+},
+{
+"id":"cpd11490_c",
+"name":"3-oxooctanoyl-acp",
+"compartment":"c",
+"charge":-1,
+"formula":"C19H33N2O9PRS"
+},
+{
+"id":"cpd11481_c",
+"name":"R-3-hydroxypalmitoyl-acyl-carrierprotein-",
+"compartment":"c",
+"charge":-1,
+"formula":"C27H51N2O9PRS"
+},
+{
+"id":"cpd11485_c",
+"name":"3-oxohexadecanoyl-acp",
+"compartment":"c",
+"charge":-1,
+"formula":"C27H49N2O9PRS"
+},
+{
+"id":"cpd11508_c",
+"name":"10-methyl-3-oxo-dodecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C24H43N2O9PRS"
+},
+{
+"id":"cpd11509_c",
+"name":"10-methyl-3-hydroxy-dodecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C24H45N2O9PRS"
+},
+{
+"id":"cpd11558_c",
+"name":"10-methyl-3-oxo-undecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C23H41N2O9PRS"
+},
+{
+"id":"cpd11559_c",
+"name":"10-methyl-3-hydroxy-undecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C23H43N2O9PRS"
+},
+{
+"id":"cpd11533_c",
+"name":"11-methyl-3-oxo-dodecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C24H43N2O9PRS"
+},
+{
+"id":"cpd11534_c",
+"name":"11-methyl-3-hydroxy-dodecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C24H45N2O9PRS"
+},
+{
+"id":"cpd11512_c",
+"name":"12-methyl-3-oxo-tetra-decanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C26H47N2O9PRS"
+},
+{
+"id":"cpd11513_c",
+"name":"12-methyl-3-hydroxy-tetra-decanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C26H49N2O9PRS"
+},
+{
+"id":"cpd11562_c",
+"name":"12-methyl-3-oxo-tridecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C25H45N2O9PRS"
+},
+{
+"id":"cpd11563_c",
+"name":"12-methyl-3-hydroxy-tridecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C25H47N2O9PRS"
+},
+{
+"id":"cpd11537_c",
+"name":"13-methyl-3-oxo-tetra-decanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C26H47N2O9PRS"
+},
+{
+"id":"cpd11538_c",
+"name":"13-methyl-3-hydroxy-tetra-decanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C26H49N2O9PRS"
+},
+{
+"id":"cpd11516_c",
+"name":"14-methyl-3-oxo-hexa-decanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C28H51N2O9PRS"
+},
+{
+"id":"cpd11517_c",
+"name":"14-methyl-3-hydroxy-hexa-decanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C28H53N2O9PRS"
+},
+{
+"id":"cpd11566_c",
+"name":"14-methyl-3-oxo-pentadecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C27H49N2O9PRS"
+},
+{
+"id":"cpd11567_c",
+"name":"14-methyl-3-hydroxy-pentadecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C27H51N2O9PRS"
+},
+{
+"id":"cpd11541_c",
+"name":"15-methyl-3-oxo-hexa-decanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C28H51N2O9PRS"
+},
+{
+"id":"cpd11542_c",
+"name":"15-methyl-3-hydroxy-hexa-decanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C28H53N2O9PRS"
+},
+{
+"id":"cpd11570_c",
+"name":"3-Oxooctodecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C29H53N2O9PRS"
+},
+{
+"id":"cpd11571_c",
+"name":"3-Hydroxyoctodecanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C29H55N2O9PRS"
+},
+{
+"id":"cpd15376_c",
+"name":"3-oxo-cis-vacc-11-enoyl-[acyl-carrier protein]",
+"compartment":"c",
+"charge":-1,
+"formula":"C29H51N2O9PRS"
+},
+{
+"id":"cpd15370_c",
+"name":"(R)-3-hydroxy-cis-vacc-11-enoyl-[acyl-carrier protein]",
+"compartment":"c",
+"charge":-1,
+"formula":"C29H53N2O9PRS"
+},
+{
+"id":"cpd11480_c",
+"name":"D-3-Hydroxydodecanoyl-[acp]",
+"compartment":"c",
+"charge":-1,
+"formula":"C23H43N2O9PRS"
+},
+{
+"id":"cpd11489_c",
+"name":"3-oxododecanoyl-acp",
+"compartment":"c",
+"charge":-1,
+"formula":"C23H41N2O9PRS"
+},
+{
+"id":"cpd11484_c",
+"name":"HMA",
+"compartment":"c",
+"charge":-1,
+"formula":"C25H47N2O9PRS"
+},
+{
+"id":"cpd11491_c",
+"name":"3-oxotetradecanoyl-acp",
+"compartment":"c",
+"charge":-1,
+"formula":"C25H45N2O9PRS"
+},
+{
+"id":"cpd11496_c",
+"name":"4-methyl-3-oxo-hexanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C18H31N2O9PRS"
+},
+{
+"id":"cpd11497_c",
+"name":"4-methyl-3-hydroxy-hexanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C18H33N2O9PRS"
+},
+{
+"id":"cpd11546_c",
+"name":"4-methyl-3-oxo-pentanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C17H29N2O9PRS"
+},
+{
+"id":"cpd11547_c",
+"name":"4-methyl-3-hydroxy-pentanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C17H31N2O9PRS"
+},
+{
+"id":"cpd11521_c",
+"name":"5-methyl-3-oxo-hexanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C18H31N2O9PRS"
+},
+{
+"id":"cpd11522_c",
+"name":"5-methyl-3-hydroxy-hexanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C18H33N2O9PRS"
+},
+{
+"id":"cpd11550_c",
+"name":"6-methyl-3-oxo-heptanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C19H33N2O9PRS"
+},
+{
+"id":"cpd11551_c",
+"name":"6-methyl-3-hydroxy-heptanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C19H35N2O9PRS"
+},
+{
+"id":"cpd11500_c",
+"name":"6-methyl-3-oxo-octanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C20H35N2O9PRS"
+},
+{
+"id":"cpd11501_c",
+"name":"6-methyl-3-hydroxy-octanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C20H37N2O9PRS"
+},
+{
+"id":"cpd11525_c",
+"name":"7-methyl-3-oxo-octanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C20H35N2O9PRS"
+},
+{
+"id":"cpd11526_c",
+"name":"7-methyl-3-hydroxy-octanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C20H37N2O9PRS"
+},
+{
+"id":"cpd11504_c",
+"name":"8-methyl-3-oxo-decanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C22H39N2O9PRS"
+},
+{
+"id":"cpd11505_c",
+"name":"8-methyl-3-hydroxy-decanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C22H41N2O9PRS"
+},
+{
+"id":"cpd11554_c",
+"name":"8-methyl-3-oxo-nonanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C21H37N2O9PRS"
+},
+{
+"id":"cpd11555_c",
+"name":"8-methyl-3-hydroxy-nonanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C21H39N2O9PRS"
+},
+{
+"id":"cpd11529_c",
+"name":"9-methyl-3-oxo-decanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C22H39N2O9PRS"
+},
+{
+"id":"cpd11530_c",
+"name":"9-methyl-3-hydroxy-decanoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C22H41N2O9PRS"
+},
+{
+"id":"cpd15568_c",
+"name":"trans-3-cis-11-vacceoyl-[acyl-carrier protein]",
+"compartment":"c",
+"charge":-1,
+"formula":"C29H51N2O8PRS"
+},
+{
+"id":"cpd11825_c",
+"name":"Octadecenoyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C29H53N2O8PRS"
+},
+{
+"id":"cpd00002_c",
+"name":"ATP",
+"compartment":"c",
+"charge":-3,
+"formula":"C10H13N5O13P3"
+},
+{
+"id":"cpd00008_c",
+"name":"ADP",
+"compartment":"c",
+"charge":-2,
+"formula":"C10H13N5O10P2"
+},
+{
+"id":"cpd17091_c",
+"name":"trans,trans-2,3,4,5-tetradehydroacyl-CoA (C8)",
+"compartment":"c",
+"charge":0,
+"formula":"C29H42N7O17P3S"
+},
+{
+"id":"cpd17090_c",
+"name":"Trans-2,3-didehydroacyl-CoA (C8)",
+"compartment":"c",
+"charge":0,
+"formula":"C29H44N7O17P3S"
+},
+{
+"id":"cpd00760_c",
+"name":"2-Methylbutyryl-CoA",
+"compartment":"c",
+"charge":-3,
+"formula":"C26H41N7O17P3S"
+},
+{
+"id":"cpd00012_c",
+"name":"PPi",
+"compartment":"c",
+"charge":-2,
+"formula":"H2O7P2"
+},
+{
+"id":"cpd11493_c",
+"name":"ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C11H21N2O7PRS"
+},
+{
+"id":"cpd15327_c",
+"name":"1-hexadecanoyl-sn-glycerol_3-phosphate",
+"compartment":"c",
+"charge":-1,
+"formula":"C19H38O7P"
+},
+{
+"id":"cpd15329_c",
+"name":"1-octadecanoyl-sn-glycerol_3-phosphate",
+"compartment":"c",
+"charge":-1,
+"formula":"C21H42O7P"
+},
+{
+"id":"cpd11434_c",
+"name":"fa12coa",
+"compartment":"c",
+"charge":-3,
+"formula":"C38H65N7O17P3S"
+},
+{
+"id":"cpd11439_c",
+"name":"fa4coa",
+"compartment":"c",
+"charge":-3,
+"formula":"C36H61N7O17P3S"
+},
+{
+"id":"cpd11432_c",
+"name":"fa11coa",
+"compartment":"c",
+"charge":-3,
+"formula":"C38H65N7O17P3S"
+},
+{
+"id":"cpd11441_c",
+"name":"fa6coa",
+"compartment":"c",
+"charge":-3,
+"formula":"C37H63N7O17P3S"
+},
+{
+"id":"cpd11437_c",
+"name":"fa3coa",
+"compartment":"c",
+"charge":-3,
+"formula":"C36H61N7O17P3S"
+},
+{
+"id":"cpd11435_c",
+"name":"fa1coa",
+"compartment":"c",
+"charge":-3,
+"formula":"C35H59N7O17P3S"
+},
+{
+"id":"cpd00327_c",
+"name":"strcoa",
+"compartment":"c",
+"charge":-3,
+"formula":"C39H67N7O17P3S"
+},
+{
+"id":"cpd11492_c",
+"name":"Malonyl-acyl-carrierprotein-",
+"compartment":"c",
+"charge":-2,
+"formula":"C14H22N2O10PRS"
+},
+{
+"id":"cpd11494_c",
+"name":"Acetyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C13H23N2O8PRS"
+},
+{
+"id":"cpd00052_c",
+"name":"CTP",
+"compartment":"c",
+"charge":-3,
+"formula":"C9H13N3O14P3"
+},
+{
+"id":"cPY00120_c",
+"name":"pa160161",
+"compartment":"c",
+"charge":0,
+"formula":"C35H65O8P1"
+},
+{
+"id":"cPY00125_c",
+"name":"pa180181",
+"compartment":"c",
+"charge":0,
+"formula":"C39H73O8P1"
+},
+{
+"id":"cpd17046_c",
+"name":"2-hydroxydodecanoyl-[acyl-carrier protein]",
+"compartment":"c",
+"charge":0,
+"formula":"C12H23O2X"
+},
+{
+"id":"cpd00054_c",
+"name":"L-Serine",
+"compartment":"c",
+"charge":0,
+"formula":"C3H7NO3"
+},
+{
+"id":"cpd00242_c",
+"name":"H2CO3",
+"compartment":"c",
+"charge":-1,
+"formula":"CHO3"
+},
+{
+"id":"cPY00121_c",
+"name":"CDP-pa160161",
+"compartment":"c",
+"charge":0,
+"formula":"C44H77N3O15P2"
+},
+{
+"id":"cpd00046_c",
+"name":"CMP",
+"compartment":"c",
+"charge":-1,
+"formula":"C9H13N3O8P"
+},
+{
+"id":"cPY00126_c",
+"name":"CDP-pa180181",
+"compartment":"c",
+"charge":0,
+"formula":"C48H85N3O15P2"
+},
+{
+"id":"cpd00070_c",
+"name":"Malonyl-CoA",
+"compartment":"c",
+"charge":-4,
+"formula":"C24H34N7O19P3S"
+},
+{
+"id":"cpd17047_c",
+"name":"S-2-hydroxymyristoyl-[acyl-carrier protein]",
+"compartment":"c",
+"charge":0,
+"formula":"C14H27O2X"
+},
+{
+"id":"cpd11545_c",
+"name":"isobutyryl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C15H27N2O8PRS"
+},
+{
+"id":"cpd11520_c",
+"name":"isovaleryl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C16H29N2O8PRS"
+},
+{
+"id":"cpd11495_c",
+"name":"2-methylbutyryl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C16H29N2O8PRS"
+},
+{
+"id":"cpd00481_c",
+"name":"Isobutyryl-CoA",
+"compartment":"c",
+"charge":-3,
+"formula":"C25H39N7O17P3S"
+},
+{
+"id":"cpd12543_c",
+"name":"Carboxybiotin-carboxyl-carrier protein",
+"compartment":"c",
+"charge":-1,
+"formula":"C18H26N5O6R2S"
+},
+{
+"id":"cpd12848_c",
+"name":"Holo-[carboxylase]",
+"compartment":"c",
+"charge":0,
+"formula":"C17H27N5O4R2S"
+},
+{
+"id":"cPY00122_c",
+"name":"ps160161",
+"compartment":"c",
+"charge":0,
+"formula":"C38H71N1O10P1"
+},
+{
+"id":"cPY00127_c",
+"name":"ps180181",
+"compartment":"c",
+"charge":0,
+"formula":"C42H79N1O10P1"
+}
+],
+"reactions":[
+{
+"id":"rxn05353",
+"name":"Butyryl-[acyl-carrier protein]malonyl-CoA",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11464_c":1.0,
+"cpd11465_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1470",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.10"
+],
+"GENE ASSOCIATION":[
+"PA1470"
+]
+}
+},
+{
+"id":"rxn05356",
+"name":"Decanoyl-[acyl-carrier protein]malonyl-CoA",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11474_c":1.0,
+"cpd11475_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1470",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.10,2.3.1.85"
+],
+"GENE ASSOCIATION":[
+"PA1470"
+]
+}
+},
+{
+"id":"rxn05355",
+"name":"Dodecanoyl-[acyl-carrier protein] malonyl-CoA",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11468_c":1.0,
+"cpd11469_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1470",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.10,2.3.1.85"
+],
+"GENE ASSOCIATION":[
+"PA1470"
+]
+}
+},
+{
+"id":"rxn05354",
+"name":"Hexadecanoyl-[acyl-carrier proteinmalonyl-CoA",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11476_c":1.0,
+"cpd11477_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1470",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.10,2.3.1.85"
+],
+"GENE ASSOCIATION":[
+"PA1470"
+]
+}
+},
+{
+"id":"rxn05357",
+"name":"Hexanoyl-[acyl-carrier protein]oxoacyl- and enoyl-reducing and",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11472_c":1.0,
+"cpd11473_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1470",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.10,2.3.1.85"
+],
+"GENE ASSOCIATION":[
+"PA1470"
+]
+}
+},
+{
+"id":"rxn05352",
+"name":"Octanoyl-[acyl-carrier protein]malonyl-CoA",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11470_c":1.0,
+"cpd11471_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1470",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.10,2.3.1.85"
+],
+"GENE ASSOCIATION":[
+"PA1470"
+]
+}
+},
+{
+"id":"rxn05351",
+"name":"Tetradecanoyl-[acyl-carrier protein]malonyl-CoA",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11466_c":1.0,
+"cpd11467_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1470",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.10,2.3.1.85"
+],
+"GENE ASSOCIATION":[
+"PA1470"
+]
+}
+},
+{
+"id":"rxn05338",
+"name":"(3R)-3-Hydroxydecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":1.0,
+"cpd00006_c":-1.0,
+"cpd00067_c":1.0,
+"cpd11482_c":-1.0,
+"cpd11487_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1610",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.100,2.3.1.85,2.3.1.86"
+],
+"GENE ASSOCIATION":[
+"PA1610"
+]
+}
+},
+{
+"id":"rxn05436",
+"name":"10-methyl-trans-dodec-2-enoyl-ACPNAD+ oxidoreductase (A-specific)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11510_c":-1.0,
+"cpd11511_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05448",
+"name":"10-methyl-trans-undec-2-enoyl-ACPNAD+ oxidoreductase (A-specific)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11560_c":-1.0,
+"cpd11561_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05442",
+"name":"11-methyl-trans-dodec-2-enoyl-ACPNAD+ oxidoreductase (A-specific)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11535_c":-1.0,
+"cpd11536_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05437",
+"name":"12-methyl-trans-tetra-dec-2-enoyl-ACPNAD+ oxidoreductase (A-specific)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11514_c":-1.0,
+"cpd11515_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05449",
+"name":"12-methyl-trans-tridec-2-enoyl-ACPNAD+ oxidoreductase (A-specific)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11564_c":-1.0,
+"cpd11565_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05443",
+"name":"13-methyl-trans-tetra-dec-2-enoyl-ACPNAD+ oxidoreductase (A-specific)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11539_c":-1.0,
+"cpd11540_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05438",
+"name":"14-methyl-trans-hexa-dec-2-enoyl-ACPNAD+ oxidoreductase (A-specific)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11518_c":-1.0,
+"cpd11519_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05450",
+"name":"14-methyl-trans-pentadec-2-enoyl-ACPNAD+ oxidoreductase (A-specific)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11568_c":-1.0,
+"cpd11569_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05444",
+"name":"15-methyl-trans-hexa-dec-2-enoyl-ACPNAD+ oxidoreductase (A-specific)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11543_c":-1.0,
+"cpd11544_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05433",
+"name":"4-methyl-trans-hex-2-enoyl-ACPNAD+ oxidoreductase (A-specific)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11498_c":-1.0,
+"cpd11499_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05445",
+"name":"4-methyl-trans-pent-2-enoyl-ACPNAD+ oxidoreductase (A-specific)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11548_c":-1.0,
+"cpd11549_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05439",
+"name":"5-methyl-trans-hex-2-enoyl-ACPNAD+ oxidoreductase (A-specific)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11523_c":-1.0,
+"cpd11524_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05446",
+"name":"6-methyl-trans-hept-2-enoyl-ACPNAD+ oxidoreductase (A-specific)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11552_c":-1.0,
+"cpd11553_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05434",
+"name":"6-methyl-trans-oct-2-enoyl-ACPNAD+ oxidoreductase (A-specific)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11502_c":-1.0,
+"cpd11503_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05440",
+"name":"7-methyl-trans-oct-2-enoyl-ACPNAD+ oxidoreductase (A-specific)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11527_c":-1.0,
+"cpd11528_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05435",
+"name":"8-methyl-trans-dec-2-enoyl-ACPNAD+ oxidoreductase (A-specific)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11506_c":-1.0,
+"cpd11507_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05447",
+"name":"8-methyl-trans-non-2-enoyl-ACPNAD+ oxidoreductase (A-specific)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11556_c":-1.0,
+"cpd11557_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05441",
+"name":"9-methyl-trans-dec-2-enoyl-ACPNAD+ oxidoreductase (A-specific)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11531_c":-1.0,
+"cpd11532_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05322",
+"name":"Butyryl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11464_c":1.0,
+"cpd11465_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.9,2.3.1.86"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05327",
+"name":"Decanoyl-[acyl-carrier protein]:malonyl-CoA  C-acyltransferase",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11474_c":1.0,
+"cpd11475_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.9,2.3.1.86"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05324",
+"name":"Dodecanoyl-[acyl-carrier protein]: malonyl-CoA  C-acyltransferase",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11468_c":1.0,
+"cpd11469_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.9,2.3.1.86"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn13838",
+"name":"Hexadecanoyl-[acyl-carrier protein]:malonyl-CoA  C-acyltransferase",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd15239_c":-1.0,
+"cpd15277_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05328",
+"name":"Hexadecanoyl-[acyl-carrier protein]malonyl-CoA",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11476_c":1.0,
+"cpd11477_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.9,2.3.1.86"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05326",
+"name":"Hexanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11472_c":1.0,
+"cpd11473_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.9,2.3.1.86"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn13850",
+"name":"Myristoyl-[acyl-carrier protein] synthase",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11466_c":1.0,
+"cpd15294_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn08396",
+"name":"Octadecanoyl-[acyl-carrier protein]:malonyl-CoA  C-acyltransferase",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd15268_c":1.0,
+"cpd15572_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05325",
+"name":"Octanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11470_c":1.0,
+"cpd11471_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.9,2.3.1.86"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05323",
+"name":"Tetradecanoyl-[acyl-carrier protein]malonyl-CoA",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11466_c":1.0,
+"cpd11467_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.9,2.3.1.86"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05464",
+"name":"trans-Octodec-2-enoyl-ACPNAD+ oxidoreductase (A-specific)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11572_c":-1.0,
+"cpd11573_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1806",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1806"
+]
+}
+},
+{
+"id":"rxn05339",
+"name":"(3R)-3-Hydroxybutanoyl-[acyl-carrier protein]:NADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":1.0,
+"cpd00006_c":-1.0,
+"cpd00067_c":1.0,
+"cpd11478_c":-1.0,
+"cpd11488_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.100,2.3.1.85,2.3.1.86"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05337",
+"name":"(3R)-3-Hydroxyhexanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":1.0,
+"cpd00006_c":-1.0,
+"cpd00067_c":1.0,
+"cpd11479_c":-1.0,
+"cpd11486_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.100,2.3.1.85,2.3.1.86"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05341",
+"name":"(3R)-3-Hydroxyoctanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":1.0,
+"cpd00006_c":-1.0,
+"cpd00067_c":1.0,
+"cpd11483_c":-1.0,
+"cpd11490_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.100,2.3.1.85,2.3.1.86"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05336",
+"name":"(3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein]:NADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":1.0,
+"cpd00006_c":-1.0,
+"cpd00067_c":1.0,
+"cpd11481_c":-1.0,
+"cpd11485_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.100,2.3.1.85,2.3.1.86"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05372",
+"name":"10-methyl-3-oxo-dodecanoyl-ACPNADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11508_c":-1.0,
+"cpd11509_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05422",
+"name":"10-methyl-3-oxo-undecanoyl-ACPNADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11558_c":-1.0,
+"cpd11559_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05397",
+"name":"11-methyl-3-oxo-dodecanoyl-ACPNADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11533_c":-1.0,
+"cpd11534_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05376",
+"name":"12-methyl-3-oxo-tetra-decanoyl-ACPNADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11512_c":-1.0,
+"cpd11513_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05426",
+"name":"12-methyl-3-oxo-tridecanoyl-ACPNADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11562_c":-1.0,
+"cpd11563_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05401",
+"name":"13-methyl-3-oxo-tetra-decanoyl-ACPNADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11537_c":-1.0,
+"cpd11538_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05380",
+"name":"14-methyl-3-oxo-hexa-decanoyl-ACPNADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11516_c":-1.0,
+"cpd11517_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05430",
+"name":"14-methyl-3-oxo-pentadecanoyl-ACPNADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11566_c":-1.0,
+"cpd11567_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05405",
+"name":"15-methyl-3-oxo-hexa-decanoyl-ACPNADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11541_c":-1.0,
+"cpd11542_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05461",
+"name":"3-Hydroxyoctodecanoyl-ACPNADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11570_c":-1.0,
+"cpd11571_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn07993",
+"name":"3-oxoacyl-[acyl-carrier-protein] reductase (n-C18:1)",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd15370_c":1.0,
+"cpd15376_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05340",
+"name":"3R)-3-Hydroxydodecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":1.0,
+"cpd00006_c":-1.0,
+"cpd00067_c":1.0,
+"cpd11480_c":-1.0,
+"cpd11489_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.100,2.3.1.85,2.3.1.86"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05342",
+"name":"3R)-3-Hydroxytetradecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":1.0,
+"cpd00006_c":-1.0,
+"cpd00067_c":1.0,
+"cpd11484_c":-1.0,
+"cpd11491_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.100,2.3.1.85,2.3.1.86"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05360",
+"name":"4-methyl-3-oxo-hexanoyl-ACPNADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11496_c":-1.0,
+"cpd11497_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05410",
+"name":"4-methyl-3-oxo-pentanoyl-ACPNADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11546_c":-1.0,
+"cpd11547_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05385",
+"name":"5-methyl-3-oxo-hexanoyl-ACPNADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11521_c":-1.0,
+"cpd11522_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05414",
+"name":"6-methyl-3-oxo-heptanoyl-ACPNADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11550_c":-1.0,
+"cpd11551_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05364",
+"name":"6-methyl-3-oxo-octanoyl-ACPNADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11500_c":-1.0,
+"cpd11501_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05389",
+"name":"7-methyl-3-oxo-octanoyl-ACPNADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11525_c":-1.0,
+"cpd11526_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05368",
+"name":"8-methyl-3-oxo-decanoyl-ACPNADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11504_c":-1.0,
+"cpd11505_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05418",
+"name":"8-methyl-3-oxo-nonanoyl-ACPNADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11554_c":-1.0,
+"cpd11555_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn05393",
+"name":"9-methyl-3-oxo-decanoyl-ACPNADP+ oxidoreductase",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11529_c":-1.0,
+"cpd11530_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2967",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2967"
+]
+}
+},
+{
+"id":"rxn13909",
+"name":"2,4-dienoyl-CoA reductase (C8)",
+"metabolites":{
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00067_c":-1.0,
+"cpd17090_c":1.0,
+"cpd17091_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3092 or PA4814)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.3.1.34"
+],
+"GENE ASSOCIATION":[
+"(PA3092 or PA4814)"
+]
+}
+},
+{
+"id":"rxn08002",
+"name":"3-oxoacyl-[acyl-carrier-protein] synthase (n-C18:1)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd15239_c":-1.0,
+"cpd15376_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA3333 and PA1373) or (PA2965 and PA3333))",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"((PA3333 and PA1373) or (PA2965 and PA3333))"
+]
+}
+},
+{
+"id":"rxn05349",
+"name":"acetyl-CoA[acyl-carrier-protein] S-acetyltransferase",
+"metabolites":{
+"cpd00010_c":1.0,
+"cpd00022_c":-1.0,
+"cpd11493_c":-1.0,
+"cpd11494_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA3333 and PA1373) or (PA2965 and PA3333))",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.179,2.3.1.180,2.3.1.38,2.3.1.41,2.3.1.85,2.3.1.86"
+],
+"GENE ASSOCIATION":[
+"((PA3333 and PA1373) or (PA2965 and PA3333))"
+]
+}
+},
+{
+"id":"rxn05331",
+"name":"(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11469_c":1.0,
+"cpd11480_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA3645) or PA1610)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.85,2.3.1.86,4.2.1.58,4.2.1.60,4.2.1.61"
+],
+"GENE ASSOCIATION":[
+"((PA3645) or PA1610)"
+]
+}
+},
+{
+"id":"rxn05333",
+"name":"(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11475_c":1.0,
+"cpd11482_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"((PA3645) or PA1610)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.85,2.3.1.86,4.2.1.58,4.2.1.60,4.2.1.61"
+],
+"GENE ASSOCIATION":[
+"((PA3645) or PA1610)"
+]
+}
+},
+{
+"id":"rPY00162",
+"name":"PA160161S",
+"metabolites":{
+"cPY00120_c":1.0,
+"cpd11493_c":1.0,
+"cpd15239_c":-1.0,
+"cpd15327_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0005) or (PA2537)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.51"
+],
+"GENE ASSOCIATION":[
+"(PA0005) or (PA2537)"
+]
+}
+},
+{
+"id":"rPY00167",
+"name":"PA180181S",
+"metabolites":{
+"cPY00125_c":1.0,
+"cpd11493_c":1.0,
+"cpd11825_c":-1.0,
+"cpd15329_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0005) or (PA2537)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.51"
+],
+"GENE ASSOCIATION":[
+"(PA0005) or (PA2537)"
+]
+}
+},
+{
+"id":"rxn08861",
+"name":"Malonyl-ACP decarboxylase",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11494_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1373 or PA2965)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.39, 2.3.1.85, 2.3.1.86"
+],
+"GENE ASSOCIATION":[
+"(PA1373 or PA2965)"
+]
+}
+},
+{
+"id":"rxn05334",
+"name":"((3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11471_c":1.0,
+"cpd11483_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1610 or (PA3645))",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.85,2.3.1.86,4.2.1.58,4.2.1.59,4.2.1.61"
+],
+"GENE ASSOCIATION":[
+"(PA1610 or (PA3645))"
+]
+}
+},
+{
+"id":"rxn05329",
+"name":"(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11465_c":1.0,
+"cpd11478_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1610 or (PA3645))",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.58"
+],
+"GENE ASSOCIATION":[
+"(PA1610 or (PA3645))"
+]
+}
+},
+{
+"id":"rxn05330",
+"name":"(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11473_c":1.0,
+"cpd11479_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1610 or (PA3645))",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.85,2.3.1.86,4.2.1.58"
+],
+"GENE ASSOCIATION":[
+"(PA1610 or (PA3645))"
+]
+}
+},
+{
+"id":"rxn13843",
+"name":"(3R)-3-Hydroxyoctadecanoyl-[acyl-carrier-protein] hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd15572_c":1.0,
+"cpd17051_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1610 or (PA3645))",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA1610 or (PA3645))"
+]
+}
+},
+{
+"id":"rxn13840",
+"name":"(3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11481_c":-1.0,
+"cpd15239_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1610 or (PA3645))",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.85, 2.3.1.86, 4.2.1.59"
+],
+"GENE ASSOCIATION":[
+"(PA1610 or (PA3645))"
+]
+}
+},
+{
+"id":"rxn13846",
+"name":"(3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11484_c":-1.0,
+"cpd15294_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1610 or (PA3645))",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA1610 or (PA3645))"
+]
+}
+},
+{
+"id":"rxn05332",
+"name":"(3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11477_c":1.0,
+"cpd11481_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.85,2.3.1.86,4.2.1.61"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05335",
+"name":"(3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11467_c":1.0,
+"cpd11484_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.85,2.3.1.86,4.2.1.61"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05373",
+"name":"10-methyl-3-hydroxy-dodecanoyl-ACP hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11509_c":-1.0,
+"cpd11510_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05423",
+"name":"10-methyl-3-hydroxy-undecanoyl-ACP hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11559_c":-1.0,
+"cpd11560_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05398",
+"name":"11-methyl-3-hydroxy-dodecanoyl-ACP hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11534_c":-1.0,
+"cpd11535_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05377",
+"name":"12-methyl-3-hydroxy-tetra-decanoyl-ACP hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11513_c":-1.0,
+"cpd11514_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05427",
+"name":"12-methyl-3-hydroxy-tridecanoyl-ACP hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11563_c":-1.0,
+"cpd11564_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05402",
+"name":"13-methyl-3-hydroxy-tetra-decanoyl-ACP hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11538_c":-1.0,
+"cpd11539_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05381",
+"name":"14-methyl-3-hydroxy-hexa-decanoyl-ACP hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11517_c":-1.0,
+"cpd11518_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05431",
+"name":"14-methyl-3-hydroxy-pentadecanoyl-ACP hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11567_c":-1.0,
+"cpd11568_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05406",
+"name":"15-methyl-3-hydroxy-hexa-decanoyl-ACP hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11542_c":-1.0,
+"cpd11543_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn07980",
+"name":"3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:1)",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd15370_c":-1.0,
+"cpd15568_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05361",
+"name":"4-methyl-3-hydroxy-hexanoyl-ACP hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11497_c":-1.0,
+"cpd11498_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05411",
+"name":"4-methyl-3-hydroxy-pentanoyl-ACP hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11547_c":-1.0,
+"cpd11548_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05386",
+"name":"5-methyl-3-hydroxy-hexanoyl-ACP hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11522_c":-1.0,
+"cpd11523_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05415",
+"name":"6-methyl-3-hydroxy-heptanoyl-ACP hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11551_c":-1.0,
+"cpd11552_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05365",
+"name":"6-methyl-3-hydroxy-octanoyl-ACP hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11501_c":-1.0,
+"cpd11502_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05390",
+"name":"7-methyl-3-hydroxy-octanoyl-ACP hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11526_c":-1.0,
+"cpd11527_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05369",
+"name":"8-methyl-3-hydroxy-decanoyl-ACP hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11505_c":-1.0,
+"cpd11506_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05419",
+"name":"8-methyl-3-hydroxy-nonanoyl-ACP hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11555_c":-1.0,
+"cpd11556_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05394",
+"name":"9-methyl-3-hydroxy-decanoyl-ACP hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11530_c":-1.0,
+"cpd11531_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rxn05462",
+"name":"trans-Octodec-2-enoyl-ACP hydro-lyase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd11571_c":-1.0,
+"cpd11572_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3645)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.0"
+],
+"GENE ASSOCIATION":[
+"(PA3645)"
+]
+}
+},
+{
+"id":"rPY00163",
+"name":"CDP-diacylglycerol synthetase (n-C16:0 16:1)",
+"metabolites":{
+"cPY00120_c":-1.0,
+"cPY00121_c":1.0,
+"cpd00012_c":1.0,
+"cpd00052_c":-1.0,
+"cpd00067_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3651) or (PA2536)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.7.7.41"
+],
+"GENE ASSOCIATION":[
+"(PA3651) or (PA2536)"
+]
+}
+},
+{
+"id":"rPY00168",
+"name":"CDP-diacylglycerol synthetase (n-C18:0 18:1)",
+"metabolites":{
+"cPY00125_c":-1.0,
+"cPY00126_c":1.0,
+"cpd00012_c":1.0,
+"cpd00052_c":-1.0,
+"cpd00067_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3651) or (PA2536)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.7.7.41"
+],
+"GENE ASSOCIATION":[
+"(PA3651) or (PA2536)"
+]
+}
+},
+{
+"id":"rxn13792",
+"name":"S-2-hydroxylauroyl-ACP synthase",
+"metabolites":{
+"cpd00007_c":-0.5,
+"cpd11468_c":-1.0,
+"cpd17046_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4512 or PA0936)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA4512 or PA0936)"
+]
+}
+},
+{
+"id":"rxn13793",
+"name":"S-2-hydroxymyristoyl-ACP synthase",
+"metabolites":{
+"cpd00007_c":-0.5,
+"cpd11466_c":-1.0,
+"cpd17047_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4512 or PA0936)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA4512 or PA0936)"
+]
+}
+},
+{
+"id":"rxn05347",
+"name":"Acyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11488_c":1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11494_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA5174 or PA2965 or PA1609)",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.41,2.3.1.85,2.3.1.86,2.3.1.179,2.3.1.180"
+],
+"GENE ASSOCIATION":[
+"(PA5174 or PA2965 or PA1609)"
+]
+}
+},
+{
+"id":"rxn05375",
+"name":"10-methyl-dodecanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11511_c":-1.0,
+"cpd11512_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05425",
+"name":"10-methyl-undecanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11561_c":-1.0,
+"cpd11562_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05400",
+"name":"11-methyl-dodecanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11536_c":-1.0,
+"cpd11537_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05379",
+"name":"12-methyl-tetra-decanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11515_c":-1.0,
+"cpd11516_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05429",
+"name":"12-methyl-tridecanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11565_c":-1.0,
+"cpd11566_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05404",
+"name":"13-methyl-tetra-decanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11540_c":-1.0,
+"cpd11541_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05409",
+"name":"2-methylpropionyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11545_c":-1.0,
+"cpd11546_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05384",
+"name":"3-methylbutanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11520_c":-1.0,
+"cpd11521_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05460",
+"name":"3-Oxooctodecanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11476_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11570_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05359",
+"name":"4-methyl-3-oxo-hexanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11495_c":-1.0,
+"cpd11496_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05363",
+"name":"4-methyl-hexanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11499_c":-1.0,
+"cpd11500_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05413",
+"name":"4-methyl-pentanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11549_c":-1.0,
+"cpd11550_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05388",
+"name":"5-methyl-hexanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11524_c":-1.0,
+"cpd11525_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05417",
+"name":"6-methyl-heptanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11553_c":-1.0,
+"cpd11554_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05367",
+"name":"6-methyl-octanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11503_c":-1.0,
+"cpd11504_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05392",
+"name":"7-methyl-octanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11528_c":-1.0,
+"cpd11529_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05371",
+"name":"8-methyl-decanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11507_c":-1.0,
+"cpd11508_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05421",
+"name":"8-methyl-nonanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11557_c":-1.0,
+"cpd11558_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05396",
+"name":"9-methyl-decanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd11532_c":-1.0,
+"cpd11533_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05346",
+"name":"Butyryl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein]C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11464_c":-1.0,
+"cpd11486_c":1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.41,2.3.1.85,2.3.1.86,2.3.1.179,2.3.1.180"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05348",
+"name":"Decanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11474_c":-1.0,
+"cpd11489_c":1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.41,2.3.1.85,2.3.1.86,2.3.1.179,2.3.1.180"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05345",
+"name":"Dodecanoyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein]  C-acyltransferase",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11468_c":-1.0,
+"cpd11491_c":1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.41,2.3.1.85,2.3.1.86,2.3.1.179,2.3.1.180"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn13851",
+"name":"Hexadecanoyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein]  C-acyltransferase",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0,
+"cpd14938_c":1.0,
+"cpd15277_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05350",
+"name":"Hexanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11472_c":-1.0,
+"cpd11490_c":1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.41,2.3.1.85,2.3.1.86,2.3.1.179,2.3.1.180"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05343",
+"name":"Octanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein]   C-acyltransferase (decarboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11470_c":-1.0,
+"cpd11487_c":1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.41,2.3.1.85,2.3.1.86,2.3.1.179,2.3.1.180"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05344",
+"name":"Tetradecanoyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein]  C-acyltransferase",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd11466_c":-1.0,
+"cpd11485_c":1.0,
+"cpd11492_c":-1.0,
+"cpd11493_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1609",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.41,2.3.1.85,2.3.1.86,2.3.1.179,2.3.1.180"
+],
+"GENE ASSOCIATION":[
+"PA1609"
+]
+}
+},
+{
+"id":"rxn05451",
+"name":"12-methyl-tetra-decanoyl-ACP[acyl-carrier-protein] transferase",
+"metabolites":{
+"cpd00010_c":-1.0,
+"cpd11439_c":1.0,
+"cpd11493_c":1.0,
+"cpd11515_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2968",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2968"
+]
+}
+},
+{
+"id":"rxn05455",
+"name":"12-methyl-tridecanoyl-ACP[acyl-carrier-protein] transferase",
+"metabolites":{
+"cpd00010_c":-1.0,
+"cpd11435_c":1.0,
+"cpd11493_c":1.0,
+"cpd11565_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2968",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2968"
+]
+}
+},
+{
+"id":"rxn05453",
+"name":"13-methyl-tetra-decanoyl-ACP[acyl-carrier-protein] transferase",
+"metabolites":{
+"cpd00010_c":-1.0,
+"cpd11437_c":1.0,
+"cpd11493_c":1.0,
+"cpd11540_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2968",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2968"
+]
+}
+},
+{
+"id":"rxn05452",
+"name":"14-methyl-hexa-decanoyl-ACP[acyl-carrier-protein] transferase",
+"metabolites":{
+"cpd00010_c":-1.0,
+"cpd11434_c":1.0,
+"cpd11493_c":1.0,
+"cpd11519_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2968",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2968"
+]
+}
+},
+{
+"id":"rxn05456",
+"name":"14-methyl-pentadecanoyl-ACP[acyl-carrier-protein] transferase",
+"metabolites":{
+"cpd00010_c":-1.0,
+"cpd11441_c":1.0,
+"cpd11493_c":1.0,
+"cpd11569_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2968",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2968"
+]
+}
+},
+{
+"id":"rxn05454",
+"name":"15-methyl-hexa-decanoyl-ACP[acyl-carrier-protein] transferase",
+"metabolites":{
+"cpd00010_c":-1.0,
+"cpd11432_c":1.0,
+"cpd11493_c":1.0,
+"cpd11544_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2968",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2968"
+]
+}
+},
+{
+"id":"rxn05358",
+"name":"2-methylbutanoyl-CoA[acyl-carrier-protein] transferase",
+"metabolites":{
+"cpd00010_c":1.0,
+"cpd00760_c":-1.0,
+"cpd11493_c":-1.0,
+"cpd11495_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2968",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2968"
+]
+}
+},
+{
+"id":"rxn05408",
+"name":"2-methylpropionyl-CoA[acyl-carrier-protein] transferase",
+"metabolites":{
+"cpd00010_c":1.0,
+"cpd00481_c":-1.0,
+"cpd11493_c":-1.0,
+"cpd11545_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2968",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2968"
+]
+}
+},
+{
+"id":"rxn05383",
+"name":"3-methylbutanoyl-CoA[acyl-carrier-protein] transferase",
+"metabolites":{
+"cpd00010_c":1.0,
+"cpd01882_c":-1.0,
+"cpd11493_c":-1.0,
+"cpd11520_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2968",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0"
+],
+"GENE ASSOCIATION":[
+"PA2968"
+]
+}
+},
+{
+"id":"rxn05458",
+"name":"hexadecanoyl-ACP[acyl-carrier-protein] transferase",
+"metabolites":{
+"cpd00010_c":-1.0,
+"cpd00134_c":1.0,
+"cpd11476_c":-1.0,
+"cpd11493_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2968",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.2"
+],
+"GENE ASSOCIATION":[
+"PA2968"
+]
+}
+},
+{
+"id":"rxn05465",
+"name":"Malonyl-CoA-ACP transacylase",
+"metabolites":{
+"cpd00010_c":1.0,
+"cpd00070_c":-1.0,
+"cpd11492_c":1.0,
+"cpd11493_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2968",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.0,2.3.1.39,2.3.1.85,2.3.1.86"
+],
+"GENE ASSOCIATION":[
+"PA2968"
+]
+}
+},
+{
+"id":"rxn05459",
+"name":"stearyl-ACP[acyl-carrier-protein] transferase",
+"metabolites":{
+"cpd00010_c":-1.0,
+"cpd00327_c":1.0,
+"cpd11493_c":1.0,
+"cpd11573_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2968",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.3"
+],
+"GENE ASSOCIATION":[
+"PA2968"
+]
+}
+},
+{
+"id":"rxn05457",
+"name":"tetradecanoyl-ACP[acyl-carrier-protein] transferase",
+"metabolites":{
+"cpd00010_c":-1.0,
+"cpd01695_c":1.0,
+"cpd11466_c":-1.0,
+"cpd11493_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2968",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.1"
+],
+"GENE ASSOCIATION":[
+"PA2968"
+]
+}
+},
+{
+"id":"rxn08766",
+"name":"b-ketoacyl synthase",
+"metabolites":{
+"cpd00010_c":1.0,
+"cpd00011_c":1.0,
+"cpd00022_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd11488_c":1.0,
+"cpd11492_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3333",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.41, 2.3.1.85, 2.3.1.86, 2.3.1.179, 2.3.1.180"
+],
+"GENE ASSOCIATION":[
+"PA3333"
+]
+}
+},
+{
+"id":"rPY00164",
+"name":"Phosphatidylserine syntase (n-C16:0 16:1)",
+"metabolites":{
+"cPY00121_c":-1.0,
+"cPY00122_c":1.0,
+"cpd00046_c":1.0,
+"cpd00054_c":-1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4693",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.7.8.8"
+],
+"GENE ASSOCIATION":[
+"PA4693"
+]
+}
+},
+{
+"id":"rPY00169",
+"name":"Phosphatidylserine syntase (n-C18:0 18:1)",
+"metabolites":{
+"cPY00126_c":-1.0,
+"cPY00127_c":1.0,
+"cpd00046_c":1.0,
+"cpd00054_c":-1.0,
+"cpd00067_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4693",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.7.8.8"
+],
+"GENE ASSOCIATION":[
+"PA4693"
+]
+}
+},
+{
+"id":"rxn06672",
+"name":"Biotin carboxylase",
+"metabolites":{
+"cpd00002_c":-1.0,
+"cpd00008_c":1.0,
+"cpd00009_c":1.0,
+"cpd00067_c":1.0,
+"cpd00242_c":-1.0,
+"cpd12543_c":1.0,
+"cpd12848_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4848",
+"subsystem":"Fatty acid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"6.3.4.14"
+],
+"GENE ASSOCIATION":[
+"PA4848"
+]
+}
+}
+],
+"genes":[
+{
+"id":"PA1470",
+"name":""
+},
+{
+"id":"PA1610",
+"name":""
+},
+{
+"id":"PA1806",
+"name":""
+},
+{
+"id":"PA2967",
+"name":""
+},
+{
+"id":"PA4814",
+"name":""
+},
+{
+"id":"PA3092",
+"name":""
+},
+{
+"id":"PA2965",
+"name":""
+},
+{
+"id":"PA1373",
+"name":""
+},
+{
+"id":"PA3333",
+"name":""
+},
+{
+"id":"PA3645",
+"name":""
+},
+{
+"id":"PA0005",
+"name":""
+},
+{
+"id":"PA2537",
+"name":""
+},
+{
+"id":"PA2536",
+"name":""
+},
+{
+"id":"PA3651",
+"name":""
+},
+{
+"id":"PA4512",
+"name":""
+},
+{
+"id":"PA0936",
+"name":""
+},
+{
+"id":"PA1609",
+"name":""
+},
+{
+"id":"PA5174",
+"name":""
+},
+{
+"id":"PA2968",
+"name":""
+},
+{
+"id":"PA4693",
+"name":""
+},
+{
+"id":"PA4848",
+"name":""
+}
+],
+"id":"",
+"compartments":{
+"c":"Cytoplasm"
+},
+"version":"1"
+}

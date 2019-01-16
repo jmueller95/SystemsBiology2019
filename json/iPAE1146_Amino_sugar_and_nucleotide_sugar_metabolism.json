@@ -1,0 +1,488 @@
+{
+"metabolites":[
+{
+"id":"cpd00003_c",
+"name":"NAD",
+"compartment":"c",
+"charge":-1,
+"formula":"C21H26N7O14P2"
+},
+{
+"id":"cpd00004_c",
+"name":"NADH",
+"compartment":"c",
+"charge":-2,
+"formula":"C21H27N7O14P2"
+},
+{
+"id":"cpd00067_c",
+"name":"H+",
+"compartment":"c",
+"charge":1,
+"formula":"H"
+},
+{
+"id":"cpd00001_c",
+"name":"H2O",
+"compartment":"c",
+"charge":0,
+"formula":"H2O"
+},
+{
+"id":"cpd00006_c",
+"name":"NADP",
+"compartment":"c",
+"charge":-2,
+"formula":"C21H26N7O17P3"
+},
+{
+"id":"cpd00005_c",
+"name":"NADPH",
+"compartment":"c",
+"charge":-3,
+"formula":"C21H27N7O17P3"
+},
+{
+"id":"cpd00010_c",
+"name":"CoA",
+"compartment":"c",
+"charge":-3,
+"formula":"C21H33N7O16P3S"
+},
+{
+"id":"cpd00022_c",
+"name":"Acetyl-CoA",
+"compartment":"c",
+"charge":-3,
+"formula":"C23H35N7O17P3S"
+},
+{
+"id":"cpd00009_c",
+"name":"Phosphate",
+"compartment":"c",
+"charge":-2,
+"formula":"HO4P"
+},
+{
+"id":"cpd00029_c",
+"name":"Acetate",
+"compartment":"c",
+"charge":-1,
+"formula":"C2H3O2"
+},
+{
+"id":"cpd00175_c",
+"name":"UDP-N-acetyl-D-galactosamine",
+"compartment":"c",
+"charge":-2,
+"formula":"C17H25N3O17P2"
+},
+{
+"id":"cpd17092_c",
+"name":"UDP-N-acetyl fucosamine",
+"compartment":"c",
+"charge":0,
+"formula":"C17H25N3O16P2"
+},
+{
+"id":"cpd00773_c",
+"name":"UDP-MurNAc",
+"compartment":"c",
+"charge":-3,
+"formula":"C20H28N3O19P2"
+},
+{
+"id":"cpd02820_c",
+"name":"UDP-N-acetylglucosamine enolpyruvate",
+"compartment":"c",
+"charge":-3,
+"formula":"C20H26N3O19P2"
+},
+{
+"id":"cpd00012_c",
+"name":"PPi",
+"compartment":"c",
+"charge":-2,
+"formula":"H2O7P2"
+},
+{
+"id":"cpd11493_c",
+"name":"ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C11H21N2O7PRS"
+},
+{
+"id":"cpd11494_c",
+"name":"Acetyl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C13H23N2O8PRS"
+},
+{
+"id":"cpd00061_c",
+"name":"Phosphoenolpyruvate",
+"compartment":"c",
+"charge":-2,
+"formula":"C3H3O6P"
+},
+{
+"id":"cpd17094_c",
+"name":"UDP-N-acetyl-D-mannosamine (2NAc3N) acid",
+"compartment":"c",
+"charge":0,
+"formula":"C17H27O17N4P2"
+},
+{
+"id":"cpd17095_c",
+"name":"UDP-N-acetyl-D-manosamine (2NAc3NAc) acid",
+"compartment":"c",
+"charge":0,
+"formula":"C19H29O18N4P2"
+},
+{
+"id":"cpd00293_c",
+"name":"N-Acetyl-D-glucosamine 6-phosphate",
+"compartment":"c",
+"charge":-1,
+"formula":"C8H15NO9P"
+},
+{
+"id":"cpd00062_c",
+"name":"UTP",
+"compartment":"c",
+"charge":-3,
+"formula":"C9H12N2O15P3"
+},
+{
+"id":"cpd00037_c",
+"name":"UDP-N-acetylglucosamine",
+"compartment":"c",
+"charge":-2,
+"formula":"C17H25N3O17P2"
+},
+{
+"id":"cpd00288_c",
+"name":"D-Glucosamine phosphate",
+"compartment":"c",
+"charge":0,
+"formula":"C6H14NO8P"
+},
+{
+"id":"cpd03671_c",
+"name":"D-Glucosamine1-phosphate",
+"compartment":"c",
+"charge":0,
+"formula":"C6H14NO8P"
+},
+{
+"id":"cpd02611_c",
+"name":"N-Acetyl-D-glucosamine1-phosphate",
+"compartment":"c",
+"charge":-1,
+"formula":"C8H15NO9P"
+}
+],
+"reactions":[
+{
+"id":"rJB00277",
+"name":"UDP-N-acetyl fucosamine synthase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd00003_c":-1.0,
+"cpd00004_c":1.0,
+"cpd00067_c":-1.0,
+"cpd00175_c":-1.0,
+"cpd17092_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3158 and PA3146)",
+"subsystem":"Amino sugar and nucleotide sugar metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA3158 and PA3146)"
+]
+}
+},
+{
+"id":"rxn02285",
+"name":"UDP-N-acetylenolpyruvoylglucosamine reductase",
+"metabolites":{
+"cpd00005_c":1.0,
+"cpd00006_c":-1.0,
+"cpd00067_c":1.0,
+"cpd00773_c":-1.0,
+"cpd02820_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2977",
+"subsystem":"Amino sugar and nucleotide sugar metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.158"
+],
+"GENE ASSOCIATION":[
+"PA2977"
+]
+}
+},
+{
+"id":"rxn13913",
+"name":"UDP-N-acetyl-mannosamine (2NAc3N) acid acetylase",
+"metabolites":{
+"cpd11493_c":1.0,
+"cpd11494_c":-1.0,
+"cpd17094_c":-1.0,
+"cpd17095_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA3157 or PA3156)",
+"subsystem":"Amino sugar and nucleotide sugar metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA3157 or PA3156)"
+]
+}
+},
+{
+"id":"rxn00295",
+"name":"UDP-N-acetylglucosamine 4-epimerase",
+"metabolites":{
+"cpd00037_c":-1.0,
+"cpd00175_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3141",
+"subsystem":"Amino sugar and nucleotide sugar metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"5.1.3.7"
+],
+"GENE ASSOCIATION":[
+"PA3141"
+]
+}
+},
+{
+"id":"rxn01484",
+"name":"N-acetylglucosamine-6-phosphate deacetylase",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00029_c":1.0,
+"cpd00288_c":1.0,
+"cpd00293_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3758",
+"subsystem":"Amino sugar and nucleotide sugar metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"3.5.1.25"
+],
+"GENE ASSOCIATION":[
+"PA3758"
+]
+}
+},
+{
+"id":"rxn00461",
+"name":"UDP-N-acetylglucosamine 1-carboxyvinyltransferase",
+"metabolites":{
+"cpd00009_c":1.0,
+"cpd00037_c":-1.0,
+"cpd00061_c":-1.0,
+"cpd00067_c":1.0,
+"cpd02820_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4450",
+"subsystem":"Amino sugar and nucleotide sugar metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.5.1.7"
+],
+"GENE ASSOCIATION":[
+"PA4450"
+]
+}
+},
+{
+"id":"rxn01485",
+"name":"phosphoglucosamine mutase",
+"metabolites":{
+"cpd00288_c":1.0,
+"cpd03671_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4749",
+"subsystem":"Amino sugar and nucleotide sugar metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"5.4.2.10,5.4.2.2"
+],
+"GENE ASSOCIATION":[
+"PA4749"
+]
+}
+},
+{
+"id":"rxn03638",
+"name":"glucosamine-1-phosphate N-acetyltransferase",
+"metabolites":{
+"cpd00010_c":1.0,
+"cpd00022_c":-1.0,
+"cpd00067_c":1.0,
+"cpd02611_c":1.0,
+"cpd03671_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5552",
+"subsystem":"Amino sugar and nucleotide sugar metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.157,2.3.1.4"
+],
+"GENE ASSOCIATION":[
+"PA5552"
+]
+}
+},
+{
+"id":"rxn00293",
+"name":"UDP-N-acetylglucosamine diphosphorylase",
+"metabolites":{
+"cpd00012_c":1.0,
+"cpd00037_c":1.0,
+"cpd00062_c":-1.0,
+"cpd02611_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5552",
+"subsystem":"Amino sugar and nucleotide sugar metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.7.7.23"
+],
+"GENE ASSOCIATION":[
+"PA5552"
+]
+}
+}
+],
+"genes":[
+{
+"id":"PA3158",
+"name":""
+},
+{
+"id":"PA3146",
+"name":""
+},
+{
+"id":"PA2977",
+"name":""
+},
+{
+"id":"PA3156",
+"name":""
+},
+{
+"id":"PA3157",
+"name":""
+},
+{
+"id":"PA3141",
+"name":""
+},
+{
+"id":"PA3758",
+"name":""
+},
+{
+"id":"PA4450",
+"name":""
+},
+{
+"id":"PA4749",
+"name":""
+},
+{
+"id":"PA5552",
+"name":""
+}
+],
+"id":"",
+"compartments":{
+"c":"Cytoplasm"
+},
+"version":"1"
+}

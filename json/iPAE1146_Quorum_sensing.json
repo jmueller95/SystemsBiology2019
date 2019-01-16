@@ -1,0 +1,451 @@
+{
+"metabolites":[
+{
+"id":"cpd00015_c",
+"name":"FAD",
+"compartment":"c",
+"charge":-2,
+"formula":"C27H31N9O15P2"
+},
+{
+"id":"cpd00982_c",
+"name":"FADH2",
+"compartment":"c",
+"charge":-2,
+"formula":"C27H33N9O15P2"
+},
+{
+"id":"cpd00067_c",
+"name":"H+",
+"compartment":"c",
+"charge":1,
+"formula":"H"
+},
+{
+"id":"cpd03118_c",
+"name":"(S)-Hydroxydecanoyl-CoA",
+"compartment":"c",
+"charge":-3,
+"formula":"C31H51N7O18P3S"
+},
+{
+"id":"cpd00001_c",
+"name":"H2O",
+"compartment":"c",
+"charge":0,
+"formula":"H2O"
+},
+{
+"id":"cpd00010_c",
+"name":"CoA",
+"compartment":"c",
+"charge":-3,
+"formula":"C21H33N7O16P3S"
+},
+{
+"id":"cpd00011_c",
+"name":"CO2",
+"compartment":"c",
+"charge":0,
+"formula":"CO2"
+},
+{
+"id":"cpd00007_c",
+"name":"O2",
+"compartment":"c",
+"charge":0,
+"formula":"O2"
+},
+{
+"id":"cpd11464_c",
+"name":"Butyryl-ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C15H27N2O8PRS"
+},
+{
+"id":"cpd11482_c",
+"name":"(R)-3-Hydroxydecanoyl-[acyl-carrier protein]",
+"compartment":"c",
+"charge":-1,
+"formula":"C21H39N2O9PRS"
+},
+{
+"id":"cpd11487_c",
+"name":"3-oxodecanoyl-acp",
+"compartment":"c",
+"charge":-1,
+"formula":"C21H37N2O9PRS"
+},
+{
+"id":"cpd11489_c",
+"name":"3-oxododecanoyl-acp",
+"compartment":"c",
+"charge":-1,
+"formula":"C23H41N2O9PRS"
+},
+{
+"id":"cpd00017_c",
+"name":"S-Adenosyl-L-methionine",
+"compartment":"c",
+"charge":1,
+"formula":"C15H23N6O5S"
+},
+{
+"id":"cpd17078_c",
+"name":"2-heptyl-4-quinolone",
+"compartment":"c",
+"charge":0,
+"formula":"C16H21ON"
+},
+{
+"id":"cpd17085_c",
+"name":"2-heptyl-3-hydroxy-4-quinolone",
+"compartment":"c",
+"charge":0,
+"formula":"C16H21O2N"
+},
+{
+"id":"cpd11493_c",
+"name":"ACP",
+"compartment":"c",
+"charge":-1,
+"formula":"C11H21N2O7PRS"
+},
+{
+"id":"cpd00093_c",
+"name":"Anthranilate",
+"compartment":"c",
+"charge":-1,
+"formula":"C7H6NO2"
+},
+{
+"id":"cpd17082_c",
+"name":"N-(3-oxo-dodecanoyl)-L-homoserine lactone",
+"compartment":"c",
+"charge":0,
+"formula":"C16H27NO4"
+},
+{
+"id":"cpd00147_c",
+"name":"5-Methylthioadenosine",
+"compartment":"c",
+"charge":0,
+"formula":"C11H15N5O3S"
+},
+{
+"id":"cpd00211_c",
+"name":"Butyrate",
+"compartment":"c",
+"charge":-1,
+"formula":"C4H7O2"
+},
+{
+"id":"cpd01581_c",
+"name":"3-Oxododecanoate",
+"compartment":"c",
+"charge":-1,
+"formula":"C12H21O3"
+},
+{
+"id":"cpd16660_c",
+"name":"homoserine lactone",
+"compartment":"c",
+"formula":""
+},
+{
+"id":"cpd08635_c",
+"name":"N-Butyryl-L-homoserine lactone",
+"compartment":"c",
+"charge":0,
+"formula":"C8H13NO3"
+},
+{
+"id":"cJB00127_c",
+"name":"cis-2-Decenoic acid",
+"compartment":"c",
+"charge":-1,
+"formula":"C10H17O2"
+}
+],
+"reactions":[
+{
+"id":"rxn13925",
+"name":"probable FAD-dependent monooxygenase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd00007_c":-1.0,
+"cpd00015_c":1.0,
+"cpd00982_c":-1.0,
+"cpd17078_c":-1.0,
+"cpd17085_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2587",
+"subsystem":"Quorum sensing",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA2587"
+]
+}
+},
+{
+"id":"rxn13841",
+"name":"HHQ synthesis",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd00093_c":-1.0,
+"cpd11487_c":-1.0,
+"cpd11493_c":1.0,
+"cpd17078_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0996 and PA0997 and PA0998 and PA0999)",
+"subsystem":"Quorum sensing",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA0996 and PA0997 and PA0998 and PA0999)"
+]
+}
+},
+{
+"id":"rxn13855",
+"name":"N-(3-oxo-dodecanoyl)-L-homoserine lactone synthase",
+"metabolites":{
+"cpd00017_c":-1.0,
+"cpd00067_c":1.0,
+"cpd00147_c":1.0,
+"cpd11489_c":-1.0,
+"cpd11493_c":1.0,
+"cpd17082_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA1432",
+"subsystem":"Quorum sensing",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.184"
+],
+"GENE ASSOCIATION":[
+"PA1432"
+]
+}
+},
+{
+"id":"rxn13797",
+"name":"3-oxo-C12-homoserine lactone acylase",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00067_c":1.0,
+"cpd01581_c":1.0,
+"cpd16660_c":1.0,
+"cpd17082_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2385",
+"subsystem":"Quorum sensing",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA2385"
+]
+}
+},
+{
+"id":"rxn13813",
+"name":"C4-homoserine lactone acylase",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00067_c":1.0,
+"cpd00211_c":1.0,
+"cpd08635_c":-1.0,
+"cpd16660_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2385",
+"subsystem":"Quorum sensing",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA2385"
+]
+}
+},
+{
+"id":"rxn13860",
+"name":"N-butyryl-L-homoserine lactone synthase",
+"metabolites":{
+"cpd00017_c":-1.0,
+"cpd00067_c":1.0,
+"cpd00147_c":1.0,
+"cpd08635_c":1.0,
+"cpd11464_c":-1.0,
+"cpd11493_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3476",
+"subsystem":"Quorum sensing",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.3.1.184"
+],
+"GENE ASSOCIATION":[
+"PA3476"
+]
+}
+},
+{
+"id":"rJB00283",
+"name":"cis-2-Decenoic acid(DSF) synthase",
+"metabolites":{
+"cJB00127_c":1.0,
+"cpd00001_c":-1.0,
+"cpd00010_c":1.0,
+"cpd03118_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA0745",
+"subsystem":"Quorum sensing",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.17,RpfF"
+],
+"GENE ASSOCIATION":[
+"PA0745"
+]
+}
+},
+{
+"id":"rJB00284",
+"name":"cis-2-Decenoic acid(DSF) synthase",
+"metabolites":{
+"cJB00127_c":1.0,
+"cpd00001_c":-1.0,
+"cpd11482_c":-1.0,
+"cpd11493_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA0745",
+"subsystem":"Quorum sensing",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.2.1.17,RpfF"
+],
+"GENE ASSOCIATION":[
+"PA0745"
+]
+}
+}
+],
+"genes":[
+{
+"id":"PA2587",
+"name":""
+},
+{
+"id":"PA0996",
+"name":""
+},
+{
+"id":"PA0998",
+"name":""
+},
+{
+"id":"PA0999",
+"name":""
+},
+{
+"id":"PA0997",
+"name":""
+},
+{
+"id":"PA1432",
+"name":""
+},
+{
+"id":"PA2385",
+"name":""
+},
+{
+"id":"PA3476",
+"name":""
+},
+{
+"id":"PA0745",
+"name":""
+}
+],
+"id":"",
+"compartments":{
+"c":"Cytoplasm"
+},
+"version":"1"
+}

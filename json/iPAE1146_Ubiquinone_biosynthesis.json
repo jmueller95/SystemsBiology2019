@@ -1,0 +1,924 @@
+{
+"metabolites":[
+{
+"id":"cpd00067_c",
+"name":"H+",
+"compartment":"c",
+"charge":1,
+"formula":"H"
+},
+{
+"id":"cpd00001_c",
+"name":"H2O",
+"compartment":"c",
+"charge":0,
+"formula":"H2O"
+},
+{
+"id":"cpd00010_c",
+"name":"CoA",
+"compartment":"c",
+"charge":-3,
+"formula":"C21H33N7O16P3S"
+},
+{
+"id":"cpd00011_c",
+"name":"CO2",
+"compartment":"c",
+"charge":0,
+"formula":"CO2"
+},
+{
+"id":"cpd15561_c",
+"name":"Ubiquinol-8",
+"compartment":"c",
+"charge":0,
+"formula":"C49H76O4"
+},
+{
+"id":"cJB00125_c",
+"name":"Ubiquinol-9",
+"compartment":"c",
+"charge":0,
+"formula":"C54H84O4"
+},
+{
+"id":"cpd00007_c",
+"name":"O2",
+"compartment":"c",
+"charge":0,
+"formula":"O2"
+},
+{
+"id":"cpd00020_c",
+"name":"Pyruvate",
+"compartment":"c",
+"charge":-1,
+"formula":"C3H3O3"
+},
+{
+"id":"cpd00017_c",
+"name":"S-Adenosyl-L-methionine",
+"compartment":"c",
+"charge":1,
+"formula":"C15H23N6O5S"
+},
+{
+"id":"cpd00019_c",
+"name":"S-Adenosyl-homocysteine",
+"compartment":"c",
+"charge":0,
+"formula":"C14H20N6O5S"
+},
+{
+"id":"cpd11669_c",
+"name":"Ubiquinone",
+"compartment":"c",
+"charge":0,
+"formula":"C19H26O4"
+},
+{
+"id":"cpd00136_c",
+"name":"4-Hydroxybenzoate",
+"compartment":"c",
+"charge":-1,
+"formula":"C7H5O3"
+},
+{
+"id":"cpd00868_c",
+"name":"p-hydroxyphenylpyruvate",
+"compartment":"c",
+"charge":-1,
+"formula":"C9H7O4"
+},
+{
+"id":"cpd00012_c",
+"name":"PPi",
+"compartment":"c",
+"charge":-2,
+"formula":"H2O7P2"
+},
+{
+"id":"cpd00216_c",
+"name":"Chorismate",
+"compartment":"c",
+"charge":-2,
+"formula":"C10H8O6"
+},
+{
+"id":"cpd02021_c",
+"name":"Succinylbenzoyl-CoA",
+"compartment":"c",
+"charge":-4,
+"formula":"C32H40N7O20P3S"
+},
+{
+"id":"cpd00426_c",
+"name":"Homogentisate",
+"compartment":"c",
+"charge":-1,
+"formula":"C8H7O4"
+},
+{
+"id":"cpd03443_c",
+"name":"3-Octaprenyl-4-hydroxybenzoate",
+"compartment":"c",
+"charge":-1,
+"formula":"C47H69O3"
+},
+{
+"id":"cpd03444_c",
+"name":"2-Octaprenylphenol",
+"compartment":"c",
+"charge":0,
+"formula":"C46H70O"
+},
+{
+"id":"cpd00659_c",
+"name":"Nitrous oxide",
+"compartment":"c",
+"charge":1,
+"formula":"HN2O"
+},
+{
+"id":"cpd00658_c",
+"name":"Isochorismate",
+"compartment":"c",
+"charge":-2,
+"formula":"C10H8O6"
+},
+{
+"id":"cpd16768_c",
+"name":"2-nonaprenylphenol",
+"compartment":"c",
+"charge":0,
+"formula":"C51H78O"
+},
+{
+"id":"cpd16765_c",
+"name":"2-nonaprenyl-6-hydroxyphenol",
+"compartment":"c",
+"charge":0,
+"formula":"C51H78O2"
+},
+{
+"id":"cpd03445_c",
+"name":"2-Octaprenyl-6-hydroxyphenol",
+"compartment":"c",
+"charge":0,
+"formula":"C46H70O2"
+},
+{
+"id":"cpd16764_c",
+"name":"2-nonaprenyl-3-methyl-6-methoxy-1,4-benzoquinol",
+"compartment":"c",
+"charge":0,
+"formula":"C53H82O3"
+},
+{
+"id":"cJB00124_c",
+"name":"3-Demethylubiquinol-9",
+"compartment":"c",
+"charge":-1,
+"formula":"C53H82O4"
+},
+{
+"id":"cpd02295_c",
+"name":"1-4-Dihydroxy-2-naphthoate",
+"compartment":"c",
+"charge":-1,
+"formula":"C11H7O4"
+},
+{
+"id":"cpd16767_c",
+"name":"2-nonaprenyl-6-methoxyphenol",
+"compartment":"c",
+"charge":0,
+"formula":"C52H80O2"
+},
+{
+"id":"cpd15360_c",
+"name":"2-Octaprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinol",
+"compartment":"c",
+"charge":0,
+"formula":"C48H74O4"
+},
+{
+"id":"cpd03446_c",
+"name":"2-Octaprenyl-6-methoxyphenol",
+"compartment":"c",
+"charge":0,
+"formula":"C47H72O2"
+},
+{
+"id":"cpd00528_c",
+"name":"N2",
+"compartment":"c",
+"charge":0,
+"formula":"N2"
+},
+{
+"id":"cpd02419_c",
+"name":"Nonaprenyl-4-hydroxybenzoate",
+"compartment":"c",
+"charge":-1,
+"formula":"C52H77O3"
+},
+{
+"id":"cpd02557_c",
+"name":"Farnesylfarnesylgeraniol",
+"compartment":"c",
+"charge":-2,
+"formula":"C40H66O7P2"
+},
+{
+"id":"cpd02172_c",
+"name":"Solanesyl diphosphate",
+"compartment":"c",
+"charge":-2,
+"formula":"C45H74O7P2"
+},
+{
+"id":"cpd16766_c",
+"name":"2-nonaprenyl-6-methoxy-1,4-benzoquinol",
+"compartment":"c",
+"charge":0,
+"formula":"C52H80O3"
+},
+{
+"id":"cpd15359_c",
+"name":"2-Octaprenyl-6-methoxy-1,4-benzoquinol",
+"compartment":"c",
+"charge":0,
+"formula":"C47H72O3"
+},
+{
+"id":"cpd15361_c",
+"name":"2-Octaprenyl3-methyl-6-methoxy- 1,4-benzoquinol",
+"compartment":"c",
+"charge":0,
+"formula":"C48H74O3"
+}
+],
+"reactions":[
+{
+"id":"rxn01827",
+"name":"4-hydroxyphenylpyruvate dioxygenase",
+"metabolites":{
+"cpd00007_c":-1.0,
+"cpd00011_c":1.0,
+"cpd00426_c":1.0,
+"cpd00868_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0242 or PA0865)",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.13.11.27"
+],
+"GENE ASSOCIATION":[
+"(PA0242 or PA0865)"
+]
+}
+},
+{
+"id":"rxn03393",
+"name":"3-octaprenyl-4-hydroxybenzoate carboxy-lyase",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd03443_c":-1.0,
+"cpd03444_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0254 or PA5237)",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.1.1.-"
+],
+"GENE ASSOCIATION":[
+"(PA0254 or PA5237)"
+]
+}
+},
+{
+"id":"rxn13107",
+"name":"2-Nonaprenylphenol hydroxylase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd00007_c":-1.0,
+"cpd00067_c":-2.0,
+"cpd16765_c":1.0,
+"cpd16768_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA5236 or PA5065)",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.14.13.-"
+],
+"GENE ASSOCIATION":[
+"(PA5236 or PA5065)"
+]
+}
+},
+{
+"id":"rxn09044",
+"name":"2-Octaprenylphenol hydroxylase",
+"metabolites":{
+"cpd00007_c":-0.5,
+"cpd03444_c":-1.0,
+"cpd03445_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA5236 or PA5065)",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA5236 or PA5065)"
+]
+}
+},
+{
+"id":"rxn12880",
+"name":"5-demethoxyubiquinol hydroxylyase",
+"metabolites":{
+"cJB00124_c":1.0,
+"cpd00007_c":-1.0,
+"cpd16764_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA0655",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.14.-.-"
+],
+"GENE ASSOCIATION":[
+"PA0655"
+]
+}
+},
+{
+"id":"rxn02898",
+"name":"naphthoate synthase",
+"metabolites":{
+"cpd00010_c":1.0,
+"cpd02021_c":-1.0,
+"cpd02295_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2013",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.1.3.36"
+],
+"GENE ASSOCIATION":[
+"PA2013"
+]
+}
+},
+{
+"id":"rxn12892",
+"name":"2-polyprenyl-6-hydroxyphenol methylase",
+"metabolites":{
+"cpd00017_c":-1.0,
+"cpd00019_c":1.0,
+"cpd16765_c":-1.0,
+"cpd16767_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3171",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.1.1.222"
+],
+"GENE ASSOCIATION":[
+"PA3171"
+]
+}
+},
+{
+"id":"rxn05003",
+"name":"3-demethylubiquinone-9 3-methyltransferase",
+"metabolites":{
+"cJB00124_c":-1.0,
+"cJB00125_c":1.0,
+"cpd00017_c":-1.0,
+"cpd00019_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3171",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.1.1.64"
+],
+"GENE ASSOCIATION":[
+"PA3171"
+]
+}
+},
+{
+"id":"rxn08353",
+"name":"3-Dimethylubiquinonol 3-methyltransferase",
+"metabolites":{
+"cpd00017_c":-1.0,
+"cpd00019_c":1.0,
+"cpd00067_c":1.0,
+"cpd15360_c":-1.0,
+"cpd15561_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3171",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA3171"
+]
+}
+},
+{
+"id":"rxn03395",
+"name":"R04988",
+"metabolites":{
+"cpd00017_c":-1.0,
+"cpd00019_c":1.0,
+"cpd00067_c":1.0,
+"cpd03445_c":-1.0,
+"cpd03446_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3171",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.1.1.64"
+],
+"GENE ASSOCIATION":[
+"PA3171"
+]
+}
+},
+{
+"id":"rxn13864",
+"name":"nitrous-oxide reductase precursor",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd00528_c":1.0,
+"cpd00659_c":-1.0,
+"cpd11669_c":1.0,
+"cpd15561_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3392",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA3392"
+]
+}
+},
+{
+"id":"rxn13044",
+"name":"nonaprenyl-4-hydroxybenzoate decarboxylase",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00067_c":-1.0,
+"cpd02419_c":-1.0,
+"cpd16768_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4019 or PA5237",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.1.1.-"
+],
+"GENE ASSOCIATION":[
+"PA4019 or PA5237"
+]
+}
+},
+{
+"id":"rxn01258",
+"name":"Isochorismate Synthase",
+"metabolites":{
+"cpd00216_c":-1.0,
+"cpd00658_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4231",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"5.4.4.2"
+],
+"GENE ASSOCIATION":[
+"PA4231"
+]
+}
+},
+{
+"id":"rxn12879",
+"name":"2-methoxy-6-polyprenyl-1,4-benzoquinol methylase",
+"metabolites":{
+"cpd00017_c":-1.0,
+"cpd00019_c":1.0,
+"cpd16764_c":1.0,
+"cpd16766_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5063",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.1.1.201"
+],
+"GENE ASSOCIATION":[
+"PA5063"
+]
+}
+},
+{
+"id":"rxn09039",
+"name":"2-Octaprenyl-6-methoxy-benzoquinol methylase",
+"metabolites":{
+"cpd00017_c":-1.0,
+"cpd00019_c":1.0,
+"cpd00067_c":1.0,
+"cpd15359_c":-1.0,
+"cpd15361_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5063",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA5063"
+]
+}
+},
+{
+"id":"rxn09040",
+"name":"2-Octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase",
+"metabolites":{
+"cpd00007_c":-0.5,
+"cpd15360_c":1.0,
+"cpd15361_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5221",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA5221"
+]
+}
+},
+{
+"id":"rxn13108",
+"name":"2-nonaprenyl-6-methoxyphenol hydroxylase",
+"metabolites":{
+"cpd00007_c":-1.0,
+"cpd16766_c":1.0,
+"cpd16767_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5223",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.14.3.-"
+],
+"GENE ASSOCIATION":[
+"PA5223"
+]
+}
+},
+{
+"id":"rxn09042",
+"name":"2-octaprenyl-6-methoxyphenol hydroxylase",
+"metabolites":{
+"cpd00007_c":-0.5,
+"cpd03446_c":-1.0,
+"cpd15359_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5223",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA5223"
+]
+}
+},
+{
+"id":"rxn00966",
+"name":"chorismate pyruvate lyase",
+"metabolites":{
+"cpd00020_c":1.0,
+"cpd00136_c":1.0,
+"cpd00216_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5357",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"4.1.3.40"
+],
+"GENE ASSOCIATION":[
+"PA5357"
+]
+}
+},
+{
+"id":"rxn03893",
+"name":"4-hydroxybenzoate octaprenyltransferase",
+"metabolites":{
+"cpd00012_c":1.0,
+"cpd00136_c":-1.0,
+"cpd02557_c":-1.0,
+"cpd03443_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5358",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.5.1.-"
+],
+"GENE ASSOCIATION":[
+"PA5358"
+]
+}
+},
+{
+"id":"rxn05034",
+"name":"4-hydroxybenzoate polyprenyltransferase",
+"metabolites":{
+"cpd00012_c":1.0,
+"cpd00136_c":-1.0,
+"cpd02172_c":-1.0,
+"cpd02419_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA5358",
+"subsystem":"Ubiquinone biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.5.1.39"
+],
+"GENE ASSOCIATION":[
+"PA5358"
+]
+}
+}
+],
+"genes":[
+{
+"id":"PA0242",
+"name":""
+},
+{
+"id":"PA0865",
+"name":""
+},
+{
+"id":"PA5237",
+"name":""
+},
+{
+"id":"PA0254",
+"name":""
+},
+{
+"id":"PA5065",
+"name":""
+},
+{
+"id":"PA5236",
+"name":""
+},
+{
+"id":"PA0655",
+"name":""
+},
+{
+"id":"PA2013",
+"name":""
+},
+{
+"id":"PA3171",
+"name":""
+},
+{
+"id":"PA3392",
+"name":""
+},
+{
+"id":"PA4019",
+"name":""
+},
+{
+"id":"PA4231",
+"name":""
+},
+{
+"id":"PA5063",
+"name":""
+},
+{
+"id":"PA5221",
+"name":""
+},
+{
+"id":"PA5223",
+"name":""
+},
+{
+"id":"PA5357",
+"name":""
+},
+{
+"id":"PA5358",
+"name":""
+}
+],
+"id":"",
+"compartments":{
+"c":"Cytoplasm"
+},
+"version":"1"
+}

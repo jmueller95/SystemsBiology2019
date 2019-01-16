@@ -1,0 +1,459 @@
+{
+"metabolites":[
+{
+"id":"cpd00015_c",
+"name":"FAD",
+"compartment":"c",
+"charge":-2,
+"formula":"C27H31N9O15P2"
+},
+{
+"id":"cpd00982_c",
+"name":"FADH2",
+"compartment":"c",
+"charge":-2,
+"formula":"C27H33N9O15P2"
+},
+{
+"id":"cpd00003_c",
+"name":"NAD",
+"compartment":"c",
+"charge":-1,
+"formula":"C21H26N7O14P2"
+},
+{
+"id":"cpd00004_c",
+"name":"NADH",
+"compartment":"c",
+"charge":-2,
+"formula":"C21H27N7O14P2"
+},
+{
+"id":"cpd00067_c",
+"name":"H+",
+"compartment":"c",
+"charge":1,
+"formula":"H"
+},
+{
+"id":"cpd00001_c",
+"name":"H2O",
+"compartment":"c",
+"charge":0,
+"formula":"H2O"
+},
+{
+"id":"cpd00106_c",
+"name":"Fumarate",
+"compartment":"c",
+"charge":-2,
+"formula":"C4H2O4"
+},
+{
+"id":"cpd00007_c",
+"name":"O2",
+"compartment":"c",
+"charge":0,
+"formula":"O2"
+},
+{
+"id":"cpd00024_c",
+"name":"2-Oxoglutarate",
+"compartment":"c",
+"charge":-2,
+"formula":"C5H4O5"
+},
+{
+"id":"cpd00489_c",
+"name":"4-Hydroxyphenylacetate",
+"compartment":"c",
+"charge":-1,
+"formula":"C8H7O3"
+},
+{
+"id":"cpd00854_c",
+"name":"Homoprotocatechuate",
+"compartment":"c",
+"charge":-1,
+"formula":"C8H7O4"
+},
+{
+"id":"cpd03320_c",
+"name":"3-Hydroxyphenylacetate",
+"compartment":"c",
+"charge":0,
+"formula":"C8H8O3"
+},
+{
+"id":"cpd00023_c",
+"name":"L-Glutamate",
+"compartment":"c",
+"charge":-1,
+"formula":"C5H8NO4"
+},
+{
+"id":"cpd00142_c",
+"name":"Acetoacetate",
+"compartment":"c",
+"charge":-1,
+"formula":"C4H5O3"
+},
+{
+"id":"cpd00868_c",
+"name":"p-hydroxyphenylpyruvate",
+"compartment":"c",
+"charge":-1,
+"formula":"C9H7O4"
+},
+{
+"id":"cpd02828_c",
+"name":"5-Carboxymethyl-2-hydroxymuconic semialdehyde",
+"compartment":"c",
+"charge":-2,
+"formula":"C8H6O6"
+},
+{
+"id":"cpd02572_c",
+"name":"5-Carboxymethyl-2-hydroxymuconate",
+"compartment":"c",
+"charge":-3,
+"formula":"C8H5O7"
+},
+{
+"id":"cpd00426_c",
+"name":"Homogentisate",
+"compartment":"c",
+"charge":-1,
+"formula":"C8H7O4"
+},
+{
+"id":"cpd00763_c",
+"name":"4-Maleylacetoacetate",
+"compartment":"c",
+"charge":-2,
+"formula":"C8H6O6"
+},
+{
+"id":"cpd00780_c",
+"name":"Fumarylacetoacetate",
+"compartment":"c",
+"charge":-2,
+"formula":"C8H6O6"
+},
+{
+"id":"cpd00069_c",
+"name":"L-Tyrosine",
+"compartment":"c",
+"charge":0,
+"formula":"C9H11NO3"
+}
+],
+"reactions":[
+{
+"id":"rxn01945",
+"name":"4-hydroxyphenylacetate 3-monooxygenase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00007_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd00489_c":-1.0,
+"cpd00854_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4091 and PA4092)",
+"subsystem":"Tyrosine metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.14.14.9"
+],
+"GENE ASSOCIATION":[
+"(PA4091 and PA4092)"
+]
+}
+},
+{
+"id":"rJB00104",
+"name":"3-hydroxyphenylacetate-3-monooxygenase small chain",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd00007_c":-1.0,
+"cpd00015_c":1.0,
+"cpd00067_c":1.0,
+"cpd00854_c":1.0,
+"cpd00982_c":-1.0,
+"cpd03320_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4091) and (PA4092)",
+"subsystem":"Tyrosine metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.14.14.9"
+],
+"GENE ASSOCIATION":[
+"(PA4091) and (PA4092)"
+]
+}
+},
+{
+"id":"rxn03055",
+"name":"5-carboxy-2-hydroxymuconate semialdehyde dehydrogenase",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00003_c":-1.0,
+"cpd00004_c":1.0,
+"cpd00067_c":2.0,
+"cpd02572_c":1.0,
+"cpd02828_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4123",
+"subsystem":"Tyrosine metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.2.1.45,1.2.1.60"
+],
+"GENE ASSOCIATION":[
+"PA4123"
+]
+}
+},
+{
+"id":"rxn02276",
+"name":"maleylacetoacetate isomerase",
+"metabolites":{
+"cpd00763_c":-1.0,
+"cpd00780_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1655 or PA2007 or PA2473 or PA3035)",
+"subsystem":"Tyrosine metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"5.2.1.2"
+],
+"GENE ASSOCIATION":[
+"(PA1655 or PA2007 or PA2473 or PA3035)"
+]
+}
+},
+{
+"id":"rxn00527",
+"name":"tyrosine transaminase",
+"metabolites":{
+"cpd00023_c":1.0,
+"cpd00024_c":-1.0,
+"cpd00069_c":-1.0,
+"cpd00868_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4722 or PA3798 or PA4132 or PA2032 or PA2828 or PA2897 or PA3659)",
+"subsystem":"Tyrosine metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.6.1.1,2.6.1.1 or 2.6.1.9,2.6.1.5,2.6.1.57,2.6.1.9"
+],
+"GENE ASSOCIATION":[
+"(PA4722 or PA3798 or PA4132 or PA2032 or PA2828 or PA2897 or PA3659)"
+]
+}
+},
+{
+"id":"rxn00993",
+"name":"fumarylacetoacetase",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00067_c":1.0,
+"cpd00106_c":1.0,
+"cpd00142_c":1.0,
+"cpd00780_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2008",
+"subsystem":"Tyrosine metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"3.7.1.2"
+],
+"GENE ASSOCIATION":[
+"PA2008"
+]
+}
+},
+{
+"id":"rxn01825",
+"name":"homogentisate 1,2-dioxygenase",
+"metabolites":{
+"cpd00007_c":-1.0,
+"cpd00067_c":1.0,
+"cpd00426_c":-1.0,
+"cpd00763_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2009",
+"subsystem":"Tyrosine metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.13.11.5"
+],
+"GENE ASSOCIATION":[
+"PA2009"
+]
+}
+},
+{
+"id":"rxn02366",
+"name":"homoprotocatechuate 2,3-dioxygenase",
+"metabolites":{
+"cpd00007_c":-1.0,
+"cpd00067_c":1.0,
+"cpd00854_c":-1.0,
+"cpd02828_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4124",
+"subsystem":"Tyrosine metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.13.11.15"
+],
+"GENE ASSOCIATION":[
+"PA4124"
+]
+}
+}
+],
+"genes":[
+{
+"id":"PA4092",
+"name":""
+},
+{
+"id":"PA4091",
+"name":""
+},
+{
+"id":"PA4123",
+"name":""
+},
+{
+"id":"PA1655",
+"name":""
+},
+{
+"id":"PA2007",
+"name":""
+},
+{
+"id":"PA2473",
+"name":""
+},
+{
+"id":"PA3035",
+"name":""
+},
+{
+"id":"PA3798",
+"name":""
+},
+{
+"id":"PA4132",
+"name":""
+},
+{
+"id":"PA2828",
+"name":""
+},
+{
+"id":"PA3659",
+"name":""
+},
+{
+"id":"PA2032",
+"name":""
+},
+{
+"id":"PA2897",
+"name":""
+},
+{
+"id":"PA4722",
+"name":""
+},
+{
+"id":"PA2008",
+"name":""
+},
+{
+"id":"PA2009",
+"name":""
+},
+{
+"id":"PA4124",
+"name":""
+}
+],
+"id":"",
+"compartments":{
+"c":"Cytoplasm"
+},
+"version":"1"
+}

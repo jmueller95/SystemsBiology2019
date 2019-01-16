@@ -1,0 +1,521 @@
+{
+"metabolites":[
+{
+"id":"cpd00015_c",
+"name":"FAD",
+"compartment":"c",
+"charge":-2,
+"formula":"C27H31N9O15P2"
+},
+{
+"id":"cpd00982_c",
+"name":"FADH2",
+"compartment":"c",
+"charge":-2,
+"formula":"C27H33N9O15P2"
+},
+{
+"id":"cpd00003_c",
+"name":"NAD",
+"compartment":"c",
+"charge":-1,
+"formula":"C21H26N7O14P2"
+},
+{
+"id":"cpd00004_c",
+"name":"NADH",
+"compartment":"c",
+"charge":-2,
+"formula":"C21H27N7O14P2"
+},
+{
+"id":"cpd00067_c",
+"name":"H+",
+"compartment":"c",
+"charge":1,
+"formula":"H"
+},
+{
+"id":"cpd00001_c",
+"name":"H2O",
+"compartment":"c",
+"charge":0,
+"formula":"H2O"
+},
+{
+"id":"cpd00006_c",
+"name":"NADP",
+"compartment":"c",
+"charge":-2,
+"formula":"C21H26N7O17P3"
+},
+{
+"id":"cpd00005_c",
+"name":"NADPH",
+"compartment":"c",
+"charge":-3,
+"formula":"C21H27N7O17P3"
+},
+{
+"id":"cpd00095_c",
+"name":"Glycerone-phosphate",
+"compartment":"c",
+"charge":-1,
+"formula":"C3H6O6P"
+},
+{
+"id":"cpd00011_c",
+"name":"CO2",
+"compartment":"c",
+"charge":0,
+"formula":"CO2"
+},
+{
+"id":"cpd00067_e",
+"name":"H+",
+"compartment":"e",
+"charge":1,
+"formula":"H"
+},
+{
+"id":"cpd00041_c",
+"name":"L-Aspartate",
+"compartment":"c",
+"charge":-1,
+"formula":"C4H6NO4"
+},
+{
+"id":"cpd00009_c",
+"name":"Phosphate",
+"compartment":"c",
+"charge":-2,
+"formula":"HO4P"
+},
+{
+"id":"cpd02333_c",
+"name":"Quinolinate",
+"compartment":"c",
+"charge":-2,
+"formula":"C7H3NO4"
+},
+{
+"id":"cpd00007_c",
+"name":"O2",
+"compartment":"c",
+"charge":0,
+"formula":"O2"
+},
+{
+"id":"cpd00025_c",
+"name":"H2O2",
+"compartment":"c",
+"charge":0,
+"formula":"H2O2"
+},
+{
+"id":"cpd03470_c",
+"name":"Iminoaspartate",
+"compartment":"c",
+"charge":-2,
+"formula":"C4H3NO4"
+},
+{
+"id":"cpd00002_c",
+"name":"ATP",
+"compartment":"c",
+"charge":-3,
+"formula":"C10H13N5O13P3"
+},
+{
+"id":"cpd00008_c",
+"name":"ADP",
+"compartment":"c",
+"charge":-2,
+"formula":"C10H13N5O10P2"
+},
+{
+"id":"cpd00355_c",
+"name":"Nicotinamide ribonucleotide",
+"compartment":"c",
+"charge":0,
+"formula":"C11H15N2O8P"
+},
+{
+"id":"cpd00012_c",
+"name":"PPi",
+"compartment":"c",
+"charge":-2,
+"formula":"H2O7P2"
+},
+{
+"id":"cpd00638_c",
+"name":"Deamido-NAD",
+"compartment":"c",
+"charge":-2,
+"formula":"C21H24N6O15P2"
+},
+{
+"id":"cpd00103_c",
+"name":"PRPP",
+"compartment":"c",
+"charge":-3,
+"formula":"C5H10O14P3"
+},
+{
+"id":"cpd08325_c",
+"name":"NAC",
+"compartment":"c",
+"charge":0,
+"formula":"C17H18N2O2"
+},
+{
+"id":"cpd00873_c",
+"name":"Nicotinate ribonucleotide",
+"compartment":"c",
+"charge":-1,
+"formula":"C11H13NO9P"
+}
+],
+"reactions":[
+{
+"id":"rxn10125",
+"name":"NAD(P) transhydrogenase (membrane bound)",
+"metabolites":{
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00005_c":1.0,
+"cpd00006_c":-1.0,
+"cpd00067_c":2.0,
+"cpd00067_e":-2.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA0195 and PA0196)",
+"subsystem":"Nicotinate and nicotinamide metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.6.1.1"
+],
+"GENE ASSOCIATION":[
+"(PA0195 and PA0196)"
+]
+}
+},
+{
+"id":"rxn13812",
+"name":"L-aspartate oxidase",
+"metabolites":{
+"cpd00001_c":2.0,
+"cpd00009_c":1.0,
+"cpd00015_c":-1.0,
+"cpd00041_c":-1.0,
+"cpd00067_c":1.0,
+"cpd00095_c":-1.0,
+"cpd00982_c":1.0,
+"cpd02333_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1004 and PA0761)",
+"subsystem":"Nicotinate and nicotinamide metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA1004 and PA0761)"
+]
+}
+},
+{
+"id":"rxn00338",
+"name":"L-aspartate oxidase",
+"metabolites":{
+"cpd00007_c":-1.0,
+"cpd00025_c":1.0,
+"cpd00041_c":-1.0,
+"cpd00067_c":1.0,
+"cpd03470_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA0761",
+"subsystem":"Nicotinate and nicotinamide metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.4.3.16"
+],
+"GENE ASSOCIATION":[
+"PA0761"
+]
+}
+},
+{
+"id":"rxn00083",
+"name":"NAD transhydrogenase (soluble)",
+"metabolites":{
+"cpd00003_c":-1.0,
+"cpd00004_c":1.0,
+"cpd00005_c":-1.0,
+"cpd00006_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA2991",
+"subsystem":"Nicotinate and nicotinamide metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.6.1.1,1.6.1.2"
+],
+"GENE ASSOCIATION":[
+"PA2991"
+]
+}
+},
+{
+"id":"rxn00077",
+"name":"NAD kinase",
+"metabolites":{
+"cpd00002_c":-1.0,
+"cpd00003_c":-1.0,
+"cpd00006_c":1.0,
+"cpd00008_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3088",
+"subsystem":"Nicotinate and nicotinamide metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.7.1.23"
+],
+"GENE ASSOCIATION":[
+"PA3088"
+]
+}
+},
+{
+"id":"rxn00105",
+"name":"nicotinamide-nucleotide adenylyltransferase",
+"metabolites":{
+"cpd00002_c":-1.0,
+"cpd00003_c":1.0,
+"cpd00012_c":1.0,
+"cpd00355_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4006",
+"subsystem":"Nicotinate and nicotinamide metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.7.7.1,2.7.7.18"
+],
+"GENE ASSOCIATION":[
+"PA4006"
+]
+}
+},
+{
+"id":"rxn13859",
+"name":"NAPRTase",
+"metabolites":{
+"cpd00012_c":1.0,
+"cpd00067_c":-1.0,
+"cpd00103_c":-1.0,
+"cpd00873_c":1.0,
+"cpd08325_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA4919 or PA4376)",
+"subsystem":"Nicotinate and nicotinamide metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"6.3.4.21"
+],
+"GENE ASSOCIATION":[
+"(PA4919 or PA4376)"
+]
+}
+},
+{
+"id":"rxn02988",
+"name":"quinolinate synthase",
+"metabolites":{
+"cpd00001_c":-2.0,
+"cpd00009_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd00095_c":1.0,
+"cpd02333_c":-1.0,
+"cpd03470_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":0.0,
+"gene_reaction_rule":"PA1004",
+"subsystem":"Nicotinate and nicotinamide metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"Undetermined"
+],
+"GENE ASSOCIATION":[
+"PA1004"
+]
+}
+},
+{
+"id":"rxn02155",
+"name":"nicotinate-nucleotide adenylyltransferase",
+"metabolites":{
+"cpd00002_c":-1.0,
+"cpd00012_c":1.0,
+"cpd00638_c":1.0,
+"cpd00873_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4006",
+"subsystem":"Nicotinate and nicotinamide metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.7.7.1,2.7.7.18"
+],
+"GENE ASSOCIATION":[
+"PA4006"
+]
+}
+},
+{
+"id":"rxn02402",
+"name":"nicotinate-nucleotide diphosphorylase (carboxylating)",
+"metabolites":{
+"cpd00011_c":1.0,
+"cpd00012_c":1.0,
+"cpd00067_c":-2.0,
+"cpd00103_c":-1.0,
+"cpd00873_c":1.0,
+"cpd02333_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4524",
+"subsystem":"Nicotinate and nicotinamide metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.4.2.19"
+],
+"GENE ASSOCIATION":[
+"PA4524"
+]
+}
+}
+],
+"genes":[
+{
+"id":"PA0196",
+"name":""
+},
+{
+"id":"PA0195",
+"name":""
+},
+{
+"id":"PA1004",
+"name":""
+},
+{
+"id":"PA0761",
+"name":""
+},
+{
+"id":"PA2991",
+"name":""
+},
+{
+"id":"PA3088",
+"name":""
+},
+{
+"id":"PA4006",
+"name":""
+},
+{
+"id":"PA4919",
+"name":""
+},
+{
+"id":"PA4376",
+"name":""
+},
+{
+"id":"PA4524",
+"name":""
+}
+],
+"id":"",
+"compartments":{
+"c":"Cytoplasm",
+"e":"Extracellular"
+},
+"version":"1"
+}

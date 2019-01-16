@@ -1,0 +1,229 @@
+{
+"metabolites":[
+{
+"id":"cpd00001_c",
+"name":"H2O",
+"compartment":"c",
+"charge":0,
+"formula":"H2O"
+},
+{
+"id":"cpd00010_c",
+"name":"CoA",
+"compartment":"c",
+"charge":-3,
+"formula":"C21H33N7O16P3S"
+},
+{
+"id":"cpd00022_c",
+"name":"Acetyl-CoA",
+"compartment":"c",
+"charge":-3,
+"formula":"C23H35N7O17P3S"
+},
+{
+"id":"cpd00009_c",
+"name":"Phosphate",
+"compartment":"c",
+"charge":-2,
+"formula":"HO4P"
+},
+{
+"id":"cpd00036_c",
+"name":"Succinate",
+"compartment":"c",
+"charge":-2,
+"formula":"C4H4O4"
+},
+{
+"id":"cpd00020_c",
+"name":"Pyruvate",
+"compartment":"c",
+"charge":-1,
+"formula":"C3H3O3"
+},
+{
+"id":"cpd00078_c",
+"name":"Succinyl-CoA",
+"compartment":"c",
+"charge":-4,
+"formula":"C25H36N7O19P3S"
+},
+{
+"id":"cpd00380_c",
+"name":"Itaconate",
+"compartment":"c",
+"charge":-2,
+"formula":"C5H4O4"
+},
+{
+"id":"cpd00038_c",
+"name":"GTP",
+"compartment":"c",
+"charge":-3,
+"formula":"C10H13N5O14P3"
+},
+{
+"id":"cpd00031_c",
+"name":"GDP",
+"compartment":"c",
+"charge":-2,
+"formula":"C10H13N5O11P2"
+},
+{
+"id":"cpd00416_c",
+"name":"Itaconyl-CoA",
+"compartment":"c",
+"charge":-4,
+"formula":"C26H36N7O19P3S"
+},
+{
+"id":"cpd00743_c",
+"name":"L-Citramalyl-CoA",
+"compartment":"c",
+"charge":-4,
+"formula":"C26H38N7O20P3S"
+}
+],
+"reactions":[
+{
+"id":"rxn01732",
+"name":"Itaconyl-CoA synthetase",
+"metabolites":{
+"cpd00009_c":1.0,
+"cpd00010_c":-1.0,
+"cpd00031_c":1.0,
+"cpd00038_c":-1.0,
+"cpd00380_c":-1.0,
+"cpd00416_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"(PA1588 and PA1589)",
+"subsystem":"Carbon Metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"(PA1588 and PA1589)"
+]
+}
+},
+{
+"id":"rJB00258",
+"name":"Itaconyl-CoA hydratase",
+"metabolites":{
+"cpd00001_c":-1.0,
+"cpd00416_c":-1.0,
+"cpd00743_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA0878",
+"subsystem":"Carbon Metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA0878"
+]
+}
+},
+{
+"id":"rxn01734",
+"name":"Succinyl-CoA:itaconate-CoA transferase",
+"metabolites":{
+"cpd00036_c":1.0,
+"cpd00078_c":-1.0,
+"cpd00380_c":-1.0,
+"cpd00416_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA0882",
+"subsystem":"Carbon Metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA0882"
+]
+}
+},
+{
+"id":"rxn00177",
+"name":"Citramalyl-CoA lyase",
+"metabolites":{
+"cpd00020_c":1.0,
+"cpd00022_c":1.0,
+"cpd00743_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA0883",
+"subsystem":"Carbon Metabolism",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+""
+],
+"GENE ASSOCIATION":[
+"PA0883"
+]
+}
+}
+],
+"genes":[
+{
+"id":"PA1588",
+"name":""
+},
+{
+"id":"PA1589",
+"name":""
+},
+{
+"id":"PA0878",
+"name":""
+},
+{
+"id":"PA0882",
+"name":""
+},
+{
+"id":"PA0883",
+"name":""
+}
+],
+"id":"",
+"compartments":{
+"c":"Cytoplasm"
+},
+"version":"1"
+}

@@ -1,0 +1,383 @@
+{
+"metabolites":[
+{
+"id":"cpd00003_c",
+"name":"NAD",
+"compartment":"c",
+"charge":-1,
+"formula":"C21H26N7O14P2"
+},
+{
+"id":"cpd00004_c",
+"name":"NADH",
+"compartment":"c",
+"charge":-2,
+"formula":"C21H27N7O14P2"
+},
+{
+"id":"cpd00067_c",
+"name":"H+",
+"compartment":"c",
+"charge":1,
+"formula":"H"
+},
+{
+"id":"cpd00001_c",
+"name":"H2O",
+"compartment":"c",
+"charge":0,
+"formula":"H2O"
+},
+{
+"id":"cpd00006_c",
+"name":"NADP",
+"compartment":"c",
+"charge":-2,
+"formula":"C21H26N7O17P3"
+},
+{
+"id":"cpd00005_c",
+"name":"NADPH",
+"compartment":"c",
+"charge":-3,
+"formula":"C21H27N7O17P3"
+},
+{
+"id":"cpd08286_c",
+"name":"2-C-methyl-D-erythritol4-phosphate",
+"compartment":"c",
+"charge":-1,
+"formula":"C5H12O7P"
+},
+{
+"id":"cpd08289_c",
+"name":"1-deoxy-D-xylulose5-phosphate",
+"compartment":"c",
+"charge":-1,
+"formula":"C5H10O7P"
+},
+{
+"id":"cpd08301_c",
+"name":"2-C-methyl-D-erythritol2-4-cyclodiphosphate",
+"compartment":"c",
+"charge":-2,
+"formula":"C5H10O9P2"
+},
+{
+"id":"cpd08615_c",
+"name":"1-Hydroxy-2-methyl-2-butenyl 4-diphosphate",
+"compartment":"c",
+"charge":-2,
+"formula":"C5H10O8P2"
+},
+{
+"id":"cpd00012_c",
+"name":"PPi",
+"compartment":"c",
+"charge":-2,
+"formula":"H2O7P2"
+},
+{
+"id":"cpd00202_c",
+"name":"DMAPP",
+"compartment":"c",
+"charge":-2,
+"formula":"C5H10O7P2"
+},
+{
+"id":"cpd00113_c",
+"name":"Isopentenyldiphosphate",
+"compartment":"c",
+"charge":-2,
+"formula":"C5H10O7P2"
+},
+{
+"id":"cpd00350_c",
+"name":"Farnesyldiphosphate",
+"compartment":"c",
+"charge":-2,
+"formula":"C15H26O7P2"
+},
+{
+"id":"cpd00283_c",
+"name":"Geranyldiphosphate",
+"compartment":"c",
+"charge":-2,
+"formula":"C10H18O7P2"
+},
+{
+"id":"cpd02557_c",
+"name":"Farnesylfarnesylgeraniol",
+"compartment":"c",
+"charge":-2,
+"formula":"C40H66O7P2"
+},
+{
+"id":"cpd02172_c",
+"name":"Solanesyl diphosphate",
+"compartment":"c",
+"charge":-2,
+"formula":"C45H74O7P2"
+}
+],
+"reactions":[
+{
+"id":"rxn03958",
+"name":"1-deoxy-D-xylulose 5-phosphate reductoisomerase",
+"metabolites":{
+"cpd00005_c":1.0,
+"cpd00006_c":-1.0,
+"cpd00067_c":1.0,
+"cpd08286_c":-1.0,
+"cpd08289_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3650",
+"subsystem":"Terpenoid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.1.1.267"
+],
+"GENE ASSOCIATION":[
+"PA3650"
+]
+}
+},
+{
+"id":"rxn05293",
+"name":"4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd08301_c":-1.0,
+"cpd08615_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA3803",
+"subsystem":"Terpenoid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.17.7.1"
+],
+"GENE ASSOCIATION":[
+"PA3803"
+]
+}
+},
+{
+"id":"rxn08352",
+"name":"4-hydroxy-3-methylbut-2-enyl diphosphate reductase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd00202_c":1.0,
+"cpd08615_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4557",
+"subsystem":"Terpenoid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.17.1.2"
+],
+"GENE ASSOCIATION":[
+"PA4557"
+]
+}
+},
+{
+"id":"rxn08756",
+"name":"4-hydroxy-3-methylbut-2-enyl diphosphate reductase",
+"metabolites":{
+"cpd00001_c":1.0,
+"cpd00003_c":1.0,
+"cpd00004_c":-1.0,
+"cpd00067_c":-1.0,
+"cpd00113_c":1.0,
+"cpd08615_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4557",
+"subsystem":"Terpenoid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"1.17.1.2"
+],
+"GENE ASSOCIATION":[
+"PA4557"
+]
+}
+},
+{
+"id":"rxn13826",
+"name":"dimethylallyltranstransferase",
+"metabolites":{
+"cpd00012_c":1.0,
+"cpd00113_c":-1.0,
+"cpd00202_c":-1.0,
+"cpd00283_c":1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4043",
+"subsystem":"Terpenoid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.5.1.29"
+],
+"GENE ASSOCIATION":[
+"PA4043"
+]
+}
+},
+{
+"id":"rxn01466",
+"name":"geranyltranstransferase",
+"metabolites":{
+"cpd00012_c":1.0,
+"cpd00113_c":-1.0,
+"cpd00283_c":-1.0,
+"cpd00350_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4043",
+"subsystem":"Terpenoid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.5.1.1,2.5.1.10,2.5.1.29"
+],
+"GENE ASSOCIATION":[
+"PA4043"
+]
+}
+},
+{
+"id":"rxn09037",
+"name":"Octaprenyl pyrophosphate synthase",
+"metabolites":{
+"cpd00012_c":5.0,
+"cpd00113_c":-5.0,
+"cpd00350_c":-1.0,
+"cpd02557_c":1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4569",
+"subsystem":"Terpenoid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.5.1.90"
+],
+"GENE ASSOCIATION":[
+"PA4569"
+]
+}
+},
+{
+"id":"rxn05028",
+"name":"Solanesyl diphosphate synthase",
+"metabolites":{
+"cpd00012_c":1.0,
+"cpd00113_c":-1.0,
+"cpd02172_c":1.0,
+"cpd02557_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PA4569",
+"subsystem":"Terpenoid biosynthesis",
+"notes":{
+"AUTHORS":[
+""
+],
+"CONFIDENCE LEVEL":[
+""
+],
+"EC NUMBER":[
+"2.5.1.84"
+],
+"GENE ASSOCIATION":[
+"PA4569"
+]
+}
+}
+],
+"genes":[
+{
+"id":"PA3650",
+"name":""
+},
+{
+"id":"PA3803",
+"name":""
+},
+{
+"id":"PA4557",
+"name":""
+},
+{
+"id":"PA4043",
+"name":""
+},
+{
+"id":"PA4569",
+"name":""
+}
+],
+"id":"",
+"compartments":{
+"c":"Cytoplasm"
+},
+"version":"1"
+}
