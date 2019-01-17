@@ -11,6 +11,7 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
+"charge":0,
 "formula":"CO2"
 },
 {
@@ -164,7 +165,7 @@
 "cpd00102_c":-1.0,
 "cpd08289_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4044",
 "subsystem":"Biosynthesis of steroids",

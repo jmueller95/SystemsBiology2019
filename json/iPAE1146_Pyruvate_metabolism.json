@@ -39,6 +39,7 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
@@ -66,6 +67,7 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
+"charge":0,
 "formula":"CO2"
 },
 {
@@ -86,30 +88,35 @@
 "id":"cpd15560_c",
 "name":"Ubiquinone-8",
 "compartment":"c",
+"charge":0,
 "formula":"C49H74O4"
 },
 {
 "id":"cpd15561_c",
 "name":"Ubiquinol-8",
 "compartment":"c",
+"charge":0,
 "formula":"C49H76O4"
 },
 {
 "id":"cpd01351_c",
 "name":"Ubiquinone-9",
 "compartment":"c",
+"charge":0,
 "formula":"C54H82O4"
 },
 {
 "id":"cJB00125_c",
 "name":"Ubiquinol-9",
 "compartment":"c",
+"charge":0,
 "formula":"C54H84O4"
 },
 {
 "id":"cpd00071_c",
 "name":"Acetaldehyde",
 "compartment":"c",
+"charge":0,
 "formula":"C2H4O"
 },
 {
@@ -172,6 +179,7 @@
 "id":"cpd00334_c",
 "name":"L-Lactaldehyde",
 "compartment":"c",
+"charge":0,
 "formula":"C3H6O2"
 },
 {
@@ -234,6 +242,7 @@
 "id":"cpd00428_c",
 "name":"2-Oxopropanal",
 "compartment":"c",
+"charge":0,
 "formula":"C3H4O2"
 },
 {
@@ -254,6 +263,7 @@
 "id":"cpd12848_c",
 "name":"Holo-[carboxylase]",
 "compartment":"c",
+"charge":0,
 "formula":"C17H27N5O4R2S"
 }
 ],
@@ -269,7 +279,7 @@
 "cpd00067_c":2.0,
 "cpd00071_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA1984 or PA4022 or PA0219 or PA5312)",
 "subsystem":"Pyruvate metabolism",
@@ -386,8 +396,8 @@
 "cpd00020_c":1.0,
 "cpd00130_c":-1.0
 },
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
+"lower_bound":0.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"(PA5046 or PA3471)",
 "subsystem":"Pyruvate metabolism",
 "notes":{
@@ -472,7 +482,7 @@
 "cpd00130_c":-1.0,
 "cpd00982_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3452 or PA4640",
 "subsystem":"Pyruvate metabolism",
@@ -618,7 +628,7 @@
 "cpd00032_c":-1.0,
 "cpd00067_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA5435 and PA5436)",
 "subsystem":"Pyruvate metabolism",
@@ -649,7 +659,7 @@
 "cpd00061_c":1.0,
 "cpd00067_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1770",
 "subsystem":"Pyruvate metabolism",
@@ -677,7 +687,7 @@
 "cpd12543_c":-1.0,
 "cpd12848_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3639 and PA4847 and PA4848 and PA3112",
 "subsystem":"Pyruvate metabolism",
@@ -707,7 +717,7 @@
 "cpd15560_c":-1.0,
 "cpd15561_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5297",
 "subsystem":"Pyruvate metabolism",
@@ -737,7 +747,7 @@
 "cpd00029_c":1.0,
 "cpd01351_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5297",
 "subsystem":"Pyruvate metabolism",
@@ -759,6 +769,10 @@
 ],
 "genes":[
 {
+"id":"PA0219",
+"name":""
+},
+{
 "id":"PA5312",
 "name":""
 },
@@ -767,15 +781,7 @@
 "name":""
 },
 {
-"id":"PA0219",
-"name":""
-},
-{
 "id":"PA4022",
-"name":""
-},
-{
-"id":"PA3183",
 "name":""
 },
 {
@@ -783,15 +789,19 @@
 "name":""
 },
 {
+"id":"PA3183",
+"name":""
+},
+{
 "id":"PA3629",
 "name":""
 },
 {
-"id":"PA3471",
+"id":"PA5046",
 "name":""
 },
 {
-"id":"PA5046",
+"id":"PA3471",
 "name":""
 },
 {
@@ -815,10 +825,6 @@
 "name":""
 },
 {
-"id":"PA0887",
-"name":""
-},
-{
 "id":"PA4733",
 "name":""
 },
@@ -827,15 +833,19 @@
 "name":""
 },
 {
+"id":"PA0887",
+"name":""
+},
+{
+"id":"PA5111",
+"name":""
+},
+{
 "id":"PA0710",
 "name":""
 },
 {
 "id":"PA3524",
-"name":""
-},
-{
-"id":"PA5111",
 "name":""
 },
 {
@@ -859,11 +869,11 @@
 "name":""
 },
 {
-"id":"PA3639",
+"id":"PA4848",
 "name":""
 },
 {
-"id":"PA4848",
+"id":"PA3112",
 "name":""
 },
 {
@@ -871,7 +881,7 @@
 "name":""
 },
 {
-"id":"PA3112",
+"id":"PA3639",
 "name":""
 },
 {

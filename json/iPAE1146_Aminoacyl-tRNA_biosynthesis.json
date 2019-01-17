@@ -18,6 +18,7 @@
 "id":"cpd00060_c",
 "name":"L-Methionine",
 "compartment":"c",
+"charge":0,
 "formula":"C5H11NO2S"
 },
 {
@@ -31,6 +32,7 @@
 "id":"cpd00119_c",
 "name":"L-Histidine",
 "compartment":"c",
+"charge":0,
 "formula":"C6H9N3O2"
 },
 {
@@ -44,6 +46,7 @@
 "id":"cpd00161_c",
 "name":"L-Threonine",
 "compartment":"c",
+"charge":0,
 "formula":"C4H9NO3"
 },
 {
@@ -57,24 +60,28 @@
 "id":"cpd00107_c",
 "name":"L-Leucine",
 "compartment":"c",
+"charge":0,
 "formula":"C6H13NO2"
 },
 {
 "id":"cpd00065_c",
 "name":"L-Tryptophan",
 "compartment":"c",
+"charge":0,
 "formula":"C11H12N2O2"
 },
 {
 "id":"cpd00069_c",
 "name":"L-Tyrosine",
 "compartment":"c",
+"charge":0,
 "formula":"C9H11NO3"
 },
 {
 "id":"cpd11751_c",
 "name":"tRNA(Tyr)",
 "compartment":"c",
+"charge":0,
 "formula":"C10H12N5O3R"
 },
 {
@@ -88,6 +95,7 @@
 "id":"cpd11914_c",
 "name":"tRNA(His)",
 "compartment":"c",
+"charge":0,
 "formula":"C10H12N5O3R"
 },
 {
@@ -101,18 +109,21 @@
 "id":"cpd11922_c",
 "name":"tRNA(Thr)",
 "compartment":"c",
+"charge":0,
 "formula":"C10H12N5O3R"
 },
 {
 "id":"cpd12229_c",
 "name":"L-Threonyl-tRNA(Thr)",
 "compartment":"c",
+"charge":0,
 "formula":"C14H19N6O5R"
 },
 {
 "id":"cpd11918_c",
 "name":"tRNA(Met)",
 "compartment":"c",
+"charge":0,
 "formula":"C10H12N5O3R"
 },
 {
@@ -126,6 +137,7 @@
 "id":"cpd11916_c",
 "name":"tRNA(Leu)",
 "compartment":"c",
+"charge":0,
 "formula":"C10H12N5O3R"
 },
 {
@@ -139,6 +151,7 @@
 "id":"cpd11923_c",
 "name":"tRNA(Trp)",
 "compartment":"c",
+"charge":0,
 "formula":"C10H12N5O3R"
 },
 {
@@ -152,6 +165,7 @@
 "id":"cpd11907_c",
 "name":"tRNA(Arg)",
 "compartment":"c",
+"charge":0,
 "formula":"C10H12N5O3R"
 },
 {
@@ -175,7 +189,7 @@
 "cpd11751_c":-1.0,
 "cpd12194_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA4138 or PA0668)",
 "subsystem":"Aminoacyl-tRNA biosynthesis",
@@ -206,7 +220,7 @@
 "cpd11914_c":-1.0,
 "cpd12228_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA4939 or PA3802)",
 "subsystem":"Aminoacyl-tRNA biosynthesis",
@@ -236,7 +250,7 @@
 "cpd11922_c":-1.0,
 "cpd12229_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2744",
 "subsystem":"Aminoacyl-tRNA biosynthesis",
@@ -267,7 +281,7 @@
 "cpd11918_c":-1.0,
 "cpd12105_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3482",
 "subsystem":"Aminoacyl-tRNA biosynthesis",
@@ -298,7 +312,7 @@
 "cpd11916_c":-1.0,
 "cpd12003_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3987",
 "subsystem":"Aminoacyl-tRNA biosynthesis",
@@ -329,7 +343,7 @@
 "cpd11923_c":-1.0,
 "cpd12336_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4439",
 "subsystem":"Aminoacyl-tRNA biosynthesis",
@@ -360,7 +374,7 @@
 "cpd11907_c":-1.0,
 "cpd12036_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5051",
 "subsystem":"Aminoacyl-tRNA biosynthesis",
@@ -382,19 +396,19 @@
 ],
 "genes":[
 {
-"id":"PA0668",
-"name":""
-},
-{
 "id":"PA4138",
 "name":""
 },
 {
-"id":"PA3802",
+"id":"PA0668",
 "name":""
 },
 {
 "id":"PA4939",
+"name":""
+},
+{
+"id":"PA3802",
 "name":""
 },
 {

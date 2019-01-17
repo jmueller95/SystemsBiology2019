@@ -18,6 +18,7 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
+"charge":0,
 "formula":"CO2"
 },
 {
@@ -31,6 +32,7 @@
 "id":"cpd00239_c",
 "name":"H2S",
 "compartment":"c",
+"charge":0,
 "formula":"H2S"
 },
 {
@@ -65,12 +67,14 @@
 "id":"cpd00035_c",
 "name":"L-Alanine",
 "compartment":"c",
+"charge":0,
 "formula":"C3H7NO2"
 },
 {
 "id":"cpd00800_c",
 "name":"8-Amino-7-oxononanoate",
 "compartment":"c",
+"charge":0,
 "formula":"C9H17NO3"
 },
 {
@@ -84,12 +88,14 @@
 "id":"cpd02701_c",
 "name":"S-Adenosyl-4-methylthio-2-oxobutanoate",
 "compartment":"c",
+"charge":0,
 "formula":"C15H19N5O6S"
 },
 {
 "id":"cpd00074_c",
 "name":"S",
 "compartment":"c",
+"charge":0,
 "formula":"S"
 },
 {
@@ -189,7 +195,7 @@
 "cpd00782_c":-1.0,
 "cpd00800_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0501",
 "subsystem":"Biotin metabolism",
@@ -220,7 +226,7 @@
 "cpd00764_c":-1.0,
 "cpd01311_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0504",
 "subsystem":"Biotin metabolism",
@@ -250,7 +256,7 @@
 "cpd03517_c":1.0
 },
 "lower_bound":-1000.0,
-"upper_bound":1000.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"PA4280",
 "subsystem":"Biotin metabolism",
 "notes":{

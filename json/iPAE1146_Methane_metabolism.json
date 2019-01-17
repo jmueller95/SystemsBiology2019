@@ -25,6 +25,7 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
@@ -38,6 +39,7 @@
 "id":"cpd00055_c",
 "name":"Formaldehyde",
 "compartment":"c",
+"charge":0,
 "formula":"CH2O"
 }
 ],
@@ -53,7 +55,7 @@
 "cpd00055_c":-1.0,
 "cpd00067_c":2.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5421",
 "subsystem":"Methane metabolism",

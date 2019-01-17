@@ -11,6 +11,7 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
@@ -31,6 +32,7 @@
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
+"charge":0,
 "formula":"O2"
 },
 {
@@ -58,6 +60,7 @@
 "id":"cpd00084_c",
 "name":"L-Cysteine",
 "compartment":"c",
+"charge":0,
 "formula":"C3H7NO2S"
 },
 {
@@ -78,6 +81,7 @@
 "id":"cpd00019_c",
 "name":"S-Adenosyl-homocysteine",
 "compartment":"c",
+"charge":0,
 "formula":"C14H20N6O5S"
 },
 {
@@ -105,6 +109,7 @@
 "id":"cPY00161_c",
 "name":"N5-hydroxy-L-ornithine",
 "compartment":"c",
+"charge":0,
 "formula":"C5H12N2O3"
 },
 {
@@ -125,6 +130,7 @@
 "id":"cpd00161_c",
 "name":"L-Threonine",
 "compartment":"c",
+"charge":0,
 "formula":"C4H9NO3"
 },
 {
@@ -138,6 +144,7 @@
 "id":"cpd00054_c",
 "name":"L-Serine",
 "compartment":"c",
+"charge":0,
 "formula":"C3H7NO3"
 },
 {
@@ -165,6 +172,7 @@
 "id":"cpd00069_c",
 "name":"L-Tyrosine",
 "compartment":"c",
+"charge":0,
 "formula":"C9H11NO3"
 },
 {
@@ -178,6 +186,7 @@
 "id":"cPY00162_c",
 "name":"N5-formyl-N5-hydroxy-L-ornithine",
 "compartment":"c",
+"charge":0,
 "formula":"C6H12N2O4"
 },
 {
@@ -191,6 +200,7 @@
 "id":"cPY00163_c",
 "name":"ferribactin",
 "compartment":"c",
+"charge":0,
 "formula":"C56H90N18O21"
 },
 {
@@ -204,18 +214,21 @@
 "id":"cpd03452_c",
 "name":"(L-Seryl)adenylate",
 "compartment":"c",
+"charge":0,
 "formula":"C13H19N6O9P"
 },
 {
 "id":"cpd03453_c",
 "name":"Enterobactin",
 "compartment":"c",
+"charge":0,
 "formula":"C30H27N3O15"
 },
 {
 "id":"cPY00164_c",
 "name":"pyoverdine",
 "compartment":"c",
+"charge":0,
 "formula":"C56H88N18O22"
 },
 {
@@ -270,7 +283,7 @@
 "cpd00007_c":-1.0,
 "cpd00064_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2386",
 "subsystem":"Biosynthesis of siderophore group nonribosomal peptides",
@@ -298,7 +311,7 @@
 "cpd00658_c":-1.0,
 "cpd02566_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA1902 or PA4213)",
 "subsystem":"Biosynthesis of siderophore group nonribosomal peptides",
@@ -333,7 +346,7 @@
 "cpd00161_c":-2.0,
 "cpd02095_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA2399 and PA2400 and PA2402 and PA2424)",
 "subsystem":"Biosynthesis of siderophore group nonribosomal peptides",
@@ -390,7 +403,7 @@
 "cpd00087_c":1.0,
 "cpd00201_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2396",
 "subsystem":"Biosynthesis of siderophore group nonribosomal peptides",
@@ -417,7 +430,7 @@
 "cpd00599_c":1.0,
 "cpd00658_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4230",
 "subsystem":"Biosynthesis of siderophore group nonribosomal peptides",
@@ -445,7 +458,7 @@
 "cpd00001_c":1.0,
 "cpd00007_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2397",
 "subsystem":"Biosynthesis of siderophore group nonribosomal peptides",
@@ -496,14 +509,6 @@
 ],
 "genes":[
 {
-"id":"PA4228",
-"name":""
-},
-{
-"id":"PA4224",
-"name":""
-},
-{
 "id":"PA4225",
 "name":""
 },
@@ -512,11 +517,15 @@
 "name":""
 },
 {
-"id":"PA2386",
+"id":"PA4228",
 "name":""
 },
 {
-"id":"PA4213",
+"id":"PA4224",
+"name":""
+},
+{
+"id":"PA2386",
 "name":""
 },
 {
@@ -524,11 +533,7 @@
 "name":""
 },
 {
-"id":"PA2399",
-"name":""
-},
-{
-"id":"PA2402",
+"id":"PA4213",
 "name":""
 },
 {
@@ -536,7 +541,15 @@
 "name":""
 },
 {
+"id":"PA2399",
+"name":""
+},
+{
 "id":"PA2424",
+"name":""
+},
+{
+"id":"PA2402",
 "name":""
 },
 {

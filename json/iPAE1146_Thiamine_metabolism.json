@@ -11,6 +11,7 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
@@ -24,6 +25,7 @@
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
+"charge":0,
 "formula":"O2"
 },
 {
@@ -44,6 +46,7 @@
 "id":"cpd00229_c",
 "name":"Glycolaldehyde",
 "compartment":"c",
+"charge":0,
 "formula":"C2H4O2"
 },
 {
@@ -78,18 +81,21 @@
 "id":"cpd00793_c",
 "name":"Thiamine phosphate",
 "compartment":"c",
+"charge":0,
 "formula":"C12H17N4O4PS"
 },
 {
 "id":"cpd02140_c",
 "name":"AIR",
 "compartment":"c",
+"charge":0,
 "formula":"C8H14N3O7P"
 },
 {
 "id":"cpd00939_c",
 "name":"Toxopyrimidine",
 "compartment":"c",
+"charge":0,
 "formula":"C6H9N3O"
 },
 {
@@ -283,11 +289,11 @@
 ],
 "genes":[
 {
-"id":"PA4400",
+"id":"PA3976",
 "name":""
 },
 {
-"id":"PA3976",
+"id":"PA4400",
 "name":""
 },
 {

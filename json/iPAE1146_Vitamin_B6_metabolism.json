@@ -25,6 +25,7 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
@@ -38,12 +39,14 @@
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
+"charge":0,
 "formula":"O2"
 },
 {
 "id":"cpd00025_c",
 "name":"H2O2",
 "compartment":"c",
+"charge":0,
 "formula":"H2O2"
 },
 {
@@ -127,12 +130,14 @@
 "id":"cpd00493_c",
 "name":"Pyridoxamine phosphate",
 "compartment":"c",
+"charge":0,
 "formula":"C8H13N2O5P"
 },
 {
 "id":"cpd00215_c",
 "name":"Pyridoxal",
 "compartment":"c",
+"charge":0,
 "formula":"C8H9NO3"
 },
 {
@@ -146,6 +151,7 @@
 "id":"cpd00263_c",
 "name":"Pyridoxol",
 "compartment":"c",
+"charge":0,
 "formula":"C8H11NO3"
 },
 {
@@ -159,6 +165,7 @@
 "id":"cpd03608_c",
 "name":"4-Hydroxy-L-threonine",
 "compartment":"c",
+"charge":0,
 "formula":"C4H9NO4"
 }
 ],
@@ -174,7 +181,7 @@
 "cpd00236_c":-1.0,
 "cpd02147_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0551",
 "subsystem":"Vitamin B6 metabolism",
@@ -290,7 +297,7 @@
 "cpd00215_c":-1.0,
 "cpd00419_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1049",
 "subsystem":"Vitamin B6 metabolism",
@@ -320,7 +327,7 @@
 "cpd00025_c":1.0,
 "cpd00493_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1049",
 "subsystem":"Vitamin B6 metabolism",
@@ -348,7 +355,7 @@
 "cpd00215_c":1.0,
 "cpd00263_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1049",
 "subsystem":"Vitamin B6 metabolism",
@@ -376,7 +383,7 @@
 "cpd00025_c":1.0,
 "cpd00478_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1049",
 "subsystem":"Vitamin B6 metabolism",
@@ -433,7 +440,7 @@
 "cpd00263_c":1.0,
 "cpd00478_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3296",
 "subsystem":"Vitamin B6 metabolism",
@@ -462,7 +469,7 @@
 "cpd03607_c":-1.0,
 "cpd03608_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3735",
 "subsystem":"Vitamin B6 metabolism",
@@ -580,11 +587,11 @@
 "name":""
 },
 {
-"id":"PA2444",
+"id":"PA5415",
 "name":""
 },
 {
-"id":"PA5415",
+"id":"PA2444",
 "name":""
 },
 {

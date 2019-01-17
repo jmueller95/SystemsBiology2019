@@ -11,6 +11,7 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
@@ -38,7 +39,7 @@
 "cpd11668_c":-1.0,
 "cpd12884_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4110",
 "subsystem":"Penicillin and cephalosporin biosynthesis",

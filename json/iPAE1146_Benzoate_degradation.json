@@ -11,6 +11,7 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
@@ -38,6 +39,7 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
+"charge":0,
 "formula":"CO2"
 },
 {
@@ -58,6 +60,7 @@
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
+"charge":0,
 "formula":"O2"
 },
 {
@@ -127,6 +130,7 @@
 "id":"cpd00077_c",
 "name":"Catechol",
 "compartment":"c",
+"charge":0,
 "formula":"C6H6O2"
 },
 {
@@ -150,7 +154,7 @@
 "cpd00136_c":-1.0,
 "cpd00197_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0247",
 "subsystem":"Benzoate degradation",
@@ -178,7 +182,7 @@
 "cpd00197_c":-1.0,
 "cpd00856_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA0154 and PA0153)",
 "subsystem":"Benzoate degradation",
@@ -206,7 +210,7 @@
 "cpd00938_c":-1.0,
 "cpd02255_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA0232 or PA4486)",
 "subsystem":"Benzoate degradation",
@@ -317,7 +321,7 @@
 "cpd00630_c":1.0,
 "cpd02255_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0231",
 "subsystem":"Benzoate degradation",
@@ -345,7 +349,7 @@
 "cpd00077_c":-1.0,
 "cpd01630_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2507",
 "subsystem":"Benzoate degradation",
@@ -432,11 +436,11 @@
 "name":""
 },
 {
-"id":"PA0232",
+"id":"PA4486",
 "name":""
 },
 {
-"id":"PA4486",
+"id":"PA0232",
 "name":""
 },
 {

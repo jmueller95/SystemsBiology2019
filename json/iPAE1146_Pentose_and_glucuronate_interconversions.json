@@ -53,6 +53,7 @@
 "id":"cpd00259_c",
 "name":"D-Lyxulose",
 "compartment":"c",
+"charge":0,
 "formula":"C5H10O5"
 },
 {
@@ -140,11 +141,11 @@
 "name":""
 },
 {
-"id":"PA3024",
+"id":"PA2343",
 "name":""
 },
 {
-"id":"PA2343",
+"id":"PA3024",
 "name":""
 }
 ],

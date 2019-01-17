@@ -11,6 +11,7 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
@@ -38,6 +39,7 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
+"charge":0,
 "formula":"CO2"
 },
 {
@@ -65,6 +67,7 @@
 "id":"cpd00084_c",
 "name":"L-Cysteine",
 "compartment":"c",
+"charge":0,
 "formula":"C3H7NO2S"
 },
 {
@@ -148,6 +151,7 @@
 "id":"cpd00085_c",
 "name":"beta-Alanine",
 "compartment":"c",
+"charge":0,
 "formula":"C3H7NO2"
 },
 {
@@ -189,6 +193,7 @@
 "id":"cpd00337_c",
 "name":"Hydrouracil",
 "compartment":"c",
+"charge":0,
 "formula":"C4H6N2O2"
 },
 {
@@ -216,6 +221,7 @@
 "id":"cpd12370_c",
 "name":"apo-ACP",
 "compartment":"c",
+"charge":0,
 "formula":"HOR"
 },
 {
@@ -328,7 +334,7 @@
 "cpd00123_c":1.0,
 "cpd02498_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0353",
 "subsystem":"Pantothenate and CoA biosynthesis",
@@ -355,7 +361,7 @@
 "cpd02535_c":-1.0,
 "cpd03577_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0353",
 "subsystem":"Pantothenate and CoA biosynthesis",
@@ -411,7 +417,7 @@
 "cpd00337_c":-1.0,
 "cpd01720_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0441",
 "subsystem":"Pantothenate and CoA biosynthesis",
@@ -495,7 +501,7 @@
 "cpd00010_c":1.0,
 "cpd00655_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4529",
 "subsystem":"Pantothenate and CoA biosynthesis",
@@ -554,7 +560,7 @@
 "cpd00408_c":-1.0,
 "cpd00644_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4730",
 "subsystem":"Pantothenate and CoA biosynthesis",
@@ -584,7 +590,7 @@
 "cpd02201_c":-1.0,
 "cpd02666_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5320",
 "subsystem":"Pantothenate and CoA biosynthesis",
@@ -612,7 +618,7 @@
 "cpd00834_c":1.0,
 "cpd02666_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5320",
 "subsystem":"Pantothenate and CoA biosynthesis",

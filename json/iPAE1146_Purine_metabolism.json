@@ -25,12 +25,14 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
+"charge":0,
 "formula":"CO2"
 },
 {
@@ -58,18 +60,21 @@
 "id":"cpd00226_c",
 "name":"HYXN",
 "compartment":"c",
+"charge":0,
 "formula":"C5H4N4O"
 },
 {
 "id":"cpd00309_c",
 "name":"XAN",
 "compartment":"c",
+"charge":0,
 "formula":"C5H4N4O2"
 },
 {
 "id":"cpd00300_c",
 "name":"Urate",
 "compartment":"c",
+"charge":0,
 "formula":"C5H4N4O3"
 },
 {
@@ -83,12 +88,14 @@
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
+"charge":0,
 "formula":"O2"
 },
 {
 "id":"cpd00025_c",
 "name":"H2O2",
 "compartment":"c",
+"charge":0,
 "formula":"H2O2"
 },
 {
@@ -109,12 +116,14 @@
 "id":"cpd11420_c",
 "name":"trdox",
 "compartment":"c",
+"charge":0,
 "formula":"C6H7NO2R2S2"
 },
 {
 "id":"cpd11421_c",
 "name":"trdrd",
 "compartment":"c",
+"charge":0,
 "formula":"C6H9NO2R2S2"
 },
 {
@@ -135,6 +144,7 @@
 "id":"cpd00053_c",
 "name":"L-Glutamine",
 "compartment":"c",
+"charge":0,
 "formula":"C5H10N2O3"
 },
 {
@@ -204,42 +214,49 @@
 "id":"cpd00073_c",
 "name":"Urea",
 "compartment":"c",
+"charge":0,
 "formula":"CH4N2O"
 },
 {
 "id":"cpd01092_c",
 "name":"Allantoin",
 "compartment":"c",
+"charge":0,
 "formula":"C4H6N4O3"
 },
 {
 "id":"cpd00182_c",
 "name":"Adenosine",
 "compartment":"c",
+"charge":0,
 "formula":"C10H13N5O4"
 },
 {
 "id":"cpd00438_c",
 "name":"Deoxyadenosine",
 "compartment":"c",
+"charge":0,
 "formula":"C10H13N5O3"
 },
 {
 "id":"cpd00246_c",
 "name":"Inosine",
 "compartment":"c",
+"charge":0,
 "formula":"C10H12N4O5"
 },
 {
 "id":"cpd00277_c",
 "name":"Deoxyguanosine",
 "compartment":"c",
+"charge":0,
 "formula":"C10H13N5O4"
 },
 {
 "id":"cpd03279_c",
 "name":"Deoxyinosine",
 "compartment":"c",
+"charge":0,
 "formula":"C10H12N4O4"
 },
 {
@@ -253,6 +270,7 @@
 "id":"cpd02394_c",
 "name":"GAR",
 "compartment":"c",
+"charge":0,
 "formula":"C7H15N2O8P"
 },
 {
@@ -294,6 +312,7 @@
 "id":"cpd00311_c",
 "name":"Guanosine",
 "compartment":"c",
+"charge":0,
 "formula":"C10H13N5O5"
 },
 {
@@ -321,18 +340,21 @@
 "id":"cpd00033_c",
 "name":"Glycine",
 "compartment":"c",
+"charge":0,
 "formula":"C2H5NO2"
 },
 {
 "id":"cpd00207_c",
 "name":"Guanine",
 "compartment":"c",
+"charge":0,
 "formula":"C5H5N5O"
 },
 {
 "id":"cpd00105_c",
 "name":"D-Ribose",
 "compartment":"c",
+"charge":0,
 "formula":"C5H10O5"
 },
 {
@@ -374,6 +396,7 @@
 "id":"cpd02140_c",
 "name":"AIR",
 "compartment":"c",
+"charge":0,
 "formula":"C8H14N3O7P"
 },
 {
@@ -387,6 +410,7 @@
 "id":"cpd00128_c",
 "name":"Adenine",
 "compartment":"c",
+"charge":0,
 "formula":"C5H5N5"
 },
 {
@@ -407,6 +431,7 @@
 "id":"cpd02826_c",
 "name":"5'-Phosphoribosylformylglycinamidine",
 "compartment":"c",
+"charge":0,
 "formula":"C8H16N3O8P"
 },
 {
@@ -469,6 +494,7 @@
 "id":"cpd01982_c",
 "name":"5-Phosphoribosylamine",
 "compartment":"c",
+"charge":0,
 "formula":"C5H12NO7P"
 },
 {
@@ -496,6 +522,7 @@
 "id":"cpd01217_c",
 "name":"Xanthosine",
 "compartment":"c",
+"charge":0,
 "formula":"C10H12N4O6"
 },
 {
@@ -576,7 +603,7 @@
 "cpd00300_c":1.0,
 "cpd00309_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA1523 and PA1524 and PA1522)",
 "subsystem":"Purine metabolism",
@@ -635,7 +662,7 @@
 "cpd02394_c":-1.0,
 "cpd02678_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA0944 or PA3751)",
 "subsystem":"Purine metabolism",
@@ -722,7 +749,7 @@
 "cpd11420_c":1.0,
 "cpd11421_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA1156 and PA1155)",
 "subsystem":"Purine metabolism",
@@ -751,7 +778,7 @@
 "cpd11420_c":1.0,
 "cpd11421_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA1156 and PA1155)",
 "subsystem":"Purine metabolism",
@@ -780,7 +807,7 @@
 "cpd00207_c":-1.0,
 "cpd00309_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA1521 or PA0134)",
 "subsystem":"Purine metabolism",
@@ -839,7 +866,7 @@
 "cpd00012_c":1.0,
 "cpd00446_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA2191 or PA5272 or PA3217)",
 "subsystem":"Purine metabolism",
@@ -898,7 +925,7 @@
 "cpd02140_c":1.0,
 "cpd02893_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA5425 or PA5426)",
 "subsystem":"Purine metabolism",
@@ -983,7 +1010,7 @@
 "cpd00128_c":-1.0,
 "cpd00226_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0148",
 "subsystem":"Purine metabolism",
@@ -1012,7 +1039,7 @@
 "cpd00182_c":-1.0,
 "cpd00246_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0148",
 "subsystem":"Purine metabolism",
@@ -1041,7 +1068,7 @@
 "cpd00438_c":-1.0,
 "cpd03279_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0148",
 "subsystem":"Purine metabolism",
@@ -1068,7 +1095,7 @@
 "cpd00008_c":2.0,
 "cpd00924_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0590",
 "subsystem":"Purine metabolism",
@@ -1157,7 +1184,7 @@
 "cpd02893_c":-1.0,
 "cpd02921_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1013",
 "subsystem":"Purine metabolism",
@@ -1187,7 +1214,7 @@
 "cpd00067_c":-2.0,
 "cpd00465_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1514",
 "subsystem":"Purine metabolism",
@@ -1243,7 +1270,7 @@
 "cpd00103_c":-1.0,
 "cpd00128_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1543",
 "subsystem":"Purine metabolism",
@@ -1272,7 +1299,7 @@
 "cpd11420_c":1.0,
 "cpd11421_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1920",
 "subsystem":"Purine metabolism",
@@ -1301,7 +1328,7 @@
 "cpd11420_c":1.0,
 "cpd11421_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1920",
 "subsystem":"Purine metabolism",
@@ -1330,7 +1357,7 @@
 "cpd11420_c":1.0,
 "cpd11421_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1920",
 "subsystem":"Purine metabolism",
@@ -1359,7 +1386,7 @@
 "cpd11420_c":1.0,
 "cpd11421_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1920",
 "subsystem":"Purine metabolism",
@@ -1417,7 +1444,7 @@
 "cpd00300_c":-1.0,
 "cpd01092_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2366",
 "subsystem":"Purine metabolism",
@@ -1500,7 +1527,7 @@
 "cpd00067_c":1.0,
 "cpd00182_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3625",
 "subsystem":"Purine metabolism",
@@ -1529,7 +1556,7 @@
 "cpd00294_c":-1.0,
 "cpd00438_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3625",
 "subsystem":"Purine metabolism",
@@ -1558,7 +1585,7 @@
 "cpd00277_c":1.0,
 "cpd00296_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3625",
 "subsystem":"Purine metabolism",
@@ -1587,7 +1614,7 @@
 "cpd00126_c":-1.0,
 "cpd00311_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3625",
 "subsystem":"Purine metabolism",
@@ -1616,7 +1643,7 @@
 "cpd00114_c":-1.0,
 "cpd00246_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3625",
 "subsystem":"Purine metabolism",
@@ -1645,7 +1672,7 @@
 "cpd00497_c":-1.0,
 "cpd01217_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3625",
 "subsystem":"Purine metabolism",
@@ -1787,7 +1814,7 @@
 "cpd02394_c":-1.0,
 "cpd02678_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3751",
 "subsystem":"Purine metabolism",
@@ -1820,7 +1847,7 @@
 "cpd02678_c":-1.0,
 "cpd02826_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3763",
 "subsystem":"Purine metabolism",
@@ -1853,7 +1880,7 @@
 "cpd00126_c":1.0,
 "cpd00497_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3769",
 "subsystem":"Purine metabolism",
@@ -1993,7 +2020,7 @@
 "cpd00126_c":1.0,
 "cpd00207_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4645",
 "subsystem":"Purine metabolism",
@@ -2021,7 +2048,7 @@
 "cpd00114_c":1.0,
 "cpd00226_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4645",
 "subsystem":"Purine metabolism",
@@ -2107,7 +2134,7 @@
 "cpd01982_c":-1.0,
 "cpd02394_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4855",
 "subsystem":"Purine metabolism",
@@ -2138,7 +2165,7 @@
 "cpd00114_c":-1.0,
 "cpd02375_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4938",
 "subsystem":"Purine metabolism",
@@ -2222,7 +2249,7 @@
 "cpd00031_c":1.0,
 "cpd00905_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5338",
 "subsystem":"Purine metabolism",
@@ -2254,7 +2281,7 @@
 "cpd02140_c":-1.0,
 "cpd02893_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5425",
 "subsystem":"Purine metabolism",
@@ -2281,7 +2308,7 @@
 "cpd02893_c":1.0,
 "cpd11310_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5426",
 "subsystem":"Purine metabolism",
@@ -2331,7 +2358,7 @@
 ],
 "genes":[
 {
-"id":"PA1522",
+"id":"PA1524",
 "name":""
 },
 {
@@ -2339,7 +2366,7 @@
 "name":""
 },
 {
-"id":"PA1524",
+"id":"PA1522",
 "name":""
 },
 {
@@ -2355,11 +2382,11 @@
 "name":""
 },
 {
-"id":"PA3043",
+"id":"PA1124",
 "name":""
 },
 {
-"id":"PA1124",
+"id":"PA3043",
 "name":""
 },
 {
@@ -2371,15 +2398,11 @@
 "name":""
 },
 {
-"id":"PA0134",
-"name":""
-},
-{
 "id":"PA1521",
 "name":""
 },
 {
-"id":"PA1635",
+"id":"PA0134",
 "name":""
 },
 {
@@ -2387,7 +2410,15 @@
 "name":""
 },
 {
+"id":"PA1635",
+"name":""
+},
+{
 "id":"PA1633",
+"name":""
+},
+{
+"id":"PA5272",
 "name":""
 },
 {
@@ -2399,15 +2430,11 @@
 "name":""
 },
 {
-"id":"PA5272",
+"id":"PA5425",
 "name":""
 },
 {
 "id":"PA5426",
-"name":""
-},
-{
-"id":"PA5425",
 "name":""
 },
 {

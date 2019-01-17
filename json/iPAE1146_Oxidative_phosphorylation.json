@@ -39,6 +39,7 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
@@ -87,36 +88,42 @@
 "id":"cpd15560_c",
 "name":"Ubiquinone-8",
 "compartment":"c",
+"charge":0,
 "formula":"C49H74O4"
 },
 {
 "id":"cpd15561_c",
 "name":"Ubiquinol-8",
 "compartment":"c",
+"charge":0,
 "formula":"C49H76O4"
 },
 {
 "id":"cpd01351_c",
 "name":"Ubiquinone-9",
 "compartment":"c",
+"charge":0,
 "formula":"C54H82O4"
 },
 {
 "id":"cJB00125_c",
 "name":"Ubiquinol-9",
 "compartment":"c",
+"charge":0,
 "formula":"C54H84O4"
 },
 {
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
+"charge":0,
 "formula":"O2"
 },
 {
 "id":"cpd00025_c",
 "name":"H2O2",
 "compartment":"c",
+"charge":0,
 "formula":"H2O2"
 },
 {
@@ -137,12 +144,14 @@
 "id":"cpd11669_c",
 "name":"Ubiquinone",
 "compartment":"c",
+"charge":0,
 "formula":"C19H26O4"
 },
 {
 "id":"cpd17097_c",
 "name":"semiquinone-8",
 "compartment":"c",
+"charge":0,
 "formula":"C49H75O4"
 },
 {
@@ -189,7 +198,7 @@
 "cpd15560_c":-1.0,
 "cpd15561_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA1583 and PA1584 and PA1581 and PA1582)",
 "subsystem":"Oxidative phosphorylation",
@@ -219,7 +228,7 @@
 "cpd15560_c":-1.0,
 "cpd15561_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA2637 and PA2638 and PA2639 and PA2640 and PA2641 and PA2642 and PA2643 and PA2644 and PA2645 and PA2646 and PA2647 and PA2648 and PA2649)",
 "subsystem":"Oxidative phosphorylation",
@@ -249,7 +258,7 @@
 "cpd00067_e":4.0,
 "cpd01351_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA2637 and PA2638 and PA2639 and PA2640 and PA2641 and PA2642 and PA2643 and PA2644 and PA2645 and PA2646 and PA2647 and PA2648 and PA2649)",
 "subsystem":"Oxidative phosphorylation",
@@ -279,8 +288,8 @@
 "cpd15560_c":-1.0,
 "cpd15561_c":1.0
 },
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
+"lower_bound":0.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"(PA2649 and PA2648 and PA2647 and PA2646 and PA2645 and PA2644 and PA2643 and PA2642 and PA2641 and PA2640 and PA2639 and PA2638 and PA2637)",
 "subsystem":"Oxidative phosphorylation",
 "notes":{
@@ -308,7 +317,7 @@
 "cpd15560_c":-1.0,
 "cpd15561_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA4538 or PA4975)",
 "subsystem":"Oxidative phosphorylation",
@@ -337,7 +346,7 @@
 "cpd00067_c":-1.0,
 "cpd01351_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA4538 or PA4975)",
 "subsystem":"Oxidative phosphorylation",
@@ -423,7 +432,7 @@
 "cpd15560_c":-1.0,
 "cpd15561_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4975",
 "subsystem":"Oxidative phosphorylation",
@@ -452,7 +461,7 @@
 "cpd00067_c":-1.0,
 "cpd01351_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4975",
 "subsystem":"Oxidative phosphorylation",
@@ -482,7 +491,7 @@
 "cpd15560_c":1.0,
 "cpd15561_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA1317 and PA1318 and PA1319 and PA1320 and PA1321)",
 "subsystem":"Oxidative phosphorylation",
@@ -512,7 +521,7 @@
 "cpd00067_e":2.5,
 "cpd01351_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA1317 and PA1318 and PA1319 and PA1320 and PA1321)",
 "subsystem":"Oxidative phosphorylation",
@@ -540,7 +549,7 @@
 "cpd15560_c":-1.0,
 "cpd15561_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA3025 or PA3584)",
 "subsystem":"Oxidative phosphorylation",
@@ -568,7 +577,7 @@
 "cpd00095_c":1.0,
 "cpd01351_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA3025 or PA3584)",
 "subsystem":"Oxidative phosphorylation",
@@ -686,7 +695,7 @@
 "cpd00012_c":-1.0,
 "cpd00067_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4031",
 "subsystem":"Oxidative phosphorylation",
@@ -741,10 +750,6 @@
 "name":""
 },
 {
-"id":"PA1581",
-"name":""
-},
-{
 "id":"PA1582",
 "name":""
 },
@@ -753,11 +758,23 @@
 "name":""
 },
 {
-"id":"PA2639",
+"id":"PA1581",
 "name":""
 },
 {
-"id":"PA2641",
+"id":"PA2643",
+"name":""
+},
+{
+"id":"PA2644",
+"name":""
+},
+{
+"id":"PA2645",
+"name":""
+},
+{
+"id":"PA2648",
 "name":""
 },
 {
@@ -769,31 +786,7 @@
 "name":""
 },
 {
-"id":"PA2649",
-"name":""
-},
-{
-"id":"PA2645",
-"name":""
-},
-{
-"id":"PA2637",
-"name":""
-},
-{
-"id":"PA2644",
-"name":""
-},
-{
-"id":"PA2638",
-"name":""
-},
-{
-"id":"PA2648",
-"name":""
-},
-{
-"id":"PA2643",
+"id":"PA2641",
 "name":""
 },
 {
@@ -801,7 +794,23 @@
 "name":""
 },
 {
+"id":"PA2638",
+"name":""
+},
+{
+"id":"PA2637",
+"name":""
+},
+{
 "id":"PA2647",
+"name":""
+},
+{
+"id":"PA2639",
+"name":""
+},
+{
+"id":"PA2649",
 "name":""
 },
 {
@@ -821,18 +830,6 @@
 "name":""
 },
 {
-"id":"PA1319",
-"name":""
-},
-{
-"id":"PA1318",
-"name":""
-},
-{
-"id":"PA1321",
-"name":""
-},
-{
 "id":"PA1317",
 "name":""
 },
@@ -841,11 +838,23 @@
 "name":""
 },
 {
-"id":"PA3025",
+"id":"PA1321",
+"name":""
+},
+{
+"id":"PA1319",
+"name":""
+},
+{
+"id":"PA1318",
 "name":""
 },
 {
 "id":"PA3584",
+"name":""
+},
+{
+"id":"PA3025",
 "name":""
 },
 {
@@ -861,11 +870,11 @@
 "name":""
 },
 {
-"id":"PA5561",
+"id":"PA5554",
 "name":""
 },
 {
-"id":"PA5560",
+"id":"PA5561",
 "name":""
 },
 {
@@ -873,15 +882,15 @@
 "name":""
 },
 {
+"id":"PA5559",
+"name":""
+},
+{
 "id":"PA5557",
 "name":""
 },
 {
-"id":"PA5555",
-"name":""
-},
-{
-"id":"PA5554",
+"id":"PA5560",
 "name":""
 },
 {
@@ -889,11 +898,11 @@
 "name":""
 },
 {
-"id":"PA5556",
+"id":"PA5555",
 "name":""
 },
 {
-"id":"PA5559",
+"id":"PA5556",
 "name":""
 },
 {

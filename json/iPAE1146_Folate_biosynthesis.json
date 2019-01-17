@@ -11,6 +11,7 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
@@ -38,6 +39,7 @@
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
+"charge":0,
 "formula":"O2"
 },
 {
@@ -79,12 +81,14 @@
 "id":"cpd00053_c",
 "name":"L-Glutamine",
 "compartment":"c",
+"charge":0,
 "formula":"C5H10N2O3"
 },
 {
 "id":"cpd00229_c",
 "name":"Glycolaldehyde",
 "compartment":"c",
+"charge":0,
 "formula":"C2H4O2"
 },
 {
@@ -119,12 +123,14 @@
 "id":"cpd00231_c",
 "name":"Dihydrobiopterin",
 "compartment":"c",
+"charge":0,
 "formula":"C9H13N5O3"
 },
 {
 "id":"cpd00233_c",
 "name":"Tetrahydrobiopterin",
 "compartment":"c",
+"charge":0,
 "formula":"C9H15N5O3"
 },
 {
@@ -138,12 +144,14 @@
 "id":"cpd00412_c",
 "name":"Deoxyuridine",
 "compartment":"c",
+"charge":0,
 "formula":"C9H12N2O5"
 },
 {
 "id":"cpd00954_c",
 "name":"6-hydroxymethyl dihydropterin",
 "compartment":"c",
+"charge":0,
 "formula":"C7H9N5O2"
 },
 {
@@ -157,6 +165,7 @@
 "id":"cpd00066_c",
 "name":"L-Phenylalanine",
 "compartment":"c",
+"charge":0,
 "formula":"C9H11NO2"
 },
 {
@@ -177,6 +186,7 @@
 "id":"cpd00069_c",
 "name":"L-Tyrosine",
 "compartment":"c",
+"charge":0,
 "formula":"C9H11NO3"
 },
 {
@@ -197,12 +207,14 @@
 "id":"cpd02961_c",
 "name":"Dihydroneopterin",
 "compartment":"c",
+"charge":0,
 "formula":"C9H13N5O4"
 },
 {
 "id":"cpd03897_c",
 "name":"4a-Hydroxytetrahydrobiopterin",
 "compartment":"c",
+"charge":0,
 "formula":"C9H15N5O4"
 },
 {
@@ -216,6 +228,7 @@
 "id":"cpd02315_c",
 "name":"6-Pyruvoyltetrahydropterin",
 "compartment":"c",
+"charge":0,
 "formula":"C9H11N5O3"
 },
 {
@@ -337,7 +350,7 @@
 "cpd00067_c":1.0,
 "cpd02978_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA3438 or PA1674)",
 "subsystem":"Folate biosynthesis",
@@ -420,7 +433,7 @@
 "cpd00233_c":-1.0,
 "cpd03897_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0872",
 "subsystem":"Folate biosynthesis",
@@ -504,7 +517,7 @@
 "cpd00443_c":1.0,
 "cpd08210_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2964",
 "subsystem":"Folate biosynthesis",
@@ -535,7 +548,7 @@
 "cpd00330_c":1.0,
 "cpd00683_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3111",
 "subsystem":"Folate biosynthesis",
@@ -595,7 +608,7 @@
 "cpd02961_c":1.0,
 "cpd02978_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3296",
 "subsystem":"Folate biosynthesis",
@@ -624,7 +637,7 @@
 "cpd00299_c":-1.0,
 "cpd00412_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3625",
 "subsystem":"Folate biosynthesis",
@@ -652,7 +665,7 @@
 "cpd00683_c":1.0,
 "cpd02920_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4750",
 "subsystem":"Folate biosynthesis",
@@ -677,8 +690,8 @@
 "metabolites":{
 "cpd06227_c":-1.0
 },
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
+"lower_bound":0.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"",
 "subsystem":"Folate biosynthesis",
 "notes":{
@@ -711,11 +724,11 @@
 "name":""
 },
 {
-"id":"PA3438",
+"id":"PA1674",
 "name":""
 },
 {
-"id":"PA1674",
+"id":"PA3438",
 "name":""
 },
 {

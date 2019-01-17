@@ -18,6 +18,7 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
@@ -87,6 +88,7 @@
 "id":"cpd00053_c",
 "name":"L-Glutamine",
 "compartment":"c",
+"charge":0,
 "formula":"C5H10N2O3"
 },
 {
@@ -114,12 +116,14 @@
 "id":"cpd12227_c",
 "name":"L-Glutamyl-tRNA-Glu",
 "compartment":"c",
+"charge":0,
 "formula":"C15H19N6O6R"
 },
 {
 "id":"cpd11912_c",
 "name":"tRNA-Glu",
 "compartment":"c",
+"charge":0,
 "formula":"C10H12N5O3R"
 },
 {
@@ -161,12 +165,14 @@
 "id":"cpd01982_c",
 "name":"5-Phosphoribosylamine",
 "compartment":"c",
+"charge":0,
 "formula":"C5H12NO7P"
 },
 {
 "id":"cpd00288_c",
 "name":"D-Glucosamine phosphate",
 "compartment":"c",
+"charge":0,
 "formula":"C6H14NO8P"
 }
 ],
@@ -214,7 +220,7 @@
 "cpd00053_c":-1.0,
 "cpd00638_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4920",
 "subsystem":"Glutamate metabolism",
@@ -245,7 +251,7 @@
 "cpd00053_c":1.0,
 "cpd00067_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"((PA3356 or PA0296 or PA2040 or PA5522 or PA5508) or PA0298 or PA5119)",
 "subsystem":"Glutamate metabolism",
@@ -278,7 +284,7 @@
 "cpd00146_c":1.0,
 "cpd00242_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA4758 and PA4756)",
 "subsystem":"Glutamate metabolism",
@@ -308,7 +314,7 @@
 "cpd00103_c":-1.0,
 "cpd01982_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3108",
 "subsystem":"Glutamate metabolism",
@@ -339,7 +345,7 @@
 "cpd11912_c":-1.0,
 "cpd12227_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3134",
 "subsystem":"Glutamate metabolism",
@@ -417,11 +423,11 @@
 ],
 "genes":[
 {
-"id":"PA5036",
+"id":"PA5035",
 "name":""
 },
 {
-"id":"PA5035",
+"id":"PA5036",
 "name":""
 },
 {
@@ -429,7 +435,7 @@
 "name":""
 },
 {
-"id":"PA5508",
+"id":"PA3356",
 "name":""
 },
 {
@@ -437,19 +443,7 @@
 "name":""
 },
 {
-"id":"PA5522",
-"name":""
-},
-{
 "id":"PA0298",
-"name":""
-},
-{
-"id":"PA3356",
-"name":""
-},
-{
-"id":"PA5119",
 "name":""
 },
 {
@@ -457,11 +451,23 @@
 "name":""
 },
 {
-"id":"PA4756",
+"id":"PA5119",
+"name":""
+},
+{
+"id":"PA5522",
+"name":""
+},
+{
+"id":"PA5508",
 "name":""
 },
 {
 "id":"PA4758",
+"name":""
+},
+{
+"id":"PA4756",
 "name":""
 },
 {

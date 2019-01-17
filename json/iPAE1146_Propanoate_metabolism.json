@@ -39,6 +39,7 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
+"charge":0,
 "formula":"CO2"
 },
 {
@@ -122,6 +123,7 @@
 "id":"cpd00085_c",
 "name":"beta-Alanine",
 "compartment":"c",
+"charge":0,
 "formula":"C3H7NO2"
 },
 {
@@ -142,6 +144,7 @@
 "id":"cpd00035_c",
 "name":"L-Alanine",
 "compartment":"c",
+"charge":0,
 "formula":"C3H7NO2"
 },
 {
@@ -237,8 +240,8 @@
 "cpd00141_c":1.0,
 "cpd03560_c":-1.0
 },
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
+"lower_bound":0.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"((PA4733) or (PA0887) or (PA3568) or (PA2555))",
 "subsystem":"Propanoate metabolism",
 "notes":{
@@ -383,8 +386,8 @@
 "cpd00086_c":-1.0,
 "cpd01844_c":1.0
 },
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
+"lower_bound":0.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"PA0835",
 "subsystem":"Propanoate metabolism",
 "notes":{
@@ -412,8 +415,8 @@
 "cpd00141_c":-1.0,
 "cpd01844_c":1.0
 },
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
+"lower_bound":0.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"PA0836",
 "subsystem":"Propanoate metabolism",
 "notes":{
@@ -438,19 +441,11 @@
 "name":""
 },
 {
-"id":"PA0130",
-"name":""
-},
-{
 "id":"PA3570",
 "name":""
 },
 {
-"id":"PA2555",
-"name":""
-},
-{
-"id":"PA3568",
+"id":"PA0130",
 "name":""
 },
 {
@@ -462,7 +457,11 @@
 "name":""
 },
 {
-"id":"PA1589",
+"id":"PA3568",
+"name":""
+},
+{
+"id":"PA2555",
 "name":""
 },
 {
@@ -470,11 +469,15 @@
 "name":""
 },
 {
-"id":"PA3639",
+"id":"PA1589",
 "name":""
 },
 {
-"id":"PA4847",
+"id":"PA3112",
+"name":""
+},
+{
+"id":"PA3639",
 "name":""
 },
 {
@@ -482,7 +485,7 @@
 "name":""
 },
 {
-"id":"PA3112",
+"id":"PA4847",
 "name":""
 },
 {

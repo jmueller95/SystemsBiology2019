@@ -11,6 +11,7 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
@@ -73,6 +74,7 @@
 "id":"cpd01352_c",
 "name":"Undecaprenol",
 "compartment":"c",
+"charge":0,
 "formula":"C55H90O"
 },
 {
@@ -135,6 +137,7 @@
 "id":"cpd00516_c",
 "name":"meso-2,6-Diaminopimelate",
 "compartment":"c",
+"charge":0,
 "formula":"C7H14N2O4"
 },
 {
@@ -184,7 +187,7 @@
 "cpd00286_c":1.0,
 "cpd02229_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1959",
 "subsystem":"Peptidoglycan biosynthesis",
@@ -270,7 +273,7 @@
 "cpd00525_c":1.0,
 "cpd00890_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4414",
 "subsystem":"Peptidoglycan biosynthesis",
@@ -329,7 +332,7 @@
 "cpd00525_c":-1.0,
 "cpd02964_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4417",
 "subsystem":"Peptidoglycan biosynthesis",
@@ -356,7 +359,7 @@
 "cpd03495_c":-1.0,
 "cpd15654_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Peptidoglycan biosynthesis",

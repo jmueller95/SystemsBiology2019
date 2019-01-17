@@ -11,12 +11,14 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
+"charge":0,
 "formula":"O2"
 },
 {
@@ -37,24 +39,28 @@
 "id":"cpd00065_c",
 "name":"L-Tryptophan",
 "compartment":"c",
+"charge":0,
 "formula":"C11H12N2O2"
 },
 {
 "id":"cpd00035_c",
 "name":"L-Alanine",
 "compartment":"c",
+"charge":0,
 "formula":"C3H7NO2"
 },
 {
 "id":"cpd00275_c",
 "name":"L-Kynurenine",
 "compartment":"c",
+"charge":0,
 "formula":"C10H12N2O3"
 },
 {
 "id":"cpd01749_c",
 "name":"N-Formylkynurenine",
 "compartment":"c",
+"charge":0,
 "formula":"C11H12N2O4"
 }
 ],
@@ -69,7 +75,7 @@
 "cpd00093_c":1.0,
 "cpd00275_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2080",
 "subsystem":"Tryptophan metabolism",
@@ -125,7 +131,7 @@
 "cpd00065_c":-1.0,
 "cpd01749_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2579",
 "subsystem":"Tryptophan metabolism",

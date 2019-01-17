@@ -25,6 +25,7 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
@@ -45,6 +46,7 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
+"charge":0,
 "formula":"CO2"
 },
 {
@@ -72,12 +74,14 @@
 "id":"cpd12225_c",
 "name":"Dihydrolipolprotein",
 "compartment":"c",
+"charge":0,
 "formula":"CH3RS2"
 },
 {
 "id":"cpd12005_c",
 "name":"Lipoylprotein",
 "compartment":"c",
+"charge":0,
 "formula":"CHRS2"
 },
 {
@@ -133,6 +137,7 @@
 "id":"cpd00229_c",
 "name":"Glycolaldehyde",
 "compartment":"c",
+"charge":0,
 "formula":"C2H4O2"
 },
 {
@@ -202,6 +207,7 @@
 "id":"cpd00378_c",
 "name":"Formamide",
 "compartment":"c",
+"charge":0,
 "formula":"CH3NO"
 },
 {
@@ -383,7 +389,7 @@
 "cpd00139_c":1.0,
 "cpd00727_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA3172 or PA3941 or PA0608)",
 "subsystem":"Glyoxylate and dicarboxylate metabolism",
@@ -412,7 +418,7 @@
 "cpd00087_c":1.0,
 "cpd00201_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA4314 or PA5420)",
 "subsystem":"Glyoxylate and dicarboxylate metabolism",
@@ -470,7 +476,7 @@
 "cpd00067_c":-1.0,
 "cpd00843_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1502",
 "subsystem":"Glyoxylate and dicarboxylate metabolism",
@@ -501,7 +507,7 @@
 "cpd00242_c":-1.0,
 "cpd00519_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2012",
 "subsystem":"Glyoxylate and dicarboxylate metabolism",
@@ -528,7 +534,7 @@
 "cpd00040_c":1.0,
 "cpd00260_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2634",
 "subsystem":"Glyoxylate and dicarboxylate metabolism",
@@ -556,7 +562,7 @@
 "cpd00047_c":1.0,
 "cpd00378_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3366",
 "subsystem":"Glyoxylate and dicarboxylate metabolism",
@@ -660,11 +666,11 @@
 ],
 "genes":[
 {
-"id":"PA1587",
+"id":"PA2250",
 "name":""
 },
 {
-"id":"PA2250",
+"id":"PA1587",
 "name":""
 },
 {
@@ -676,11 +682,11 @@
 "name":""
 },
 {
-"id":"PA4812",
+"id":"PA4810",
 "name":""
 },
 {
-"id":"PA4810",
+"id":"PA4812",
 "name":""
 },
 {
@@ -692,15 +698,11 @@
 "name":""
 },
 {
-"id":"PA0795",
-"name":""
-},
-{
 "id":"PA1580",
 "name":""
 },
 {
-"id":"PA3172",
+"id":"PA0795",
 "name":""
 },
 {
@@ -708,15 +710,19 @@
 "name":""
 },
 {
+"id":"PA3172",
+"name":""
+},
+{
 "id":"PA0608",
 "name":""
 },
 {
-"id":"PA4314",
+"id":"PA5420",
 "name":""
 },
 {
-"id":"PA5420",
+"id":"PA4314",
 "name":""
 },
 {

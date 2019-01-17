@@ -39,6 +39,7 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
@@ -143,12 +144,14 @@
 "id":"cpd00100_c",
 "name":"Glycerol",
 "compartment":"c",
+"charge":0,
 "formula":"C3H8O3"
 },
 {
 "id":"cpd00448_c",
 "name":"D-Glyceraldehyde",
 "compartment":"c",
+"charge":0,
 "formula":"C3H6O3"
 },
 {
@@ -631,6 +634,7 @@
 "id":"cpd00054_c",
 "name":"L-Serine",
 "compartment":"c",
+"charge":0,
 "formula":"C3H7NO3"
 },
 {
@@ -693,84 +697,98 @@
 "id":"cpd15702_c",
 "name":"1,2-Dianteisoheptadecanoyl-sn-glycerol",
 "compartment":"c",
+"charge":0,
 "formula":"C37H72O5"
 },
 {
 "id":"cpd15705_c",
 "name":"1,2-Dianteisopentadecanoyl-sn-glycerol",
 "compartment":"c",
+"charge":0,
 "formula":"C33H64O5"
 },
 {
 "id":"cpd11423_c",
 "name":"1,2-Diacyl-sn-glycerol",
 "compartment":"c",
+"charge":0,
 "formula":"C5H6O5R2"
 },
 {
 "id":"cpd15306_c",
 "name":"1,2-Diacyl-sn-glycerol_didodecanoyl",
 "compartment":"c",
+"charge":0,
 "formula":"C27H52O5"
 },
 {
 "id":"cpd15307_c",
 "name":"1,2-Diacyl-sn-glycerol_ditetradecanoyl",
 "compartment":"c",
+"charge":0,
 "formula":"C31H60O5"
 },
 {
 "id":"cpd15308_c",
 "name":"1,2-Diacyl-sn-glycerol_ditetradec-7-enoyl",
 "compartment":"c",
+"charge":0,
 "formula":"C31H56O5"
 },
 {
 "id":"cpd15309_c",
 "name":"1,2-Diacyl-sn-glycerol_dihexadecanoyl",
 "compartment":"c",
+"charge":0,
 "formula":"C35H68O5"
 },
 {
 "id":"cpd15310_c",
 "name":"1,2-Diacyl-sn-glycerol_dihexadec-9-enoyl",
 "compartment":"c",
+"charge":0,
 "formula":"C35H64O5"
 },
 {
 "id":"cpd15311_c",
 "name":"1,2-Diacyl-sn-glycerol_dioctadecanoyl",
 "compartment":"c",
+"charge":0,
 "formula":"C39H76O5"
 },
 {
 "id":"cpd15312_c",
 "name":"1,2-Diacyl-sn-glycerol_dioctadec-11-enoyl",
 "compartment":"c",
+"charge":0,
 "formula":"C39H72O5"
 },
 {
 "id":"cpd15701_c",
 "name":"1,2-Diisoheptadecanoyl-sn-glycerol",
 "compartment":"c",
+"charge":0,
 "formula":"C37H72O5"
 },
 {
 "id":"cpd15706_c",
 "name":"1,2-Diisohexadecanoyl-sn-glycerol",
 "compartment":"c",
+"charge":0,
 "formula":"C35H68O5"
 },
 {
 "id":"cpd15704_c",
 "name":"1,2-Diisopentadecanoyl-sn-glycerol",
 "compartment":"c",
+"charge":0,
 "formula":"C33H64O5"
 },
 {
 "id":"cpd15703_c",
 "name":"1,2-Diisotetradecanoyl-sn-glycerol",
 "compartment":"c",
+"charge":0,
 "formula":"C31H60O5"
 },
 {
@@ -855,7 +873,7 @@
 "cpd15326_c":-1.0,
 "cpd15525_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"((PA0005) or (PA4351) or (PA2537))",
 "subsystem":"Glycerolipid metabolism",
@@ -883,7 +901,7 @@
 "cpd15327_c":-1.0,
 "cpd15524_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"((PA0005) or (PA4351) or (PA2537))",
 "subsystem":"Glycerolipid metabolism",
@@ -911,7 +929,7 @@
 "cpd15328_c":-1.0,
 "cpd15527_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"((PA0005) or (PA4351) or (PA2537))",
 "subsystem":"Glycerolipid metabolism",
@@ -939,7 +957,7 @@
 "cpd15329_c":-1.0,
 "cpd15526_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"((PA0005) or (PA4351) or (PA2537))",
 "subsystem":"Glycerolipid metabolism",
@@ -967,7 +985,7 @@
 "cpd15330_c":-1.0,
 "cpd15523_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"((PA0005) or (PA4351) or (PA2537))",
 "subsystem":"Glycerolipid metabolism",
@@ -995,7 +1013,7 @@
 "cpd15325_c":-1.0,
 "cpd15521_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"((PA0005) or (PA4351) or (PA2537))",
 "subsystem":"Glycerolipid metabolism",
@@ -1023,7 +1041,7 @@
 "cpd15331_c":-1.0,
 "cpd15522_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"((PA0005) or (PA4351) or (PA2537))",
 "subsystem":"Glycerolipid metabolism",
@@ -1051,7 +1069,7 @@
 "cpd15672_c":-1.0,
 "cpd15678_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"((PA0005) or (PA4351) or (PA2537))",
 "subsystem":"Glycerolipid metabolism",
@@ -1079,7 +1097,7 @@
 "cpd15675_c":-1.0,
 "cpd15681_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"((PA0005) or (PA4351) or (PA2537))",
 "subsystem":"Glycerolipid metabolism",
@@ -1107,7 +1125,7 @@
 "cpd15671_c":-1.0,
 "cpd15677_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"((PA0005) or (PA4351) or (PA2537))",
 "subsystem":"Glycerolipid metabolism",
@@ -1135,7 +1153,7 @@
 "cpd15676_c":-1.0,
 "cpd15682_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"((PA0005) or (PA4351) or (PA2537))",
 "subsystem":"Glycerolipid metabolism",
@@ -1163,7 +1181,7 @@
 "cpd15674_c":-1.0,
 "cpd15680_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"((PA0005) or (PA4351) or (PA2537))",
 "subsystem":"Glycerolipid metabolism",
@@ -1191,7 +1209,7 @@
 "cpd15673_c":-1.0,
 "cpd15679_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"((PA0005) or (PA4351) or (PA2537))",
 "subsystem":"Glycerolipid metabolism",
@@ -1219,7 +1237,7 @@
 "cpd15331_c":-1.0,
 "cpd15522_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"((PA0005) or (PA4351) or (PA2537))",
 "subsystem":"Glycerolipid metabolism",
@@ -1247,7 +1265,7 @@
 "cpd15327_c":-1.0,
 "cpd15524_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"((PA0005) or (PA4351) or (PA2537))",
 "subsystem":"Glycerolipid metabolism",
@@ -1275,7 +1293,7 @@
 "cpd15329_c":-1.0,
 "cpd15526_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"((PA0005) or (PA4351) or (PA2537))",
 "subsystem":"Glycerolipid metabolism",
@@ -1913,7 +1931,7 @@
 "cpd15239_c":-1.0,
 "cpd15326_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA0581 and PA2969)",
 "subsystem":"Glycerolipid metabolism",
@@ -1941,7 +1959,7 @@
 "cpd11825_c":-1.0,
 "cpd15328_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA0581 and PA2969)",
 "subsystem":"Glycerolipid metabolism",
@@ -2613,7 +2631,7 @@
 "cpd11434_c":-1.0,
 "cpd15672_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3673 or PA0581",
 "subsystem":"Glycerolipid metabolism",
@@ -2641,7 +2659,7 @@
 "cpd11439_c":-1.0,
 "cpd15675_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3673 or PA0581",
 "subsystem":"Glycerolipid metabolism",
@@ -2669,7 +2687,7 @@
 "cpd11493_c":1.0,
 "cpd15325_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3673 or PA0581",
 "subsystem":"Glycerolipid metabolism",
@@ -2697,7 +2715,7 @@
 "cpd11493_c":1.0,
 "cpd15331_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3673 or PA0581",
 "subsystem":"Glycerolipid metabolism",
@@ -2725,7 +2743,7 @@
 "cpd15294_c":-1.0,
 "cpd15330_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3673 or PA0581",
 "subsystem":"Glycerolipid metabolism",
@@ -2753,7 +2771,7 @@
 "cpd15277_c":-1.0,
 "cpd15327_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3673 or PA0581",
 "subsystem":"Glycerolipid metabolism",
@@ -2781,7 +2799,7 @@
 "cpd15268_c":-1.0,
 "cpd15329_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3673 or PA0581",
 "subsystem":"Glycerolipid metabolism",
@@ -2809,7 +2827,7 @@
 "cpd11432_c":-1.0,
 "cpd15671_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3673 or PA0581",
 "subsystem":"Glycerolipid metabolism",
@@ -2837,7 +2855,7 @@
 "cpd11441_c":-1.0,
 "cpd15676_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3673 or PA0581",
 "subsystem":"Glycerolipid metabolism",
@@ -2865,7 +2883,7 @@
 "cpd11437_c":-1.0,
 "cpd15674_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3673 or PA0581",
 "subsystem":"Glycerolipid metabolism",
@@ -2893,7 +2911,7 @@
 "cpd11435_c":-1.0,
 "cpd15673_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3673 or PA0581",
 "subsystem":"Glycerolipid metabolism",
@@ -2921,7 +2939,7 @@
 "cpd01695_c":-1.0,
 "cpd15331_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3673 or PA0581",
 "subsystem":"Glycerolipid metabolism",
@@ -2949,7 +2967,7 @@
 "cpd00134_c":-1.0,
 "cpd15327_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3673 or PA0581",
 "subsystem":"Glycerolipid metabolism",
@@ -2977,7 +2995,7 @@
 "cpd00327_c":-1.0,
 "cpd15329_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3673 or PA0581",
 "subsystem":"Glycerolipid metabolism",
@@ -3006,7 +3024,7 @@
 "cpd15717_c":-1.0,
 "cpd15723_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4050",
 "subsystem":"Glycerolipid metabolism",
@@ -3035,7 +3053,7 @@
 "cpd15720_c":-1.0,
 "cpd15726_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4050",
 "subsystem":"Glycerolipid metabolism",
@@ -3064,7 +3082,7 @@
 "cpd15716_c":-1.0,
 "cpd15722_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4050",
 "subsystem":"Glycerolipid metabolism",
@@ -3093,7 +3111,7 @@
 "cpd15721_c":-1.0,
 "cpd15727_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4050",
 "subsystem":"Glycerolipid metabolism",
@@ -3122,7 +3140,7 @@
 "cpd15719_c":-1.0,
 "cpd15725_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4050",
 "subsystem":"Glycerolipid metabolism",
@@ -3151,7 +3169,7 @@
 "cpd15718_c":-1.0,
 "cpd15724_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4050",
 "subsystem":"Glycerolipid metabolism",
@@ -3180,7 +3198,7 @@
 "cpd15684_c":-1.0,
 "cpd15690_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4693",
 "subsystem":"Glycerolipid metabolism",
@@ -3209,7 +3227,7 @@
 "cpd15687_c":-1.0,
 "cpd15693_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4693",
 "subsystem":"Glycerolipid metabolism",
@@ -3238,7 +3256,7 @@
 "cpd15683_c":-1.0,
 "cpd15689_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4693",
 "subsystem":"Glycerolipid metabolism",
@@ -3267,7 +3285,7 @@
 "cpd15688_c":-1.0,
 "cpd15694_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4693",
 "subsystem":"Glycerolipid metabolism",
@@ -3296,7 +3314,7 @@
 "cpd15686_c":-1.0,
 "cpd15692_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4693",
 "subsystem":"Glycerolipid metabolism",
@@ -3325,7 +3343,7 @@
 "cpd15685_c":-1.0,
 "cpd15691_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4693",
 "subsystem":"Glycerolipid metabolism",
@@ -3351,7 +3369,7 @@
 "name":""
 },
 {
-"id":"PA0005",
+"id":"PA4351",
 "name":""
 },
 {
@@ -3359,7 +3377,7 @@
 "name":""
 },
 {
-"id":"PA4351",
+"id":"PA0005",
 "name":""
 },
 {
@@ -3375,11 +3393,11 @@
 "name":""
 },
 {
-"id":"PA2155",
+"id":"PA5394",
 "name":""
 },
 {
-"id":"PA5394",
+"id":"PA2155",
 "name":""
 },
 {
@@ -3387,19 +3405,19 @@
 "name":""
 },
 {
-"id":"PA0581",
-"name":""
-},
-{
 "id":"PA2969",
 "name":""
 },
 {
-"id":"PA3582",
+"id":"PA0581",
 "name":""
 },
 {
 "id":"PA1487",
+"name":""
+},
+{
+"id":"PA3582",
 "name":""
 },
 {

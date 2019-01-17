@@ -25,12 +25,14 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
+"charge":0,
 "formula":"CO2"
 },
 {
@@ -44,12 +46,14 @@
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
+"charge":0,
 "formula":"O2"
 },
 {
 "id":"cpd00025_c",
 "name":"H2O2",
 "compartment":"c",
+"charge":0,
 "formula":"H2O2"
 },
 {
@@ -70,12 +74,14 @@
 "id":"cpd17049_c",
 "name":"3-aminopropanaldehyde",
 "compartment":"c",
+"charge":0,
 "formula":"C3H7ON"
 },
 {
 "id":"cpd00085_c",
 "name":"beta-Alanine",
 "compartment":"c",
+"charge":0,
 "formula":"C3H7NO2"
 },
 {
@@ -126,7 +132,7 @@
 "cpd00067_c":-1.0,
 "cpd00085_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4731",
 "subsystem":"beta-Alanine metabolism",
@@ -156,7 +162,7 @@
 "cpd00726_c":-1.0,
 "cpd01504_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"beta-Alanine metabolism",

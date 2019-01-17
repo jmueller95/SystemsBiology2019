@@ -32,18 +32,21 @@
 "id":"cpd11949_c",
 "name":"Alginate",
 "compartment":"c",
+"charge":0,
 "formula":"C6H8O6*2"
 },
 {
 "id":"cpd17075_c",
 "name":"Epimerized Alginate Dimer",
 "compartment":"c",
+"charge":0,
 "formula":"C12H16O12"
 },
 {
 "id":"cpd17074_c",
 "name":"Acetylated Alginate",
 "compartment":"c",
+"charge":0,
 "formula":"C14H18O13"
 }
 ],
@@ -156,11 +159,11 @@
 "name":""
 },
 {
-"id":"PA3549",
+"id":"PA3550",
 "name":""
 },
 {
-"id":"PA3550",
+"id":"PA3549",
 "name":""
 }
 ],

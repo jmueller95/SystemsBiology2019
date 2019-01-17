@@ -4,6 +4,7 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
@@ -17,6 +18,7 @@
 "id":"cpd00071_c",
 "name":"Acetaldehyde",
 "compartment":"c",
+"charge":0,
 "formula":"C2H4O"
 },
 {
@@ -30,6 +32,7 @@
 "id":"cpd00035_c",
 "name":"L-Alanine",
 "compartment":"c",
+"charge":0,
 "formula":"C3H7NO2"
 },
 {
@@ -85,7 +88,7 @@
 "cpd00071_c":1.0,
 "cpd02024_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1311",
 "subsystem":"Phosphonate and phosphinate metabolism",

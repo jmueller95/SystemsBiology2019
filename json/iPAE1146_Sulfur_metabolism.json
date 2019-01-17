@@ -11,6 +11,7 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
@@ -38,6 +39,7 @@
 "id":"cpd00239_c",
 "name":"H2S",
 "compartment":"c",
+"charge":0,
 "formula":"H2S"
 },
 {
@@ -65,12 +67,14 @@
 "id":"cpd11420_c",
 "name":"trdox",
 "compartment":"c",
+"charge":0,
 "formula":"C6H7NO2R2S2"
 },
 {
 "id":"cpd11421_c",
 "name":"trdrd",
 "compartment":"c",
+"charge":0,
 "formula":"C6H9NO2R2S2"
 },
 {
@@ -140,6 +144,7 @@
 "id":"cpd00150_c",
 "name":"HCN",
 "compartment":"c",
+"charge":0,
 "formula":"CHN"
 },
 {
@@ -308,7 +313,7 @@
 "cpd00045_c":-1.0,
 "cpd00067_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5175",
 "subsystem":"Sulfur metabolism",
@@ -330,11 +335,11 @@
 ],
 "genes":[
 {
-"id":"PA2906",
+"id":"PA1838",
 "name":""
 },
 {
-"id":"PA1838",
+"id":"PA2906",
 "name":""
 },
 {

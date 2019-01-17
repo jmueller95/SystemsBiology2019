@@ -25,12 +25,14 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
 "id":"cpd01735_c",
 "name":"Glucurone",
 "compartment":"c",
+"charge":0,
 "formula":"C6H8O6"
 },
 {
@@ -75,11 +77,11 @@
 ],
 "genes":[
 {
-"id":"PA1027",
+"id":"PA5312",
 "name":""
 },
 {
-"id":"PA1984",
+"id":"PA1027",
 "name":""
 },
 {
@@ -87,7 +89,7 @@
 "name":""
 },
 {
-"id":"PA5312",
+"id":"PA1984",
 "name":""
 }
 ],

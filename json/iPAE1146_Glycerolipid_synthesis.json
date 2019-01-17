@@ -11,6 +11,7 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
@@ -38,30 +39,35 @@
 "id":"cPY00131_c",
 "name":"pg160161",
 "compartment":"c",
+"charge":0,
 "formula":"C38H72O10P1"
 },
 {
 "id":"cPY00142_c",
 "name":"clpn160161",
 "compartment":"c",
+"charge":0,
 "formula":"C73H136O17P2"
 },
 {
 "id":"cPY00134_c",
 "name":"pg180181",
 "compartment":"c",
+"charge":0,
 "formula":"C42H80O10P1"
 },
 {
 "id":"cPY00141_c",
 "name":"clpn180181",
 "compartment":"c",
+"charge":0,
 "formula":"C81H150O17P2"
 },
 {
 "id":"cPY00121_c",
 "name":"CDP-pa160161",
 "compartment":"c",
+"charge":0,
 "formula":"C44H77N3O15P2"
 },
 {
@@ -75,66 +81,77 @@
 "id":"cPY00130_c",
 "name":"pgp160161",
 "compartment":"c",
+"charge":0,
 "formula":"C38H71O13P2"
 },
 {
 "id":"cPY00126_c",
 "name":"CDP-pa180181",
 "compartment":"c",
+"charge":0,
 "formula":"C48H85N3O15P2"
 },
 {
 "id":"cPY00133_c",
 "name":"pgp180181",
 "compartment":"c",
+"charge":0,
 "formula":"C42H79O13P2"
 },
 {
 "id":"cPY00123_c",
 "name":"pe160161",
 "compartment":"c",
+"charge":0,
 "formula":"C37H72N1O8P1"
 },
 {
 "id":"cPY00128_c",
 "name":"pe180181",
 "compartment":"c",
+"charge":0,
 "formula":"C41H80N1O8P1"
 },
 {
 "id":"cPY00140_c",
 "name":"clpn190cyc",
 "compartment":"c",
+"charge":0,
 "formula":"None"
 },
 {
 "id":"cPY00138_c",
 "name":"clpn170cyc",
 "compartment":"c",
+"charge":0,
 "formula":"None"
 },
 {
 "id":"cPY00124_c",
 "name":"pe170cyc",
 "compartment":"c",
+"charge":0,
 "formula":"None"
 },
 {
 "id":"cPY00129_c",
 "name":"pe190cyc",
 "compartment":"c",
+"charge":0,
 "formula":"None"
 },
 {
 "id":"cPY00132_c",
 "name":"pg170cyc",
 "compartment":"c",
+"charge":0,
 "formula":"None"
 },
 {
 "id":"cPY00135_c",
 "name":"pg190cyc",
 "compartment":"c",
+"charge":0,
 "formula":"C42H80O10P1"
 }
 ],
@@ -149,7 +166,7 @@
 "cpd00067_c":1.0,
 "cpd00080_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA2541) or (PA2584)",
 "subsystem":"Glycerolipid synthesis",
@@ -178,7 +195,7 @@
 "cpd00067_c":1.0,
 "cpd00080_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA2541) or (PA2584)",
 "subsystem":"Glycerolipid synthesis",
@@ -206,7 +223,7 @@
 "cpd00001_c":-1.0,
 "cpd00009_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4050",
 "subsystem":"Glycerolipid synthesis",
@@ -234,7 +251,7 @@
 "cpd00001_c":-1.0,
 "cpd00009_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4050",
 "subsystem":"Glycerolipid synthesis",
@@ -262,7 +279,7 @@
 "cpd00017_c":-1.0,
 "cpd00067_c":2.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Glycerolipid synthesis",
@@ -290,7 +307,7 @@
 "cpd00017_c":-1.0,
 "cpd00067_c":2.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Glycerolipid synthesis",
@@ -318,7 +335,7 @@
 "cpd00017_c":-1.0,
 "cpd00067_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Glycerolipid synthesis",
@@ -346,7 +363,7 @@
 "cpd00017_c":-1.0,
 "cpd00067_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Glycerolipid synthesis",
@@ -374,7 +391,7 @@
 "cpd00017_c":-1.0,
 "cpd00067_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Glycerolipid synthesis",
@@ -402,7 +419,7 @@
 "cpd00017_c":-1.0,
 "cpd00067_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Glycerolipid synthesis",

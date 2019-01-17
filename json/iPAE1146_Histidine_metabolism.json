@@ -25,6 +25,7 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
+"charge":0,
 "formula":"H2O"
 },
 {
@@ -59,6 +60,7 @@
 "id":"cpd00053_c",
 "name":"L-Glutamine",
 "compartment":"c",
+"charge":0,
 "formula":"C5H10N2O3"
 },
 {
@@ -86,12 +88,14 @@
 "id":"cpd00119_c",
 "name":"L-Histidine",
 "compartment":"c",
+"charge":0,
 "formula":"C6H9N3O2"
 },
 {
 "id":"cpd00807_c",
 "name":"L-histidinol-phosphate",
 "compartment":"c",
+"charge":0,
 "formula":"C6H12N3O4P"
 },
 {
@@ -126,6 +130,7 @@
 "id":"cpd00378_c",
 "name":"Formamide",
 "compartment":"c",
+"charge":0,
 "formula":"CH3NO"
 },
 {
@@ -226,7 +231,7 @@
 "cpd00641_c":1.0,
 "cpd00807_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA0006 or PA1616)",
 "subsystem":"Histidine metabolism",
@@ -256,7 +261,7 @@
 "cpd02851_c":1.0,
 "cpd02991_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA3152 and PA3151) or (PA5142 and PA5140)",
 "subsystem":"Histidine metabolism",
@@ -284,7 +289,7 @@
 "cpd00344_c":-1.0,
 "cpd00378_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA3175 or PA5091)",
 "subsystem":"Histidine metabolism",
@@ -340,7 +345,7 @@
 "cpd00103_c":-1.0,
 "cpd01775_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4449",
 "subsystem":"Histidine metabolism",
@@ -395,7 +400,7 @@
 "cpd01775_c":-1.0,
 "cpd01777_c":1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5067",
 "subsystem":"Histidine metabolism",
@@ -422,7 +427,7 @@
 "cpd00344_c":1.0,
 "cpd02311_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5092",
 "subsystem":"Histidine metabolism",
@@ -530,7 +535,7 @@
 "cpd00930_c":1.0,
 "cpd02843_c":-1.0
 },
-"lower_bound":-1000.0,
+"lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5143",
 "subsystem":"Histidine metabolism",
@@ -564,10 +569,6 @@
 "name":""
 },
 {
-"id":"PA3151",
-"name":""
-},
-{
 "id":"PA5140",
 "name":""
 },
@@ -580,6 +581,10 @@
 "name":""
 },
 {
+"id":"PA3151",
+"name":""
+},
+{
 "id":"PA5091",
 "name":""
 },
@@ -588,7 +593,7 @@
 "name":""
 },
 {
-"id":"PA4447",
+"id":"PA2531",
 "name":""
 },
 {
@@ -596,7 +601,7 @@
 "name":""
 },
 {
-"id":"PA2531",
+"id":"PA4447",
 "name":""
 },
 {
