@@ -11,7 +11,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -25,7 +24,6 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
-"charge":0,
 "formula":"CO2"
 },
 {
@@ -60,14 +58,12 @@
 "id":"cpd11420_c",
 "name":"trdox",
 "compartment":"c",
-"charge":0,
 "formula":"C6H7NO2R2S2"
 },
 {
 "id":"cpd11421_c",
 "name":"trdrd",
 "compartment":"c",
-"charge":0,
 "formula":"C6H9NO2R2S2"
 },
 {
@@ -81,14 +77,12 @@
 "id":"cpd00019_c",
 "name":"S-Adenosyl-homocysteine",
 "compartment":"c",
-"charge":0,
 "formula":"C14H20N6O5S"
 },
 {
 "id":"cpd00060_c",
 "name":"L-Methionine",
 "compartment":"c",
-"charge":0,
 "formula":"C5H11NO2S"
 },
 {
@@ -102,7 +96,6 @@
 "id":"cpd00227_c",
 "name":"L-Homoserine",
 "compartment":"c",
-"charge":0,
 "formula":"C4H9NO3"
 },
 {
@@ -116,35 +109,30 @@
 "id":"cpd00182_c",
 "name":"Adenosine",
 "compartment":"c",
-"charge":0,
 "formula":"C10H13N5O4"
 },
 {
 "id":"cpd01914_c",
 "name":"L-Methionine S-oxide",
 "compartment":"c",
-"charge":0,
 "formula":"C5H11NO3S"
 },
 {
 "id":"cpd00790_c",
 "name":"O-Acetyl-L-homoserine",
 "compartment":"c",
-"charge":0,
 "formula":"C6H11NO4"
 },
 {
 "id":"cpd00135_c",
 "name":"Homocysteine",
 "compartment":"c",
-"charge":0,
 "formula":"C4H9NO2S"
 },
 {
 "id":"cpd00424_c",
 "name":"Cystathionine",
 "compartment":"c",
-"charge":0,
 "formula":"C7H14N2O4S"
 },
 {
@@ -179,7 +167,7 @@
 "cpd00227_c":-1.0,
 "cpd00790_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0390",
 "subsystem":"Methionine metabolism",
@@ -208,7 +196,7 @@
 "cpd00135_c":1.0,
 "cpd00424_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0400",
 "subsystem":"Methionine metabolism",
@@ -266,7 +254,7 @@
 "cpd00017_c":1.0,
 "cpd00060_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0546",
 "subsystem":"Methionine metabolism",
@@ -294,7 +282,7 @@
 "cpd00067_c":-1.0,
 "cpd00837_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0654",
 "subsystem":"Methionine metabolism",

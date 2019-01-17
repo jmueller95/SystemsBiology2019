@@ -39,7 +39,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -67,7 +66,6 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
-"charge":0,
 "formula":"CO2"
 },
 {
@@ -81,7 +79,6 @@
 "id":"cpd00281_c",
 "name":"GABA",
 "compartment":"c",
-"charge":0,
 "formula":"C4H9NO2"
 },
 {
@@ -186,7 +183,6 @@
 "id":"cpd00858_c",
 "name":"L-Glutamate5-semialdehyde",
 "compartment":"c",
-"charge":0,
 "formula":"C5H9NO3"
 },
 {
@@ -263,7 +259,6 @@
 "id":"cpd00073_c",
 "name":"Urea",
 "compartment":"c",
-"charge":0,
 "formula":"CH4N2O"
 },
 {
@@ -277,7 +272,6 @@
 "id":"cpd00274_c",
 "name":"Citrulline",
 "compartment":"c",
-"charge":0,
 "formula":"C6H13N3O3"
 },
 {
@@ -291,7 +285,6 @@
 "id":"cpd00342_c",
 "name":"N-Acetylornithine",
 "compartment":"c",
-"charge":0,
 "formula":"C7H14N2O3"
 },
 {
@@ -305,7 +298,6 @@
 "id":"cpd00762_c",
 "name":"4-Guanidinobutanoate",
 "compartment":"c",
-"charge":0,
 "formula":"C5H11N3O2"
 },
 {
@@ -356,7 +348,7 @@
 "cpd00281_c":1.0,
 "cpd00434_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA0219 or PA5312)",
 "subsystem":"Arginine and proline metabolism",
@@ -415,7 +407,7 @@
 "cpd00067_c":2.0,
 "cpd00858_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0782",
 "subsystem":"Arginine and proline metabolism",
@@ -532,7 +524,7 @@
 "cpd00118_c":1.0,
 "cpd00152_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA0288 or PA1421)",
 "subsystem":"Arginine and proline metabolism",
@@ -560,7 +552,7 @@
 "cpd00064_c":1.0,
 "cpd00073_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA1421 or PA0288 or PA3175)",
 "subsystem":"Arginine and proline metabolism",
@@ -589,7 +581,7 @@
 "cpd00146_c":-1.0,
 "cpd00274_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA3537 or PA5172)",
 "subsystem":"Arginine and proline metabolism",
@@ -617,7 +609,7 @@
 "cpd00152_c":-1.0,
 "cpd00341_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0292",
 "subsystem":"Arginine and proline metabolism",
@@ -647,7 +639,7 @@
 "cpd00118_c":1.0,
 "cpd00341_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0293",
 "subsystem":"Arginine and proline metabolism",
@@ -787,7 +779,7 @@
 "cpd00281_c":1.0,
 "cpd00762_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1421",
 "subsystem":"Arginine and proline metabolism",
@@ -873,7 +865,7 @@
 "cpd00051_c":-1.0,
 "cpd00274_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5171",
 "subsystem":"Arginine and proline metabolism",
@@ -1044,7 +1036,7 @@
 "cpd00078_c":-1.0,
 "cpd02103_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0897 and PA0896",
 "subsystem":"Arginine and proline metabolism",
@@ -1074,7 +1066,7 @@
 "cpd02103_c":-1.0,
 "cpd02160_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0899",
 "subsystem":"Arginine and proline metabolism",
@@ -1132,7 +1124,7 @@
 "cpd03525_c":1.0,
 "cpd03526_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0898",
 "subsystem":"Arginine and proline metabolism",
@@ -1178,11 +1170,11 @@
 "name":""
 },
 {
-"id":"PA1421",
+"id":"PA0288",
 "name":""
 },
 {
-"id":"PA0288",
+"id":"PA1421",
 "name":""
 },
 {

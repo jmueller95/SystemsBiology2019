@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" level="3" version="1">
-  <model substanceUnits="substance" timeUnits="second" volumeUnits="volume" areaUnits="area" lengthUnits="metre" extentUnits="substance">
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" level="3" version="1">
+  <model substanceUnits="substance" timeUnits="second" volumeUnits="volume" areaUnits="area" lengthUnits="metre" extentUnits="substance" fbc:strict="false">
     <listOfUnitDefinitions>
       <unitDefinition id="mmol_per_gDW_per_hr">
         <listOfUnits>
@@ -30,7 +30,7 @@
       <compartment id="e" name="Extracellular" spatialDimensions="3" units="volume" constant="false"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="M_cpd00003_c" name="NAD" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00003_c" name="NAD" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C21H26N7O14P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H26N7O14P2</p>
@@ -38,7 +38,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00004_c" name="NADH" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00004_c" name="NADH" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C21H27N7O14P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H27N7O14P2</p>
@@ -46,7 +46,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00067_c" name="H+" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00067_c" name="H+" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="H">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H</p>
@@ -54,7 +54,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00001_c" name="H2O" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00001_c" name="H2O" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H2O</p>
@@ -62,7 +62,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00011_c" name="CO2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00011_c" name="CO2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="CO2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: CO2</p>
@@ -70,7 +70,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00007_c" name="O2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00007_c" name="O2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="O2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: O2</p>
@@ -78,7 +78,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00020_c" name="Pyruvate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00020_c" name="Pyruvate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H3O3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H3O3</p>
@@ -86,7 +86,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00002_c" name="ATP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00002_c" name="ATP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H13N5O13P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O13P3</p>
@@ -94,7 +94,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00017_c" name="S-Adenosyl-L-methionine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00017_c" name="S-Adenosyl-L-methionine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="C15H23N6O5S">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C15H23N6O5S</p>
@@ -102,7 +102,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00019_c" name="S-Adenosyl-homocysteine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00019_c" name="S-Adenosyl-homocysteine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C14H20N6O5S">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C14H20N6O5S</p>
@@ -110,7 +110,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00023_c" name="L-Glutamate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00023_c" name="L-Glutamate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H8NO4">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H8NO4</p>
@@ -118,7 +118,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00053_c" name="L-Glutamine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00053_c" name="L-Glutamine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H10N2O3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10N2O3</p>
@@ -126,7 +126,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00012_c" name="PPi" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00012_c" name="PPi" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="H2O7P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H2O7P2</p>
@@ -134,7 +134,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17083_c" name="phenazine-1-carboxylic acid" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd17083_c" name="phenazine-1-carboxylic acid" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C13H8N2O2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C13H8N2O2</p>
@@ -142,7 +142,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17044_c" name="1-hydroxyphenazine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd17044_c" name="1-hydroxyphenazine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H8ON2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C12H8ON2</p>
@@ -150,7 +150,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17053_c" name="5-methylphenazine-1-carboxylic acid betaine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd17053_c" name="5-methylphenazine-1-carboxylic acid betaine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C14H11N2O2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C14H11N2O2</p>
@@ -158,7 +158,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd01206_c" name="pyocyanin" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd01206_c" name="pyocyanin" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C13H12N2O">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C13H12N2O</p>
@@ -166,7 +166,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00018_c" name="AMP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00018_c" name="AMP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H13N5O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O7P</p>
@@ -174,7 +174,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00216_c" name="Chorismate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00216_c" name="Chorismate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H8O6">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H8O6</p>
@@ -182,7 +182,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17077_c" name="trans-2,3-dihydro-3-hydroxyanthranilic acid" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd17077_c" name="trans-2,3-dihydro-3-hydroxyanthranilic acid" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C7H8O3N">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H8O3N</p>
@@ -190,7 +190,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00035_c" name="L-Alanine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00035_c" name="L-Alanine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H7NO2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H7NO2</p>
@@ -198,7 +198,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00016_c" name="Pyridoxal phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00016_c" name="Pyridoxal phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C8H9NO6P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C8H9NO6P</p>
@@ -206,7 +206,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00493_c" name="Pyridoxamine phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00493_c" name="Pyridoxamine phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C8H13N2O5P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C8H13N2O5P</p>
@@ -214,7 +214,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17073_c" name="2-amino-2-deoxyisochorismic acid" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd17073_c" name="2-amino-2-deoxyisochorismic acid" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C10H10O5N">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H10O5N</p>
@@ -222,7 +222,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17084_c" name="phenazine-1-carboxamide" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd17084_c" name="phenazine-1-carboxamide" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C13H9ON3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C13H9ON3</p>
@@ -232,7 +232,7 @@
       </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction id="R_rxn13787" name="pyocyanin synthesis" reversible="true" fast="false">
+      <reaction metaid="R_rxn13787" id="R_rxn13787" name="pyocyanin synthesis" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4217</p>
@@ -267,7 +267,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn13896" name="pyocyanin synthesis" reversible="true" fast="false">
+      <reaction metaid="R_rxn13896" id="R_rxn13896" name="pyocyanin synthesis" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4217</p>
@@ -302,7 +302,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn13885" name="phenazine-1-carboxylic acid synthesis, step 3" reversible="true" fast="false">
+      <reaction metaid="R_rxn13885" id="R_rxn13885" name="phenazine-1-carboxylic acid synthesis, step 3" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA1899 and PA1900 and PA1901 and PA1904 and PA1905) or (PA4210 and PA4211 and PA4212 and PA4215 and PA4216))</p>
@@ -334,7 +334,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn13823" name="phenazine-1-carboxylic acid synthesis, step 2" reversible="true" fast="false">
+      <reaction metaid="R_rxn13823" id="R_rxn13823" name="phenazine-1-carboxylic acid synthesis, step 2" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA4213 or PA1902)</p>
@@ -366,7 +366,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn13801" name="phenazine-1-carboxylic acid synthesis, step 1" reversible="true" fast="false">
+      <reaction metaid="R_rxn13801" id="R_rxn13801" name="phenazine-1-carboxylic acid synthesis, step 1" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA4214 or PA1903)</p>
@@ -377,6 +377,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn13801">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.6.1.86"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00053_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00216_c" stoichiometry="1" constant="true"/>
@@ -397,7 +408,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08103" name="alanine transaminase" reversible="true" fast="false">
+      <reaction metaid="R_rxn08103" id="R_rxn08103" name="alanine transaminase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA5415 or PA2444 or PA4602)</p>
@@ -428,7 +439,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn13890" name="phenazine-1-carboxamide synthetase" reversible="true" fast="false">
+      <reaction metaid="R_rxn13890" id="R_rxn13890" name="phenazine-1-carboxamide synthetase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0051</p>
@@ -464,7 +475,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn13798" name="probable phenazine-specific methyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn13798" id="R_rxn13798" name="probable phenazine-specific methyltransferase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4209</p>

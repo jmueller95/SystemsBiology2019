@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" level="3" version="1">
-  <model substanceUnits="substance" timeUnits="second" volumeUnits="volume" areaUnits="area" lengthUnits="metre" extentUnits="substance">
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" level="3" version="1">
+  <model substanceUnits="substance" timeUnits="second" volumeUnits="volume" areaUnits="area" lengthUnits="metre" extentUnits="substance" fbc:strict="false">
     <listOfUnitDefinitions>
       <unitDefinition id="mmol_per_gDW_per_hr">
         <listOfUnits>
@@ -30,7 +30,7 @@
       <compartment id="e" name="Extracellular" spatialDimensions="3" units="volume" constant="false"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="M_cpd00015_c" name="FAD" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00015_c" name="FAD" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C27H31N9O15P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C27H31N9O15P2</p>
@@ -38,7 +38,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00982_c" name="FADH2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00982_c" name="FADH2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C27H33N9O15P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C27H33N9O15P2</p>
@@ -46,7 +46,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00003_c" name="NAD" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00003_c" name="NAD" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C21H26N7O14P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H26N7O14P2</p>
@@ -54,7 +54,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00004_c" name="NADH" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00004_c" name="NADH" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C21H27N7O14P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H27N7O14P2</p>
@@ -62,7 +62,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00067_c" name="H+" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00067_c" name="H+" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="H">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H</p>
@@ -70,7 +70,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00001_c" name="H2O" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00001_c" name="H2O" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H2O</p>
@@ -78,7 +78,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00006_c" name="NADP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00006_c" name="NADP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C21H26N7O17P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H26N7O17P3</p>
@@ -86,7 +86,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00005_c" name="NADPH" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00005_c" name="NADPH" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C21H27N7O17P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H27N7O17P3</p>
@@ -94,7 +94,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15560_c" name="Ubiquinone-8" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15560_c" name="Ubiquinone-8" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C49H74O4">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C49H74O4</p>
@@ -102,7 +102,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15561_c" name="Ubiquinol-8" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15561_c" name="Ubiquinol-8" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C49H76O4">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C49H76O4</p>
@@ -110,7 +110,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00102_c" name="Glyceraldehyde3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00102_c" name="Glyceraldehyde3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H6O6P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H6O6P</p>
@@ -118,7 +118,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00079_c" name="D-glucose-6-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00079_c" name="D-glucose-6-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H12O9P</p>
@@ -126,7 +126,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00911_c" name="6-phospho-D-glucono-1-5-lactone" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00911_c" name="6-phospho-D-glucono-1-5-lactone" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H10O9P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H10O9P</p>
@@ -134,7 +134,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00284_c" name="6-Phospho-D-gluconate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00284_c" name="6-Phospho-D-gluconate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C6H11O10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H11O10P</p>
@@ -142,7 +142,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00171_c" name="D-Ribulose5-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00171_c" name="D-Ribulose5-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H10O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O8P</p>
@@ -150,7 +150,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00020_c" name="Pyruvate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00020_c" name="Pyruvate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H3O3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H3O3</p>
@@ -158,7 +158,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00002_c" name="ATP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00002_c" name="ATP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H13N5O13P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O13P3</p>
@@ -166,7 +166,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00008_c" name="ADP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00008_c" name="ADP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H13N5O10P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O10P2</p>
@@ -174,7 +174,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00222_e" name="GLCN" compartment="e" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00222_e" name="GLCN" compartment="e" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H11O7">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H11O7</p>
@@ -182,7 +182,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00480_e" name="2-Dehydro-D-gluconate" compartment="e" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00480_e" name="2-Dehydro-D-gluconate" compartment="e" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H9O7">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H9O7</p>
@@ -190,7 +190,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00236_c" name="D-Erythrose4-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00236_c" name="D-Erythrose4-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C4H8O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C4H8O7P</p>
@@ -198,7 +198,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00896_c" name="6-Phospho-2-dehydro-D-gluconate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00896_c" name="6-Phospho-2-dehydro-D-gluconate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C6H9O10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H9O10P</p>
@@ -206,7 +206,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00027_e" name="D-Glucose" compartment="e" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00027_e" name="D-Glucose" compartment="e" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H12O6">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H12O6</p>
@@ -214,7 +214,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00170_e" name="Gluconolactone" compartment="e" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00170_e" name="Gluconolactone" compartment="e" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H10O6">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H10O6</p>
@@ -222,7 +222,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00072_c" name="D-fructose-6-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00072_c" name="D-fructose-6-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H12O9P</p>
@@ -230,7 +230,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00018_c" name="AMP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00018_c" name="AMP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H13N5O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O7P</p>
@@ -238,7 +238,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00105_c" name="D-Ribose" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00105_c" name="D-Ribose" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H10O5">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O5</p>
@@ -246,7 +246,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd01242_c" name="Thyminose" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd01242_c" name="Thyminose" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H10O4">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O4</p>
@@ -254,7 +254,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00198_c" name="D-Xylulose5-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00198_c" name="D-Xylulose5-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H10O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O8P</p>
@@ -262,7 +262,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd02711_c" name="2-Keto-3-deoxy-6-phosphogluconate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd02711_c" name="2-Keto-3-deoxy-6-phosphogluconate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C6H9O9P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H9O9P</p>
@@ -270,7 +270,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00103_c" name="PRPP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00103_c" name="PRPP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C5H10O14P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O14P3</p>
@@ -278,7 +278,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00101_c" name="ribose-5-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00101_c" name="ribose-5-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H10O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O8P</p>
@@ -286,7 +286,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00238_c" name="Sedoheptulose7-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00238_c" name="Sedoheptulose7-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C7H14O10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H14O10P</p>
@@ -294,7 +294,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00510_c" name="deoxyribose-5-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00510_c" name="deoxyribose-5-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H10O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O7P</p>
@@ -302,7 +302,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00480_c" name="2-Dehydro-D-gluconate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00480_c" name="2-Dehydro-D-gluconate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H9O7">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H9O7</p>
@@ -310,7 +310,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00222_c" name="GLCN" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00222_c" name="GLCN" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H11O7">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H11O7</p>
@@ -318,7 +318,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00863_c" name="beta-D-Glucose 6-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00863_c" name="beta-D-Glucose 6-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H12O9P</p>
@@ -328,7 +328,7 @@
       </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction id="R_rxn13790" name="2-dehydro-D-gluconate reductase extracellular (NADPH) (irreversible)" reversible="false" fast="false">
+      <reaction metaid="R_rxn13790" id="R_rxn13790" name="2-dehydro-D-gluconate reductase extracellular (NADPH) (irreversible)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA2264 and PA2265 and PA2266)</p>
@@ -359,7 +359,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01475" name="Phosphogluconate 2-dehydrogenase" reversible="false" fast="false">
+      <reaction metaid="R_rxn01475" id="R_rxn01475" name="Phosphogluconate 2-dehydrogenase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA2263</p>
@@ -370,6 +370,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn01475">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.43"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
@@ -391,7 +402,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn13834" name="glucose 1-dehydrogenase (NADP) extracellular" reversible="false" fast="false">
+      <reaction metaid="R_rxn13834" id="R_rxn13834" name="glucose 1-dehydrogenase (NADP) extracellular" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA2290</p>
@@ -423,7 +434,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rJB00279" name="gluconate 2-dehydrogenase" reversible="true" fast="false">
+      <reaction metaid="R_rJB00279" id="R_rJB00279" name="gluconate 2-dehydrogenase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3896</p>
@@ -434,6 +445,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rJB00279">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.215"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00004_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
@@ -455,7 +477,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn03884" name="2-dehydro-3-deoxy-phosphogluconate aldolase" reversible="true" fast="false">
+      <reaction metaid="R_rxn03884" id="R_rxn03884" name="2-dehydro-3-deoxy-phosphogluconate aldolase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA3131 or PA3181)</p>
@@ -466,6 +488,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn03884">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/4.1.2.14"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd02711_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -485,7 +518,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn13836" name="Gluconolactonase" reversible="true" fast="false">
+      <reaction metaid="R_rxn13836" id="R_rxn13836" name="Gluconolactonase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA4204 or PA1293)</p>
@@ -516,7 +549,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00777" name="ribose-5-phosphate isomerase" reversible="true" fast="false">
+      <reaction metaid="R_rxn00777" id="R_rxn00777" name="ribose-5-phosphate isomerase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0330</p>
@@ -527,6 +560,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn00777">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/5.3.1.6"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00101_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -545,7 +589,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01200" name="transketolase" reversible="true" fast="false">
+      <reaction metaid="R_rxn01200" id="R_rxn01200" name="transketolase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0548</p>
@@ -556,6 +600,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn01200">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.2.1.1"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00102_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00238_c" stoichiometry="1" constant="true"/>
@@ -576,7 +631,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00785" name="transketolase" reversible="true" fast="false">
+      <reaction metaid="R_rxn00785" id="R_rxn00785" name="transketolase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0548</p>
@@ -587,6 +642,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn00785">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.2.1.1"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00102_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00072_c" stoichiometry="1" constant="true"/>
@@ -607,7 +673,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01116" name="ribulose 5-phosphate 3-epimerase" reversible="true" fast="false">
+      <reaction metaid="R_rxn01116" id="R_rxn01116" name="ribulose 5-phosphate 3-epimerase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0607</p>
@@ -618,6 +684,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn01116">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/5.1.3.1"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00171_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -636,7 +713,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01987" name="Deoxyribokinase" reversible="true" fast="false">
+      <reaction metaid="R_rxn01987" id="R_rxn01987" name="Deoxyribokinase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA1950</p>
@@ -647,6 +724,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn01987">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.15"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00510_c" stoichiometry="1" constant="true"/>
@@ -667,7 +755,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00772" name="ribokinase" reversible="true" fast="false">
+      <reaction metaid="R_rxn00772" id="R_rxn00772" name="ribokinase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA1950</p>
@@ -678,6 +766,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn00772">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.15"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00105_c" stoichiometry="1" constant="true"/>
@@ -698,7 +797,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01921" name="Dehydrogluconokinase" reversible="true" fast="false">
+      <reaction metaid="R_rxn01921" id="R_rxn01921" name="Dehydrogluconokinase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA2261</p>
@@ -709,6 +808,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn01921">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.13"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00480_c" stoichiometry="1" constant="true"/>
@@ -729,7 +839,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rJB00278" name="quinoprotein glucose dehydrogenase" reversible="false" fast="false">
+      <reaction metaid="R_rJB00278" id="R_rJB00278" name="quinoprotein glucose dehydrogenase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA2290</p>
@@ -740,6 +850,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rJB00278">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.5.2"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15560_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00027_e" stoichiometry="1" constant="true"/>
@@ -760,7 +881,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01275" name="gluconokinase" reversible="true" fast="false">
+      <reaction metaid="R_rxn01275" id="R_rxn01275" name="gluconokinase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA2321</p>
@@ -771,6 +892,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn01275">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.12"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00222_c" stoichiometry="1" constant="true"/>
@@ -791,7 +923,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01333" name="transaldolase" reversible="true" fast="false">
+      <reaction metaid="R_rxn01333" id="R_rxn01333" name="transaldolase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA2796</p>
@@ -802,6 +934,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn01333">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.2.1.2"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00102_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00238_c" stoichiometry="1" constant="true"/>
@@ -822,7 +965,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01476" name="6-phosphogluconolactonase" reversible="false" fast="false">
+      <reaction metaid="R_rxn01476" id="R_rxn01476" name="6-phosphogluconolactonase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3182</p>
@@ -833,6 +976,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn01476">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.1.1.31"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00911_c" stoichiometry="1" constant="true"/>
@@ -853,7 +1007,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01477" name="phosphogluconate dehydratase" reversible="false" fast="false">
+      <reaction metaid="R_rxn01477" id="R_rxn01477" name="phosphogluconate dehydratase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3194</p>
@@ -864,6 +1018,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn01477">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/4.2.1.12"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00284_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -883,7 +1048,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00770" name="phosphoribosylpyrophosphate synthetase" reversible="true" fast="false">
+      <reaction metaid="R_rxn00770" id="R_rxn00770" name="phosphoribosylpyrophosphate synthetase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4670</p>
@@ -894,6 +1059,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn00770">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.6.1"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00101_c" stoichiometry="1" constant="true"/>
@@ -914,7 +1090,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01977" name="Glucose-6-phosphate isomerase" reversible="true" fast="false">
+      <reaction metaid="R_rxn01977" id="R_rxn01977" name="Glucose-6-phosphate isomerase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4732</p>
@@ -925,6 +1101,18 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn01977">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/5.1.3.15"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/5.3.1.9"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00079_c" stoichiometry="1" constant="true"/>
         </listOfReactants>

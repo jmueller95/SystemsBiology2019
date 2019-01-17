@@ -25,7 +25,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -161,7 +160,7 @@
 "cpd08301_c":-1.0,
 "cpd08615_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3803",
 "subsystem":"Terpenoid biosynthesis",
@@ -191,7 +190,7 @@
 "cpd00202_c":1.0,
 "cpd08615_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4557",
 "subsystem":"Terpenoid biosynthesis",
@@ -221,7 +220,7 @@
 "cpd00113_c":1.0,
 "cpd08615_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4557",
 "subsystem":"Terpenoid biosynthesis",
@@ -277,7 +276,7 @@
 "cpd00283_c":-1.0,
 "cpd00350_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4043",
 "subsystem":"Terpenoid biosynthesis",
@@ -305,7 +304,7 @@
 "cpd00350_c":-1.0,
 "cpd02557_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4569",
 "subsystem":"Terpenoid biosynthesis",
@@ -333,7 +332,7 @@
 "cpd02172_c":1.0,
 "cpd02557_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4569",
 "subsystem":"Terpenoid biosynthesis",

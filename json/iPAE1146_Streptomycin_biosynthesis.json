@@ -11,7 +11,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -95,7 +94,7 @@
 "cpd00521_c":1.0,
 "cpd00626_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5161",
 "subsystem":"Streptomycin biosynthesis",

@@ -39,7 +39,7 @@
 "cpd02229_c":1.0,
 "cpd02746_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3652",
 "subsystem":"Terpenoid backbone biosynthesis",

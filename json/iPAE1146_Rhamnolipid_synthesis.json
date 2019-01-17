@@ -46,7 +46,6 @@
 "id":"cpd17081_c",
 "name":"L-rhamnosyl-3-hydroxydecanoyl-3-hydroxydecanoate",
 "compartment":"c",
-"charge":0,
 "formula":"C26H48O9"
 },
 {
@@ -60,14 +59,12 @@
 "id":"cpd17080_c",
 "name":"L-rhamnosyl-Lrhamnosyl-3-hydroxydecanoyl-3-hydroxydecanoate",
 "compartment":"c",
-"charge":0,
 "formula":"C32H58O13"
 },
 {
 "id":"cpd17050_c",
 "name":"3-hydroxydecanoyl-3-hydroxydecanoate",
 "compartment":"c",
-"charge":0,
 "formula":"C20H38O5"
 }
 ],

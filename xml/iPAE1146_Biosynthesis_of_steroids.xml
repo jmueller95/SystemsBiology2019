@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" level="3" version="1">
-  <model substanceUnits="substance" timeUnits="second" volumeUnits="volume" areaUnits="area" lengthUnits="metre" extentUnits="substance">
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" level="3" version="1">
+  <model substanceUnits="substance" timeUnits="second" volumeUnits="volume" areaUnits="area" lengthUnits="metre" extentUnits="substance" fbc:strict="false">
     <listOfUnitDefinitions>
       <unitDefinition id="mmol_per_gDW_per_hr">
         <listOfUnits>
@@ -30,7 +30,7 @@
       <compartment id="e" name="Extracellular" spatialDimensions="3" units="volume" constant="false"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="M_cpd00067_c" name="H+" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00067_c" name="H+" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="H">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H</p>
@@ -38,7 +38,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00011_c" name="CO2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00011_c" name="CO2" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="CO2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: CO2</p>
@@ -46,7 +46,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00102_c" name="Glyceraldehyde3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00102_c" name="Glyceraldehyde3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H6O6P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H6O6P</p>
@@ -54,7 +54,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00020_c" name="Pyruvate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00020_c" name="Pyruvate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H3O3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H3O3</p>
@@ -62,7 +62,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00002_c" name="ATP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00002_c" name="ATP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H13N5O13P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O13P3</p>
@@ -70,7 +70,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00008_c" name="ADP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00008_c" name="ADP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H13N5O10P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O10P2</p>
@@ -78,7 +78,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd08286_c" name="2-C-methyl-D-erythritol4-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd08286_c" name="2-C-methyl-D-erythritol4-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H12O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H12O7P</p>
@@ -86,7 +86,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd08289_c" name="1-deoxy-D-xylulose5-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd08289_c" name="1-deoxy-D-xylulose5-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H10O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O7P</p>
@@ -94,7 +94,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd08301_c" name="2-C-methyl-D-erythritol2-4-cyclodiphosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd08301_c" name="2-C-methyl-D-erythritol2-4-cyclodiphosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C5H10O9P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O9P2</p>
@@ -102,7 +102,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00012_c" name="PPi" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00012_c" name="PPi" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="H2O7P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H2O7P2</p>
@@ -110,7 +110,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00052_c" name="CTP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00052_c" name="CTP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C9H13N3O14P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H13N3O14P3</p>
@@ -118,7 +118,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00046_c" name="CMP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00046_c" name="CMP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C9H13N3O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H13N3O8P</p>
@@ -126,7 +126,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd08288_c" name="2-phospho-4--cytidine5-diphospho-2-C-methyl-D-erythritol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd08288_c" name="2-phospho-4--cytidine5-diphospho-2-C-methyl-D-erythritol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C14H23N3O17P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C14H23N3O17P3</p>
@@ -134,7 +134,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd08287_c" name="4--cytidine5-diphospho-2-C-methyl-D-erythritol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd08287_c" name="4--cytidine5-diphospho-2-C-methyl-D-erythritol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C14H23N3O14P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C14H23N3O14P2</p>
@@ -144,7 +144,7 @@
       </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction id="R_rxn03910" name="2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase" reversible="true" fast="false">
+      <reaction metaid="R_rxn03910" id="R_rxn03910" name="2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3627</p>
@@ -155,6 +155,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn03910">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/4.6.1.12"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd08288_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -174,7 +185,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn03907" name="2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn03907" id="R_rxn03907" name="2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3633</p>
@@ -185,6 +196,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn03907">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.7.60"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd08286_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
@@ -205,7 +227,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn03909" name="1-deoxy-D-xylulose 5-phosphate synthase" reversible="false" fast="false">
+      <reaction metaid="R_rxn03909" id="R_rxn03909" name="1-deoxy-D-xylulose 5-phosphate synthase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4044</p>
@@ -216,6 +238,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn03909">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.2.1.7"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00102_c" stoichiometry="1" constant="true"/>
@@ -237,7 +270,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn03908" name="4-(cytidine 5&apos;-diphospho)-2-C-methyl-D-erythritol kinase" reversible="true" fast="false">
+      <reaction metaid="R_rxn03908" id="R_rxn03908" name="4-(cytidine 5&apos;-diphospho)-2-C-methyl-D-erythritol kinase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4669</p>
@@ -248,6 +281,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn03908">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.148"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd08287_c" stoichiometry="1" constant="true"/>

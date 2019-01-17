@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" level="3" version="1">
-  <model substanceUnits="substance" timeUnits="second" volumeUnits="volume" areaUnits="area" lengthUnits="metre" extentUnits="substance">
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" level="3" version="1">
+  <model substanceUnits="substance" timeUnits="second" volumeUnits="volume" areaUnits="area" lengthUnits="metre" extentUnits="substance" fbc:strict="false">
     <listOfUnitDefinitions>
       <unitDefinition id="mmol_per_gDW_per_hr">
         <listOfUnits>
@@ -30,7 +30,7 @@
       <compartment id="e" name="Extracellular" spatialDimensions="3" units="volume" constant="false"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="M_cpd00001_c" name="H2O" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00001_c" name="H2O" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H2O</p>
@@ -38,7 +38,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00010_c" name="CoA" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00010_c" name="CoA" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C21H33N7O16P3S">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H33N7O16P3S</p>
@@ -46,7 +46,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00022_c" name="Acetyl-CoA" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00022_c" name="Acetyl-CoA" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C23H35N7O17P3S">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C23H35N7O17P3S</p>
@@ -54,7 +54,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00009_c" name="Phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00009_c" name="Phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="HO4P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: HO4P</p>
@@ -62,7 +62,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00036_c" name="Succinate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00036_c" name="Succinate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C4H4O4">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C4H4O4</p>
@@ -70,7 +70,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00020_c" name="Pyruvate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00020_c" name="Pyruvate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H3O3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H3O3</p>
@@ -78,7 +78,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00078_c" name="Succinyl-CoA" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00078_c" name="Succinyl-CoA" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C25H36N7O19P3S">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C25H36N7O19P3S</p>
@@ -86,7 +86,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00380_c" name="Itaconate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00380_c" name="Itaconate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C5H4O4">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H4O4</p>
@@ -94,7 +94,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00038_c" name="GTP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00038_c" name="GTP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H13N5O14P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O14P3</p>
@@ -102,7 +102,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00031_c" name="GDP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00031_c" name="GDP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H13N5O11P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O11P2</p>
@@ -110,7 +110,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00416_c" name="Itaconyl-CoA" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00416_c" name="Itaconyl-CoA" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C26H36N7O19P3S">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C26H36N7O19P3S</p>
@@ -118,7 +118,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00743_c" name="L-Citramalyl-CoA" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00743_c" name="L-Citramalyl-CoA" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-4" fbc:chemicalFormula="C26H38N7O20P3S">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C26H38N7O20P3S</p>
@@ -128,7 +128,7 @@
       </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction id="R_rxn01732" name="Itaconyl-CoA synthetase" reversible="true" fast="false">
+      <reaction metaid="R_rxn01732" id="R_rxn01732" name="Itaconyl-CoA synthetase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA1588 and PA1589)</p>
@@ -161,7 +161,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rJB00258" name="Itaconyl-CoA hydratase" reversible="true" fast="false">
+      <reaction metaid="R_rJB00258" id="R_rJB00258" name="Itaconyl-CoA hydratase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0878</p>
@@ -191,7 +191,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01734" name="Succinyl-CoA:itaconate-CoA transferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn01734" id="R_rxn01734" name="Succinyl-CoA:itaconate-CoA transferase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0882</p>
@@ -222,7 +222,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00177" name="Citramalyl-CoA lyase" reversible="true" fast="false">
+      <reaction metaid="R_rxn00177" id="R_rxn00177" name="Citramalyl-CoA lyase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0883</p>

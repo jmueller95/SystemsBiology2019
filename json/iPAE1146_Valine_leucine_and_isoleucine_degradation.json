@@ -39,7 +39,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -53,7 +52,6 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
-"charge":0,
 "formula":"CO2"
 },
 {
@@ -88,7 +86,6 @@
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
-"charge":0,
 "formula":"O2"
 },
 {
@@ -172,14 +169,12 @@
 "id":"cpd00449_c",
 "name":"Dihydrolipoamide",
 "compartment":"c",
-"charge":0,
 "formula":"C8H17NOS2"
 },
 {
 "id":"cpd00213_c",
 "name":"Lipoamide",
 "compartment":"c",
-"charge":0,
 "formula":"C8H15NOS2"
 },
 {
@@ -200,14 +195,12 @@
 "id":"cpd00322_c",
 "name":"L-Isoleucine",
 "compartment":"c",
-"charge":0,
 "formula":"C6H13NO2"
 },
 {
 "id":"cpd00156_c",
 "name":"L-Valine",
 "compartment":"c",
-"charge":0,
 "formula":"C5H11NO2"
 },
 {
@@ -228,7 +221,6 @@
 "id":"cpd00107_c",
 "name":"L-Leucine",
 "compartment":"c",
-"charge":0,
 "formula":"C6H13NO2"
 },
 {
@@ -256,14 +248,12 @@
 "id":"cpd03045_c",
 "name":"S-(2-Methylbutanoyl)-dihydrolipoamide",
 "compartment":"c",
-"charge":0,
 "formula":"C13H25NO2S2"
 },
 {
 "id":"cpd03046_c",
 "name":"S-(3-Methylbutanoyl)-dihydrolipoamide",
 "compartment":"c",
-"charge":0,
 "formula":"C13H25NO2S2"
 },
 {
@@ -291,7 +281,7 @@
 "cpd01882_c":-1.0,
 "cpd01966_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2015",
 "subsystem":"Valine, leucine and isoleucine degradation",
@@ -348,7 +338,7 @@
 "cpd00982_c":1.0,
 "cpd02125_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0879",
 "subsystem":"Valine, leucine and isoleucine degradation",
@@ -465,7 +455,7 @@
 "cpd00094_c":-1.0,
 "cpd00498_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA4695 and PA4696)",
 "subsystem":"Valine, leucine and isoleucine degradation",
@@ -632,7 +622,7 @@
 "cpd00213_c":-1.0,
 "cpd03046_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2247",
 "subsystem":"Valine, leucine and isoleucine degradation",
@@ -661,7 +651,7 @@
 "cpd00508_c":-1.0,
 "cpd03045_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2247",
 "subsystem":"Valine, leucine and isoleucine degradation",
@@ -745,7 +735,7 @@
 "cpd00760_c":-2.0,
 "cpd02125_c":2.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5020",
 "subsystem":"Valine, leucine and isoleucine degradation",
@@ -795,19 +785,19 @@
 "name":""
 },
 {
-"id":"PA3139",
-"name":""
-},
-{
 "id":"PA0870",
 "name":""
 },
 {
-"id":"PA2012",
+"id":"PA3139",
 "name":""
 },
 {
 "id":"PA2014",
+"name":""
+},
+{
+"id":"PA2012",
 "name":""
 },
 {

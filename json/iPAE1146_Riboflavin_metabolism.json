@@ -18,7 +18,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -116,21 +115,18 @@
 "id":"cpd02656_c",
 "name":"6-7-Dimethyl-8--1-D-ribityllumazine",
 "compartment":"c",
-"charge":0,
 "formula":"C13H18N4O6"
 },
 {
 "id":"cpd02882_c",
 "name":"4--1-D-Ribitylamino-5-aminouracil",
 "compartment":"c",
-"charge":0,
 "formula":"C9H16N4O6"
 },
 {
 "id":"cpd00220_c",
 "name":"Riboflavin",
 "compartment":"c",
-"charge":0,
 "formula":"C17H20N4O6"
 },
 {
@@ -187,7 +183,7 @@
 "cpd00015_c":1.0,
 "cpd00050_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4561",
 "subsystem":"Riboflavin metabolism",
@@ -217,7 +213,7 @@
 "cpd00067_c":1.0,
 "cpd00957_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA4054 or PA4047)",
 "subsystem":"Riboflavin metabolism",
@@ -244,7 +240,7 @@
 "cpd02656_c":-2.0,
 "cpd02882_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA4055 and PA4053)",
 "subsystem":"Riboflavin metabolism",
@@ -273,7 +269,7 @@
 "cpd02720_c":-1.0,
 "cpd02882_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Riboflavin metabolism",
@@ -331,7 +327,7 @@
 "cpd00101_c":-1.0,
 "cpd11225_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4054",
 "subsystem":"Riboflavin metabolism",
@@ -360,7 +356,7 @@
 "cpd00931_c":1.0,
 "cpd00957_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4056",
 "subsystem":"Riboflavin metabolism",
@@ -418,19 +414,19 @@
 "name":""
 },
 {
-"id":"PA4047",
-"name":""
-},
-{
 "id":"PA4054",
 "name":""
 },
 {
-"id":"PA4053",
+"id":"PA4047",
 "name":""
 },
 {
 "id":"PA4055",
+"name":""
+},
+{
+"id":"PA4053",
 "name":""
 }
 ],

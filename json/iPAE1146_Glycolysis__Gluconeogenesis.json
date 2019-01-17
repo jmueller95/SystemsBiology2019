@@ -25,7 +25,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -53,7 +52,6 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
-"charge":0,
 "formula":"CO2"
 },
 {
@@ -67,35 +65,30 @@
 "id":"cpd15560_c",
 "name":"Ubiquinone-8",
 "compartment":"c",
-"charge":0,
 "formula":"C49H74O4"
 },
 {
 "id":"cpd15561_c",
 "name":"Ubiquinol-8",
 "compartment":"c",
-"charge":0,
 "formula":"C49H76O4"
 },
 {
 "id":"cpd01351_c",
 "name":"Ubiquinone-9",
 "compartment":"c",
-"charge":0,
 "formula":"C54H82O4"
 },
 {
 "id":"cJB00125_c",
 "name":"Ubiquinol-9",
 "compartment":"c",
-"charge":0,
 "formula":"C54H84O4"
 },
 {
 "id":"cpd00071_c",
 "name":"Acetaldehyde",
 "compartment":"c",
-"charge":0,
 "formula":"C2H4O"
 },
 {
@@ -165,14 +158,12 @@
 "id":"cpd11669_c",
 "name":"Ubiquinone",
 "compartment":"c",
-"charge":0,
 "formula":"C19H26O4"
 },
 {
 "id":"cpd00082_c",
 "name":"D-Fructose",
 "compartment":"c",
-"charge":0,
 "formula":"C6H12O6"
 },
 {
@@ -193,14 +184,12 @@
 "id":"cpd00027_c",
 "name":"D-Glucose",
 "compartment":"c",
-"charge":0,
 "formula":"C6H12O6"
 },
 {
 "id":"cpd00363_c",
 "name":"Ethanol",
 "compartment":"c",
-"charge":0,
 "formula":"C2H6O"
 },
 {
@@ -244,7 +233,7 @@
 "cpd00102_c":-1.0,
 "cpd00169_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA2323 or PA3001)",
 "subsystem":"Glycolysis / Gluconeogenesis",
@@ -301,7 +290,7 @@
 "cpd15560_c":-1.0,
 "cpd15561_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA4771 or PA2382)",
 "subsystem":"Glycolysis / Gluconeogenesis",
@@ -329,7 +318,7 @@
 "cpd00159_c":-1.0,
 "cpd01351_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA4771 or PA2382)",
 "subsystem":"Glycolysis / Gluconeogenesis",
@@ -358,7 +347,7 @@
 "cpd15561_c":1.0
 },
 "lower_bound":-1000.0,
-"upper_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"(PA5427 or (PA1982 and PA1983))",
 "subsystem":"Glycolysis / Gluconeogenesis",
 "notes":{
@@ -469,7 +458,7 @@
 "cpd00027_c":-1.0,
 "cpd00863_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3193",
 "subsystem":"Glycolysis / Gluconeogenesis",
@@ -497,7 +486,7 @@
 "cpd00027_c":-1.0,
 "cpd00079_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3193",
 "subsystem":"Glycolysis / Gluconeogenesis",
@@ -631,7 +620,7 @@
 "cpd00072_c":1.0,
 "cpd00290_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5110",
 "subsystem":"Glycolysis / Gluconeogenesis",
@@ -687,7 +676,7 @@
 "cpd00061_c":1.0,
 "cpd00067_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5192",
 "subsystem":"Glycolysis / Gluconeogenesis",
@@ -735,11 +724,11 @@
 ],
 "genes":[
 {
-"id":"PA3001",
+"id":"PA2323",
 "name":""
 },
 {
-"id":"PA2323",
+"id":"PA3001",
 "name":""
 },
 {
@@ -747,11 +736,11 @@
 "name":""
 },
 {
-"id":"PA2382",
+"id":"PA4771",
 "name":""
 },
 {
-"id":"PA4771",
+"id":"PA2382",
 "name":""
 },
 {

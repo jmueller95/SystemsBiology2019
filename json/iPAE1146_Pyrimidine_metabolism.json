@@ -11,7 +11,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -32,7 +31,6 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
-"charge":0,
 "formula":"CO2"
 },
 {
@@ -53,42 +51,36 @@
 "id":"cpd15560_c",
 "name":"Ubiquinone-8",
 "compartment":"c",
-"charge":0,
 "formula":"C49H74O4"
 },
 {
 "id":"cpd15561_c",
 "name":"Ubiquinol-8",
 "compartment":"c",
-"charge":0,
 "formula":"C49H76O4"
 },
 {
 "id":"cpd01351_c",
 "name":"Ubiquinone-9",
 "compartment":"c",
-"charge":0,
 "formula":"C54H82O4"
 },
 {
 "id":"cJB00125_c",
 "name":"Ubiquinol-9",
 "compartment":"c",
-"charge":0,
 "formula":"C54H84O4"
 },
 {
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
-"charge":0,
 "formula":"O2"
 },
 {
 "id":"cpd00025_c",
 "name":"H2O2",
 "compartment":"c",
-"charge":0,
 "formula":"H2O2"
 },
 {
@@ -109,14 +101,12 @@
 "id":"cpd11420_c",
 "name":"trdox",
 "compartment":"c",
-"charge":0,
 "formula":"C6H7NO2R2S2"
 },
 {
 "id":"cpd11421_c",
 "name":"trdrd",
 "compartment":"c",
-"charge":0,
 "formula":"C6H9NO2R2S2"
 },
 {
@@ -130,7 +120,6 @@
 "id":"cpd00053_c",
 "name":"L-Glutamine",
 "compartment":"c",
-"charge":0,
 "formula":"C5H10N2O3"
 },
 {
@@ -179,35 +168,30 @@
 "id":"cpd00307_c",
 "name":"Cytosine",
 "compartment":"c",
-"charge":0,
 "formula":"C4H5N3O"
 },
 {
 "id":"cpd00367_c",
 "name":"Cytidine",
 "compartment":"c",
-"charge":0,
 "formula":"C9H13N3O5"
 },
 {
 "id":"cpd00654_c",
 "name":"Deoxycytidine",
 "compartment":"c",
-"charge":0,
 "formula":"C9H13N3O4"
 },
 {
 "id":"cpd00184_c",
 "name":"Thymidine",
 "compartment":"c",
-"charge":0,
 "formula":"C10H14N2O5"
 },
 {
 "id":"cpd00249_c",
 "name":"Uridine",
 "compartment":"c",
-"charge":0,
 "formula":"C9H12N2O6"
 },
 {
@@ -242,21 +226,18 @@
 "id":"cpd00092_c",
 "name":"Uracil",
 "compartment":"c",
-"charge":0,
 "formula":"C4H4N2O2"
 },
 {
 "id":"cpd15499_c",
 "name":"Menaquinol_8",
 "compartment":"c",
-"charge":0,
 "formula":"C51H74O2"
 },
 {
 "id":"cpd15500_c",
 "name":"Menaquinone_8",
 "compartment":"c",
-"charge":0,
 "formula":"C51H72O2"
 },
 {
@@ -419,7 +400,7 @@
 "cpd11420_c":1.0,
 "cpd11421_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA1156 and PA1155)",
 "subsystem":"Pyrimidine metabolism",
@@ -448,7 +429,7 @@
 "cpd11420_c":1.0,
 "cpd11421_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA1156 and PA1155)",
 "subsystem":"Pyrimidine metabolism",
@@ -476,7 +457,7 @@
 "cpd00092_c":-1.0,
 "cpd00103_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA4646 or PA0403)",
 "subsystem":"Pyrimidine metabolism",
@@ -504,7 +485,7 @@
 "cpd00101_c":-1.0,
 "cpd00859_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA4742 or PA2975 or PA3246 or PA3114 or PA4544)",
 "subsystem":"Pyrimidine metabolism",
@@ -532,7 +513,7 @@
 "cpd00299_c":-1.0,
 "cpd00330_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0342",
 "subsystem":"Pyrimidine metabolism",
@@ -561,7 +542,7 @@
 "cpd00146_c":-1.0,
 "cpd00343_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0402",
 "subsystem":"Pyrimidine metabolism",
@@ -590,7 +571,7 @@
 "cpd00092_c":1.0,
 "cpd00307_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0437",
 "subsystem":"Pyrimidine metabolism",
@@ -618,7 +599,7 @@
 "cpd00091_c":1.0,
 "cpd00810_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2876",
 "subsystem":"Pyrimidine metabolism",
@@ -674,7 +655,7 @@
 "cpd00247_c":1.0,
 "cpd00282_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3050",
 "subsystem":"Pyrimidine metabolism",
@@ -758,8 +739,8 @@
 "cpd15499_c":1.0,
 "cpd15500_c":-1.0
 },
-"lower_bound":0.0,
-"upper_bound":0.0,
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"PA3050",
 "subsystem":"Pyrimidine metabolism",
 "notes":{
@@ -843,7 +824,7 @@
 "cpd00356_c":-1.0,
 "cpd00358_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3480",
 "subsystem":"Pyrimidine metabolism",
@@ -900,7 +881,7 @@
 "cpd00067_c":1.0,
 "cpd00367_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3625",
 "subsystem":"Pyrimidine metabolism",
@@ -929,7 +910,7 @@
 "cpd00206_c":-1.0,
 "cpd00654_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3625",
 "subsystem":"Pyrimidine metabolism",
@@ -958,7 +939,7 @@
 "cpd00184_c":1.0,
 "cpd00298_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3625",
 "subsystem":"Pyrimidine metabolism",
@@ -987,7 +968,7 @@
 "cpd00091_c":-1.0,
 "cpd00249_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3625",
 "subsystem":"Pyrimidine metabolism",
@@ -1020,7 +1001,7 @@
 "cpd00062_c":-1.0,
 "cpd00067_c":2.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3637",
 "subsystem":"Pyrimidine metabolism",
@@ -1276,7 +1257,7 @@
 "cpd00297_c":1.0,
 "cpd00357_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5067",
 "subsystem":"Pyrimidine metabolism",
@@ -1304,7 +1285,7 @@
 "cpd00299_c":1.0,
 "cpd00358_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5321",
 "subsystem":"Pyrimidine metabolism",
@@ -1354,11 +1335,11 @@
 ],
 "genes":[
 {
-"id":"PA0849",
+"id":"PA2616",
 "name":""
 },
 {
-"id":"PA2616",
+"id":"PA0849",
 "name":""
 },
 {
@@ -1382,19 +1363,19 @@
 "name":""
 },
 {
-"id":"PA3114",
-"name":""
-},
-{
-"id":"PA3246",
-"name":""
-},
-{
 "id":"PA4742",
 "name":""
 },
 {
 "id":"PA2975",
+"name":""
+},
+{
+"id":"PA3114",
+"name":""
+},
+{
+"id":"PA3246",
 "name":""
 },
 {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" level="3" version="1">
-  <model substanceUnits="substance" timeUnits="second" volumeUnits="volume" areaUnits="area" lengthUnits="metre" extentUnits="substance">
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" level="3" version="1">
+  <model substanceUnits="substance" timeUnits="second" volumeUnits="volume" areaUnits="area" lengthUnits="metre" extentUnits="substance" fbc:strict="false">
     <listOfUnitDefinitions>
       <unitDefinition id="mmol_per_gDW_per_hr">
         <listOfUnits>
@@ -30,7 +30,7 @@
       <compartment id="e" name="Extracellular" spatialDimensions="3" units="volume" constant="false"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="M_cpd00134_c" name="Palmitoyl-CoA" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00134_c" name="Palmitoyl-CoA" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C37H63N7O17P3S">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C37H63N7O17P3S</p>
@@ -38,7 +38,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd01695_c" name="Myristoyl-CoA" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd01695_c" name="Myristoyl-CoA" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C35H59N7O17P3S">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C35H59N7O17P3S</p>
@@ -46,7 +46,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00003_c" name="NAD" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00003_c" name="NAD" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C21H26N7O14P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H26N7O14P2</p>
@@ -54,7 +54,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00004_c" name="NADH" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00004_c" name="NADH" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C21H27N7O14P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H27N7O14P2</p>
@@ -62,7 +62,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00067_c" name="H+" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00067_c" name="H+" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="H">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H</p>
@@ -70,7 +70,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00001_c" name="H2O" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00001_c" name="H2O" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H2O</p>
@@ -78,7 +78,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00080_c" name="Glycerol-3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00080_c" name="Glycerol-3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H8O6P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H8O6P</p>
@@ -86,7 +86,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00010_c" name="CoA" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00010_c" name="CoA" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C21H33N7O16P3S">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H33N7O16P3S</p>
@@ -94,7 +94,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00009_c" name="Phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00009_c" name="Phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="HO4P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: HO4P</p>
@@ -102,7 +102,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00169_c" name="3-Phosphoglycerate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00169_c" name="3-Phosphoglycerate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C3H5O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H5O7P</p>
@@ -110,7 +110,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd11468_c" name="Dodecanoyl-ACP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd11468_c" name="Dodecanoyl-ACP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C23H43N2O8PRS">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C23H43N2O8PRS</p>
@@ -118,7 +118,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd11466_c" name="Myristoyl-ACP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd11466_c" name="Myristoyl-ACP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C25H47N2O8PRS">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C25H47N2O8PRS</p>
@@ -126,7 +126,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15239_c" name="Hexadecenoyl-ACP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15239_c" name="Hexadecenoyl-ACP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27H49N2O8PRS">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C27H49N2O8PRS</p>
@@ -134,7 +134,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15277_c" name="Palmitoyl-ACP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15277_c" name="Palmitoyl-ACP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27H51N2O8PRS">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C27H51N2O8PRS</p>
@@ -142,7 +142,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15294_c" name="Tetradecenoyl-ACP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15294_c" name="Tetradecenoyl-ACP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C25H45N2O8PRS">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C25H45N2O8PRS</p>
@@ -150,7 +150,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15572_c" name="trans-octadec-2-enoyl-[acyl-carrier protein]" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15572_c" name="trans-octadec-2-enoyl-[acyl-carrier protein]" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C29H53N2O8PRS">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C29H53N2O8PRS</p>
@@ -158,7 +158,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15268_c" name="Octadecanoyl-ACP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15268_c" name="Octadecanoyl-ACP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C29H55N2O8PRS">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C29H55N2O8PRS</p>
@@ -166,7 +166,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd11825_c" name="Octadecenoyl-ACP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd11825_c" name="Octadecenoyl-ACP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C29H53N2O8PRS">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C29H53N2O8PRS</p>
@@ -174,7 +174,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00002_c" name="ATP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00002_c" name="ATP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H13N5O13P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O13P3</p>
@@ -182,7 +182,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00008_c" name="ADP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00008_c" name="ADP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H13N5O10P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O10P2</p>
@@ -190,7 +190,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00100_c" name="Glycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00100_c" name="Glycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H8O3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H8O3</p>
@@ -198,7 +198,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00448_c" name="D-Glyceraldehyde" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00448_c" name="D-Glyceraldehyde" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H6O3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H6O3</p>
@@ -206,7 +206,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00012_c" name="PPi" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00012_c" name="PPi" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="H2O7P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H2O7P2</p>
@@ -214,7 +214,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00223_c" name="Glycerate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00223_c" name="Glycerate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C3H5O4">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H5O4</p>
@@ -222,7 +222,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15326_c" name="1-hexadec-9-enoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15326_c" name="1-hexadec-9-enoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C19H36O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C19H36O7P</p>
@@ -230,7 +230,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd11493_c" name="ACP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd11493_c" name="ACP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C11H21N2O7PRS">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C11H21N2O7PRS</p>
@@ -238,7 +238,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15525_c" name="1,2-dihexadec-9-enoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15525_c" name="1,2-dihexadec-9-enoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C35H64O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C35H64O8P</p>
@@ -246,7 +246,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15327_c" name="1-hexadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15327_c" name="1-hexadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C19H38O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C19H38O7P</p>
@@ -254,7 +254,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15524_c" name="1,2-dihexadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15524_c" name="1,2-dihexadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C35H68O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C35H68O8P</p>
@@ -262,7 +262,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15328_c" name="1-octadec-11-enoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15328_c" name="1-octadec-11-enoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C21H40O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H40O7P</p>
@@ -270,7 +270,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15527_c" name="1,2-dioctadec-11-enoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15527_c" name="1,2-dioctadec-11-enoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C39H72O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C39H72O8P</p>
@@ -278,7 +278,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15329_c" name="1-octadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15329_c" name="1-octadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C21H42O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H42O7P</p>
@@ -286,7 +286,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15526_c" name="1,2-dioctadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15526_c" name="1,2-dioctadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C39H76O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C39H76O8P</p>
@@ -294,7 +294,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15330_c" name="1-tetradec-7-enoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15330_c" name="1-tetradec-7-enoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C17H32O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H32O7P</p>
@@ -302,7 +302,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15523_c" name="1,2-ditetradec-7-enoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15523_c" name="1,2-ditetradec-7-enoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C31H56O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C31H56O8P</p>
@@ -310,7 +310,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15325_c" name="1-dodecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15325_c" name="1-dodecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C15H30O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C15H30O7P</p>
@@ -318,7 +318,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15521_c" name="1,2-didodecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15521_c" name="1,2-didodecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C27H52O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C27H52O8P</p>
@@ -326,7 +326,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15331_c" name="1-tetradecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15331_c" name="1-tetradecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C17H34O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H34O7P</p>
@@ -334,7 +334,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15522_c" name="1,2-ditetradecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15522_c" name="1,2-ditetradecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C31H60O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C31H60O8P</p>
@@ -342,7 +342,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd11434_c" name="fa12coa" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd11434_c" name="fa12coa" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C38H65N7O17P3S">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C38H65N7O17P3S</p>
@@ -350,7 +350,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15672_c" name="1-anteisoheptadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15672_c" name="1-anteisoheptadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C20H40O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C20H40O7P</p>
@@ -358,7 +358,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15678_c" name="1,2-dianteisoheptadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15678_c" name="1,2-dianteisoheptadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C37H72O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C37H72O8P</p>
@@ -366,7 +366,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd11439_c" name="fa4coa" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd11439_c" name="fa4coa" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C36H61N7O17P3S">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C36H61N7O17P3S</p>
@@ -374,7 +374,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15675_c" name="1-anteisopentadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15675_c" name="1-anteisopentadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C18H36O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C18H36O7P</p>
@@ -382,7 +382,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15681_c" name="1,2-dianteisopentadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15681_c" name="1,2-dianteisopentadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C33H64O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C33H64O8P</p>
@@ -390,7 +390,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd11432_c" name="fa11coa" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd11432_c" name="fa11coa" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C38H65N7O17P3S">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C38H65N7O17P3S</p>
@@ -398,7 +398,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15671_c" name="1-isoheptadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15671_c" name="1-isoheptadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C20H40O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C20H40O7P</p>
@@ -406,7 +406,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15677_c" name="1,2-diisoheptadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15677_c" name="1,2-diisoheptadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C37H72O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C37H72O8P</p>
@@ -414,7 +414,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd11441_c" name="fa6coa" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd11441_c" name="fa6coa" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C37H63N7O17P3S">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C37H63N7O17P3S</p>
@@ -422,7 +422,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15676_c" name="1-isohexadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15676_c" name="1-isohexadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C19H38O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C19H38O7P</p>
@@ -430,7 +430,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15682_c" name="1,2-diisohexadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15682_c" name="1,2-diisohexadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C35H68O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C35H68O8P</p>
@@ -438,7 +438,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd11437_c" name="fa3coa" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd11437_c" name="fa3coa" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C36H61N7O17P3S">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C36H61N7O17P3S</p>
@@ -446,7 +446,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15674_c" name="1-isopentadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15674_c" name="1-isopentadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C18H36O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C18H36O7P</p>
@@ -454,7 +454,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15680_c" name="1,2-diisopentadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15680_c" name="1,2-diisopentadecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C33H64O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C33H64O8P</p>
@@ -462,7 +462,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd11435_c" name="fa1coa" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd11435_c" name="fa1coa" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C35H59N7O17P3S">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C35H59N7O17P3S</p>
@@ -470,7 +470,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15673_c" name="1-isotetradecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15673_c" name="1-isotetradecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C17H34O7P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H34O7P</p>
@@ -478,7 +478,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15679_c" name="1,2-diisotetradecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15679_c" name="1,2-diisotetradecanoyl-sn-glycerol_3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C31H60O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C31H60O8P</p>
@@ -486,7 +486,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00327_c" name="strcoa" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00327_c" name="strcoa" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C39H67N7O17P3S">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C39H67N7O17P3S</p>
@@ -494,7 +494,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00052_c" name="CTP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00052_c" name="CTP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C9H13N3O14P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H13N3O14P3</p>
@@ -502,7 +502,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15684_c" name="CDP-1,2-dianteisoheptadecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15684_c" name="CDP-1,2-dianteisoheptadecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C46H83N3O15P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C46H83N3O15P2</p>
@@ -510,7 +510,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15687_c" name="CDP-1,2-dianteisopentadecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15687_c" name="CDP-1,2-dianteisopentadecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C42H75N3O15P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C42H75N3O15P2</p>
@@ -518,7 +518,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15417_c" name="CDP-1,2-didodecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15417_c" name="CDP-1,2-didodecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C36H63N3O15P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C36H63N3O15P2</p>
@@ -526,7 +526,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15423_c" name="CDP-1,2-ditetradecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15423_c" name="CDP-1,2-ditetradecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C40H71N3O15P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C40H71N3O15P2</p>
@@ -534,7 +534,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15422_c" name="CDP-1,2-ditetradec-7-enoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15422_c" name="CDP-1,2-ditetradec-7-enoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C40H67N3O15P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C40H67N3O15P2</p>
@@ -542,7 +542,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15418_c" name="CDP-1,2-dihexadec-9-enoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15418_c" name="CDP-1,2-dihexadec-9-enoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C44H75N3O15P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C44H75N3O15P2</p>
@@ -550,7 +550,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15421_c" name="CDP-1,2-dioctadecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15421_c" name="CDP-1,2-dioctadecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C48H87N3O15P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C48H87N3O15P2</p>
@@ -558,7 +558,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15420_c" name="CDP-1,2-dioctadec-11-enoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15420_c" name="CDP-1,2-dioctadec-11-enoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C48H83N3O15P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C48H83N3O15P2</p>
@@ -566,7 +566,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15683_c" name="CDP-1,2-diisoheptadecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15683_c" name="CDP-1,2-diisoheptadecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C46H83N3O15P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C46H83N3O15P2</p>
@@ -574,7 +574,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15688_c" name="CDP-1,2-diisohexadecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15688_c" name="CDP-1,2-diisohexadecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C44H79N3O15P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C44H79N3O15P2</p>
@@ -582,7 +582,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15686_c" name="CDP-1,2-diisopentadecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15686_c" name="CDP-1,2-diisopentadecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C42H75N3O15P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C42H75N3O15P2</p>
@@ -590,7 +590,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15685_c" name="CDP-1,2-diisotetradecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15685_c" name="CDP-1,2-diisotetradecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C40H71N3O15P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C40H71N3O15P2</p>
@@ -598,7 +598,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15723_c" name="Dianteisoheptadecanoylphosphatidylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15723_c" name="Dianteisoheptadecanoylphosphatidylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C40H78O10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C40H78O10P</p>
@@ -606,7 +606,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15795_c" name="Anteisoheptadecanoylcardiolipin_(B. subtilis)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15795_c" name="Anteisoheptadecanoylcardiolipin_(B. subtilis)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C77H148O17P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C77H148O17P2</p>
@@ -614,7 +614,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15726_c" name="Dianteisopentadecanoylphosphatidylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15726_c" name="Dianteisopentadecanoylphosphatidylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C36H70O10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C36H70O10P</p>
@@ -622,7 +622,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15798_c" name="Anteisopentadecanoylcardiolipin_(B. subtilis)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15798_c" name="Anteisopentadecanoylcardiolipin_(B. subtilis)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C69H132O17P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C69H132O17P2</p>
@@ -630,7 +630,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15722_c" name="Diisoheptadecanoylphosphatidylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15722_c" name="Diisoheptadecanoylphosphatidylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C40H78O10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C40H78O10P</p>
@@ -638,7 +638,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15794_c" name="Isoheptadecanoylcardiolipin_(B. subtilis)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15794_c" name="Isoheptadecanoylcardiolipin_(B. subtilis)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C77H148O17P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C77H148O17P2</p>
@@ -646,7 +646,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15727_c" name="Diisohexadecanoylphosphatidylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15727_c" name="Diisohexadecanoylphosphatidylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C38H74O10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C38H74O10P</p>
@@ -654,7 +654,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15799_c" name="Isohexadecanoylcardiolipin_(B. subtilis)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15799_c" name="Isohexadecanoylcardiolipin_(B. subtilis)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C73H140O17P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C73H140O17P2</p>
@@ -662,7 +662,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15725_c" name="Diisopentadecanoylphosphatidylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15725_c" name="Diisopentadecanoylphosphatidylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C36H70O10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C36H70O10P</p>
@@ -670,7 +670,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15797_c" name="Isopentadecanoylcardiolipin_(B. subtilis)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15797_c" name="Isopentadecanoylcardiolipin_(B. subtilis)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C69H132O17P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C69H132O17P2</p>
@@ -678,7 +678,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15724_c" name="Diisotetradecanoylphosphatidylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15724_c" name="Diisotetradecanoylphosphatidylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C34H66O10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C34H66O10P</p>
@@ -686,7 +686,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15796_c" name="Isotetradecanoylcardiolipin_(B. subtilis)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15796_c" name="Isotetradecanoylcardiolipin_(B. subtilis)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C65H124O17P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C65H124O17P2</p>
@@ -694,7 +694,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15536_c" name="Phosphatidylglycerol_ditetradecanoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15536_c" name="Phosphatidylglycerol_ditetradecanoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C34H66O10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C34H66O10P</p>
@@ -702,7 +702,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15792_c" name="Myristoylcardiolipin_(B. subtilis)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15792_c" name="Myristoylcardiolipin_(B. subtilis)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C65H124O17P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C65H124O17P2</p>
@@ -710,7 +710,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15538_c" name="Phosphatidylglycerol_dihexadecanoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15538_c" name="Phosphatidylglycerol_dihexadecanoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C38H74O10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C38H74O10P</p>
@@ -718,7 +718,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15791_c" name="Palmitoylcardiolipin_(B. subtilis)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15791_c" name="Palmitoylcardiolipin_(B. subtilis)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C73H140O17P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C73H140O17P2</p>
@@ -726,7 +726,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15540_c" name="Phosphatidylglycerol_dioctadecanoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15540_c" name="Phosphatidylglycerol_dioctadecanoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C42H82O10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C42H82O10P</p>
@@ -734,7 +734,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15793_c" name="Stearoylcardiolipin_(B. subtilis)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15793_c" name="Stearoylcardiolipin_(B. subtilis)" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C81H156O17P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C81H156O17P2</p>
@@ -742,7 +742,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd11422_c" name="1,2-diacyl-sn-glycerol 3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd11422_c" name="1,2-diacyl-sn-glycerol 3-phosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H6O8PR2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H6O8PR2</p>
@@ -750,7 +750,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00054_c" name="L-Serine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00054_c" name="L-Serine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H7NO3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H7NO3</p>
@@ -758,7 +758,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00046_c" name="CMP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd00046_c" name="CMP" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C9H13N3O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H13N3O8P</p>
@@ -766,7 +766,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15419_c" name="CDP-1,2-dihexadecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15419_c" name="CDP-1,2-dihexadecanoylglycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C44H79N3O15P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C44H79N3O15P2</p>
@@ -774,7 +774,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15717_c" name="Dianteisoheptadecanoylphosphatidylglycerophosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15717_c" name="Dianteisoheptadecanoylphosphatidylglycerophosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C40H78O13P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C40H78O13P2</p>
@@ -782,7 +782,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15720_c" name="Dianteisopentadecanoylphosphatidylglycerophosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15720_c" name="Dianteisopentadecanoylphosphatidylglycerophosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C36H70O13P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C36H70O13P2</p>
@@ -790,7 +790,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15716_c" name="Diisoheptadecanoylphosphatidylglycerophosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15716_c" name="Diisoheptadecanoylphosphatidylglycerophosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C40H78O13P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C40H78O13P2</p>
@@ -798,7 +798,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15721_c" name="Diisohexadecanoylphosphatidylglycerophosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15721_c" name="Diisohexadecanoylphosphatidylglycerophosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C38H74O13P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C38H74O13P2</p>
@@ -806,7 +806,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15719_c" name="Diisopentadecanoylphosphatidylglycerophosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15719_c" name="Diisopentadecanoylphosphatidylglycerophosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C36H70O13P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C36H70O13P2</p>
@@ -814,7 +814,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15718_c" name="Diisotetradecanoylphosphatidylglycerophosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15718_c" name="Diisotetradecanoylphosphatidylglycerophosphate" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C34H66O13P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C34H66O13P2</p>
@@ -822,7 +822,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15702_c" name="1,2-Dianteisoheptadecanoyl-sn-glycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15702_c" name="1,2-Dianteisoheptadecanoyl-sn-glycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C37H72O5">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C37H72O5</p>
@@ -830,7 +830,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15705_c" name="1,2-Dianteisopentadecanoyl-sn-glycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15705_c" name="1,2-Dianteisopentadecanoyl-sn-glycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C33H64O5">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C33H64O5</p>
@@ -838,7 +838,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd11423_c" name="1,2-Diacyl-sn-glycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd11423_c" name="1,2-Diacyl-sn-glycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C5H6O5R2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H6O5R2</p>
@@ -846,7 +846,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15306_c" name="1,2-Diacyl-sn-glycerol_didodecanoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15306_c" name="1,2-Diacyl-sn-glycerol_didodecanoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C27H52O5">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C27H52O5</p>
@@ -854,7 +854,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15307_c" name="1,2-Diacyl-sn-glycerol_ditetradecanoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15307_c" name="1,2-Diacyl-sn-glycerol_ditetradecanoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C31H60O5">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C31H60O5</p>
@@ -862,7 +862,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15308_c" name="1,2-Diacyl-sn-glycerol_ditetradec-7-enoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15308_c" name="1,2-Diacyl-sn-glycerol_ditetradec-7-enoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C31H56O5">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C31H56O5</p>
@@ -870,7 +870,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15309_c" name="1,2-Diacyl-sn-glycerol_dihexadecanoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15309_c" name="1,2-Diacyl-sn-glycerol_dihexadecanoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C35H68O5">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C35H68O5</p>
@@ -878,7 +878,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15310_c" name="1,2-Diacyl-sn-glycerol_dihexadec-9-enoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15310_c" name="1,2-Diacyl-sn-glycerol_dihexadec-9-enoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C35H64O5">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C35H64O5</p>
@@ -886,7 +886,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15311_c" name="1,2-Diacyl-sn-glycerol_dioctadecanoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15311_c" name="1,2-Diacyl-sn-glycerol_dioctadecanoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C39H76O5">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C39H76O5</p>
@@ -894,7 +894,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15312_c" name="1,2-Diacyl-sn-glycerol_dioctadec-11-enoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15312_c" name="1,2-Diacyl-sn-glycerol_dioctadec-11-enoyl" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C39H72O5">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C39H72O5</p>
@@ -902,7 +902,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15701_c" name="1,2-Diisoheptadecanoyl-sn-glycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15701_c" name="1,2-Diisoheptadecanoyl-sn-glycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C37H72O5">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C37H72O5</p>
@@ -910,7 +910,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15706_c" name="1,2-Diisohexadecanoyl-sn-glycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15706_c" name="1,2-Diisohexadecanoyl-sn-glycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C35H68O5">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C35H68O5</p>
@@ -918,7 +918,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15704_c" name="1,2-Diisopentadecanoyl-sn-glycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15704_c" name="1,2-Diisopentadecanoyl-sn-glycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C33H64O5">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C33H64O5</p>
@@ -926,7 +926,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15703_c" name="1,2-Diisotetradecanoyl-sn-glycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15703_c" name="1,2-Diisotetradecanoyl-sn-glycerol" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C31H60O5">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C31H60O5</p>
@@ -934,7 +934,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15690_c" name="Dianteisoheptadecanoylphosphatidylserine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15690_c" name="Dianteisoheptadecanoylphosphatidylserine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C40H76NO10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C40H76NO10P</p>
@@ -942,7 +942,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15693_c" name="Dianteisopentadecanoylphosphatidylserine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15693_c" name="Dianteisopentadecanoylphosphatidylserine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C36H68NO10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C36H68NO10P</p>
@@ -950,7 +950,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15689_c" name="Diisoheptadecanoylphosphatidylserine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15689_c" name="Diisoheptadecanoylphosphatidylserine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C40H76NO10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C40H76NO10P</p>
@@ -958,7 +958,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15694_c" name="Diisohexadecanoylphosphatidylserine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15694_c" name="Diisohexadecanoylphosphatidylserine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C38H72NO10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C38H72NO10P</p>
@@ -966,7 +966,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15692_c" name="Diisopentadecanoylphosphatidylserine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15692_c" name="Diisopentadecanoylphosphatidylserine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C36H68NO10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C36H68NO10P</p>
@@ -974,7 +974,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15691_c" name="Diisotetradecanoylphosphatidylserine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_cpd15691_c" name="Diisotetradecanoylphosphatidylserine" compartment="c" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C34H64NO10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C34H64NO10P</p>
@@ -984,7 +984,7 @@
       </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction id="R_rxn00763" name="alcohol dehydrogenase (glycerol)" reversible="true" fast="false">
+      <reaction metaid="R_rxn00763" id="R_rxn00763" name="alcohol dehydrogenase (glycerol)" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3629</p>
@@ -995,6 +995,20 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn00763">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.21"/>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.72"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00003_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00100_c" stoichiometry="1" constant="true"/>
@@ -1016,7 +1030,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08087" name="1-hexadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C161)" reversible="false" fast="false">
+      <reaction metaid="R_rxn08087" id="R_rxn08087" name="1-hexadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C161)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0005) or (PA4351) or (PA2537))</p>
@@ -1027,6 +1041,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08087">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.51"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15239_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15326_c" stoichiometry="1" constant="true"/>
@@ -1047,7 +1072,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08086" name="1-hexadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C160)" reversible="false" fast="false">
+      <reaction metaid="R_rxn08086" id="R_rxn08086" name="1-hexadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C160)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0005) or (PA4351) or (PA2537))</p>
@@ -1058,6 +1083,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08086">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.51"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15277_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15327_c" stoichiometry="1" constant="true"/>
@@ -1078,7 +1114,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08089" name="1-octadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C181)" reversible="false" fast="false">
+      <reaction metaid="R_rxn08089" id="R_rxn08089" name="1-octadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C181)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0005) or (PA4351) or (PA2537))</p>
@@ -1089,6 +1125,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08089">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.51"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd11825_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15328_c" stoichiometry="1" constant="true"/>
@@ -1109,7 +1156,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08088" name="1-octadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C180)" reversible="false" fast="false">
+      <reaction metaid="R_rxn08088" id="R_rxn08088" name="1-octadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C180)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0005) or (PA4351) or (PA2537))</p>
@@ -1120,6 +1167,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08088">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.51"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15268_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15329_c" stoichiometry="1" constant="true"/>
@@ -1140,7 +1198,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08085" name="1-tetradec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C141)" reversible="false" fast="false">
+      <reaction metaid="R_rxn08085" id="R_rxn08085" name="1-tetradec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C141)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0005) or (PA4351) or (PA2537))</p>
@@ -1151,6 +1209,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08085">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.51"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15294_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15330_c" stoichiometry="1" constant="true"/>
@@ -1171,7 +1240,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08083" name="1-tetradecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C120)" reversible="false" fast="false">
+      <reaction metaid="R_rxn08083" id="R_rxn08083" name="1-tetradecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C120)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0005) or (PA4351) or (PA2537))</p>
@@ -1182,6 +1251,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08083">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.51"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd11468_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15325_c" stoichiometry="1" constant="true"/>
@@ -1202,7 +1282,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08084" name="1-tetradecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C140)" reversible="false" fast="false">
+      <reaction metaid="R_rxn08084" id="R_rxn08084" name="1-tetradecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C140)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0005) or (PA4351) or (PA2537))</p>
@@ -1213,6 +1293,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08084">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.51"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd11466_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15331_c" stoichiometry="1" constant="true"/>
@@ -1233,7 +1324,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10215" name="anteisoheptadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10215" id="R_rxn10215" name="anteisoheptadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0005) or (PA4351) or (PA2537))</p>
@@ -1244,6 +1335,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10215">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.51"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd11434_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15672_c" stoichiometry="1" constant="true"/>
@@ -1264,7 +1366,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10218" name="anteisopentadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10218" id="R_rxn10218" name="anteisopentadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0005) or (PA4351) or (PA2537))</p>
@@ -1275,6 +1377,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10218">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.51"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd11439_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15675_c" stoichiometry="1" constant="true"/>
@@ -1295,7 +1408,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10214" name="isoheptadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10214" id="R_rxn10214" name="isoheptadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0005) or (PA4351) or (PA2537))</p>
@@ -1306,6 +1419,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10214">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.51"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd11432_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15671_c" stoichiometry="1" constant="true"/>
@@ -1326,7 +1450,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10219" name="isohexadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10219" id="R_rxn10219" name="isohexadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0005) or (PA4351) or (PA2537))</p>
@@ -1337,6 +1461,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10219">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.51"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd11441_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15676_c" stoichiometry="1" constant="true"/>
@@ -1357,7 +1492,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10217" name="isopentadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10217" id="R_rxn10217" name="isopentadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0005) or (PA4351) or (PA2537))</p>
@@ -1368,6 +1503,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10217">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.51"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd11437_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15674_c" stoichiometry="1" constant="true"/>
@@ -1388,7 +1534,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10216" name="isotetradecanoyl-1-acylglycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10216" id="R_rxn10216" name="isotetradecanoyl-1-acylglycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0005) or (PA4351) or (PA2537))</p>
@@ -1399,6 +1545,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10216">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.51"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd11435_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15673_c" stoichiometry="1" constant="true"/>
@@ -1419,7 +1576,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10212" name="myristoyl-1-acylglycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10212" id="R_rxn10212" name="myristoyl-1-acylglycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0005) or (PA4351) or (PA2537))</p>
@@ -1430,6 +1587,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10212">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.51"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd01695_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15331_c" stoichiometry="1" constant="true"/>
@@ -1450,7 +1618,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10211" name="palmitoyl-1-acylglycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10211" id="R_rxn10211" name="palmitoyl-1-acylglycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0005) or (PA4351) or (PA2537))</p>
@@ -1461,6 +1629,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10211">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.51"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00134_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15327_c" stoichiometry="1" constant="true"/>
@@ -1481,7 +1660,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10213" name="stearoyl-1-acylglycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10213" id="R_rxn10213" name="stearoyl-1-acylglycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0005) or (PA4351) or (PA2537))</p>
@@ -1492,6 +1671,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10213">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.51"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15329_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00327_c" stoichiometry="1" constant="true"/>
@@ -1512,7 +1702,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10221" name="anteisoheptadecanoyl-phosphatidate cytidylyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10221" id="R_rxn10221" name="anteisoheptadecanoyl-phosphatidate cytidylyltransferase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3651) or (PA2536))</p>
@@ -1523,6 +1713,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10221">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.7.41"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15678_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
@@ -1543,7 +1744,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10224" name="anteisopentadecanoyl-phosphatidate cytidylyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10224" id="R_rxn10224" name="anteisopentadecanoyl-phosphatidate cytidylyltransferase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3651) or (PA2536))</p>
@@ -1554,6 +1755,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10224">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.7.41"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15681_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
@@ -1574,7 +1786,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08306" name="CDP-diacylglycerol synthetase (n-C120)" reversible="true" fast="false">
+      <reaction metaid="R_rxn08306" id="R_rxn08306" name="CDP-diacylglycerol synthetase (n-C120)" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3651) or (PA2536))</p>
@@ -1585,6 +1797,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08306">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.7.41"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15521_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
@@ -1605,7 +1828,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08307" name="CDP-diacylglycerol synthetase (n-C140)" reversible="true" fast="false">
+      <reaction metaid="R_rxn08307" id="R_rxn08307" name="CDP-diacylglycerol synthetase (n-C140)" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3651) or (PA2536))</p>
@@ -1616,6 +1839,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08307">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.7.41"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15522_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
@@ -1636,7 +1870,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08308" name="CDP-diacylglycerol synthetase (n-C141)" reversible="true" fast="false">
+      <reaction metaid="R_rxn08308" id="R_rxn08308" name="CDP-diacylglycerol synthetase (n-C141)" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3651) or (PA2536))</p>
@@ -1647,6 +1881,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08308">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.7.41"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15523_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
@@ -1667,7 +1912,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08310" name="CDP-diacylglycerol synthetase (n-C161)" reversible="true" fast="false">
+      <reaction metaid="R_rxn08310" id="R_rxn08310" name="CDP-diacylglycerol synthetase (n-C161)" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3651) or (PA2536))</p>
@@ -1678,6 +1923,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08310">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.7.41"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15525_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
@@ -1698,7 +1954,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08311" name="CDP-diacylglycerol synthetase (n-C180)" reversible="true" fast="false">
+      <reaction metaid="R_rxn08311" id="R_rxn08311" name="CDP-diacylglycerol synthetase (n-C180)" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3651) or (PA2536))</p>
@@ -1709,6 +1965,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08311">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.7.41"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15526_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
@@ -1729,7 +1996,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08312" name="CDP-diacylglycerol synthetase (n-C181)" reversible="true" fast="false">
+      <reaction metaid="R_rxn08312" id="R_rxn08312" name="CDP-diacylglycerol synthetase (n-C181)" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3651) or (PA2536))</p>
@@ -1740,6 +2007,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08312">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.7.41"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15527_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
@@ -1760,7 +2038,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10220" name="isoheptadecanoyl-phosphatidate cytidylyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10220" id="R_rxn10220" name="isoheptadecanoyl-phosphatidate cytidylyltransferase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3651) or (PA2536))</p>
@@ -1771,6 +2049,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10220">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.7.41"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15677_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
@@ -1791,7 +2080,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10225" name="isohexadecanoyl-phosphatidate cytidylyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10225" id="R_rxn10225" name="isohexadecanoyl-phosphatidate cytidylyltransferase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3651) or (PA2536))</p>
@@ -1802,6 +2091,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10225">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.7.41"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15682_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
@@ -1822,7 +2122,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10223" name="isopentadecanoyl-phosphatidate cytidylyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10223" id="R_rxn10223" name="isopentadecanoyl-phosphatidate cytidylyltransferase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3651) or (PA2536))</p>
@@ -1833,6 +2133,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10223">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.7.41"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15680_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
@@ -1853,7 +2164,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10222" name="isotetradecanoyl-phosphatidate cytidylyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10222" id="R_rxn10222" name="isotetradecanoyl-phosphatidate cytidylyltransferase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3651) or (PA2536))</p>
@@ -1864,6 +2175,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10222">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.7.41"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15679_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
@@ -1884,7 +2206,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10338" name="anteisoheptadecanoyl-cardiolipin synthase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10338" id="R_rxn10338" name="anteisoheptadecanoyl-cardiolipin synthase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA5394) or (PA5310) or (PA2155))</p>
@@ -1895,6 +2217,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10338">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/Undetermined"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15723_c" stoichiometry="2" constant="true"/>
         </listOfReactants>
@@ -1914,7 +2247,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10341" name="anteisopentadecanoyl-cardiolipin synthase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10341" id="R_rxn10341" name="anteisopentadecanoyl-cardiolipin synthase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA5394) or (PA5310) or (PA2155))</p>
@@ -1925,6 +2258,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10341">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/Undetermined"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15726_c" stoichiometry="2" constant="true"/>
         </listOfReactants>
@@ -1944,7 +2288,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10337" name="isoheptadecanoyl-cardiolipin synthase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10337" id="R_rxn10337" name="isoheptadecanoyl-cardiolipin synthase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA5394) or (PA5310) or (PA2155))</p>
@@ -1955,6 +2299,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10337">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/Undetermined"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15722_c" stoichiometry="2" constant="true"/>
         </listOfReactants>
@@ -1974,7 +2329,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10342" name="isohexadecanoyl-cardiolipin synthase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10342" id="R_rxn10342" name="isohexadecanoyl-cardiolipin synthase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA5394) or (PA5310) or (PA2155))</p>
@@ -1985,6 +2340,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10342">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/Undetermined"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15727_c" stoichiometry="2" constant="true"/>
         </listOfReactants>
@@ -2004,7 +2370,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10340" name="isopentadecanoyl-cardiolipin synthase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10340" id="R_rxn10340" name="isopentadecanoyl-cardiolipin synthase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA5394) or (PA5310) or (PA2155))</p>
@@ -2015,6 +2381,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10340">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/Undetermined"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15725_c" stoichiometry="2" constant="true"/>
         </listOfReactants>
@@ -2034,7 +2411,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10339" name="isotetradecanoyl-cardiolipin synthase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10339" id="R_rxn10339" name="isotetradecanoyl-cardiolipin synthase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA5394) or (PA5310) or (PA2155))</p>
@@ -2045,6 +2422,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10339">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/Undetermined"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15724_c" stoichiometry="2" constant="true"/>
         </listOfReactants>
@@ -2064,7 +2452,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10335" name="myristoyl-cardiolipin synthase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10335" id="R_rxn10335" name="myristoyl-cardiolipin synthase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA5394) or (PA5310) or (PA2155))</p>
@@ -2075,6 +2463,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10335">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/Undetermined"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15536_c" stoichiometry="2" constant="true"/>
         </listOfReactants>
@@ -2094,7 +2493,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10334" name="palmitoyl-cardiolipin synthase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10334" id="R_rxn10334" name="palmitoyl-cardiolipin synthase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA5394) or (PA5310) or (PA2155))</p>
@@ -2105,6 +2504,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10334">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/Undetermined"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15538_c" stoichiometry="2" constant="true"/>
         </listOfReactants>
@@ -2124,7 +2534,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10336" name="stearoyl-cardiolipin synthase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10336" id="R_rxn10336" name="stearoyl-cardiolipin synthase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA5394) or (PA5310) or (PA2155))</p>
@@ -2135,6 +2545,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10336">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/Undetermined"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15540_c" stoichiometry="2" constant="true"/>
         </listOfReactants>
@@ -2154,7 +2575,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn13785" name="1,2-diacyl-sn-glycerol 3-phosphate synthesis" reversible="true" fast="false">
+      <reaction metaid="R_rxn13785" id="R_rxn13785" name="1,2-diacyl-sn-glycerol 3-phosphate synthesis" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA0005 and PA3673)</p>
@@ -2188,7 +2609,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08550" name="glycerol-3-phosphate acyltransferase (C161)" reversible="false" fast="false">
+      <reaction metaid="R_rxn08550" id="R_rxn08550" name="glycerol-3-phosphate acyltransferase (C161)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA0581 and PA2969)</p>
@@ -2199,6 +2620,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08550">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.15"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15239_c" stoichiometry="1" constant="true"/>
@@ -2219,7 +2651,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08552" name="glycerol-3-phosphate acyltransferase (C181)" reversible="false" fast="false">
+      <reaction metaid="R_rxn08552" id="R_rxn08552" name="glycerol-3-phosphate acyltransferase (C181)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA0581 and PA2969)</p>
@@ -2230,6 +2662,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08552">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.15"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11825_c" stoichiometry="1" constant="true"/>
@@ -2250,7 +2693,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00615" name="glycerol kinase" reversible="true" fast="false">
+      <reaction metaid="R_rxn00615" id="R_rxn00615" name="glycerol kinase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA3582 or (PA3579 or PA1487))</p>
@@ -2261,6 +2704,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn00615">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.30"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00100_c" stoichiometry="1" constant="true"/>
@@ -2281,7 +2735,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08309" name="CDP-diacylglycerol synthetase (n-C160)" reversible="true" fast="false">
+      <reaction metaid="R_rxn08309" id="R_rxn08309" name="CDP-diacylglycerol synthetase (n-C160)" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA3651)</p>
@@ -2292,6 +2746,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08309">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.7.41"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15524_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
@@ -2312,7 +2777,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01102" name="glycerate kinase" reversible="true" fast="false">
+      <reaction metaid="R_rxn01102" id="R_rxn01102" name="glycerate kinase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA1052</p>
@@ -2323,6 +2788,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn01102">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.31"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00223_c" stoichiometry="1" constant="true"/>
@@ -2343,7 +2819,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10260" name="anteisoheptadecanoyl-CDPdiacylglycerolsn-glycerol-3-phosphate 3-phosphatidyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10260" id="R_rxn10260" name="anteisoheptadecanoyl-CDPdiacylglycerolsn-glycerol-3-phosphate 3-phosphatidyltransferase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA2584</p>
@@ -2354,6 +2830,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10260">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.8.5"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15684_c" stoichiometry="1" constant="true"/>
@@ -2374,7 +2861,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10263" name="anteisopentadecanoyl-CDPdiacylglycerolsn-glycerol-3-phosphate 3-phosphatidyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10263" id="R_rxn10263" name="anteisopentadecanoyl-CDPdiacylglycerolsn-glycerol-3-phosphate 3-phosphatidyltransferase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA2584</p>
@@ -2385,6 +2872,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10263">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.8.5"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15687_c" stoichiometry="1" constant="true"/>
@@ -2405,7 +2903,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10259" name="isoheptadecanoyl-CDPdiacylglycerolsn-glycerol-3-phosphate 3-phosphatidyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10259" id="R_rxn10259" name="isoheptadecanoyl-CDPdiacylglycerolsn-glycerol-3-phosphate 3-phosphatidyltransferase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA2584</p>
@@ -2416,6 +2914,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10259">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.8.5"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15683_c" stoichiometry="1" constant="true"/>
@@ -2436,7 +2945,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10264" name="isohexadecanoyl-CDPdiacylglycerolsn-glycerol-3-phosphate 3-phosphatidyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10264" id="R_rxn10264" name="isohexadecanoyl-CDPdiacylglycerolsn-glycerol-3-phosphate 3-phosphatidyltransferase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA2584</p>
@@ -2447,6 +2956,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10264">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.8.5"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15688_c" stoichiometry="1" constant="true"/>
@@ -2467,7 +2987,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10262" name="isopentadecanoyl-CDPdiacylglycerolsn-glycerol-3-phosphate 3-phosphatidyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10262" id="R_rxn10262" name="isopentadecanoyl-CDPdiacylglycerolsn-glycerol-3-phosphate 3-phosphatidyltransferase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA2584</p>
@@ -2478,6 +2998,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10262">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.8.5"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15686_c" stoichiometry="1" constant="true"/>
@@ -2498,7 +3029,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10261" name="isotetradecanoyl-CDPdiacylglycerolsn-glycerol-3-phosphate 3-phosphatidyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10261" id="R_rxn10261" name="isotetradecanoyl-CDPdiacylglycerolsn-glycerol-3-phosphate 3-phosphatidyltransferase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA2584</p>
@@ -2509,6 +3040,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10261">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.8.5"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15685_c" stoichiometry="1" constant="true"/>
@@ -2529,7 +3071,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10254" name="anteisoheptadecanoyl-Diacylglycerol kinase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10254" id="R_rxn10254" name="anteisoheptadecanoyl-Diacylglycerol kinase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3603</p>
@@ -2560,7 +3102,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10257" name="anteisopentadecanoyl-Diacylglycerol kinase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10257" id="R_rxn10257" name="anteisopentadecanoyl-Diacylglycerol kinase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3603</p>
@@ -2591,7 +3133,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn06139" name="diacylglycerol kinase" reversible="true" fast="false">
+      <reaction metaid="R_rxn06139" id="R_rxn06139" name="diacylglycerol kinase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3603</p>
@@ -2602,6 +3144,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn06139">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.107"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11423_c" stoichiometry="1" constant="true"/>
@@ -2622,7 +3175,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08294" name="diacylglycerol kinase (n-C120)" reversible="true" fast="false">
+      <reaction metaid="R_rxn08294" id="R_rxn08294" name="diacylglycerol kinase (n-C120)" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3603</p>
@@ -2633,6 +3186,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08294">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.107"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15306_c" stoichiometry="1" constant="true"/>
@@ -2653,7 +3217,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08295" name="diacylglycerol kinase (n-C140)" reversible="true" fast="false">
+      <reaction metaid="R_rxn08295" id="R_rxn08295" name="diacylglycerol kinase (n-C140)" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3603</p>
@@ -2664,6 +3228,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08295">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.107"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15307_c" stoichiometry="1" constant="true"/>
@@ -2684,7 +3259,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08296" name="diacylglycerol kinase (n-C141)" reversible="true" fast="false">
+      <reaction metaid="R_rxn08296" id="R_rxn08296" name="diacylglycerol kinase (n-C141)" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3603</p>
@@ -2695,6 +3270,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08296">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.107"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15308_c" stoichiometry="1" constant="true"/>
@@ -2715,7 +3301,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08297" name="diacylglycerol kinase (n-C160)" reversible="true" fast="false">
+      <reaction metaid="R_rxn08297" id="R_rxn08297" name="diacylglycerol kinase (n-C160)" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3603</p>
@@ -2726,6 +3312,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08297">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.107"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15309_c" stoichiometry="1" constant="true"/>
@@ -2746,7 +3343,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08298" name="diacylglycerol kinase (n-C161)" reversible="true" fast="false">
+      <reaction metaid="R_rxn08298" id="R_rxn08298" name="diacylglycerol kinase (n-C161)" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3603</p>
@@ -2757,6 +3354,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08298">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.107"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15310_c" stoichiometry="1" constant="true"/>
@@ -2777,7 +3385,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08299" name="diacylglycerol kinase (n-C180)" reversible="true" fast="false">
+      <reaction metaid="R_rxn08299" id="R_rxn08299" name="diacylglycerol kinase (n-C180)" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3603</p>
@@ -2788,6 +3396,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08299">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.107"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15311_c" stoichiometry="1" constant="true"/>
@@ -2808,7 +3427,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08300" name="diacylglycerol kinase (n-C181)" reversible="true" fast="false">
+      <reaction metaid="R_rxn08300" id="R_rxn08300" name="diacylglycerol kinase (n-C181)" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3603</p>
@@ -2819,6 +3438,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08300">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.107"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15312_c" stoichiometry="1" constant="true"/>
@@ -2839,7 +3469,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10253" name="isoheptadecanoyl-Diacylglycerol kinase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10253" id="R_rxn10253" name="isoheptadecanoyl-Diacylglycerol kinase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3603</p>
@@ -2870,7 +3500,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10258" name="isohexadecanoyl-Diacylglycerol kinase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10258" id="R_rxn10258" name="isohexadecanoyl-Diacylglycerol kinase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3603</p>
@@ -2901,7 +3531,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10256" name="isopentadecanoyl-Diacylglycerol kinase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10256" id="R_rxn10256" name="isopentadecanoyl-Diacylglycerol kinase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3603</p>
@@ -2932,7 +3562,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10255" name="isotetradecanoyl-Diacylglycerol kinase" reversible="true" fast="false">
+      <reaction metaid="R_rxn10255" id="R_rxn10255" name="isotetradecanoyl-Diacylglycerol kinase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3603</p>
@@ -2963,7 +3593,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10206" name="anteisoheptadecanoyl-glycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10206" id="R_rxn10206" name="anteisoheptadecanoyl-glycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3673 or PA0581</p>
@@ -2974,6 +3604,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10206">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.15"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11434_c" stoichiometry="1" constant="true"/>
@@ -2994,7 +3635,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10209" name="anteisopentadecanoyl-glycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10209" id="R_rxn10209" name="anteisopentadecanoyl-glycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3673 or PA0581</p>
@@ -3005,6 +3646,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10209">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.15"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11439_c" stoichiometry="1" constant="true"/>
@@ -3025,7 +3677,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08546" name="glycerol-3-phosphate acyltransferase (C120)" reversible="false" fast="false">
+      <reaction metaid="R_rxn08546" id="R_rxn08546" name="glycerol-3-phosphate acyltransferase (C120)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3673 or PA0581</p>
@@ -3036,6 +3688,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08546">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.15"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11468_c" stoichiometry="1" constant="true"/>
@@ -3056,7 +3719,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08547" name="glycerol-3-phosphate acyltransferase (C140)" reversible="false" fast="false">
+      <reaction metaid="R_rxn08547" id="R_rxn08547" name="glycerol-3-phosphate acyltransferase (C140)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3673 or PA0581</p>
@@ -3067,6 +3730,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08547">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.15"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11466_c" stoichiometry="1" constant="true"/>
@@ -3087,7 +3761,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08548" name="glycerol-3-phosphate acyltransferase (C141)" reversible="false" fast="false">
+      <reaction metaid="R_rxn08548" id="R_rxn08548" name="glycerol-3-phosphate acyltransferase (C141)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3673 or PA0581</p>
@@ -3098,6 +3772,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08548">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.15"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15294_c" stoichiometry="1" constant="true"/>
@@ -3118,7 +3803,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08549" name="glycerol-3-phosphate acyltransferase (C160)" reversible="false" fast="false">
+      <reaction metaid="R_rxn08549" id="R_rxn08549" name="glycerol-3-phosphate acyltransferase (C160)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3673 or PA0581</p>
@@ -3129,6 +3814,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08549">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.15"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15277_c" stoichiometry="1" constant="true"/>
@@ -3149,7 +3845,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08551" name="glycerol-3-phosphate acyltransferase (C180)" reversible="false" fast="false">
+      <reaction metaid="R_rxn08551" id="R_rxn08551" name="glycerol-3-phosphate acyltransferase (C180)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3673 or PA0581</p>
@@ -3160,6 +3856,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn08551">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.15"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15268_c" stoichiometry="1" constant="true"/>
@@ -3180,7 +3887,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10205" name="isoheptadecanoyl-glycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10205" id="R_rxn10205" name="isoheptadecanoyl-glycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3673 or PA0581</p>
@@ -3191,6 +3898,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10205">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.15"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11432_c" stoichiometry="1" constant="true"/>
@@ -3211,7 +3929,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10210" name="isohexadecanoyl-glycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10210" id="R_rxn10210" name="isohexadecanoyl-glycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3673 or PA0581</p>
@@ -3222,6 +3940,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10210">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.15"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11441_c" stoichiometry="1" constant="true"/>
@@ -3242,7 +3971,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10208" name="isopentadecanoyl-glycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10208" id="R_rxn10208" name="isopentadecanoyl-glycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3673 or PA0581</p>
@@ -3253,6 +3982,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10208">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.15"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11437_c" stoichiometry="1" constant="true"/>
@@ -3273,7 +4013,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10207" name="isotetradecanoyl-glycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10207" id="R_rxn10207" name="isotetradecanoyl-glycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3673 or PA0581</p>
@@ -3284,6 +4024,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10207">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.15"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd11435_c" stoichiometry="1" constant="true"/>
@@ -3304,7 +4055,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10203" name="myristoyl-glycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10203" id="R_rxn10203" name="myristoyl-glycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3673 or PA0581</p>
@@ -3315,6 +4066,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10203">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.15"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd01695_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
@@ -3335,7 +4097,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10202" name="palmitoyl-glycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10202" id="R_rxn10202" name="palmitoyl-glycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3673 or PA0581</p>
@@ -3346,6 +4108,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10202">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.15"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00134_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
@@ -3366,7 +4139,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10204" name="stearoyl-glycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10204" id="R_rxn10204" name="stearoyl-glycerol-3-phosphate O-acyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3673 or PA0581</p>
@@ -3377,6 +4150,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10204">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.15"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00080_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00327_c" stoichiometry="1" constant="true"/>
@@ -3397,7 +4181,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10266" name="anteisoheptadecanoyl-Phosphatidylglycerophosphate phosphohydrolase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10266" id="R_rxn10266" name="anteisoheptadecanoyl-Phosphatidylglycerophosphate phosphohydrolase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4050</p>
@@ -3408,6 +4192,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10266">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.1.3.27"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15717_c" stoichiometry="1" constant="true"/>
@@ -3429,7 +4224,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10269" name="anteisopentadecanoyl-Phosphatidylglycerophosphate phosphohydrolase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10269" id="R_rxn10269" name="anteisopentadecanoyl-Phosphatidylglycerophosphate phosphohydrolase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4050</p>
@@ -3440,6 +4235,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10269">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.1.3.27"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15720_c" stoichiometry="1" constant="true"/>
@@ -3461,7 +4267,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10265" name="isoheptadecanoyl-Phosphatidylglycerophosphate phosphohydrolase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10265" id="R_rxn10265" name="isoheptadecanoyl-Phosphatidylglycerophosphate phosphohydrolase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4050</p>
@@ -3472,6 +4278,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10265">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.1.3.27"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15716_c" stoichiometry="1" constant="true"/>
@@ -3493,7 +4310,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10270" name="isohexadecanoyl-Phosphatidylglycerophosphate phosphohydrolase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10270" id="R_rxn10270" name="isohexadecanoyl-Phosphatidylglycerophosphate phosphohydrolase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4050</p>
@@ -3504,6 +4321,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10270">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.1.3.27"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15721_c" stoichiometry="1" constant="true"/>
@@ -3525,7 +4353,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10268" name="isopentadecanoyl-Phosphatidylglycerophosphate phosphohydrolase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10268" id="R_rxn10268" name="isopentadecanoyl-Phosphatidylglycerophosphate phosphohydrolase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4050</p>
@@ -3536,6 +4364,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10268">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.1.3.27"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15719_c" stoichiometry="1" constant="true"/>
@@ -3557,7 +4396,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10267" name="isotetradecanoyl-Phosphatidylglycerophosphate phosphohydrolase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10267" id="R_rxn10267" name="isotetradecanoyl-Phosphatidylglycerophosphate phosphohydrolase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4050</p>
@@ -3568,6 +4407,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10267">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.1.3.27"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd15718_c" stoichiometry="1" constant="true"/>
@@ -3589,7 +4439,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10227" name="anteisoheptadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10227" id="R_rxn10227" name="anteisoheptadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4693</p>
@@ -3600,6 +4450,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10227">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.8.8"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15684_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00054_c" stoichiometry="1" constant="true"/>
@@ -3621,7 +4482,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10230" name="anteisopentadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10230" id="R_rxn10230" name="anteisopentadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4693</p>
@@ -3632,6 +4493,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10230">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.8.8"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15687_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00054_c" stoichiometry="1" constant="true"/>
@@ -3653,7 +4525,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10226" name="isoheptadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10226" id="R_rxn10226" name="isoheptadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4693</p>
@@ -3664,6 +4536,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10226">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.8.8"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15683_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00054_c" stoichiometry="1" constant="true"/>
@@ -3685,7 +4568,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10231" name="isohexadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10231" id="R_rxn10231" name="isohexadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4693</p>
@@ -3696,6 +4579,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10231">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.8.8"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15688_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00054_c" stoichiometry="1" constant="true"/>
@@ -3717,7 +4611,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10229" name="isopentadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10229" id="R_rxn10229" name="isopentadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4693</p>
@@ -3728,6 +4622,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10229">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.8.8"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15686_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00054_c" stoichiometry="1" constant="true"/>
@@ -3749,7 +4654,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn10228" name="isotetradecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase" reversible="false" fast="false">
+      <reaction metaid="R_rxn10228" id="R_rxn10228" name="isotetradecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4693</p>
@@ -3760,6 +4665,17 @@
             <p/>
           </body>
         </notes>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="#R_rxn10228">
+              <bqbiol:isHomologTo>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.8.8"/>
+                </rdf:Bag>
+              </bqbiol:isHomologTo>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
         <listOfReactants>
           <speciesReference species="M_cpd15685_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_cpd00054_c" stoichiometry="1" constant="true"/>

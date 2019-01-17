@@ -25,7 +25,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -74,7 +73,6 @@
 "id":"cpd00027_c",
 "name":"D-Glucose",
 "compartment":"c",
-"charge":0,
 "formula":"C6H12O6"
 },
 {
@@ -88,21 +86,18 @@
 "id":"cpd00155_c",
 "name":"Glycogen",
 "compartment":"c",
-"charge":0,
 "formula":"C30H52O26"
 },
 {
 "id":"cpd00179_c",
 "name":"Maltose",
 "compartment":"c",
-"charge":0,
 "formula":"C12H22O11"
 },
 {
 "id":"cpd00794_c",
 "name":"TRHL",
 "compartment":"c",
-"charge":0,
 "formula":"C12H22O11"
 },
 {
@@ -152,7 +147,7 @@
 "cpd00089_c":1.0,
 "cpd00155_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2144",
 "subsystem":"Starch and sucrose metabolism",
@@ -206,7 +201,7 @@
 "cpd00155_c":1.0,
 "cpd00387_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2165",
 "subsystem":"Starch and sucrose metabolism",
@@ -284,7 +279,7 @@
 ],
 "genes":[
 {
-"id":"PA3540",
+"id":"PA2022",
 "name":""
 },
 {
@@ -292,7 +287,7 @@
 "name":""
 },
 {
-"id":"PA2022",
+"id":"PA3540",
 "name":""
 },
 {

@@ -39,7 +39,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -67,7 +66,6 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
-"charge":0,
 "formula":"CO2"
 },
 {
@@ -102,14 +100,12 @@
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
-"charge":0,
 "formula":"O2"
 },
 {
 "id":"cpd00025_c",
 "name":"H2O2",
 "compartment":"c",
-"charge":0,
 "formula":"H2O2"
 },
 {
@@ -137,7 +133,6 @@
 "id":"cpd00355_c",
 "name":"Nicotinamide ribonucleotide",
 "compartment":"c",
-"charge":0,
 "formula":"C11H15N2O8P"
 },
 {
@@ -165,7 +160,6 @@
 "id":"cpd08325_c",
 "name":"NAC",
 "compartment":"c",
-"charge":0,
 "formula":"C17H18N2O2"
 },
 {
@@ -220,7 +214,7 @@
 "cpd00982_c":1.0,
 "cpd02333_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA1004 and PA0761)",
 "subsystem":"Nicotinate and nicotinamide metabolism",
@@ -249,7 +243,7 @@
 "cpd00067_c":1.0,
 "cpd03470_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0761",
 "subsystem":"Nicotinate and nicotinamide metabolism",
@@ -362,7 +356,7 @@
 "cpd00873_c":1.0,
 "cpd08325_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA4919 or PA4376)",
 "subsystem":"Nicotinate and nicotinamide metabolism",
@@ -393,7 +387,7 @@
 "cpd03470_c":1.0
 },
 "lower_bound":-1000.0,
-"upper_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"PA1004",
 "subsystem":"Nicotinate and nicotinamide metabolism",
 "notes":{
@@ -450,7 +444,7 @@
 "cpd00873_c":1.0,
 "cpd02333_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4524",
 "subsystem":"Nicotinate and nicotinamide metabolism",
@@ -500,11 +494,11 @@
 "name":""
 },
 {
-"id":"PA4919",
+"id":"PA4376",
 "name":""
 },
 {
-"id":"PA4376",
+"id":"PA4919",
 "name":""
 },
 {

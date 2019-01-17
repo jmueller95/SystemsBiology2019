@@ -39,7 +39,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -53,7 +52,6 @@
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
-"charge":0,
 "formula":"O2"
 },
 {
@@ -81,7 +79,6 @@
 "id":"cpd03320_c",
 "name":"3-Hydroxyphenylacetate",
 "compartment":"c",
-"charge":0,
 "formula":"C8H8O3"
 },
 {
@@ -144,7 +141,6 @@
 "id":"cpd00069_c",
 "name":"L-Tyrosine",
 "compartment":"c",
-"charge":0,
 "formula":"C9H11NO3"
 }
 ],
@@ -161,7 +157,7 @@
 "cpd00489_c":-1.0,
 "cpd00854_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA4091 and PA4092)",
 "subsystem":"Tyrosine metabolism",
@@ -192,7 +188,7 @@
 "cpd00982_c":-1.0,
 "cpd03320_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA4091) and (PA4092)",
 "subsystem":"Tyrosine metabolism",
@@ -222,7 +218,7 @@
 "cpd02572_c":1.0,
 "cpd02828_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4123",
 "subsystem":"Tyrosine metabolism",
@@ -305,7 +301,7 @@
 "cpd00142_c":1.0,
 "cpd00780_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2008",
 "subsystem":"Tyrosine metabolism",
@@ -333,7 +329,7 @@
 "cpd00426_c":-1.0,
 "cpd00763_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2009",
 "subsystem":"Tyrosine metabolism",
@@ -361,7 +357,7 @@
 "cpd00854_c":-1.0,
 "cpd02828_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4124",
 "subsystem":"Tyrosine metabolism",
@@ -395,10 +391,6 @@
 "name":""
 },
 {
-"id":"PA1655",
-"name":""
-},
-{
 "id":"PA2007",
 "name":""
 },
@@ -407,27 +399,11 @@
 "name":""
 },
 {
+"id":"PA1655",
+"name":""
+},
+{
 "id":"PA3035",
-"name":""
-},
-{
-"id":"PA3798",
-"name":""
-},
-{
-"id":"PA4132",
-"name":""
-},
-{
-"id":"PA2828",
-"name":""
-},
-{
-"id":"PA3659",
-"name":""
-},
-{
-"id":"PA2032",
 "name":""
 },
 {
@@ -435,7 +411,27 @@
 "name":""
 },
 {
+"id":"PA3659",
+"name":""
+},
+{
+"id":"PA3798",
+"name":""
+},
+{
+"id":"PA2828",
+"name":""
+},
+{
+"id":"PA2032",
+"name":""
+},
+{
 "id":"PA4722",
+"name":""
+},
+{
+"id":"PA4132",
 "name":""
 },
 {

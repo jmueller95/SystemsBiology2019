@@ -25,7 +25,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -46,7 +45,6 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
-"charge":0,
 "formula":"CO2"
 },
 {
@@ -102,7 +100,6 @@
 "id":"cpd00053_c",
 "name":"L-Glutamine",
 "compartment":"c",
-"charge":0,
 "formula":"C5H10N2O3"
 },
 {
@@ -165,7 +162,6 @@
 "id":"cpd00054_c",
 "name":"L-Serine",
 "compartment":"c",
-"charge":0,
 "formula":"C3H7NO3"
 },
 {
@@ -179,14 +175,12 @@
 "id":"cpd00065_c",
 "name":"L-Tryptophan",
 "compartment":"c",
-"charge":0,
 "formula":"C11H12N2O2"
 },
 {
 "id":"cpd00066_c",
 "name":"L-Phenylalanine",
 "compartment":"c",
-"charge":0,
 "formula":"C9H11NO2"
 },
 {
@@ -293,7 +287,7 @@
 "cpd00219_c":-1.0,
 "cpd00868_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3164",
 "subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
@@ -323,7 +317,7 @@
 "cpd00093_c":1.0,
 "cpd00216_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"((PA1001 and PA1002) or (PA0609 and PA0649))",
 "subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
@@ -352,7 +346,7 @@
 "cpd00102_c":1.0,
 "cpd02210_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA0035 and PA0036)",
 "subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
@@ -410,7 +404,7 @@
 "cpd00236_c":-1.0,
 "cpd02857_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA1750 or PA2943)",
 "subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
@@ -437,7 +431,7 @@
 "cpd00699_c":-1.0,
 "cpd01716_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA4846 or PA0245)",
 "subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
@@ -465,7 +459,7 @@
 "cpd00103_c":-1.0,
 "cpd02642_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0650",
 "subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
@@ -494,7 +488,7 @@
 "cpd00956_c":-1.0,
 "cpd02210_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0651",
 "subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
@@ -522,7 +516,7 @@
 "cpd00216_c":1.0,
 "cpd00932_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1681",
 "subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
@@ -603,7 +597,7 @@
 "cpd00216_c":-1.0,
 "cpd00219_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3166",
 "subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
@@ -660,7 +654,7 @@
 "cpd00699_c":1.0,
 "cpd02857_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5038",
 "subsystem":"Phenylalanine, tyrosine and tryptophan biosynthesis",
@@ -718,19 +712,19 @@
 "name":""
 },
 {
-"id":"PA1002",
-"name":""
-},
-{
-"id":"PA1001",
-"name":""
-},
-{
 "id":"PA0649",
 "name":""
 },
 {
 "id":"PA0609",
+"name":""
+},
+{
+"id":"PA1002",
+"name":""
+},
+{
+"id":"PA1001",
 "name":""
 },
 {
@@ -742,15 +736,11 @@
 "name":""
 },
 {
-"id":"PA0870",
-"name":""
-},
-{
 "id":"PA3139",
 "name":""
 },
 {
-"id":"PA1750",
+"id":"PA0870",
 "name":""
 },
 {
@@ -758,11 +748,15 @@
 "name":""
 },
 {
-"id":"PA0245",
+"id":"PA1750",
 "name":""
 },
 {
 "id":"PA4846",
+"name":""
+},
+{
+"id":"PA0245",
 "name":""
 },
 {

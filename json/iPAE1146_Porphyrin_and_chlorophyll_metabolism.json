@@ -25,7 +25,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -46,7 +45,6 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
-"charge":0,
 "formula":"CO2"
 },
 {
@@ -60,7 +58,6 @@
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
-"charge":0,
 "formula":"O2"
 },
 {
@@ -123,7 +120,6 @@
 "id":"cpd00019_c",
 "name":"S-Adenosyl-homocysteine",
 "compartment":"c",
-"charge":0,
 "formula":"C14H20N6O5S"
 },
 {
@@ -137,7 +133,6 @@
 "id":"cpd00053_c",
 "name":"L-Glutamine",
 "compartment":"c",
-"charge":0,
 "formula":"C5H10N2O3"
 },
 {
@@ -157,7 +152,6 @@
 "id":"cpd00060_c",
 "name":"L-Methionine",
 "compartment":"c",
-"charge":0,
 "formula":"C5H11NO2S"
 },
 {
@@ -171,7 +165,6 @@
 "id":"cpd03091_c",
 "name":"5'-Deoxyadenosine",
 "compartment":"c",
-"charge":0,
 "formula":"C10H13N5O3"
 },
 {
@@ -226,35 +219,30 @@
 "id":"cpd12227_c",
 "name":"L-Glutamyl-tRNA-Glu",
 "compartment":"c",
-"charge":0,
 "formula":"C15H19N6O6R"
 },
 {
 "id":"cpd02345_c",
 "name":"L-Glutamate1-semialdehyde",
 "compartment":"c",
-"charge":0,
 "formula":"C5H9NO3"
 },
 {
 "id":"cpd11912_c",
 "name":"tRNA-Glu",
 "compartment":"c",
-"charge":0,
 "formula":"C10H12N5O3R"
 },
 {
 "id":"cpd00338_c",
 "name":"5-Aminolevulinate",
 "compartment":"c",
-"charge":0,
 "formula":"C5H9NO3"
 },
 {
 "id":"cpd00021_c",
 "name":"Fe2+",
 "compartment":"c",
-"charge":0,
 "formula":"Fe"
 },
 {
@@ -289,7 +277,6 @@
 "id":"cpd08325_c",
 "name":"NAC",
 "compartment":"c",
-"charge":0,
 "formula":"C17H18N2O2"
 },
 {
@@ -324,7 +311,6 @@
 "id":"cpd01997_c",
 "name":"Dimethylbenzimidazole",
 "compartment":"c",
-"charge":0,
 "formula":"C9H10N2"
 },
 {
@@ -487,7 +473,7 @@
 "cpd17016_c":-2.0,
 "cpd17017_c":2.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1546",
 "subsystem":"Porphyrin and chlorophyll metabolism",
@@ -688,7 +674,7 @@
 "cpd00791_c":1.0,
 "cpd02083_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0024",
 "subsystem":"Porphyrin and chlorophyll metabolism",
@@ -812,7 +798,7 @@
 "cpd02904_c":1.0,
 "cpd08325_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1279",
 "subsystem":"Porphyrin and chlorophyll metabolism",
@@ -1069,7 +1055,7 @@
 "cpd00791_c":-1.0,
 "cpd01476_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4664",
 "subsystem":"Porphyrin and chlorophyll metabolism",
@@ -1125,7 +1111,7 @@
 "cpd00338_c":-2.0,
 "cpd00689_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5243",
 "subsystem":"Porphyrin and chlorophyll metabolism",
@@ -1180,7 +1166,7 @@
 "cpd00689_c":-4.0,
 "cpd00755_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5260",
 "subsystem":"Porphyrin and chlorophyll metabolism",
@@ -1207,7 +1193,7 @@
 "cpd00791_c":-1.0,
 "cpd01476_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Porphyrin and chlorophyll metabolism",
@@ -1229,10 +1215,6 @@
 ],
 "genes":[
 {
-"id":"PA1838",
-"name":""
-},
-{
 "id":"PA4130",
 "name":""
 },
@@ -1241,11 +1223,15 @@
 "name":""
 },
 {
-"id":"PA1923",
+"id":"PA1838",
 "name":""
 },
 {
 "id":"PA2944",
+"name":""
+},
+{
+"id":"PA1923",
 "name":""
 },
 {
@@ -1269,15 +1255,11 @@
 "name":""
 },
 {
-"id":"PA3977",
-"name":""
-},
-{
 "id":"PA5523",
 "name":""
 },
 {
-"id":"PA1778",
+"id":"PA3977",
 "name":""
 },
 {
@@ -1289,11 +1271,15 @@
 "name":""
 },
 {
-"id":"PA1275",
+"id":"PA1778",
 "name":""
 },
 {
 "id":"PA1276",
+"name":""
+},
+{
+"id":"PA1275",
 "name":""
 },
 {

@@ -39,7 +39,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -60,14 +59,12 @@
 "id":"cpd15560_c",
 "name":"Ubiquinone-8",
 "compartment":"c",
-"charge":0,
 "formula":"C49H74O4"
 },
 {
 "id":"cpd15561_c",
 "name":"Ubiquinol-8",
 "compartment":"c",
-"charge":0,
 "formula":"C49H76O4"
 },
 {
@@ -158,14 +155,12 @@
 "id":"cpd00027_e",
 "name":"D-Glucose",
 "compartment":"e",
-"charge":0,
 "formula":"C6H12O6"
 },
 {
 "id":"cpd00170_e",
 "name":"Gluconolactone",
 "compartment":"e",
-"charge":0,
 "formula":"C6H10O6"
 },
 {
@@ -186,14 +181,12 @@
 "id":"cpd00105_c",
 "name":"D-Ribose",
 "compartment":"c",
-"charge":0,
 "formula":"C5H10O5"
 },
 {
 "id":"cpd01242_c",
 "name":"Thyminose",
 "compartment":"c",
-"charge":0,
 "formula":"C5H10O4"
 },
 {
@@ -270,7 +263,7 @@
 "cpd00480_e":1.0,
 "cpd00982_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA2264 and PA2265 and PA2266)",
 "subsystem":"Pentose phosphate pathway",
@@ -299,7 +292,7 @@
 "cpd00284_c":1.0,
 "cpd00896_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2263",
 "subsystem":"Pentose phosphate pathway",
@@ -328,8 +321,8 @@
 "cpd00067_c":1.0,
 "cpd00170_e":1.0
 },
-"lower_bound":0.0,
-"upper_bound":0.0,
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"PA2290",
 "subsystem":"Pentose phosphate pathway",
 "notes":{
@@ -632,7 +625,7 @@
 "cpd15560_c":-1.0,
 "cpd15561_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2290",
 "subsystem":"Pentose phosphate pathway",
@@ -716,7 +709,7 @@
 "cpd00284_c":1.0,
 "cpd00911_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3182",
 "subsystem":"Pentose phosphate pathway",
@@ -743,7 +736,7 @@
 "cpd00284_c":-1.0,
 "cpd02711_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3194",
 "subsystem":"Pentose phosphate pathway",
@@ -819,7 +812,7 @@
 ],
 "genes":[
 {
-"id":"PA2265",
+"id":"PA2266",
 "name":""
 },
 {
@@ -827,7 +820,7 @@
 "name":""
 },
 {
-"id":"PA2266",
+"id":"PA2265",
 "name":""
 },
 {
@@ -843,19 +836,19 @@
 "name":""
 },
 {
-"id":"PA3181",
-"name":""
-},
-{
 "id":"PA3131",
 "name":""
 },
 {
-"id":"PA1293",
+"id":"PA3181",
 "name":""
 },
 {
 "id":"PA4204",
+"name":""
+},
+{
+"id":"PA1293",
 "name":""
 },
 {

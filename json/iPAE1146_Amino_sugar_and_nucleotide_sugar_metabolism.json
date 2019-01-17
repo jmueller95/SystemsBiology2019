@@ -25,7 +25,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -81,7 +80,6 @@
 "id":"cpd17092_c",
 "name":"UDP-N-acetyl fucosamine",
 "compartment":"c",
-"charge":0,
 "formula":"C17H25N3O16P2"
 },
 {
@@ -130,14 +128,12 @@
 "id":"cpd17094_c",
 "name":"UDP-N-acetyl-D-mannosamine (2NAc3N) acid",
 "compartment":"c",
-"charge":0,
 "formula":"C17H27O17N4P2"
 },
 {
 "id":"cpd17095_c",
 "name":"UDP-N-acetyl-D-manosamine (2NAc3NAc) acid",
 "compartment":"c",
-"charge":0,
 "formula":"C19H29O18N4P2"
 },
 {
@@ -165,14 +161,12 @@
 "id":"cpd00288_c",
 "name":"D-Glucosamine phosphate",
 "compartment":"c",
-"charge":0,
 "formula":"C6H14NO8P"
 },
 {
 "id":"cpd03671_c",
 "name":"D-Glucosamine1-phosphate",
 "compartment":"c",
-"charge":0,
 "formula":"C6H14NO8P"
 },
 {
@@ -390,7 +384,7 @@
 "cpd02611_c":1.0,
 "cpd03671_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5552",
 "subsystem":"Amino sugar and nucleotide sugar metabolism",
@@ -452,11 +446,11 @@
 "name":""
 },
 {
-"id":"PA3156",
+"id":"PA3157",
 "name":""
 },
 {
-"id":"PA3157",
+"id":"PA3156",
 "name":""
 },
 {

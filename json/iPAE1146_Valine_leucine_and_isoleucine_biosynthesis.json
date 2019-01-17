@@ -25,7 +25,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -53,7 +52,6 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
-"charge":0,
 "formula":"CO2"
 },
 {
@@ -81,7 +79,6 @@
 "id":"cpd00322_c",
 "name":"L-Isoleucine",
 "compartment":"c",
-"charge":0,
 "formula":"C6H13NO2"
 },
 {
@@ -102,7 +99,6 @@
 "id":"cpd00156_c",
 "name":"L-Valine",
 "compartment":"c",
-"charge":0,
 "formula":"C5H11NO2"
 },
 {
@@ -130,7 +126,6 @@
 "id":"cpd00161_c",
 "name":"L-Threonine",
 "compartment":"c",
-"charge":0,
 "formula":"C4H9NO3"
 },
 {
@@ -166,7 +161,7 @@
 "cpd00200_c":1.0,
 "cpd02693_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3118",
 "subsystem":"Valine, leucine and isoleucine biosynthesis",
@@ -287,7 +282,7 @@
 "cpd00123_c":-1.0,
 "cpd01646_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA1217 or PA3792)",
 "subsystem":"Valine, leucine and isoleucine biosynthesis",
@@ -368,7 +363,7 @@
 "cpd00094_c":1.0,
 "cpd00161_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA5379 or PA2443 or PA0331 or (PA2683 and PA2683) or PA1326 or PA0331 or PA1326)",
 "subsystem":"Valine, leucine and isoleucine biosynthesis",
@@ -418,11 +413,7 @@
 "name":""
 },
 {
-"id":"PA5379",
-"name":""
-},
-{
-"id":"PA2683",
+"id":"PA1326",
 "name":""
 },
 {
@@ -430,11 +421,15 @@
 "name":""
 },
 {
-"id":"PA1326",
+"id":"PA2683",
 "name":""
 },
 {
 "id":"PA0331",
+"name":""
+},
+{
+"id":"PA5379",
 "name":""
 }
 ],

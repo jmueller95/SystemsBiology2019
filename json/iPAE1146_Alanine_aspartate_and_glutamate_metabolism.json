@@ -25,7 +25,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -53,14 +52,12 @@
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
-"charge":0,
 "formula":"O2"
 },
 {
 "id":"cpd00025_c",
 "name":"H2O2",
 "compartment":"c",
-"charge":0,
 "formula":"H2O2"
 },
 {
@@ -102,7 +99,6 @@
 "id":"cpd00053_c",
 "name":"L-Glutamine",
 "compartment":"c",
-"charge":0,
 "formula":"C5H10N2O3"
 },
 {
@@ -137,21 +133,18 @@
 "id":"cpd00117_c",
 "name":"D-Alanine",
 "compartment":"c",
-"charge":0,
 "formula":"C3H7NO2"
 },
 {
 "id":"cpd00132_c",
 "name":"L-Asparagine",
 "compartment":"c",
-"charge":0,
 "formula":"C4H8N2O3"
 },
 {
 "id":"cpd00035_c",
 "name":"L-Alanine",
 "compartment":"c",
-"charge":0,
 "formula":"C3H7NO2"
 },
 {
@@ -165,7 +158,6 @@
 "id":"cpd15595_c",
 "name":"Ala-Ala",
 "compartment":"c",
-"charge":0,
 "formula":"C6H12N2O3"
 },
 {
@@ -188,7 +180,7 @@
 "cpd00117_c":-1.0,
 "cpd00982_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5304",
 "subsystem":"Alanine, aspartate and glutamate metabolism",
@@ -220,7 +212,7 @@
 "cpd00053_c":-1.0,
 "cpd00132_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA0051 or PA3459 or PA2084)",
 "subsystem":"Alanine, aspartate and glutamate metabolism",
@@ -250,7 +242,7 @@
 "cpd00025_c":1.0,
 "cpd00117_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA0534 or PA1489 or PA1567 or PA3456 or PA5309 or PA4548 or PA1028 or PA1918 or PA3863 or PA2195 or PA1267 or PA1565 or PA3424 or PA5145 or PA2776)",
 "subsystem":"Alanine, aspartate and glutamate metabolism",
@@ -278,7 +270,7 @@
 "cpd00041_c":1.0,
 "cpd00132_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA2253 or PA1337)",
 "subsystem":"Alanine, aspartate and glutamate metabolism",
@@ -332,7 +324,7 @@
 "cpd00023_c":1.0,
 "cpd00053_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1638",
 "subsystem":"Alanine, aspartate and glutamate metabolism",
@@ -390,7 +382,7 @@
 "cpd00117_c":-2.0,
 "cpd15595_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4410 or PA4201",
 "subsystem":"Alanine, aspartate and glutamate metabolism",
@@ -421,7 +413,7 @@
 "cpd00773_c":-1.0,
 "cpd00890_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4411",
 "subsystem":"Alanine, aspartate and glutamate metabolism",
@@ -500,11 +492,11 @@
 "name":""
 },
 {
-"id":"PA3459",
+"id":"PA2084",
 "name":""
 },
 {
-"id":"PA2084",
+"id":"PA3459",
 "name":""
 },
 {
@@ -512,27 +504,7 @@
 "name":""
 },
 {
-"id":"PA2776",
-"name":""
-},
-{
-"id":"PA3863",
-"name":""
-},
-{
-"id":"PA3424",
-"name":""
-},
-{
-"id":"PA1918",
-"name":""
-},
-{
-"id":"PA1565",
-"name":""
-},
-{
-"id":"PA0534",
+"id":"PA2195",
 "name":""
 },
 {
@@ -540,31 +512,11 @@
 "name":""
 },
 {
-"id":"PA1028",
+"id":"PA2776",
 "name":""
 },
 {
-"id":"PA1489",
-"name":""
-},
-{
-"id":"PA2195",
-"name":""
-},
-{
-"id":"PA5145",
-"name":""
-},
-{
-"id":"PA1567",
-"name":""
-},
-{
-"id":"PA4548",
-"name":""
-},
-{
-"id":"PA5309",
+"id":"PA1918",
 "name":""
 },
 {
@@ -572,11 +524,51 @@
 "name":""
 },
 {
-"id":"PA2253",
+"id":"PA1489",
+"name":""
+},
+{
+"id":"PA1565",
+"name":""
+},
+{
+"id":"PA4548",
+"name":""
+},
+{
+"id":"PA0534",
+"name":""
+},
+{
+"id":"PA1567",
+"name":""
+},
+{
+"id":"PA5145",
+"name":""
+},
+{
+"id":"PA5309",
+"name":""
+},
+{
+"id":"PA3424",
+"name":""
+},
+{
+"id":"PA3863",
+"name":""
+},
+{
+"id":"PA1028",
 "name":""
 },
 {
 "id":"PA1337",
+"name":""
+},
+{
+"id":"PA2253",
 "name":""
 },
 {

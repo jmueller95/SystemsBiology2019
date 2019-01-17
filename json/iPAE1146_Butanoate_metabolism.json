@@ -74,7 +74,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -102,7 +101,6 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
-"charge":0,
 "formula":"CO2"
 },
 {
@@ -116,7 +114,6 @@
 "id":"cpd00281_c",
 "name":"GABA",
 "compartment":"c",
-"charge":0,
 "formula":"C4H9NO2"
 },
 {
@@ -207,28 +204,24 @@
 "id":"cpd00361_c",
 "name":"ACTN",
 "compartment":"c",
-"charge":0,
 "formula":"C4H8O2"
 },
 {
 "id":"cpd01947_c",
 "name":"BDOH",
 "compartment":"c",
-"charge":0,
 "formula":"C4H10O2"
 },
 {
 "id":"cpd01949_c",
 "name":"(S,S)-2,3-Butanediol",
 "compartment":"c",
-"charge":0,
 "formula":"C4H10O2"
 },
 {
 "id":"cpd01221_c",
 "name":"(S)-Acetoin",
 "compartment":"c",
-"charge":0,
 "formula":"C4H8O2"
 },
 {
@@ -242,7 +235,6 @@
 "id":"cpd17045_c",
 "name":"beta-hydroxydecanoyl-beta-hydroxydecanoyl-S-CoA",
 "compartment":"c",
-"charge":0,
 "formula":"C41H68O20N7P3S"
 },
 {
@@ -263,7 +255,7 @@
 "cpd00106_c":1.0,
 "cpd00982_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA1581 and PA1582 and PA1583 and PA1584)",
 "subsystem":"Butanoate metabolism",
@@ -292,7 +284,7 @@
 "cpd00020_c":1.0,
 "cpd00386_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3118",
 "subsystem":"Butanoate metabolism",
@@ -322,7 +314,7 @@
 "cpd00067_c":2.0,
 "cpd00199_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0265",
 "subsystem":"Butanoate metabolism",
@@ -381,7 +373,7 @@
 "cpd00067_c":2.0,
 "cpd00199_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0898",
 "subsystem":"Butanoate metabolism",
@@ -526,7 +518,7 @@
 "cpd00120_c":-1.0,
 "cpd00650_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Butanoate metabolism",
@@ -639,7 +631,7 @@
 "cpd00142_c":-1.0,
 "cpd00279_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1997",
 "subsystem":"Butanoate metabolism",

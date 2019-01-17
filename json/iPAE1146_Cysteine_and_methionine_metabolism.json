@@ -11,7 +11,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -46,7 +45,6 @@
 "id":"cpd00239_c",
 "name":"H2S",
 "compartment":"c",
-"charge":0,
 "formula":"H2S"
 },
 {
@@ -60,7 +58,6 @@
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
-"charge":0,
 "formula":"O2"
 },
 {
@@ -74,7 +71,6 @@
 "id":"cpd00084_c",
 "name":"L-Cysteine",
 "compartment":"c",
-"charge":0,
 "formula":"C3H7NO2S"
 },
 {
@@ -102,7 +98,6 @@
 "id":"cpd00053_c",
 "name":"L-Glutamine",
 "compartment":"c",
-"charge":0,
 "formula":"C5H10N2O3"
 },
 {
@@ -123,7 +118,6 @@
 "id":"cpd00060_c",
 "name":"L-Methionine",
 "compartment":"c",
-"charge":0,
 "formula":"C5H11NO2S"
 },
 {
@@ -137,21 +131,18 @@
 "id":"cpd00227_c",
 "name":"L-Homoserine",
 "compartment":"c",
-"charge":0,
 "formula":"C4H9NO3"
 },
 {
 "id":"cpd00054_c",
 "name":"L-Serine",
 "compartment":"c",
-"charge":0,
 "formula":"C3H7NO3"
 },
 {
 "id":"cpd00066_c",
 "name":"L-Phenylalanine",
 "compartment":"c",
-"charge":0,
 "formula":"C9H11NO2"
 },
 {
@@ -165,14 +156,12 @@
 "id":"cpd00722_c",
 "name":"O-Acetyl-L-serine",
 "compartment":"c",
-"charge":0,
 "formula":"C5H9NO4"
 },
 {
 "id":"cpd00069_c",
 "name":"L-Tyrosine",
 "compartment":"c",
-"charge":0,
 "formula":"C9H11NO3"
 },
 {
@@ -186,14 +175,12 @@
 "id":"cpd00128_c",
 "name":"Adenine",
 "compartment":"c",
-"charge":0,
 "formula":"C5H5N5"
 },
 {
 "id":"cpd00790_c",
 "name":"O-Acetyl-L-homoserine",
 "compartment":"c",
-"charge":0,
 "formula":"C6H11NO4"
 },
 {
@@ -207,14 +194,12 @@
 "id":"cpd00135_c",
 "name":"Homocysteine",
 "compartment":"c",
-"charge":0,
 "formula":"C4H9NO2S"
 },
 {
 "id":"cpd00424_c",
 "name":"Cystathionine",
 "compartment":"c",
-"charge":0,
 "formula":"C7H14N2O4S"
 },
 {
@@ -228,7 +213,6 @@
 "id":"cpd00147_c",
 "name":"5-Methylthioadenosine",
 "compartment":"c",
-"charge":0,
 "formula":"C11H15N5O3S"
 },
 {
@@ -277,28 +261,24 @@
 "id":"cpd17048_c",
 "name":"2-oxo-3-p-tolylpropanate",
 "compartment":"c",
-"charge":0,
 "formula":"C9H7O3"
 },
 {
 "id":"cpd17079_c",
 "name":"3-(4-hydroxyphenyl)-2-oxopropanoate",
 "compartment":"c",
-"charge":0,
 "formula":"C9H7O4"
 },
 {
 "id":"cpd17052_c",
 "name":"4-carbamoyl-2-oxobutanate",
 "compartment":"c",
-"charge":0,
 "formula":"C5H6O4N"
 },
 {
 "id":"cpd00324_c",
 "name":"MTTL",
 "compartment":"c",
-"charge":0,
 "formula":"CH4S"
 }
 ],
@@ -341,7 +321,7 @@
 "cpd00239_c":-1.0,
 "cpd00722_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA2104 or PA2709 or PA0932)",
 "subsystem":"Cysteine and methionine metabolism",
@@ -369,7 +349,7 @@
 "cpd00227_c":-1.0,
 "cpd00822_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0390",
 "subsystem":"Cysteine and methionine metabolism",
@@ -426,7 +406,7 @@
 "cpd00094_c":1.0,
 "cpd00424_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0400",
 "subsystem":"Cysteine and methionine metabolism",
@@ -537,7 +517,7 @@
 "cpd02791_c":-1.0,
 "cpd11295_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1683",
 "subsystem":"Cysteine and methionine metabolism",
@@ -566,7 +546,7 @@
 "cpd00869_c":1.0,
 "cpd11255_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1684",
 "subsystem":"Cysteine and methionine metabolism",
@@ -710,7 +690,7 @@
 "cpd00239_c":-1.0,
 "cpd00822_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3107",
 "subsystem":"Cysteine and methionine metabolism",
@@ -848,7 +828,7 @@
 "cpd00054_c":-1.0,
 "cpd00722_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3816",
 "subsystem":"Cysteine and methionine metabolism",
@@ -877,7 +857,7 @@
 "cpd00324_c":-1.0,
 "cpd00790_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5025",
 "subsystem":"Cysteine and methionine metabolism",
@@ -899,15 +879,15 @@
 ],
 "genes":[
 {
-"id":"PA0870",
-"name":""
-},
-{
 "id":"PA3139",
 "name":""
 },
 {
-"id":"PA2709",
+"id":"PA0870",
+"name":""
+},
+{
+"id":"PA0932",
 "name":""
 },
 {
@@ -915,7 +895,7 @@
 "name":""
 },
 {
-"id":"PA0932",
+"id":"PA2709",
 "name":""
 },
 {

@@ -25,7 +25,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -46,35 +45,30 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
-"charge":0,
 "formula":"CO2"
 },
 {
 "id":"cpd15560_c",
 "name":"Ubiquinone-8",
 "compartment":"c",
-"charge":0,
 "formula":"C49H74O4"
 },
 {
 "id":"cpd15561_c",
 "name":"Ubiquinol-8",
 "compartment":"c",
-"charge":0,
 "formula":"C49H76O4"
 },
 {
 "id":"cpd01351_c",
 "name":"Ubiquinone-9",
 "compartment":"c",
-"charge":0,
 "formula":"C54H82O4"
 },
 {
 "id":"cJB00125_c",
 "name":"Ubiquinol-9",
 "compartment":"c",
-"charge":0,
 "formula":"C54H84O4"
 },
 {
@@ -95,7 +89,6 @@
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
-"charge":0,
 "formula":"O2"
 },
 {
@@ -137,7 +130,6 @@
 "id":"cpd00119_c",
 "name":"L-Histidine",
 "compartment":"c",
-"charge":0,
 "formula":"C6H9N3O2"
 },
 {
@@ -165,7 +157,6 @@
 "id":"cpd00418_c",
 "name":"NO",
 "compartment":"c",
-"charge":0,
 "formula":"NO"
 },
 {
@@ -214,14 +205,12 @@
 "id":"cpd01433_c",
 "name":"2-Nitropropane",
 "compartment":"c",
-"charge":0,
 "formula":"C3H7NO2"
 },
 {
 "id":"cpd00178_c",
 "name":"Acetone",
 "compartment":"c",
-"charge":0,
 "formula":"C3H6O"
 },
 {
@@ -305,7 +294,7 @@
 "cpd00018_c":1.0,
 "cpd00638_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4920",
 "subsystem":"Nitrogen metabolism",
@@ -422,7 +411,7 @@
 "cpd15560_c":1.0,
 "cpd15561_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA1174 or (PA3875 and PA3874 and PA3872 and PA3873))",
 "subsystem":"Nitrogen metabolism",
@@ -451,7 +440,7 @@
 "cpd00209_c":-1.0,
 "cpd01351_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA1174 or (PA3875 and PA3874 and PA3872 and PA3873))",
 "subsystem":"Nitrogen metabolism",
@@ -478,7 +467,7 @@
 "cpd00119_c":-1.0,
 "cpd00581_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA5098 or PA5093)",
 "subsystem":"Nitrogen metabolism",
@@ -563,7 +552,7 @@
 "cpd00242_c":-1.0,
 "cpd01015_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2052",
 "subsystem":"Nitrogen metabolism",
@@ -629,10 +618,6 @@
 "name":""
 },
 {
-"id":"PA0516",
-"name":""
-},
-{
 "id":"PA0514",
 "name":""
 },
@@ -641,7 +626,15 @@
 "name":""
 },
 {
+"id":"PA0516",
+"name":""
+},
+{
 "id":"PA0519",
+"name":""
+},
+{
+"id":"PA0524",
 "name":""
 },
 {
@@ -649,7 +642,7 @@
 "name":""
 },
 {
-"id":"PA0524",
+"id":"PA1174",
 "name":""
 },
 {
@@ -666,10 +659,6 @@
 },
 {
 "id":"PA3875",
-"name":""
-},
-{
-"id":"PA1174",
 "name":""
 },
 {

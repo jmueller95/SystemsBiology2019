@@ -25,7 +25,6 @@
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
-"charge":0,
 "formula":"O2"
 },
 {
@@ -55,7 +54,7 @@
 "cpd00153_c":-1.0,
 "cpd03762_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA2518 and PA2517 and PA2516)",
 "subsystem":"Benzoate degradation via CoA ligation",
@@ -77,15 +76,15 @@
 ],
 "genes":[
 {
-"id":"PA2518",
-"name":""
-},
-{
 "id":"PA2517",
 "name":""
 },
 {
 "id":"PA2516",
+"name":""
+},
+{
+"id":"PA2518",
 "name":""
 }
 ],

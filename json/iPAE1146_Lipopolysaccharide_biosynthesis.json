@@ -11,7 +11,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -74,7 +73,6 @@
 "id":"cpd17092_c",
 "name":"UDP-N-acetyl fucosamine",
 "compartment":"c",
-"charge":0,
 "formula":"C17H25N3O16P2"
 },
 {
@@ -130,28 +128,24 @@
 "id":"cpd17046_c",
 "name":"2-hydroxydodecanoyl-[acyl-carrier protein]",
 "compartment":"c",
-"charge":0,
 "formula":"C12H23O2X"
 },
 {
 "id":"cpd17068_c",
 "name":"Pseudomonas aeruginosa Lipid A precursor",
 "compartment":"c",
-"charge":0,
 "formula":"C56H102N2O23P2"
 },
 {
 "id":"cpd17066_c",
 "name":"Pseudomonas aeruginosa Lipid A",
 "compartment":"c",
-"charge":0,
 "formula":"C80H146N2O25P2"
 },
 {
 "id":"cpd00035_c",
 "name":"L-Alanine",
 "compartment":"c",
-"charge":0,
 "formula":"C3H7NO2"
 },
 {
@@ -186,14 +180,12 @@
 "id":"cpd17100_c",
 "name":"Man(2NAc3N)(3,-CH3C=NH)A-(beta1,4)-Man(2NAc3NAc)A-(beta1,3)-Fuc2NAc-PP-Undecaprenyl",
 "compartment":"c",
-"charge":0,
 "formula":"C81H137O28N5P4"
 },
 {
 "id":"cpd17065_c",
 "name":"Pseudomonas aeruginosa LPS core + KDO2-lipidA",
 "compartment":"c",
-"charge":0,
 "formula":"C156H274N4O95P5"
 },
 {
@@ -207,21 +199,18 @@
 "id":"cpd17057_c",
 "name":"Pseudomonas aeruginosa B-band lipopolysaccharide",
 "compartment":"c",
-"charge":0,
 "formula":"C182H322O116N9P7"
 },
 {
 "id":"cpd17094_c",
 "name":"UDP-N-acetyl-D-mannosamine (2NAc3N) acid",
 "compartment":"c",
-"charge":0,
 "formula":"C17H27O17N4P2"
 },
 {
 "id":"cpd17095_c",
 "name":"UDP-N-acetyl-D-manosamine (2NAc3NAc) acid",
 "compartment":"c",
-"charge":0,
 "formula":"C19H29O18N4P2"
 },
 {
@@ -242,14 +231,12 @@
 "id":"cpd17063_c",
 "name":"PA_core6_lipidA",
 "compartment":"c",
-"charge":0,
 "formula":"C152H271N2O84P2"
 },
 {
 "id":"cpd17064_c",
 "name":"PA_core7_lipidA",
 "compartment":"c",
-"charge":0,
 "formula":"C152H268N2O93P5"
 },
 {
@@ -291,14 +278,12 @@
 "id":"cpd17070_c",
 "name":"UDP-2-NH-(3OH-C12:0),3-O-(3OH-C10:0)glucosamine",
 "compartment":"c",
-"charge":0,
 "formula":"C37H63N3O20P2"
 },
 {
 "id":"cpd17069_c",
 "name":"Pseudomonas aeruginosa Lipid X",
 "compartment":"c",
-"charge":0,
 "formula":"C28H52NO12P"
 },
 {
@@ -333,7 +318,6 @@
 "id":"cpd17067_c",
 "name":"Pseudomonas Lipid A Disaccharide",
 "compartment":"c",
-"charge":0,
 "formula":"C56H103N2O20P"
 },
 {
@@ -347,7 +331,6 @@
 "id":"cpd17098_c",
 "name":"Fuc2NAc-PP-Undecaprenyl",
 "compartment":"c",
-"charge":0,
 "formula":"C63H103O11N1P2"
 },
 {
@@ -361,14 +344,12 @@
 "id":"cpd17093_c",
 "name":"UDP-N-acetyl-D-mannosamine (2NAc(CH3C=NH)) acid",
 "compartment":"c",
-"charge":0,
 "formula":"C17H27O17N4P2"
 },
 {
 "id":"cpd17099_c",
 "name":"Man(2NAc3NAc)A-(beta1,3)-Fuc2NAc-PP-Undecaprenyl",
 "compartment":"c",
-"charge":0,
 "formula":"C71H119O19N3P3"
 },
 {
@@ -382,7 +363,6 @@
 "id":"cpd17096_c",
 "name":"UDP-N-acetyl-D-mannosamine-3-N",
 "compartment":"c",
-"charge":0,
 "formula":"C17H28O17N4P2"
 },
 {
@@ -424,14 +404,12 @@
 "id":"cpd17071_c",
 "name":"UDP-3-O-(3OH-C10:0)-N-acetylglucosamine",
 "compartment":"c",
-"charge":0,
 "formula":"C27H43N3O19P2"
 },
 {
 "id":"cpd17072_c",
 "name":"UDP-3-O-(3OH-C10:0)-D-glucosamine",
 "compartment":"c",
-"charge":0,
 "formula":"C25H42N3O18P2"
 },
 {
@@ -445,77 +423,66 @@
 "id":"cpd17055_c",
 "name":"Pseudomonas aeruginosa KDO-lipidA",
 "compartment":"c",
-"charge":0,
 "formula":"C88H157N2O32P2"
 },
 {
 "id":"cpd17054_c",
 "name":"Pseudomonas aeruginosa KDO2-lipidA",
 "compartment":"c",
-"charge":0,
 "formula":"C96H168N2O39P2"
 },
 {
 "id":"cpd17060_c",
 "name":"PA_core3_lipidA",
 "compartment":"c",
-"charge":0,
 "formula":"C116H205N2O56P2"
 },
 {
 "id":"cpd17061_c",
 "name":"PA_core4_lipidA",
 "compartment":"c",
-"charge":0,
 "formula":"C134H238N2O71P2"
 },
 {
 "id":"cpd17059_c",
 "name":"PA_core2_lipidA",
 "compartment":"c",
-"charge":0,
 "formula":"C110H194N2O51P2"
 },
 {
 "id":"cpd17062_c",
 "name":"PA_core5_lipidA",
 "compartment":"c",
-"charge":0,
 "formula":"C146H260N2O79P2"
 },
 {
 "id":"cpd17058_c",
 "name":"PA_core1_lipidA",
 "compartment":"c",
-"charge":0,
 "formula":"C103H181N2O45P2"
 },
 {
 "id":"cpd17086_c",
 "name":"rha1glcnacppund",
 "compartment":"c",
-"charge":0,
 "formula":"C70H117P3O18N4"
 },
 {
 "id":"cpd17087_c",
 "name":"rha3glcnacppund",
 "compartment":"c",
-"charge":0,
 "formula":"C82H143P5O32N4"
 },
 {
 "id":"cpd17088_c",
 "name":"rha4glcnacppund",
 "compartment":"c",
-"charge":0,
 "formula":"C88H156P6O39N4"
 },
 {
 "id":"cpd17056_c",
 "name":"Pseudomonas aeruginosa A-band lipopolysaccharide",
 "compartment":"c",
-"charge":0,
 "formula":"C189H341P9O127N8"
 }
 ],
@@ -587,7 +554,7 @@
 "cpd17063_c":-1.0,
 "cpd17064_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA5009 and PA5008)",
 "subsystem":"Lipopolysaccharide biosynthesis",
@@ -616,7 +583,7 @@
 "cpd04920_c":1.0,
 "cpd08316_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA0006",
 "subsystem":"Lipopolysaccharide biosynthesis",
@@ -701,7 +668,7 @@
 "cpd00875_c":-1.0,
 "cpd02546_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2979",
 "subsystem":"Lipopolysaccharide biosynthesis",
@@ -977,7 +944,7 @@
 "cpd03830_c":-1.0,
 "cpd03831_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3337",
 "subsystem":"Lipopolysaccharide biosynthesis",
@@ -1007,7 +974,7 @@
 "cpd00817_c":-1.0,
 "cpd02730_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3636",
 "subsystem":"Lipopolysaccharide biosynthesis",
@@ -1202,7 +1169,7 @@
 "cpd00875_c":1.0,
 "cpd02730_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA4458",
 "subsystem":"Lipopolysaccharide biosynthesis",
@@ -1344,7 +1311,7 @@
 "cpd17060_c":-1.0,
 "cpd17061_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5010",
 "subsystem":"Lipopolysaccharide biosynthesis",
@@ -1372,7 +1339,7 @@
 "cpd17059_c":-1.0,
 "cpd17060_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5010",
 "subsystem":"Lipopolysaccharide biosynthesis",
@@ -1400,7 +1367,7 @@
 "cpd17062_c":-1.0,
 "cpd17063_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5010",
 "subsystem":"Lipopolysaccharide biosynthesis",
@@ -1428,7 +1395,7 @@
 "cpd17054_c":-1.0,
 "cpd17058_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5011",
 "subsystem":"Lipopolysaccharide biosynthesis",
@@ -1456,7 +1423,7 @@
 "cpd17058_c":-1.0,
 "cpd17059_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5012",
 "subsystem":"Lipopolysaccharide biosynthesis",
@@ -1484,7 +1451,7 @@
 "cpd01999_c":-1.0,
 "cpd17086_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5447",
 "subsystem":"Lipopolysaccharide biosynthesis",
@@ -1512,7 +1479,7 @@
 "cpd17086_c":-1.0,
 "cpd17087_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5448",
 "subsystem":"Lipopolysaccharide biosynthesis",
@@ -1540,7 +1507,7 @@
 "cpd17087_c":-1.0,
 "cpd17088_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5449",
 "subsystem":"Lipopolysaccharide biosynthesis",
@@ -1568,7 +1535,7 @@
 "cpd17061_c":-1.0,
 "cpd17062_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Lipopolysaccharide biosynthesis",
@@ -1596,7 +1563,7 @@
 "cpd17065_c":-1.0,
 "cpd17088_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Lipopolysaccharide biosynthesis",
@@ -1626,7 +1593,7 @@
 "cpd17064_c":-1.0,
 "cpd17065_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Lipopolysaccharide biosynthesis",
@@ -1652,7 +1619,7 @@
 "cpd17093_c":1.0,
 "cpd17094_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Lipopolysaccharide biosynthesis",
@@ -1674,15 +1641,11 @@
 ],
 "genes":[
 {
-"id":"PA0011",
-"name":""
-},
-{
 "id":"PA3242",
 "name":""
 },
 {
-"id":"PA3154",
+"id":"PA0011",
 "name":""
 },
 {
@@ -1690,15 +1653,19 @@
 "name":""
 },
 {
+"id":"PA3154",
+"name":""
+},
+{
 "id":"PA3160",
 "name":""
 },
 {
-"id":"PA5008",
+"id":"PA5009",
 "name":""
 },
 {
-"id":"PA5009",
+"id":"PA5008",
 "name":""
 },
 {

@@ -11,7 +11,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -25,28 +24,24 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
-"charge":0,
 "formula":"CO2"
 },
 {
 "id":"cpd15561_c",
 "name":"Ubiquinol-8",
 "compartment":"c",
-"charge":0,
 "formula":"C49H76O4"
 },
 {
 "id":"cJB00125_c",
 "name":"Ubiquinol-9",
 "compartment":"c",
-"charge":0,
 "formula":"C54H84O4"
 },
 {
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
-"charge":0,
 "formula":"O2"
 },
 {
@@ -67,14 +62,12 @@
 "id":"cpd00019_c",
 "name":"S-Adenosyl-homocysteine",
 "compartment":"c",
-"charge":0,
 "formula":"C14H20N6O5S"
 },
 {
 "id":"cpd11669_c",
 "name":"Ubiquinone",
 "compartment":"c",
-"charge":0,
 "formula":"C19H26O4"
 },
 {
@@ -130,7 +123,6 @@
 "id":"cpd03444_c",
 "name":"2-Octaprenylphenol",
 "compartment":"c",
-"charge":0,
 "formula":"C46H70O"
 },
 {
@@ -151,28 +143,24 @@
 "id":"cpd16768_c",
 "name":"2-nonaprenylphenol",
 "compartment":"c",
-"charge":0,
 "formula":"C51H78O"
 },
 {
 "id":"cpd16765_c",
 "name":"2-nonaprenyl-6-hydroxyphenol",
 "compartment":"c",
-"charge":0,
 "formula":"C51H78O2"
 },
 {
 "id":"cpd03445_c",
 "name":"2-Octaprenyl-6-hydroxyphenol",
 "compartment":"c",
-"charge":0,
 "formula":"C46H70O2"
 },
 {
 "id":"cpd16764_c",
 "name":"2-nonaprenyl-3-methyl-6-methoxy-1,4-benzoquinol",
 "compartment":"c",
-"charge":0,
 "formula":"C53H82O3"
 },
 {
@@ -193,28 +181,24 @@
 "id":"cpd16767_c",
 "name":"2-nonaprenyl-6-methoxyphenol",
 "compartment":"c",
-"charge":0,
 "formula":"C52H80O2"
 },
 {
 "id":"cpd15360_c",
 "name":"2-Octaprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinol",
 "compartment":"c",
-"charge":0,
 "formula":"C48H74O4"
 },
 {
 "id":"cpd03446_c",
 "name":"2-Octaprenyl-6-methoxyphenol",
 "compartment":"c",
-"charge":0,
 "formula":"C47H72O2"
 },
 {
 "id":"cpd00528_c",
 "name":"N2",
 "compartment":"c",
-"charge":0,
 "formula":"N2"
 },
 {
@@ -242,21 +226,18 @@
 "id":"cpd16766_c",
 "name":"2-nonaprenyl-6-methoxy-1,4-benzoquinol",
 "compartment":"c",
-"charge":0,
 "formula":"C52H80O3"
 },
 {
 "id":"cpd15359_c",
 "name":"2-Octaprenyl-6-methoxy-1,4-benzoquinol",
 "compartment":"c",
-"charge":0,
 "formula":"C47H72O3"
 },
 {
 "id":"cpd15361_c",
 "name":"2-Octaprenyl3-methyl-6-methoxy- 1,4-benzoquinol",
 "compartment":"c",
-"charge":0,
 "formula":"C48H74O3"
 }
 ],
@@ -270,7 +251,7 @@
 "cpd00426_c":1.0,
 "cpd00868_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA0242 or PA0865)",
 "subsystem":"Ubiquinone biosynthesis",
@@ -298,7 +279,7 @@
 "cpd03443_c":-1.0,
 "cpd03444_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA0254 or PA5237)",
 "subsystem":"Ubiquinone biosynthesis",
@@ -354,7 +335,7 @@
 "cpd03444_c":-1.0,
 "cpd03445_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(PA5236 or PA5065)",
 "subsystem":"Ubiquinone biosynthesis",
@@ -408,7 +389,7 @@
 "cpd02021_c":-1.0,
 "cpd02295_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA2013",
 "subsystem":"Ubiquinone biosynthesis",
@@ -551,7 +532,7 @@
 "cpd11669_c":1.0,
 "cpd15561_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA3392",
 "subsystem":"Ubiquinone biosynthesis",
@@ -662,7 +643,7 @@
 "cpd15359_c":-1.0,
 "cpd15361_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5063",
 "subsystem":"Ubiquinone biosynthesis",
@@ -689,7 +670,7 @@
 "cpd15360_c":1.0,
 "cpd15361_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5221",
 "subsystem":"Ubiquinone biosynthesis",
@@ -743,7 +724,7 @@
 "cpd03446_c":-1.0,
 "cpd15359_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5223",
 "subsystem":"Ubiquinone biosynthesis",
@@ -770,7 +751,7 @@
 "cpd00136_c":1.0,
 "cpd00216_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5357",
 "subsystem":"Ubiquinone biosynthesis",
@@ -798,7 +779,7 @@
 "cpd02557_c":-1.0,
 "cpd03443_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5358",
 "subsystem":"Ubiquinone biosynthesis",
@@ -826,7 +807,7 @@
 "cpd02172_c":-1.0,
 "cpd02419_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA5358",
 "subsystem":"Ubiquinone biosynthesis",
@@ -848,15 +829,11 @@
 ],
 "genes":[
 {
-"id":"PA0242",
-"name":""
-},
-{
 "id":"PA0865",
 "name":""
 },
 {
-"id":"PA5237",
+"id":"PA0242",
 "name":""
 },
 {
@@ -864,11 +841,15 @@
 "name":""
 },
 {
-"id":"PA5065",
+"id":"PA5237",
 "name":""
 },
 {
 "id":"PA5236",
+"name":""
+},
+{
+"id":"PA5065",
 "name":""
 },
 {

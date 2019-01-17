@@ -25,7 +25,6 @@
 "id":"cpd00001_c",
 "name":"H2O",
 "compartment":"c",
-"charge":0,
 "formula":"H2O"
 },
 {
@@ -39,7 +38,6 @@
 "id":"cpd00011_c",
 "name":"CO2",
 "compartment":"c",
-"charge":0,
 "formula":"CO2"
 },
 {
@@ -53,14 +51,12 @@
 "id":"cpd00007_c",
 "name":"O2",
 "compartment":"c",
-"charge":0,
 "formula":"O2"
 },
 {
 "id":"cpd00025_c",
 "name":"H2O2",
 "compartment":"c",
-"charge":0,
 "formula":"H2O2"
 },
 {
@@ -137,7 +133,6 @@
 "id":"cpd17076_c",
 "name":"delta-aminovalerate",
 "compartment":"c",
-"charge":0,
 "formula":"C5H13NO2"
 },
 {
@@ -160,7 +155,7 @@
 "cpd00379_c":1.0,
 "cpd02089_c":-1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Lysine degradation",
@@ -188,7 +183,7 @@
 "cpd00067_c":-1.0,
 "cpd01155_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"PA1818",
 "subsystem":"Lysine degradation",
@@ -247,7 +242,7 @@
 "cpd01155_c":-1.0,
 "cpd03691_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"",
 "subsystem":"Lysine degradation",
