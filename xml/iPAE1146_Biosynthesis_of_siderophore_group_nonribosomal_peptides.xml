@@ -304,7 +304,7 @@
       </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction metaid="R_rPY00220" id="R_rPY00220" name="pyochelin synthase complex" reversible="true" fast="false">
+      <reaction metaid="R_rPY00220" id="R_rPY00220" name="pyochelin synthase complex" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA4228 and PA4226 and PA4225 and PA4224)</p>
@@ -339,7 +339,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rPY00216" id="R_rPY00216" name="L-ornithine 5-monooxygenase" reversible="false" fast="false">
+      <reaction metaid="R_rPY00216" id="R_rPY00216" name="L-ornithine 5-monooxygenase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA2386</p>
@@ -353,11 +353,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rPY00216">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.14.13.-"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -383,7 +383,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn02177" id="R_rxn02177" name="isochorismatase" reversible="false" fast="false">
+      <reaction metaid="R_rxn02177" id="R_rxn02177" name="isochorismatase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA1902 or PA4213)</p>
@@ -397,11 +397,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn02177">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/3.3.2.1"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -425,7 +425,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rPY00218" id="R_rPY00218" name="ferribactin synthase complex" reversible="false" fast="false">
+      <reaction metaid="R_rPY00218" id="R_rPY00218" name="ferribactin synthase complex" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA2399 and PA2400 and PA2402 and PA2424)</p>
@@ -463,7 +463,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn13827" id="R_rxn13827" name="enterochelin synthase" reversible="true" fast="false">
+      <reaction metaid="R_rxn13827" id="R_rxn13827" name="enterochelin synthase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA1165</p>
@@ -477,11 +477,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn13827">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/6.3.2.14"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -506,7 +506,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rPY00217" id="R_rPY00217" name="hydroxy-L-ornithine formylase" reversible="false" fast="false">
+      <reaction metaid="R_rPY00217" id="R_rPY00217" name="hydroxy-L-ornithine formylase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA2396</p>
@@ -537,7 +537,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn04454" id="R_rxn04454" name="isochorismate pyruvate lyase" reversible="false" fast="false">
+      <reaction metaid="R_rxn04454" id="R_rxn04454" name="isochorismate pyruvate lyase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4230</p>
@@ -551,11 +551,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn04454">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/4.2.99.21"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -578,7 +578,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rPY00219" id="R_rPY00219" name="maturation of pyoverdine I" reversible="false" fast="false">
+      <reaction metaid="R_rPY00219" id="R_rPY00219" name="maturation of pyoverdine I" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA2397</p>
@@ -609,7 +609,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01093" id="R_rxn01093" name="2,3-dihydroxybenzoate adenylate synthase" reversible="true" fast="false">
+      <reaction metaid="R_rxn01093" id="R_rxn01093" name="2,3-dihydroxybenzoate adenylate synthase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -623,11 +623,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn01093">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.7.58"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>

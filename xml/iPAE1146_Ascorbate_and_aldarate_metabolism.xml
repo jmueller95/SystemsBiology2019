@@ -80,7 +80,7 @@
       </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction metaid="R_rxn02122" id="R_rxn02122" name="D-GlucuronolactoneNAD+ oxidoreductase" reversible="true" fast="false">
+      <reaction metaid="R_rxn02122" id="R_rxn02122" name="D-GlucuronolactoneNAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA1984) or (PA5312) or (PA1027) or (PA4899))</p>
@@ -94,11 +94,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn02122">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.2.1.3"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>

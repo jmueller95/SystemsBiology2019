@@ -304,7 +304,7 @@
       </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction metaid="R_rxn01790" id="R_rxn01790" name="2-dehydropantoate 2-reductase" reversible="true" fast="false">
+      <reaction metaid="R_rxn01790" id="R_rxn01790" name="2-dehydropantoate 2-reductase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4397</p>
@@ -318,11 +318,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn01790">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.169"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -347,7 +347,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn02186" id="R_rxn02186" name="acetohydroxy acid isomeroreductase" reversible="true" fast="false">
+      <reaction metaid="R_rxn02186" id="R_rxn02186" name="acetohydroxy acid isomeroreductase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4694</p>
@@ -361,11 +361,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn02186">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.86"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -390,7 +390,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00003" id="R_rxn00003" name="acetolactate synthase (Also catalyzes ACHBS)" reversible="true" fast="false">
+      <reaction metaid="R_rxn00003" id="R_rxn00003" name="acetolactate synthase (Also catalyzes ACHBS)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA4695 and PA4696)</p>
@@ -404,11 +404,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn00003">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.2.1.6"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -432,7 +432,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00898" id="R_rxn00898" name="dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate)" reversible="false" fast="false">
+      <reaction metaid="R_rxn00898" id="R_rxn00898" name="dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0353</p>
@@ -446,11 +446,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn00898">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/4.2.1.9"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -473,7 +473,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn09889" id="R_rxn09889" name="dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)" reversible="false" fast="false">
+      <reaction metaid="R_rxn09889" id="R_rxn09889" name="dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0353</p>
@@ -503,7 +503,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn02175" id="R_rxn02175" name="pantetheine-phosphate adenylyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn02175" id="R_rxn02175" name="pantetheine-phosphate adenylyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0363</p>
@@ -517,11 +517,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn02175">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.7.3"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -545,7 +545,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01626" id="R_rxn01626" name="dihydropyrimidinase" reversible="false" fast="false">
+      <reaction metaid="R_rxn01626" id="R_rxn01626" name="dihydropyrimidinase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0441</p>
@@ -559,11 +559,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn01626">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/3.5.2.2"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -587,7 +587,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn12510" id="R_rxn12510" name="pantothenate kinase" reversible="true" fast="false">
+      <reaction metaid="R_rxn12510" id="R_rxn12510" name="pantothenate kinase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4279</p>
@@ -601,11 +601,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn12510">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.33"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -629,7 +629,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn06023" id="R_rxn06023" name="acyl-carrier protein synthase" reversible="true" fast="false">
+      <reaction metaid="R_rxn06023" id="R_rxn06023" name="acyl-carrier protein synthase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA1165</p>
@@ -643,11 +643,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn06023">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.8.7"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -671,7 +671,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00100" id="R_rxn00100" name="dephospho-CoA kinase" reversible="false" fast="false">
+      <reaction metaid="R_rxn00100" id="R_rxn00100" name="dephospho-CoA kinase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4529</p>
@@ -685,11 +685,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn00100">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.24"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -713,7 +713,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00912" id="R_rxn00912" name="3-methyl-2-oxobutanoate hydroxymethyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn00912" id="R_rxn00912" name="3-methyl-2-oxobutanoate hydroxymethyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4729</p>
@@ -727,11 +727,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn00912">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.1.2.11"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -756,7 +756,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01791" id="R_rxn01791" name="pantothenate synthase" reversible="false" fast="false">
+      <reaction metaid="R_rxn01791" id="R_rxn01791" name="pantothenate synthase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4730</p>
@@ -770,11 +770,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn01791">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/6.3.2.1"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -800,7 +800,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn09177" id="R_rxn09177" name="phosphopantothenate-cysteine ligase" reversible="false" fast="false">
+      <reaction metaid="R_rxn09177" id="R_rxn09177" name="phosphopantothenate-cysteine ligase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA5320</p>
@@ -814,11 +814,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn09177">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/6.3.2.5"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -844,7 +844,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn02341" id="R_rxn02341" name="phosphopantothenoylcysteine decarboxylase" reversible="false" fast="false">
+      <reaction metaid="R_rxn02341" id="R_rxn02341" name="phosphopantothenoylcysteine decarboxylase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA5320</p>
@@ -858,11 +858,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn02341">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/4.1.1.36"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>

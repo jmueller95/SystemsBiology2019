@@ -1400,7 +1400,7 @@
       </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction metaid="R_EX_cpd00797_LPAREN_e_RPAREN_" id="R_EX_cpd00797_LPAREN_e_RPAREN_" name="EX (R)-3-Hydroxybutanoate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00797_LPAREN_e_RPAREN_" id="R_EX_cpd00797_LPAREN_e_RPAREN_" name="EX (R)-3-Hydroxybutanoate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1426,7 +1426,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd17085_LPAREN_e_RPAREN_" id="R_EX_cpd17085_LPAREN_e_RPAREN_" name="EX 2-heptyl-3-hydroxy-4-quinolone e" reversible="false" fast="false">
+      <reaction metaid="R_EX_cpd17085_LPAREN_e_RPAREN_" id="R_EX_cpd17085_LPAREN_e_RPAREN_" name="EX 2-heptyl-3-hydroxy-4-quinolone e" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1452,7 +1452,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00176_LPAREN_e_RPAREN_" id="R_EX_cpd00176_LPAREN_e_RPAREN_" name="EX 2-keto-3-deoxygluconate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00176_LPAREN_e_RPAREN_" id="R_EX_cpd00176_LPAREN_e_RPAREN_" name="EX 2-keto-3-deoxygluconate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1478,7 +1478,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00024_LPAREN_e_RPAREN_" id="R_EX_cpd00024_LPAREN_e_RPAREN_" name="EX 2-Oxoglutarate" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00024_LPAREN_e_RPAREN_" id="R_EX_cpd00024_LPAREN_e_RPAREN_" name="EX 2-Oxoglutarate" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1504,7 +1504,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00489_LPAREN_e_RPAREN_" id="R_EX_cpd00489_LPAREN_e_RPAREN_" name="EX 4-Hydroxyphenylacetate" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00489_LPAREN_e_RPAREN_" id="R_EX_cpd00489_LPAREN_e_RPAREN_" name="EX 4-Hydroxyphenylacetate" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1530,7 +1530,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00147_LPAREN_c_RPAREN_" id="R_EX_cpd00147_LPAREN_c_RPAREN_" name="EX 5-Methylthioadenosine c" reversible="false" fast="false">
+      <reaction metaid="R_EX_cpd00147_LPAREN_c_RPAREN_" id="R_EX_cpd00147_LPAREN_c_RPAREN_" name="EX 5-Methylthioadenosine c" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1556,7 +1556,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00029_LPAREN_e_RPAREN_" id="R_EX_cpd00029_LPAREN_e_RPAREN_" name="EX Acetate" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00029_LPAREN_e_RPAREN_" id="R_EX_cpd00029_LPAREN_e_RPAREN_" name="EX Acetate" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1582,7 +1582,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00142_LPAREN_e_RPAREN_" id="R_EX_cpd00142_LPAREN_e_RPAREN_" name="EX Acetoacetate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00142_LPAREN_e_RPAREN_" id="R_EX_cpd00142_LPAREN_e_RPAREN_" name="EX Acetoacetate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1608,7 +1608,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00182_LPAREN_e_RPAREN_" id="R_EX_cpd00182_LPAREN_e_RPAREN_" name="EX Adenosine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00182_LPAREN_e_RPAREN_" id="R_EX_cpd00182_LPAREN_e_RPAREN_" name="EX Adenosine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1634,7 +1634,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11587_LPAREN_e_RPAREN_" id="R_EX_cpd11587_LPAREN_e_RPAREN_" name="EX Ala-Gln e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11587_LPAREN_e_RPAREN_" id="R_EX_cpd11587_LPAREN_e_RPAREN_" name="EX Ala-Gln e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1660,7 +1660,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11584_LPAREN_e_RPAREN_" id="R_EX_cpd11584_LPAREN_e_RPAREN_" name="EX Ala-His e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11584_LPAREN_e_RPAREN_" id="R_EX_cpd11584_LPAREN_e_RPAREN_" name="EX Ala-His e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1686,7 +1686,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11593_LPAREN_e_RPAREN_" id="R_EX_cpd11593_LPAREN_e_RPAREN_" name="EX ala-L-asp-L e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11593_LPAREN_e_RPAREN_" id="R_EX_cpd11593_LPAREN_e_RPAREN_" name="EX ala-L-asp-L e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1712,7 +1712,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11583_LPAREN_e_RPAREN_" id="R_EX_cpd11583_LPAREN_e_RPAREN_" name="EX Ala-Leu e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11583_LPAREN_e_RPAREN_" id="R_EX_cpd11583_LPAREN_e_RPAREN_" name="EX Ala-Leu e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1738,7 +1738,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11586_LPAREN_e_RPAREN_" id="R_EX_cpd11586_LPAREN_e_RPAREN_" name="EX ala-L-glu-L e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11586_LPAREN_e_RPAREN_" id="R_EX_cpd11586_LPAREN_e_RPAREN_" name="EX ala-L-glu-L e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1764,7 +1764,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11582_LPAREN_e_RPAREN_" id="R_EX_cpd11582_LPAREN_e_RPAREN_" name="EX ala-L-Thr-L e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11582_LPAREN_e_RPAREN_" id="R_EX_cpd11582_LPAREN_e_RPAREN_" name="EX ala-L-Thr-L e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1790,7 +1790,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd01092_LPAREN_e_RPAREN_" id="R_EX_cpd01092_LPAREN_e_RPAREN_" name="EX Allantoin e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd01092_LPAREN_e_RPAREN_" id="R_EX_cpd01092_LPAREN_e_RPAREN_" name="EX Allantoin e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1816,7 +1816,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00162_LPAREN_e_RPAREN_" id="R_EX_cpd00162_LPAREN_e_RPAREN_" name="EX Aminoethanol e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00162_LPAREN_e_RPAREN_" id="R_EX_cpd00162_LPAREN_e_RPAREN_" name="EX Aminoethanol e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1842,7 +1842,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd01262_LPAREN_e_RPAREN_" id="R_EX_cpd01262_LPAREN_e_RPAREN_" name="EX Amylotriose e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd01262_LPAREN_e_RPAREN_" id="R_EX_cpd01262_LPAREN_e_RPAREN_" name="EX Amylotriose e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1868,7 +1868,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd01048_LPAREN_e_RPAREN_" id="R_EX_cpd01048_LPAREN_e_RPAREN_" name="EX Arsenate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd01048_LPAREN_e_RPAREN_" id="R_EX_cpd01048_LPAREN_e_RPAREN_" name="EX Arsenate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1894,7 +1894,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd04098_LPAREN_e_RPAREN_" id="R_EX_cpd04098_LPAREN_e_RPAREN_" name="EX Arsenite e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd04098_LPAREN_e_RPAREN_" id="R_EX_cpd04098_LPAREN_e_RPAREN_" name="EX Arsenite e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1920,7 +1920,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00540_LPAREN_e_RPAREN_" id="R_EX_cpd00540_LPAREN_e_RPAREN_" name="EX BET e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00540_LPAREN_e_RPAREN_" id="R_EX_cpd00540_LPAREN_e_RPAREN_" name="EX BET e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1946,7 +1946,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11416_c" id="R_EX_cpd11416_c" name="EX Biomass c" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11416_c" id="R_EX_cpd11416_c" name="EX Biomass c" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1972,7 +1972,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11596_LPAREN_e_RPAREN_" id="R_EX_cpd11596_LPAREN_e_RPAREN_" name="EX butanesulfonate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11596_LPAREN_e_RPAREN_" id="R_EX_cpd11596_LPAREN_e_RPAREN_" name="EX butanesulfonate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -1998,7 +1998,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00211_LPAREN_e_RPAREN_" id="R_EX_cpd00211_LPAREN_e_RPAREN_" name="EX Butyrate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00211_LPAREN_e_RPAREN_" id="R_EX_cpd00211_LPAREN_e_RPAREN_" name="EX Butyrate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2024,7 +2024,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00063_LPAREN_e_RPAREN_" id="R_EX_cpd00063_LPAREN_e_RPAREN_" name="EX Ca2+ e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00063_LPAREN_e_RPAREN_" id="R_EX_cpd00063_LPAREN_e_RPAREN_" name="EX Ca2+ e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2050,7 +2050,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00635_LPAREN_e_RPAREN_" id="R_EX_cpd00635_LPAREN_e_RPAREN_" name="EX Cbl e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00635_LPAREN_e_RPAREN_" id="R_EX_cpd00635_LPAREN_e_RPAREN_" name="EX Cbl e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2076,7 +2076,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd01012_LPAREN_e_RPAREN_" id="R_EX_cpd01012_LPAREN_e_RPAREN_" name="EX Cd2+ e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd01012_LPAREN_e_RPAREN_" id="R_EX_cpd01012_LPAREN_e_RPAREN_" name="EX Cd2+ e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2102,7 +2102,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00098_LPAREN_e_RPAREN_" id="R_EX_cpd00098_LPAREN_e_RPAREN_" name="EX Choline e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00098_LPAREN_e_RPAREN_" id="R_EX_cpd00098_LPAREN_e_RPAREN_" name="EX Choline e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2128,7 +2128,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11595_LPAREN_e_RPAREN_" id="R_EX_cpd11595_LPAREN_e_RPAREN_" name="EX chromate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11595_LPAREN_e_RPAREN_" id="R_EX_cpd11595_LPAREN_e_RPAREN_" name="EX chromate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2154,7 +2154,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00137_LPAREN_e_RPAREN_" id="R_EX_cpd00137_LPAREN_e_RPAREN_" name="EX Citrate" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00137_LPAREN_e_RPAREN_" id="R_EX_cpd00137_LPAREN_e_RPAREN_" name="EX Citrate" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2180,7 +2180,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00099_LPAREN_e_RPAREN_" id="R_EX_cpd00099_LPAREN_e_RPAREN_" name="EX Cl- e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00099_LPAREN_e_RPAREN_" id="R_EX_cpd00099_LPAREN_e_RPAREN_" name="EX Cl- e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2206,7 +2206,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00011_LPAREN_e_RPAREN_" id="R_EX_cpd00011_LPAREN_e_RPAREN_" name="EX CO2 e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00011_LPAREN_e_RPAREN_" id="R_EX_cpd00011_LPAREN_e_RPAREN_" name="EX CO2 e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2232,7 +2232,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00149_LPAREN_e_RPAREN_" id="R_EX_cpd00149_LPAREN_e_RPAREN_" name="EX Co2+ e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00149_LPAREN_e_RPAREN_" id="R_EX_cpd00149_LPAREN_e_RPAREN_" name="EX Co2+ e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2258,7 +2258,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00058_LPAREN_e_RPAREN_" id="R_EX_cpd00058_LPAREN_e_RPAREN_" name="EX Cu2+ e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00058_LPAREN_e_RPAREN_" id="R_EX_cpd00058_LPAREN_e_RPAREN_" name="EX Cu2+ e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2284,7 +2284,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd01015_LPAREN_e_RPAREN_" id="R_EX_cpd01015_LPAREN_e_RPAREN_" name="EX Cyanate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd01015_LPAREN_e_RPAREN_" id="R_EX_cpd01015_LPAREN_e_RPAREN_" name="EX Cyanate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2310,7 +2310,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd01017_LPAREN_e_RPAREN_" id="R_EX_cpd01017_LPAREN_e_RPAREN_" name="EX Cys-Gly e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd01017_LPAREN_e_RPAREN_" id="R_EX_cpd01017_LPAREN_e_RPAREN_" name="EX Cys-Gly e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2336,7 +2336,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00381_LPAREN_e_RPAREN_" id="R_EX_cpd00381_LPAREN_e_RPAREN_" name="EX Cystine" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00381_LPAREN_e_RPAREN_" id="R_EX_cpd00381_LPAREN_e_RPAREN_" name="EX Cystine" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2362,7 +2362,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00367_LPAREN_e_RPAREN_" id="R_EX_cpd00367_LPAREN_e_RPAREN_" name="EX Cytidine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00367_LPAREN_e_RPAREN_" id="R_EX_cpd00367_LPAREN_e_RPAREN_" name="EX Cytidine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2388,7 +2388,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00307_LPAREN_e_RPAREN_" id="R_EX_cpd00307_LPAREN_e_RPAREN_" name="EX Cytosine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00307_LPAREN_e_RPAREN_" id="R_EX_cpd00307_LPAREN_e_RPAREN_" name="EX Cytosine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2414,7 +2414,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00117_LPAREN_e_RPAREN_" id="R_EX_cpd00117_LPAREN_e_RPAREN_" name="EX D-Alanine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00117_LPAREN_e_RPAREN_" id="R_EX_cpd00117_LPAREN_e_RPAREN_" name="EX D-Alanine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2440,7 +2440,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00438_LPAREN_e_RPAREN_" id="R_EX_cpd00438_LPAREN_e_RPAREN_" name="EX Deoxyadenosine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00438_LPAREN_e_RPAREN_" id="R_EX_cpd00438_LPAREN_e_RPAREN_" name="EX Deoxyadenosine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2466,7 +2466,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00654_LPAREN_e_RPAREN_" id="R_EX_cpd00654_LPAREN_e_RPAREN_" name="EX Deoxycytidine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00654_LPAREN_e_RPAREN_" id="R_EX_cpd00654_LPAREN_e_RPAREN_" name="EX Deoxycytidine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2492,7 +2492,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00277_LPAREN_e_RPAREN_" id="R_EX_cpd00277_LPAREN_e_RPAREN_" name="EX Deoxyguanosine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00277_LPAREN_e_RPAREN_" id="R_EX_cpd00277_LPAREN_e_RPAREN_" name="EX Deoxyguanosine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2518,7 +2518,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd03279_LPAREN_e_RPAREN_" id="R_EX_cpd03279_LPAREN_e_RPAREN_" name="EX Deoxyinosine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd03279_LPAREN_e_RPAREN_" id="R_EX_cpd03279_LPAREN_e_RPAREN_" name="EX Deoxyinosine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2544,7 +2544,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00412_LPAREN_e_RPAREN_" id="R_EX_cpd00412_LPAREN_e_RPAREN_" name="EX Deoxyuridine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00412_LPAREN_e_RPAREN_" id="R_EX_cpd00412_LPAREN_e_RPAREN_" name="EX Deoxyuridine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2570,7 +2570,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00082_LPAREN_e_RPAREN_" id="R_EX_cpd00082_LPAREN_e_RPAREN_" name="EX D-Fructose" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00082_LPAREN_e_RPAREN_" id="R_EX_cpd00082_LPAREN_e_RPAREN_" name="EX D-Fructose" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2596,7 +2596,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00072_LPAREN_e_RPAREN_" id="R_EX_cpd00072_LPAREN_e_RPAREN_" name="EX D-fructose-6-phosphate" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00072_LPAREN_e_RPAREN_" id="R_EX_cpd00072_LPAREN_e_RPAREN_" name="EX D-fructose-6-phosphate" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2622,7 +2622,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00653_LPAREN_e_RPAREN_" id="R_EX_cpd00653_LPAREN_e_RPAREN_" name="EX D-Galactonate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00653_LPAREN_e_RPAREN_" id="R_EX_cpd00653_LPAREN_e_RPAREN_" name="EX D-Galactonate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2648,7 +2648,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00280_LPAREN_e_RPAREN_" id="R_EX_cpd00280_LPAREN_e_RPAREN_" name="EX D-Galacturonate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00280_LPAREN_e_RPAREN_" id="R_EX_cpd00280_LPAREN_e_RPAREN_" name="EX D-Galacturonate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2674,7 +2674,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00609_LPAREN_e_RPAREN_" id="R_EX_cpd00609_LPAREN_e_RPAREN_" name="EX D-Glucarate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00609_LPAREN_e_RPAREN_" id="R_EX_cpd00609_LPAREN_e_RPAREN_" name="EX D-Glucarate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2700,7 +2700,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00027_LPAREN_e_RPAREN_" id="R_EX_cpd00027_LPAREN_e_RPAREN_" name="EX D-Glucose e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00027_LPAREN_e_RPAREN_" id="R_EX_cpd00027_LPAREN_e_RPAREN_" name="EX D-Glucose e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2726,7 +2726,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00079_LPAREN_e_RPAREN_" id="R_EX_cpd00079_LPAREN_e_RPAREN_" name="EX D-glucose-6-phosphate" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00079_LPAREN_e_RPAREN_" id="R_EX_cpd00079_LPAREN_e_RPAREN_" name="EX D-glucose-6-phosphate" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2752,7 +2752,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00221_LPAREN_e_RPAREN_" id="R_EX_cpd00221_LPAREN_e_RPAREN_" name="EX D-Lactate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00221_LPAREN_e_RPAREN_" id="R_EX_cpd00221_LPAREN_e_RPAREN_" name="EX D-Lactate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2778,7 +2778,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd01307_LPAREN_e_RPAREN_" id="R_EX_cpd01307_LPAREN_e_RPAREN_" name="EX D-Lyxitol" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd01307_LPAREN_e_RPAREN_" id="R_EX_cpd01307_LPAREN_e_RPAREN_" name="EX D-Lyxitol" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2804,7 +2804,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00386_LPAREN_e_RPAREN_" id="R_EX_cpd00386_LPAREN_e_RPAREN_" name="EX D-Malate" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00386_LPAREN_e_RPAREN_" id="R_EX_cpd00386_LPAREN_e_RPAREN_" name="EX D-Malate" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2830,7 +2830,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00637_LPAREN_e_RPAREN_" id="R_EX_cpd00637_LPAREN_e_RPAREN_" name="EX D-Methionine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00637_LPAREN_e_RPAREN_" id="R_EX_cpd00637_LPAREN_e_RPAREN_" name="EX D-Methionine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2856,7 +2856,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00652_LPAREN_e_RPAREN_" id="R_EX_cpd00652_LPAREN_e_RPAREN_" name="EX D-Mucic acid e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00652_LPAREN_e_RPAREN_" id="R_EX_cpd00652_LPAREN_e_RPAREN_" name="EX D-Mucic acid e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2882,7 +2882,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00105_LPAREN_e_RPAREN_" id="R_EX_cpd00105_LPAREN_e_RPAREN_" name="EX D-Ribose e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00105_LPAREN_e_RPAREN_" id="R_EX_cpd00105_LPAREN_e_RPAREN_" name="EX D-Ribose e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2908,7 +2908,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00550_LPAREN_e_RPAREN_" id="R_EX_cpd00550_LPAREN_e_RPAREN_" name="EX D-Serine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00550_LPAREN_e_RPAREN_" id="R_EX_cpd00550_LPAREN_e_RPAREN_" name="EX D-Serine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2934,7 +2934,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11579_LPAREN_e_RPAREN_" id="R_EX_cpd11579_LPAREN_e_RPAREN_" name="EX ethanesulfonate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11579_LPAREN_e_RPAREN_" id="R_EX_cpd11579_LPAREN_e_RPAREN_" name="EX ethanesulfonate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2960,7 +2960,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00021_LPAREN_e_RPAREN_" id="R_EX_cpd00021_LPAREN_e_RPAREN_" name="EX Fe2+ e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00021_LPAREN_e_RPAREN_" id="R_EX_cpd00021_LPAREN_e_RPAREN_" name="EX Fe2+ e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -2986,7 +2986,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd10516_LPAREN_e_RPAREN_" id="R_EX_cpd10516_LPAREN_e_RPAREN_" name="EX fe3 e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd10516_LPAREN_e_RPAREN_" id="R_EX_cpd10516_LPAREN_e_RPAREN_" name="EX fe3 e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3012,7 +3012,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd03724_LPAREN_e_RPAREN_" id="R_EX_cpd03724_LPAREN_e_RPAREN_" name="EX Ferrichrome e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd03724_LPAREN_e_RPAREN_" id="R_EX_cpd03724_LPAREN_e_RPAREN_" name="EX Ferrichrome e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3038,7 +3038,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00106_LPAREN_e_RPAREN_" id="R_EX_cpd00106_LPAREN_e_RPAREN_" name="EX Fumarate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00106_LPAREN_e_RPAREN_" id="R_EX_cpd00106_LPAREN_e_RPAREN_" name="EX Fumarate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3064,7 +3064,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00108_LPAREN_e_RPAREN_" id="R_EX_cpd00108_LPAREN_e_RPAREN_" name="EX Galactose e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00108_LPAREN_e_RPAREN_" id="R_EX_cpd00108_LPAREN_e_RPAREN_" name="EX Galactose e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3090,7 +3090,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00164_LPAREN_e_RPAREN_" id="R_EX_cpd00164_LPAREN_e_RPAREN_" name="EX Glucuronate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00164_LPAREN_e_RPAREN_" id="R_EX_cpd00164_LPAREN_e_RPAREN_" name="EX Glucuronate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3116,7 +3116,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11581_LPAREN_e_RPAREN_" id="R_EX_cpd11581_LPAREN_e_RPAREN_" name="EX gly-asn-L e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11581_LPAREN_e_RPAREN_" id="R_EX_cpd11581_LPAREN_e_RPAREN_" name="EX gly-asn-L e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3142,7 +3142,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11589_LPAREN_e_RPAREN_" id="R_EX_cpd11589_LPAREN_e_RPAREN_" name="EX gly-asp-L e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11589_LPAREN_e_RPAREN_" id="R_EX_cpd11589_LPAREN_e_RPAREN_" name="EX gly-asp-L e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3168,7 +3168,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00100_LPAREN_e_RPAREN_" id="R_EX_cpd00100_LPAREN_e_RPAREN_" name="EX Glycerol e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00100_LPAREN_e_RPAREN_" id="R_EX_cpd00100_LPAREN_e_RPAREN_" name="EX Glycerol e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3194,7 +3194,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00080_LPAREN_e_RPAREN_" id="R_EX_cpd00080_LPAREN_e_RPAREN_" name="EX Glycerol-3-phosphate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00080_LPAREN_e_RPAREN_" id="R_EX_cpd00080_LPAREN_e_RPAREN_" name="EX Glycerol-3-phosphate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3220,7 +3220,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00033_LPAREN_e_RPAREN_" id="R_EX_cpd00033_LPAREN_e_RPAREN_" name="EX Glycine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00033_LPAREN_e_RPAREN_" id="R_EX_cpd00033_LPAREN_e_RPAREN_" name="EX Glycine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3246,7 +3246,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00139_LPAREN_e_RPAREN_" id="R_EX_cpd00139_LPAREN_e_RPAREN_" name="EX Glycolate" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00139_LPAREN_e_RPAREN_" id="R_EX_cpd00139_LPAREN_e_RPAREN_" name="EX Glycolate" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3272,7 +3272,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd15603_LPAREN_e_RPAREN_" id="R_EX_cpd15603_LPAREN_e_RPAREN_" name="EX Gly-Cys e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd15603_LPAREN_e_RPAREN_" id="R_EX_cpd15603_LPAREN_e_RPAREN_" name="EX Gly-Cys e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3298,7 +3298,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11580_LPAREN_e_RPAREN_" id="R_EX_cpd11580_LPAREN_e_RPAREN_" name="EX Gly-Gln e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11580_LPAREN_e_RPAREN_" id="R_EX_cpd11580_LPAREN_e_RPAREN_" name="EX Gly-Gln e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3324,7 +3324,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11592_LPAREN_e_RPAREN_" id="R_EX_cpd11592_LPAREN_e_RPAREN_" name="EX gly-glu-L e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11592_LPAREN_e_RPAREN_" id="R_EX_cpd11592_LPAREN_e_RPAREN_" name="EX gly-glu-L e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3350,7 +3350,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd15604_LPAREN_e_RPAREN_" id="R_EX_cpd15604_LPAREN_e_RPAREN_" name="EX Gly-Leu e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd15604_LPAREN_e_RPAREN_" id="R_EX_cpd15604_LPAREN_e_RPAREN_" name="EX Gly-Leu e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3376,7 +3376,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11591_LPAREN_e_RPAREN_" id="R_EX_cpd11591_LPAREN_e_RPAREN_" name="EX Gly-Met e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11591_LPAREN_e_RPAREN_" id="R_EX_cpd11591_LPAREN_e_RPAREN_" name="EX Gly-Met e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3402,7 +3402,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd15605_LPAREN_e_RPAREN_" id="R_EX_cpd15605_LPAREN_e_RPAREN_" name="EX Gly-Phe e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd15605_LPAREN_e_RPAREN_" id="R_EX_cpd15605_LPAREN_e_RPAREN_" name="EX Gly-Phe e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3428,7 +3428,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11588_LPAREN_e_RPAREN_" id="R_EX_cpd11588_LPAREN_e_RPAREN_" name="EX gly-pro-L e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11588_LPAREN_e_RPAREN_" id="R_EX_cpd11588_LPAREN_e_RPAREN_" name="EX gly-pro-L e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3454,7 +3454,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd15606_LPAREN_e_RPAREN_" id="R_EX_cpd15606_LPAREN_e_RPAREN_" name="EX Gly-Tyr e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd15606_LPAREN_e_RPAREN_" id="R_EX_cpd15606_LPAREN_e_RPAREN_" name="EX Gly-Tyr e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3480,7 +3480,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00067_LPAREN_e_RPAREN_" id="R_EX_cpd00067_LPAREN_e_RPAREN_" name="EX H+ e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00067_LPAREN_e_RPAREN_" id="R_EX_cpd00067_LPAREN_e_RPAREN_" name="EX H+ e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3506,7 +3506,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00001_LPAREN_e_RPAREN_" id="R_EX_cpd00001_LPAREN_e_RPAREN_" name="EX H2O e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00001_LPAREN_e_RPAREN_" id="R_EX_cpd00001_LPAREN_e_RPAREN_" name="EX H2O e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3532,7 +3532,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00268_LPAREN_e_RPAREN_" id="R_EX_cpd00268_LPAREN_e_RPAREN_" name="EX H2S2O3 e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00268_LPAREN_e_RPAREN_" id="R_EX_cpd00268_LPAREN_e_RPAREN_" name="EX H2S2O3 e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3558,7 +3558,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11578_LPAREN_e_RPAREN_" id="R_EX_cpd11578_LPAREN_e_RPAREN_" name="EX hexanesulfonate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11578_LPAREN_e_RPAREN_" id="R_EX_cpd11578_LPAREN_e_RPAREN_" name="EX hexanesulfonate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3584,7 +3584,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00531_LPAREN_e_RPAREN_" id="R_EX_cpd00531_LPAREN_e_RPAREN_" name="EX Hg2+ e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00531_LPAREN_e_RPAREN_" id="R_EX_cpd00531_LPAREN_e_RPAREN_" name="EX Hg2+ e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3610,7 +3610,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00226_LPAREN_e_RPAREN_" id="R_EX_cpd00226_LPAREN_e_RPAREN_" name="EX HYXN e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00226_LPAREN_e_RPAREN_" id="R_EX_cpd00226_LPAREN_e_RPAREN_" name="EX HYXN e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3636,7 +3636,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00246_LPAREN_e_RPAREN_" id="R_EX_cpd00246_LPAREN_e_RPAREN_" name="EX Inosine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00246_LPAREN_e_RPAREN_" id="R_EX_cpd00246_LPAREN_e_RPAREN_" name="EX Inosine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3662,7 +3662,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd03048_LPAREN_e_RPAREN_" id="R_EX_cpd03048_LPAREN_e_RPAREN_" name="EX Isethionate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd03048_LPAREN_e_RPAREN_" id="R_EX_cpd03048_LPAREN_e_RPAREN_" name="EX Isethionate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3688,7 +3688,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00205_LPAREN_e_RPAREN_" id="R_EX_cpd00205_LPAREN_e_RPAREN_" name="EX K+ e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00205_LPAREN_e_RPAREN_" id="R_EX_cpd00205_LPAREN_e_RPAREN_" name="EX K+ e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3714,7 +3714,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd03091_LPAREN_e_RPAREN_" id="R_EX_cpd03091_LPAREN_e_RPAREN_" name="EX L-5&apos;-Deoxyadenosine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd03091_LPAREN_e_RPAREN_" id="R_EX_cpd03091_LPAREN_e_RPAREN_" name="EX L-5&apos;-Deoxyadenosine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3740,7 +3740,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00035_LPAREN_e_RPAREN_" id="R_EX_cpd00035_LPAREN_e_RPAREN_" name="EX L-Alanine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00035_LPAREN_e_RPAREN_" id="R_EX_cpd00035_LPAREN_e_RPAREN_" name="EX L-Alanine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3766,7 +3766,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11585_LPAREN_e_RPAREN_" id="R_EX_cpd11585_LPAREN_e_RPAREN_" name="EX L-alanylglycine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11585_LPAREN_e_RPAREN_" id="R_EX_cpd11585_LPAREN_e_RPAREN_" name="EX L-alanylglycine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3792,7 +3792,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00224_LPAREN_e_RPAREN_" id="R_EX_cpd00224_LPAREN_e_RPAREN_" name="EX L-Arabinose e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00224_LPAREN_e_RPAREN_" id="R_EX_cpd00224_LPAREN_e_RPAREN_" name="EX L-Arabinose e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3818,7 +3818,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00051_LPAREN_e_RPAREN_" id="R_EX_cpd00051_LPAREN_e_RPAREN_" name="EX L-Arginine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00051_LPAREN_e_RPAREN_" id="R_EX_cpd00051_LPAREN_e_RPAREN_" name="EX L-Arginine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3844,7 +3844,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00132_LPAREN_e_RPAREN_" id="R_EX_cpd00132_LPAREN_e_RPAREN_" name="EX L-Asparagine" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00132_LPAREN_e_RPAREN_" id="R_EX_cpd00132_LPAREN_e_RPAREN_" name="EX L-Asparagine" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3870,7 +3870,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00041_LPAREN_e_RPAREN_" id="R_EX_cpd00041_LPAREN_e_RPAREN_" name="EX L-Aspartate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00041_LPAREN_e_RPAREN_" id="R_EX_cpd00041_LPAREN_e_RPAREN_" name="EX L-Aspartate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3896,7 +3896,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00395_LPAREN_e_RPAREN_" id="R_EX_cpd00395_LPAREN_e_RPAREN_" name="EX L-Cysteate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00395_LPAREN_e_RPAREN_" id="R_EX_cpd00395_LPAREN_e_RPAREN_" name="EX L-Cysteate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3922,7 +3922,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00084_LPAREN_e_RPAREN_" id="R_EX_cpd00084_LPAREN_e_RPAREN_" name="EX L-Cysteine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00084_LPAREN_e_RPAREN_" id="R_EX_cpd00084_LPAREN_e_RPAREN_" name="EX L-Cysteine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3948,7 +3948,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00023_LPAREN_e_RPAREN_" id="R_EX_cpd00023_LPAREN_e_RPAREN_" name="EX L-Glutamate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00023_LPAREN_e_RPAREN_" id="R_EX_cpd00023_LPAREN_e_RPAREN_" name="EX L-Glutamate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -3974,7 +3974,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00053_LPAREN_e_RPAREN_" id="R_EX_cpd00053_LPAREN_e_RPAREN_" name="EX L-Glutamine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00053_LPAREN_e_RPAREN_" id="R_EX_cpd00053_LPAREN_e_RPAREN_" name="EX L-Glutamine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4000,7 +4000,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00119_LPAREN_e_RPAREN_" id="R_EX_cpd00119_LPAREN_e_RPAREN_" name="EX L-Histidine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00119_LPAREN_e_RPAREN_" id="R_EX_cpd00119_LPAREN_e_RPAREN_" name="EX L-Histidine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4026,7 +4026,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00121_LPAREN_e_RPAREN_" id="R_EX_cpd00121_LPAREN_e_RPAREN_" name="EX L-Inositol" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00121_LPAREN_e_RPAREN_" id="R_EX_cpd00121_LPAREN_e_RPAREN_" name="EX L-Inositol" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4052,7 +4052,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00322_LPAREN_e_RPAREN_" id="R_EX_cpd00322_LPAREN_e_RPAREN_" name="EX L-Isoleucine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00322_LPAREN_e_RPAREN_" id="R_EX_cpd00322_LPAREN_e_RPAREN_" name="EX L-Isoleucine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4078,7 +4078,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00159_LPAREN_e_RPAREN_" id="R_EX_cpd00159_LPAREN_e_RPAREN_" name="EX L-Lactate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00159_LPAREN_e_RPAREN_" id="R_EX_cpd00159_LPAREN_e_RPAREN_" name="EX L-Lactate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4104,7 +4104,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00107_LPAREN_e_RPAREN_" id="R_EX_cpd00107_LPAREN_e_RPAREN_" name="EX L-Leucine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00107_LPAREN_e_RPAREN_" id="R_EX_cpd00107_LPAREN_e_RPAREN_" name="EX L-Leucine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4130,7 +4130,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00039_LPAREN_e_RPAREN_" id="R_EX_cpd00039_LPAREN_e_RPAREN_" name="EX L-Lysine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00039_LPAREN_e_RPAREN_" id="R_EX_cpd00039_LPAREN_e_RPAREN_" name="EX L-Lysine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4156,7 +4156,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00130_LPAREN_e_RPAREN_" id="R_EX_cpd00130_LPAREN_e_RPAREN_" name="EX L-Malate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00130_LPAREN_e_RPAREN_" id="R_EX_cpd00130_LPAREN_e_RPAREN_" name="EX L-Malate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4182,7 +4182,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00060_LPAREN_e_RPAREN_" id="R_EX_cpd00060_LPAREN_e_RPAREN_" name="EX L-Methionine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00060_LPAREN_e_RPAREN_" id="R_EX_cpd00060_LPAREN_e_RPAREN_" name="EX L-Methionine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4208,7 +4208,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11576_LPAREN_e_RPAREN_" id="R_EX_cpd11576_LPAREN_e_RPAREN_" name="EX L-methionine R-oxide e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11576_LPAREN_e_RPAREN_" id="R_EX_cpd11576_LPAREN_e_RPAREN_" name="EX L-methionine R-oxide e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4234,7 +4234,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd01914_LPAREN_e_RPAREN_" id="R_EX_cpd01914_LPAREN_e_RPAREN_" name="EX L-Methionine S-oxide e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd01914_LPAREN_e_RPAREN_" id="R_EX_cpd01914_LPAREN_e_RPAREN_" name="EX L-Methionine S-oxide e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4260,7 +4260,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00066_LPAREN_e_RPAREN_" id="R_EX_cpd00066_LPAREN_e_RPAREN_" name="EX L-Phenylalanine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00066_LPAREN_e_RPAREN_" id="R_EX_cpd00066_LPAREN_e_RPAREN_" name="EX L-Phenylalanine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4286,7 +4286,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00129_LPAREN_e_RPAREN_" id="R_EX_cpd00129_LPAREN_e_RPAREN_" name="EX L-Proline e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00129_LPAREN_e_RPAREN_" id="R_EX_cpd00129_LPAREN_e_RPAREN_" name="EX L-Proline e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4312,7 +4312,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00054_LPAREN_e_RPAREN_" id="R_EX_cpd00054_LPAREN_e_RPAREN_" name="EX L-Serine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00054_LPAREN_e_RPAREN_" id="R_EX_cpd00054_LPAREN_e_RPAREN_" name="EX L-Serine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4338,7 +4338,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cJB00034_LPAREN_e_RPAREN_" id="R_EX_cJB00034_LPAREN_e_RPAREN_" name="EX L-Sorbose" reversible="true" fast="false">
+      <reaction metaid="R_EX_cJB00034_LPAREN_e_RPAREN_" id="R_EX_cJB00034_LPAREN_e_RPAREN_" name="EX L-Sorbose" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4364,7 +4364,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00161_LPAREN_e_RPAREN_" id="R_EX_cpd00161_LPAREN_e_RPAREN_" name="EX L-Threonine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00161_LPAREN_e_RPAREN_" id="R_EX_cpd00161_LPAREN_e_RPAREN_" name="EX L-Threonine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4390,7 +4390,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00065_LPAREN_e_RPAREN_" id="R_EX_cpd00065_LPAREN_e_RPAREN_" name="EX L-Tryptophan e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00065_LPAREN_e_RPAREN_" id="R_EX_cpd00065_LPAREN_e_RPAREN_" name="EX L-Tryptophan e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4416,7 +4416,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00069_LPAREN_e_RPAREN_" id="R_EX_cpd00069_LPAREN_e_RPAREN_" name="EX L-Tyrosine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00069_LPAREN_e_RPAREN_" id="R_EX_cpd00069_LPAREN_e_RPAREN_" name="EX L-Tyrosine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4442,7 +4442,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00156_LPAREN_e_RPAREN_" id="R_EX_cpd00156_LPAREN_e_RPAREN_" name="EX L-Valine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00156_LPAREN_e_RPAREN_" id="R_EX_cpd00156_LPAREN_e_RPAREN_" name="EX L-Valine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4468,7 +4468,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00308_LPAREN_e_RPAREN_" id="R_EX_cpd00308_LPAREN_e_RPAREN_" name="EX Malonate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00308_LPAREN_e_RPAREN_" id="R_EX_cpd00308_LPAREN_e_RPAREN_" name="EX Malonate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4494,7 +4494,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd01329_LPAREN_e_RPAREN_" id="R_EX_cpd01329_LPAREN_e_RPAREN_" name="EX Maltohexaose e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd01329_LPAREN_e_RPAREN_" id="R_EX_cpd01329_LPAREN_e_RPAREN_" name="EX Maltohexaose e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4520,7 +4520,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00179_LPAREN_e_RPAREN_" id="R_EX_cpd00179_LPAREN_e_RPAREN_" name="EX Maltose e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00179_LPAREN_e_RPAREN_" id="R_EX_cpd00179_LPAREN_e_RPAREN_" name="EX Maltose e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4546,7 +4546,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cPY00016_LPAREN_e_RPAREN_" id="R_EX_cPY00016_LPAREN_e_RPAREN_" name="EX Mannose" reversible="true" fast="false">
+      <reaction metaid="R_EX_cPY00016_LPAREN_e_RPAREN_" id="R_EX_cPY00016_LPAREN_e_RPAREN_" name="EX Mannose" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4572,7 +4572,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd08023_LPAREN_e_RPAREN_" id="R_EX_cpd08023_LPAREN_e_RPAREN_" name="EX methanesulfonate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd08023_LPAREN_e_RPAREN_" id="R_EX_cpd08023_LPAREN_e_RPAREN_" name="EX methanesulfonate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4598,7 +4598,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11590_LPAREN_e_RPAREN_" id="R_EX_cpd11590_LPAREN_e_RPAREN_" name="EX met-L-ala-L e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11590_LPAREN_e_RPAREN_" id="R_EX_cpd11590_LPAREN_e_RPAREN_" name="EX met-L-ala-L e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4624,7 +4624,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00254_LPAREN_e_RPAREN_" id="R_EX_cpd00254_LPAREN_e_RPAREN_" name="EX Mg e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00254_LPAREN_e_RPAREN_" id="R_EX_cpd00254_LPAREN_e_RPAREN_" name="EX Mg e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4650,7 +4650,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00030_LPAREN_e_RPAREN_" id="R_EX_cpd00030_LPAREN_e_RPAREN_" name="EX Mn2+ e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00030_LPAREN_e_RPAREN_" id="R_EX_cpd00030_LPAREN_e_RPAREN_" name="EX Mn2+ e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4676,7 +4676,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11574_LPAREN_e_RPAREN_" id="R_EX_cpd11574_LPAREN_e_RPAREN_" name="EX Molybdate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11574_LPAREN_e_RPAREN_" id="R_EX_cpd11574_LPAREN_e_RPAREN_" name="EX Molybdate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4702,7 +4702,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd11575_LPAREN_e_RPAREN_" id="R_EX_cpd11575_LPAREN_e_RPAREN_" name="EX MOPS e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd11575_LPAREN_e_RPAREN_" id="R_EX_cpd11575_LPAREN_e_RPAREN_" name="EX MOPS e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4728,7 +4728,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00971_LPAREN_e_RPAREN_" id="R_EX_cpd00971_LPAREN_e_RPAREN_" name="EX Na+ e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00971_LPAREN_e_RPAREN_" id="R_EX_cpd00971_LPAREN_e_RPAREN_" name="EX Na+ e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4754,7 +4754,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00122_LPAREN_e_RPAREN_" id="R_EX_cpd00122_LPAREN_e_RPAREN_" name="EX N-Acetyl-D-glucosamine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00122_LPAREN_e_RPAREN_" id="R_EX_cpd00122_LPAREN_e_RPAREN_" name="EX N-Acetyl-D-glucosamine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4780,7 +4780,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00013_LPAREN_e_RPAREN_" id="R_EX_cpd00013_LPAREN_e_RPAREN_" name="EX NH3 e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00013_LPAREN_e_RPAREN_" id="R_EX_cpd00013_LPAREN_e_RPAREN_" name="EX NH3 e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4806,7 +4806,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00244_LPAREN_e_RPAREN_" id="R_EX_cpd00244_LPAREN_e_RPAREN_" name="EX Ni2+ e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00244_LPAREN_e_RPAREN_" id="R_EX_cpd00244_LPAREN_e_RPAREN_" name="EX Ni2+ e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4832,7 +4832,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00209_LPAREN_e_RPAREN_" id="R_EX_cpd00209_LPAREN_e_RPAREN_" name="EX Nitrate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00209_LPAREN_e_RPAREN_" id="R_EX_cpd00209_LPAREN_e_RPAREN_" name="EX Nitrate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4858,7 +4858,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00075_LPAREN_e_RPAREN_" id="R_EX_cpd00075_LPAREN_e_RPAREN_" name="EX Nitrite e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00075_LPAREN_e_RPAREN_" id="R_EX_cpd00075_LPAREN_e_RPAREN_" name="EX Nitrite e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4884,7 +4884,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00528_LPAREN_e_RPAREN_" id="R_EX_cpd00528_LPAREN_e_RPAREN_" name="EX nitrogen e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00528_LPAREN_e_RPAREN_" id="R_EX_cpd00528_LPAREN_e_RPAREN_" name="EX nitrogen e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4910,7 +4910,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00007_LPAREN_e_RPAREN_" id="R_EX_cpd00007_LPAREN_e_RPAREN_" name="EX O2 e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00007_LPAREN_e_RPAREN_" id="R_EX_cpd00007_LPAREN_e_RPAREN_" name="EX O2 e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4936,7 +4936,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00064_LPAREN_e_RPAREN_" id="R_EX_cpd00064_LPAREN_e_RPAREN_" name="EX Ornithine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00064_LPAREN_e_RPAREN_" id="R_EX_cpd00064_LPAREN_e_RPAREN_" name="EX Ornithine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4962,7 +4962,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd04097_LPAREN_e_RPAREN_" id="R_EX_cpd04097_LPAREN_e_RPAREN_" name="EX Pb e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd04097_LPAREN_e_RPAREN_" id="R_EX_cpd04097_LPAREN_e_RPAREN_" name="EX Pb e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -4988,7 +4988,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00009_LPAREN_e_RPAREN_" id="R_EX_cpd00009_LPAREN_e_RPAREN_" name="EX Phosphate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00009_LPAREN_e_RPAREN_" id="R_EX_cpd00009_LPAREN_e_RPAREN_" name="EX Phosphate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5014,7 +5014,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cPY00116_LPAREN_e_RPAREN_" id="R_EX_cPY00116_LPAREN_e_RPAREN_" name="EX phosphoethanolamine KDO(2)-lipid (A)" reversible="true" fast="false">
+      <reaction metaid="R_EX_cPY00116_LPAREN_e_RPAREN_" id="R_EX_cPY00116_LPAREN_e_RPAREN_" name="EX phosphoethanolamine KDO(2)-lipid (A)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5040,7 +5040,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00012_LPAREN_e_RPAREN_" id="R_EX_cpd00012_LPAREN_e_RPAREN_" name="EX PPi e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00012_LPAREN_e_RPAREN_" id="R_EX_cpd00012_LPAREN_e_RPAREN_" name="EX PPi e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5066,7 +5066,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00141_LPAREN_e_RPAREN_" id="R_EX_cpd00141_LPAREN_e_RPAREN_" name="EX Propionate" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00141_LPAREN_e_RPAREN_" id="R_EX_cpd00141_LPAREN_e_RPAREN_" name="EX Propionate" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5092,7 +5092,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00118_LPAREN_e_RPAREN_" id="R_EX_cpd00118_LPAREN_e_RPAREN_" name="EX Putrescine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00118_LPAREN_e_RPAREN_" id="R_EX_cpd00118_LPAREN_e_RPAREN_" name="EX Putrescine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5118,7 +5118,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00020_LPAREN_e_RPAREN_" id="R_EX_cpd00020_LPAREN_e_RPAREN_" name="EX Pyruvate" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00020_LPAREN_e_RPAREN_" id="R_EX_cpd00020_LPAREN_e_RPAREN_" name="EX Pyruvate" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5144,7 +5144,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00588_LPAREN_e_RPAREN_" id="R_EX_cpd00588_LPAREN_e_RPAREN_" name="EX Sorbitol" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00588_LPAREN_e_RPAREN_" id="R_EX_cpd00588_LPAREN_e_RPAREN_" name="EX Sorbitol" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5170,7 +5170,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00264_LPAREN_e_RPAREN_" id="R_EX_cpd00264_LPAREN_e_RPAREN_" name="EX Spermidine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00264_LPAREN_e_RPAREN_" id="R_EX_cpd00264_LPAREN_e_RPAREN_" name="EX Spermidine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5196,7 +5196,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00036_LPAREN_e_RPAREN_" id="R_EX_cpd00036_LPAREN_e_RPAREN_" name="EX Succinate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00036_LPAREN_e_RPAREN_" id="R_EX_cpd00036_LPAREN_e_RPAREN_" name="EX Succinate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5222,7 +5222,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00048_LPAREN_e_RPAREN_" id="R_EX_cpd00048_LPAREN_e_RPAREN_" name="EX Sulfate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00048_LPAREN_e_RPAREN_" id="R_EX_cpd00048_LPAREN_e_RPAREN_" name="EX Sulfate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5248,7 +5248,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd09878_LPAREN_e_RPAREN_" id="R_EX_cpd09878_LPAREN_e_RPAREN_" name="EX Sulfoacetate e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd09878_LPAREN_e_RPAREN_" id="R_EX_cpd09878_LPAREN_e_RPAREN_" name="EX Sulfoacetate e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5274,7 +5274,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00210_LPAREN_e_RPAREN_" id="R_EX_cpd00210_LPAREN_e_RPAREN_" name="EX Taurine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00210_LPAREN_e_RPAREN_" id="R_EX_cpd00210_LPAREN_e_RPAREN_" name="EX Taurine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5300,7 +5300,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00305_LPAREN_e_RPAREN_" id="R_EX_cpd00305_LPAREN_e_RPAREN_" name="EX Thiamin e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00305_LPAREN_e_RPAREN_" id="R_EX_cpd00305_LPAREN_e_RPAREN_" name="EX Thiamin e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5326,7 +5326,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00184_LPAREN_e_RPAREN_" id="R_EX_cpd00184_LPAREN_e_RPAREN_" name="EX Thymidine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00184_LPAREN_e_RPAREN_" id="R_EX_cpd00184_LPAREN_e_RPAREN_" name="EX Thymidine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5352,7 +5352,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd01242_LPAREN_e_RPAREN_" id="R_EX_cpd01242_LPAREN_e_RPAREN_" name="EX Thyminose e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd01242_LPAREN_e_RPAREN_" id="R_EX_cpd01242_LPAREN_e_RPAREN_" name="EX Thyminose e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5378,7 +5378,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00851_LPAREN_e_RPAREN_" id="R_EX_cpd00851_LPAREN_e_RPAREN_" name="EX trans-4-Hydroxy-L-proline" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00851_LPAREN_e_RPAREN_" id="R_EX_cpd00851_LPAREN_e_RPAREN_" name="EX trans-4-Hydroxy-L-proline" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5404,7 +5404,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00092_LPAREN_e_RPAREN_" id="R_EX_cpd00092_LPAREN_e_RPAREN_" name="EX Uracil e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00092_LPAREN_e_RPAREN_" id="R_EX_cpd00092_LPAREN_e_RPAREN_" name="EX Uracil e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5430,7 +5430,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00073_LPAREN_e_RPAREN_" id="R_EX_cpd00073_LPAREN_e_RPAREN_" name="EX Urea e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00073_LPAREN_e_RPAREN_" id="R_EX_cpd00073_LPAREN_e_RPAREN_" name="EX Urea e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5456,7 +5456,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00249_LPAREN_e_RPAREN_" id="R_EX_cpd00249_LPAREN_e_RPAREN_" name="EX Uridine e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00249_LPAREN_e_RPAREN_" id="R_EX_cpd00249_LPAREN_e_RPAREN_" name="EX Uridine e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5482,7 +5482,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd03424_LPAREN_e_RPAREN_" id="R_EX_cpd03424_LPAREN_e_RPAREN_" name="EX Vitamin B12 e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd03424_LPAREN_e_RPAREN_" id="R_EX_cpd03424_LPAREN_e_RPAREN_" name="EX Vitamin B12 e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5508,7 +5508,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00423_LPAREN_e_RPAREN_" id="R_EX_cpd00423_LPAREN_e_RPAREN_" name="EX Vitamin B12r e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00423_LPAREN_e_RPAREN_" id="R_EX_cpd00423_LPAREN_e_RPAREN_" name="EX Vitamin B12r e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5534,7 +5534,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00309_LPAREN_e_RPAREN_" id="R_EX_cpd00309_LPAREN_e_RPAREN_" name="EX XAN e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00309_LPAREN_e_RPAREN_" id="R_EX_cpd00309_LPAREN_e_RPAREN_" name="EX XAN e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5560,7 +5560,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00306_LPAREN_e_RPAREN_" id="R_EX_cpd00306_LPAREN_e_RPAREN_" name="EX Xylitol" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00306_LPAREN_e_RPAREN_" id="R_EX_cpd00306_LPAREN_e_RPAREN_" name="EX Xylitol" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5586,7 +5586,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00154_LPAREN_e_RPAREN_" id="R_EX_cpd00154_LPAREN_e_RPAREN_" name="EX Xylose e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00154_LPAREN_e_RPAREN_" id="R_EX_cpd00154_LPAREN_e_RPAREN_" name="EX Xylose e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5612,7 +5612,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00034_LPAREN_e_RPAREN_" id="R_EX_cpd00034_LPAREN_e_RPAREN_" name="EX Zn2+ e" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00034_LPAREN_e_RPAREN_" id="R_EX_cpd00034_LPAREN_e_RPAREN_" name="EX Zn2+ e" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5638,7 +5638,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rJB00280" id="R_rJB00280" name="Gluconate secretion" reversible="false" fast="false">
+      <reaction metaid="R_rJB00280" id="R_rJB00280" name="Gluconate secretion" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5664,7 +5664,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rJB00281" id="R_rJB00281" name="2-ketogluconate secretion" reversible="false" fast="false">
+      <reaction metaid="R_rJB00281" id="R_rJB00281" name="2-ketogluconate secretion" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5690,7 +5690,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00331_LPAREN_e_RPAREN_" id="R_EX_cpd00331_LPAREN_e_RPAREN_" name="EX cis-Aconitic acid" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00331_LPAREN_e_RPAREN_" id="R_EX_cpd00331_LPAREN_e_RPAREN_" name="EX cis-Aconitic acid" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5716,7 +5716,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00089_LPAREN_e_RPAREN_" id="R_EX_cpd00089_LPAREN_e_RPAREN_" name="EX Glucose-1-phosphate" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00089_LPAREN_e_RPAREN_" id="R_EX_cpd00089_LPAREN_e_RPAREN_" name="EX Glucose-1-phosphate" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5742,7 +5742,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00314_LPAREN_e_RPAREN_" id="R_EX_cpd00314_LPAREN_e_RPAREN_" name="EX D-Mannitol" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00314_LPAREN_e_RPAREN_" id="R_EX_cpd00314_LPAREN_e_RPAREN_" name="EX D-Mannitol" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5768,7 +5768,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00380_LPAREN_e_RPAREN_" id="R_EX_cpd00380_LPAREN_e_RPAREN_" name="EX Itaconic Acid" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00380_LPAREN_e_RPAREN_" id="R_EX_cpd00380_LPAREN_e_RPAREN_" name="EX Itaconic Acid" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5794,7 +5794,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00581_LPAREN_e_RPAREN_" id="R_EX_cpd00581_LPAREN_e_RPAREN_" name="EX Urocanic Acid" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00581_LPAREN_e_RPAREN_" id="R_EX_cpd00581_LPAREN_e_RPAREN_" name="EX Urocanic Acid" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -5820,7 +5820,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_cpd00281_LPAREN_e_RPAREN_" id="R_EX_cpd00281_LPAREN_e_RPAREN_" name="EX Amino Butyric Acid" reversible="true" fast="false">
+      <reaction metaid="R_EX_cpd00281_LPAREN_e_RPAREN_" id="R_EX_cpd00281_LPAREN_e_RPAREN_" name="EX Amino Butyric Acid" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>

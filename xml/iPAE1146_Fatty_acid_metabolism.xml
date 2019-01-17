@@ -568,7 +568,7 @@
       </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction metaid="R_rxn03253" id="R_rxn03253" name="acyl-CoA dehydrogenase (decanoyl-CoA)" reversible="false" fast="false">
+      <reaction metaid="R_rxn03253" id="R_rxn03253" name="acyl-CoA dehydrogenase (decanoyl-CoA)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0879) or (PA0506) or (PA2550))</p>
@@ -599,7 +599,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn02720" id="R_rxn02720" name="acyl-CoA dehydrogenase (dodecanoyl-CoA)" reversible="false" fast="false">
+      <reaction metaid="R_rxn02720" id="R_rxn02720" name="acyl-CoA dehydrogenase (dodecanoyl-CoA)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0879) or (PA0506) or (PA2550))</p>
@@ -630,7 +630,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00946" id="R_rxn00946" name="acyl-CoA dehydrogenase (hexadecanoyl-CoA)" reversible="false" fast="false">
+      <reaction metaid="R_rxn00946" id="R_rxn00946" name="acyl-CoA dehydrogenase (hexadecanoyl-CoA)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0879) or (PA0506) or (PA2550))</p>
@@ -661,7 +661,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn02679" id="R_rxn02679" name="acyl-CoA dehydrogenase (octanoyl-CoA)" reversible="false" fast="false">
+      <reaction metaid="R_rxn02679" id="R_rxn02679" name="acyl-CoA dehydrogenase (octanoyl-CoA)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0879) or (PA0506) or (PA2550))</p>
@@ -692,7 +692,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn02803" id="R_rxn02803" name="acyl-CoA dehydrogenase (tetradecanoyl-CoA)" reversible="false" fast="false">
+      <reaction metaid="R_rxn02803" id="R_rxn02803" name="acyl-CoA dehydrogenase (tetradecanoyl-CoA)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0879) or (PA0506) or (PA2550))</p>
@@ -723,7 +723,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn03251" id="R_rxn03251" name="acyl-CoA dehydrogenase (hexanoyl-CoA)" reversible="false" fast="false">
+      <reaction metaid="R_rxn03251" id="R_rxn03251" name="acyl-CoA dehydrogenase (hexanoyl-CoA)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0879) or (PA0506) or (PA2552))</p>
@@ -754,7 +754,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00872" id="R_rxn00872" name="Butanoyl-CoAoxygen 2-oxidoreductase" reversible="false" fast="false">
+      <reaction metaid="R_rxn00872" id="R_rxn00872" name="Butanoyl-CoAoxygen 2-oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0879) or (PA0506) or (PA2552))</p>
@@ -768,14 +768,14 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn00872">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.3.3.6"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.3.99.2"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.3.99.3"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.3.99.-"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -799,7 +799,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01451" id="R_rxn01451" name="(S)-3-Hydroxybutanoyl-CoANAD+ oxidoreductase" reversible="true" fast="false">
+      <reaction metaid="R_rxn01451" id="R_rxn01451" name="(S)-3-Hydroxybutanoyl-CoANAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA1737) or (PA3014) or (PA3590) or (PA1628) or (PA5188))</p>
@@ -813,12 +813,12 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn01451">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.35"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.211"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -843,7 +843,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn03242" id="R_rxn03242" name="(S)-3-Hydroxydodecanoyl-CoANAD+ oxidoreductase" reversible="true" fast="false">
+      <reaction metaid="R_rxn03242" id="R_rxn03242" name="(S)-3-Hydroxydodecanoyl-CoANAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA1737) or (PA3014) or (PA3590) or (PA1628) or (PA5188))</p>
@@ -857,12 +857,12 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn03242">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.35"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.211"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -887,7 +887,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn03239" id="R_rxn03239" name="(S)-3-Hydroxyhexadecanoyl-CoANAD+ oxidoreductase" reversible="true" fast="false">
+      <reaction metaid="R_rxn03239" id="R_rxn03239" name="(S)-3-Hydroxyhexadecanoyl-CoANAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA1737) or (PA3014) or (PA3590) or (PA1628) or (PA5188))</p>
@@ -901,12 +901,12 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn03239">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.35"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.211"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -931,7 +931,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn06777" id="R_rxn06777" name="(S)-3-Hydroxytetradecanoyl-CoANAD+ oxidoreductase" reversible="true" fast="false">
+      <reaction metaid="R_rxn06777" id="R_rxn06777" name="(S)-3-Hydroxytetradecanoyl-CoANAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA1737) or (PA3014) or (PA3590) or (PA1628) or (PA5188))</p>
@@ -945,12 +945,12 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn06777">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.35"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.211"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -975,7 +975,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn03244" id="R_rxn03244" name="(S)-Hydroxydecanoyl-CoANAD+ oxidoreductase" reversible="true" fast="false">
+      <reaction metaid="R_rxn03244" id="R_rxn03244" name="(S)-Hydroxydecanoyl-CoANAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA1737) or (PA3014) or (PA3590) or (PA1628) or (PA5188))</p>
@@ -989,12 +989,12 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn03244">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.35"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.211"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1019,7 +1019,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn03249" id="R_rxn03249" name="(S)-Hydroxyhexanoyl-CoANAD+ oxidoreductase" reversible="true" fast="false">
+      <reaction metaid="R_rxn03249" id="R_rxn03249" name="(S)-Hydroxyhexanoyl-CoANAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA1737) or (PA3014) or (PA3590) or (PA1628) or (PA5188))</p>
@@ -1033,12 +1033,12 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn03249">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.35"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.211"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1063,7 +1063,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn03246" id="R_rxn03246" name="(S)-Hydroxyoctanoyl-CoANAD+ oxidoreductase" reversible="true" fast="false">
+      <reaction metaid="R_rxn03246" id="R_rxn03246" name="(S)-Hydroxyoctanoyl-CoANAD+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA1737) or (PA3014) or (PA3590) or (PA1628) or (PA5188))</p>
@@ -1077,12 +1077,12 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn03246">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.35"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.211"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1107,7 +1107,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn13844" id="R_rxn13844" name="(3R)-3-Hydroxyoctadecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase" reversible="true" fast="false">
+      <reaction metaid="R_rxn13844" id="R_rxn13844" name="(3R)-3-Hydroxyoctadecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA2967</p>
@@ -1121,11 +1121,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn13844">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.330"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1150,7 +1150,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn08398" id="R_rxn08398" name="enoyl-[acyl-carrier-protein] reductase (NADH) (n-C18:1)" reversible="false" fast="false">
+      <reaction metaid="R_rxn08398" id="R_rxn08398" name="enoyl-[acyl-carrier-protein] reductase (NADH) (n-C18:1)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA1828) or (PA1649)</p>
@@ -1182,7 +1182,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01802" id="R_rxn01802" name="glutaryl-CoA dehydrogenase" reversible="true" fast="false">
+      <reaction metaid="R_rxn01802" id="R_rxn01802" name="glutaryl-CoA dehydrogenase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0447</p>
@@ -1196,11 +1196,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn01802">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.3.8.6"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1226,7 +1226,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn03243" id="R_rxn03243" name="Decanoyl-CoAacetyl-CoA C-acyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn03243" id="R_rxn03243" name="Decanoyl-CoAacetyl-CoA C-acyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0228) or (PA3589) or (PA3013) or (PA2940))</p>
@@ -1240,11 +1240,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn03243">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.16"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1268,7 +1268,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn03248" id="R_rxn03248" name="Hexanoyl-CoAacetyl-CoA C-acyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn03248" id="R_rxn03248" name="Hexanoyl-CoAacetyl-CoA C-acyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0228) or (PA3589) or (PA3013) or (PA2940))</p>
@@ -1282,11 +1282,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn03248">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.16"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1310,7 +1310,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn06510" id="R_rxn06510" name="Lauroyl-CoAacetyl-CoA C-acyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn06510" id="R_rxn06510" name="Lauroyl-CoAacetyl-CoA C-acyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0228) or (PA3589) or (PA3013) or (PA2940))</p>
@@ -1324,11 +1324,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn06510">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.16"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1352,7 +1352,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn02804" id="R_rxn02804" name="myristoyl-CoAacetylCoA C-myristoyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn02804" id="R_rxn02804" name="myristoyl-CoAacetylCoA C-myristoyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0228) or (PA3589) or (PA3013) or (PA2940))</p>
@@ -1366,12 +1366,12 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn02804">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.16"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.155"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1395,7 +1395,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn02680" id="R_rxn02680" name="Octanoyl-CoAacetyl-CoA C-acyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn02680" id="R_rxn02680" name="Octanoyl-CoAacetyl-CoA C-acyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA0228) or (PA3589) or (PA3013) or (PA2940))</p>
@@ -1409,11 +1409,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn02680">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.16"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1437,7 +1437,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn05247" id="R_rxn05247" name="FACOAL140(ISO)" reversible="false" fast="false">
+      <reaction metaid="R_rxn05247" id="R_rxn05247" name="FACOAL140(ISO)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3299) or (PA3300) or (PA2557) or (PA3924) or (PA4198))</p>
@@ -1451,11 +1451,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn05247">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/6.2.1.3"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1482,7 +1482,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn05248" id="R_rxn05248" name="FACOAL150(anteiso)" reversible="false" fast="false">
+      <reaction metaid="R_rxn05248" id="R_rxn05248" name="FACOAL150(anteiso)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3299) or (PA3300) or (PA2557) or (PA3924) or (PA4198))</p>
@@ -1496,11 +1496,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn05248">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/6.2.1.3"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1527,7 +1527,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn05249" id="R_rxn05249" name="FACOAL150(ISO)" reversible="false" fast="false">
+      <reaction metaid="R_rxn05249" id="R_rxn05249" name="FACOAL150(ISO)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3299) or (PA3300) or (PA2557) or (PA3924) or (PA4198))</p>
@@ -1541,11 +1541,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn05249">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/6.2.1.3"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1572,7 +1572,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn05250" id="R_rxn05250" name="FACOAL160(ISO)" reversible="false" fast="false">
+      <reaction metaid="R_rxn05250" id="R_rxn05250" name="FACOAL160(ISO)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3299) or (PA3300) or (PA2557) or (PA3924) or (PA4198))</p>
@@ -1586,11 +1586,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn05250">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/6.2.1.3"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1617,7 +1617,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn05251" id="R_rxn05251" name="FACOAL170(anteiso)" reversible="false" fast="false">
+      <reaction metaid="R_rxn05251" id="R_rxn05251" name="FACOAL170(anteiso)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3299) or (PA3300) or (PA2557) or (PA3924) or (PA4198))</p>
@@ -1631,11 +1631,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn05251">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/6.2.1.3"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1662,7 +1662,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn05252" id="R_rxn05252" name="FACOAL170(ISO)" reversible="false" fast="false">
+      <reaction metaid="R_rxn05252" id="R_rxn05252" name="FACOAL170(ISO)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3299) or (PA3300) or (PA2557) or (PA3924) or (PA4198))</p>
@@ -1676,11 +1676,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn05252">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/6.2.1.3"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1707,7 +1707,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn09450" id="R_rxn09450" name="fatty-acid--CoA ligase (hexadecenoate), peroxisomal" reversible="false" fast="false">
+      <reaction metaid="R_rxn09450" id="R_rxn09450" name="fatty-acid--CoA ligase (hexadecenoate), peroxisomal" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3299) or (PA3300) or (PA2557) or (PA3924) or (PA4198))</p>
@@ -1721,11 +1721,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn09450">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/6.2.1.3"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1752,7 +1752,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn09449" id="R_rxn09449" name="fatty-acid--CoA ligase (octadecanoate)" reversible="false" fast="false">
+      <reaction metaid="R_rxn09449" id="R_rxn09449" name="fatty-acid--CoA ligase (octadecanoate)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3299) or (PA3300) or (PA2557) or (PA3924) or (PA4198))</p>
@@ -1766,11 +1766,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn09449">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/6.2.1.3"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1797,7 +1797,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn09448" id="R_rxn09448" name="fatty-acid--CoA ligase (octadecenoate)" reversible="false" fast="false">
+      <reaction metaid="R_rxn09448" id="R_rxn09448" name="fatty-acid--CoA ligase (octadecenoate)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3299) or (PA3300) or (PA2557) or (PA3924) or (PA4198))</p>
@@ -1811,11 +1811,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn09448">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/6.2.1.3"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1842,7 +1842,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn05736" id="R_rxn05736" name="fatty-acid--CoA ligase (tetradecanoate)" reversible="false" fast="false">
+      <reaction metaid="R_rxn05736" id="R_rxn05736" name="fatty-acid--CoA ligase (tetradecanoate)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3299) or (PA3300) or (PA2557) or (PA3924) or (PA4198))</p>
@@ -1856,11 +1856,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn05736">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/6.2.1.3"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1887,7 +1887,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00947" id="R_rxn00947" name="PalmitateCoA ligase (AMP-forming)" reversible="false" fast="false">
+      <reaction metaid="R_rxn00947" id="R_rxn00947" name="PalmitateCoA ligase (AMP-forming)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA3299) or (PA3300) or (PA2557) or (PA3924) or (PA4198))</p>
@@ -1901,11 +1901,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn00947">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/6.2.1.3"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1932,7 +1932,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn02911" id="R_rxn02911" name="(S)-3-Hydroxydodecanoyl-CoA hydro-lyase" reversible="true" fast="false">
+      <reaction metaid="R_rxn02911" id="R_rxn02911" name="(S)-3-Hydroxydodecanoyl-CoA hydro-lyase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA4980) or (PA1629) or (PA3590) or (PA4330) or (PA5188) or (PA0744) or (PA1505) or (PA1737) or (PA3014))</p>
@@ -1946,12 +1946,12 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn02911">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/4.2.1.17"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/4.2.1.74"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -1974,7 +1974,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn03240" id="R_rxn03240" name="(S)-3-Hydroxyhexadecanoyl-CoA hydro-lyase" reversible="true" fast="false">
+      <reaction metaid="R_rxn03240" id="R_rxn03240" name="(S)-3-Hydroxyhexadecanoyl-CoA hydro-lyase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA4980) or (PA1629) or (PA3590) or (PA4330) or (PA5188) or (PA0744) or (PA1505) or (PA1737) or (PA3014))</p>
@@ -1988,12 +1988,12 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn03240">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/4.2.1.17"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/4.2.1.74"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -2016,7 +2016,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn03241" id="R_rxn03241" name="(S)-3-Hydroxytetradecanoyl-CoA hydro-lyase" reversible="true" fast="false">
+      <reaction metaid="R_rxn03241" id="R_rxn03241" name="(S)-3-Hydroxytetradecanoyl-CoA hydro-lyase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA4980) or (PA1629) or (PA3590) or (PA4330) or (PA5188) or (PA0744) or (PA1505) or (PA1737) or (PA3014))</p>
@@ -2030,12 +2030,12 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn03241">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/4.2.1.17"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/4.2.1.74"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -2058,7 +2058,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn03245" id="R_rxn03245" name="(S)-Hydroxydecanoyl-CoA hydro-lyase" reversible="true" fast="false">
+      <reaction metaid="R_rxn03245" id="R_rxn03245" name="(S)-Hydroxydecanoyl-CoA hydro-lyase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA4980) or (PA1629) or (PA3590) or (PA4330) or (PA5188) or (PA0744) or (PA1505) or (PA1737) or (PA3014))</p>
@@ -2072,12 +2072,12 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn03245">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/4.2.1.17"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/4.2.1.74"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -2100,7 +2100,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn03250" id="R_rxn03250" name="(S)-Hydroxyhexanoyl-CoA hydro-lyase" reversible="true" fast="false">
+      <reaction metaid="R_rxn03250" id="R_rxn03250" name="(S)-Hydroxyhexanoyl-CoA hydro-lyase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA4980) or (PA1629) or (PA3590) or (PA4330) or (PA5188) or (PA0744) or (PA1505) or (PA1737) or (PA3014))</p>
@@ -2114,12 +2114,12 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn03250">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/4.2.1.17"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/4.2.1.74"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -2142,7 +2142,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn03247" id="R_rxn03247" name="(S)-Hydroxyoctanoyl-CoA hydro-lyase" reversible="true" fast="false">
+      <reaction metaid="R_rxn03247" id="R_rxn03247" name="(S)-Hydroxyoctanoyl-CoA hydro-lyase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA4980) or (PA1629) or (PA3590) or (PA4330) or (PA5188) or (PA0744) or (PA1505) or (PA1737) or (PA3014))</p>
@@ -2156,12 +2156,12 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn03247">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/4.2.1.17"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/4.2.1.74"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -2184,7 +2184,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00874" id="R_rxn00874" name="Acetyl-CoAacetyl-CoA C-acetyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn00874" id="R_rxn00874" name="Acetyl-CoAacetyl-CoA C-acetyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA0228) or (PA3589) or (PA2001) or (PA3013)</p>
@@ -2198,12 +2198,12 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn00874">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.9"/>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.3.1.16"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>

@@ -232,7 +232,7 @@
       </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction metaid="R_rxn13787" id="R_rxn13787" name="pyocyanin synthesis" reversible="true" fast="false">
+      <reaction metaid="R_rxn13787" id="R_rxn13787" name="pyocyanin synthesis" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4217</p>
@@ -267,7 +267,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn13896" id="R_rxn13896" name="pyocyanin synthesis" reversible="true" fast="false">
+      <reaction metaid="R_rxn13896" id="R_rxn13896" name="pyocyanin synthesis" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4217</p>
@@ -302,7 +302,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn13885" id="R_rxn13885" name="phenazine-1-carboxylic acid synthesis, step 3" reversible="true" fast="false">
+      <reaction metaid="R_rxn13885" id="R_rxn13885" name="phenazine-1-carboxylic acid synthesis, step 3" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: ((PA1899 and PA1900 and PA1901 and PA1904 and PA1905) or (PA4210 and PA4211 and PA4212 and PA4215 and PA4216))</p>
@@ -334,7 +334,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn13823" id="R_rxn13823" name="phenazine-1-carboxylic acid synthesis, step 2" reversible="true" fast="false">
+      <reaction metaid="R_rxn13823" id="R_rxn13823" name="phenazine-1-carboxylic acid synthesis, step 2" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA4213 or PA1902)</p>
@@ -366,7 +366,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn13801" id="R_rxn13801" name="phenazine-1-carboxylic acid synthesis, step 1" reversible="true" fast="false">
+      <reaction metaid="R_rxn13801" id="R_rxn13801" name="phenazine-1-carboxylic acid synthesis, step 1" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA4214 or PA1903)</p>
@@ -380,11 +380,11 @@
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
             <rdf:Description rdf:about="#R_rxn13801">
-              <bqbiol:isHomologTo>
+              <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.6.1.86"/>
                 </rdf:Bag>
-              </bqbiol:isHomologTo>
+              </bqbiol:is>
             </rdf:Description>
           </rdf:RDF>
         </annotation>
@@ -408,7 +408,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn08103" id="R_rxn08103" name="alanine transaminase" reversible="true" fast="false">
+      <reaction metaid="R_rxn08103" id="R_rxn08103" name="alanine transaminase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA5415 or PA2444 or PA4602)</p>
@@ -439,7 +439,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn13890" id="R_rxn13890" name="phenazine-1-carboxamide synthetase" reversible="true" fast="false">
+      <reaction metaid="R_rxn13890" id="R_rxn13890" name="phenazine-1-carboxamide synthetase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0051</p>
@@ -475,7 +475,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn13798" id="R_rxn13798" name="probable phenazine-specific methyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn13798" id="R_rxn13798" name="probable phenazine-specific methyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4209</p>

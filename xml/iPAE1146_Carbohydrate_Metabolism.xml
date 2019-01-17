@@ -56,7 +56,7 @@
       </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction metaid="R_rxn00222" id="R_rxn00222" name="beta-D-Glucoside glucohydrolase" reversible="false" fast="false">
+      <reaction metaid="R_rxn00222" id="R_rxn00222" name="beta-D-Glucoside glucohydrolase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA1726</p>

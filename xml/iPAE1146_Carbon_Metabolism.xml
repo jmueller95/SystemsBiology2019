@@ -128,7 +128,7 @@
       </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction metaid="R_rxn01732" id="R_rxn01732" name="Itaconyl-CoA synthetase" reversible="true" fast="false">
+      <reaction metaid="R_rxn01732" id="R_rxn01732" name="Itaconyl-CoA synthetase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA1588 and PA1589)</p>
@@ -161,7 +161,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rJB00258" id="R_rJB00258" name="Itaconyl-CoA hydratase" reversible="true" fast="false">
+      <reaction metaid="R_rJB00258" id="R_rJB00258" name="Itaconyl-CoA hydratase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0878</p>
@@ -191,7 +191,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01734" id="R_rxn01734" name="Succinyl-CoA:itaconate-CoA transferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn01734" id="R_rxn01734" name="Succinyl-CoA:itaconate-CoA transferase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0882</p>
@@ -222,7 +222,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00177" id="R_rxn00177" name="Citramalyl-CoA lyase" reversible="true" fast="false">
+      <reaction metaid="R_rxn00177" id="R_rxn00177" name="Citramalyl-CoA lyase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0883</p>

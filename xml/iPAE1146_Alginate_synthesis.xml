@@ -88,7 +88,7 @@
       </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction metaid="R_rxn13805" id="R_rxn13805" name="Poly(beta-d-mannuronate) lyase precursor" reversible="true" fast="false">
+      <reaction metaid="R_rxn13805" id="R_rxn13805" name="Poly(beta-d-mannuronate) lyase precursor" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA3542 and PA3541)</p>
@@ -118,7 +118,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn13807" id="R_rxn13807" name="alginate-c5-mannuronan-epimerase" reversible="true" fast="false">
+      <reaction metaid="R_rxn13807" id="R_rxn13807" name="alginate-c5-mannuronan-epimerase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA3545 and PA3543 and PA3546)</p>
@@ -147,7 +147,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn13806" id="R_rxn13806" name="alginate o-acetyltransferase" reversible="true" fast="false">
+      <reaction metaid="R_rxn13806" id="R_rxn13806" name="alginate o-acetyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA3550 and PA3548 and PA3549)</p>

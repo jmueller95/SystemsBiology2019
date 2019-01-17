@@ -504,7 +504,7 @@
       </species>
     </listOfSpecies>
     <listOfReactions>
-      <reaction metaid="R_PAO1_Biomass" id="R_PAO1_Biomass" name="Pseudomonas biomass" reversible="false" fast="false">
+      <reaction metaid="R_PAO1_Biomass" id="R_PAO1_Biomass" name="Pseudomonas biomass" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -590,7 +590,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_PA_Biomass_v13ub" id="R_PA_Biomass_v13ub" name="Pseudomonas biomass" reversible="false" fast="false">
+      <reaction metaid="R_PA_Biomass_v13ub" id="R_PA_Biomass_v13ub" name="Pseudomonas biomass" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -675,7 +675,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_PA_Biomass_v13" id="R_PA_Biomass_v13" name="Pseudomonas biomass" reversible="false" fast="false">
+      <reaction metaid="R_PA_Biomass_v13" id="R_PA_Biomass_v13" name="Pseudomonas biomass" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
@@ -759,7 +759,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_PA_Biomass_v4" id="R_PA_Biomass_v4" name="Pseudomonas biomass limited lipids" reversible="false" fast="false">
+      <reaction metaid="R_PA_Biomass_v4" id="R_PA_Biomass_v4" name="Pseudomonas biomass limited lipids" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND" fbc:upperFluxBound="UPPER_BOUND">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: </p>
