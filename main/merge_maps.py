@@ -20,7 +20,8 @@ merged_header = {"map_name": "merged_map",
                  "schema": "https://escher.github.io/escher/jsonschema/1-0-0#"}
 
 
-def rename_nodes_and_add_offset(subsystem_prefix, reactions, nodes, offset_x, offset_y):
+def rename_nodes_and_add_offset(subsystem_reaction_prefix, subsystem_node_prefix,
+                                reactions, nodes, offset_x, offset_y):
     # Reactions
     for reaction in reactions.values():
         # Offset 'label_x' and 'label_y'
@@ -28,8 +29,8 @@ def rename_nodes_and_add_offset(subsystem_prefix, reactions, nodes, offset_x, of
         reaction['label_y'] += offset_y
         for segment in reaction['segments'].values():
             # Prefix all "from/to_node_ids"
-            segment['from_node_id'] = subsystem_prefix + segment['from_node_id']
-            segment['to_node_id'] = subsystem_prefix + segment['to_node_id']
+            segment['from_node_id'] = subsystem_node_prefix + segment['from_node_id']
+            segment['to_node_id'] = subsystem_node_prefix + segment['to_node_id']
             # If 'b1/b2' exist, offset them
             if segment['b1'] is not None:
                 segment['b1']['x'] += offset_x
@@ -38,7 +39,7 @@ def rename_nodes_and_add_offset(subsystem_prefix, reactions, nodes, offset_x, of
                 segment['b2']['x'] += offset_x
                 segment['b2']['y'] += offset_y
         # Prefix all keys of the segments
-        reaction['segments'] = {subsystem_prefix + key: value for key, value in reaction['segments'].items()}
+        reaction['segments'] = {subsystem_node_prefix + key: value for key, value in reaction['segments'].items()}
 
     # Nodes
     for node in nodes.values():
@@ -51,8 +52,8 @@ def rename_nodes_and_add_offset(subsystem_prefix, reactions, nodes, offset_x, of
         node['y'] += offset_y
 
     # Finally, rename the keys of the reactions and nodes themselves and return them
-    return {subsystem_prefix + key: value for key, value in reactions.items()}, \
-           {subsystem_prefix + key: value for key, value in nodes.items()}
+    return {subsystem_reaction_prefix + key: value for key, value in reactions.items()}, \
+           {subsystem_node_prefix + key: value for key, value in nodes.items()}
 
 
 # The content is a dict with four keys: reactions, nodes, canvas, text_labels
@@ -73,15 +74,14 @@ asansm_offset_x = 4500
 asansm_offset_y = 750
 
 lb_reactions, lb_nodes = rename_nodes_and_add_offset(
-    "lb_", lb_json[1]['reactions'], lb_json[1]['nodes'], lb_offset_x, lb_offset_y)
+    "lb_reaction", "lb_node", lb_json[1]['reactions'], lb_json[1]['nodes'], lb_offset_x, lb_offset_y)
 pm_reactions, pm_nodes = rename_nodes_and_add_offset(
-    "pm_", pm_json[1]['reactions'], pm_json[1]['nodes'], pm_offset_x, pm_offset_y)
+    "pm_reaction", "pm_node", pm_json[1]['reactions'], pm_json[1]['nodes'], pm_offset_x, pm_offset_y)
 asansm_reactions, asansm_nodes = rename_nodes_and_add_offset(
-    "asansm_", asansm_json[1]['reactions'], asansm_json[1]['nodes'], asansm_offset_x, asansm_offset_y)
+    "asansm_reaction", "asansm_node", asansm_json[1]['reactions'], asansm_json[1]['nodes'], asansm_offset_x,
+    asansm_offset_y)
 
-# Reactions need to be offset
 reactions_merged = merge_dicts(asansm_reactions, pm_reactions, lb_reactions)
-# Nodes need to be offset in the same way
 nodes_merged = merge_dicts(asansm_nodes, pm_nodes, lb_nodes)
 # Canvas needs to be extended based on maximum coordinates
 canvas_merged = {'x': -1700, 'y': -1500, 'height': 5000, 'width': 8750}
@@ -92,6 +92,13 @@ text_labels_merged['lb_label'] = {"x": 1000, "y": -1250, "text": "Lipopolysaccha
 text_labels_merged['pm_label'] = {"x": 1000.0, "y": 1400.0, "text": "Pyrimidine Metabolism"}
 text_labels_merged['asansm_label'] = {"x": 4700, "y": 500,
                                       "text": "Amino Sugar And Nucleotide Sugar Metabolism"}
+
+# DEBUG
+reactions_merged = merge_dicts(lb_reactions, pm_reactions, asansm_reactions)
+nodes_merged = merge_dicts(lb_nodes, pm_nodes, asansm_nodes)
+# canvas_merged = asansm_json[1]['canvas']
+# text_labels_merged = {}
+# GUBED
 
 merged_content = {"reactions": reactions_merged,
                   "nodes": nodes_merged,
