@@ -93,13 +93,6 @@ text_labels_merged['pm_label'] = {"x": 1000.0, "y": 1400.0, "text": "Pyrimidine 
 text_labels_merged['asansm_label'] = {"x": 4700, "y": 500,
                                       "text": "Amino Sugar And Nucleotide Sugar Metabolism"}
 
-# DEBUG
-reactions_merged = merge_dicts(lb_reactions, pm_reactions, asansm_reactions)
-nodes_merged = merge_dicts(lb_nodes, pm_nodes, asansm_nodes)
-# canvas_merged = asansm_json[1]['canvas']
-# text_labels_merged = {}
-# GUBED
-
 merged_content = {"reactions": reactions_merged,
                   "nodes": nodes_merged,
                   "canvas": canvas_merged,
