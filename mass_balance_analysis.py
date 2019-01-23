@@ -1,5 +1,8 @@
 import tellurium as te
 import libsbml
+import numpy as np
+from sympy import Matrix
+from pprint import PrettyPrinter
 
 
 def get_reaction_names(listOfReactions, reactionIDs):
@@ -10,6 +13,40 @@ def get_metabolite_names(listOfMetabolites, metaboliteIDs):
     return [listOfMetabolites.get(id).getName() for id in metaboliteIDs]
 
 
+def nullspace(M):
+    # Calculate nullspace
+    # Copied and modified from https://tellurium.readthedocs.io/en/latest/_modules/tellurium/utils/matrix.html#nullspace
+    atol = 1e-13
+    rtol = 0
+    u, s, vh = np.linalg.svd(M)
+    tol = max(atol, rtol * s[0])
+    nnz = (s >= tol).sum()
+    ns = vh[nnz:].conj().T
+    return ns
+
+
+def find_conservative_relations(S_matrix):
+    S_matrix_transpose = np.transpose(S_matrix)
+    S_matrix_left_null_space = Matrix(S_matrix_transpose).nullspace()
+
+    number_of_conservative_relations = len(S_matrix_left_null_space)
+    conservative_relationship_dict = {}
+
+    for i in range(number_of_conservative_relations):
+        counter = 0
+        conservative_relationship_dict[i] = ''
+        for metabolite in S_matrix.rownames:
+            if S_matrix_left_null_space[i][counter] != 0:
+                conservative_relationship_dict[i] += ' +('
+                conservative_relationship_dict[i] += str(int(S_matrix_left_null_space[i][counter]))
+                conservative_relationship_dict[i] += ')"'
+                conservative_relationship_dict[i] += metabolite
+                conservative_relationship_dict[i] += '"'
+            counter += 1
+        conservative_relationship_dict[i] += ' = 0'
+    return conservative_relationship_dict
+
+
 # We start with the smallest subsystem: Amino Sugar and Nucleotide Sugar Metabolism
 asansm_sbml = "xml/iPAE1146_Amino_sugar_and_nucleotide_sugar_metabolism.xml"
 asansm_libsbml_doc = libsbml.readSBML(asansm_sbml)
@@ -18,8 +55,13 @@ asansm_model = te.loadSBMLModel(asansm_sbml)
 S_asansm = asansm_model.getFullStoichiometryMatrix()
 S_asansm.colnames = get_reaction_names(asansm_libsbml.getListOfReactions(), S_asansm.colnames)
 S_asansm.rownames = get_metabolite_names(asansm_libsbml.getListOfSpecies(), S_asansm.rownames)
+asansm_right_nullspace = Matrix(S_asansm).nullspace()
+asansm_left_nullspace = Matrix(S_asansm.T).nullspace()
+asansm_rank = Matrix(S_asansm).rank()
 
 # Next subsystem: Pyrimidine Metabolism
+# This one is a little special because Matrix().nullspace computes an empty right nullspace here, but there is one!
+# So we do it the pedestrian way...
 pm_sbml = "xml/iPAE1146_Pyrimidine_metabolism.xml"
 pm_libsbml_doc = libsbml.readSBML(pm_sbml)
 pm_libsbml = pm_libsbml_doc.getModel()
@@ -27,6 +69,13 @@ pm_model = te.loadSBMLModel(pm_sbml)
 S_pm = pm_model.getFullStoichiometryMatrix()
 S_pm.colnames = get_reaction_names(pm_libsbml.getListOfReactions(), S_pm.colnames)
 S_pm.rownames = get_metabolite_names(pm_libsbml.getListOfSpecies(), S_pm.rownames)
+pm_right_nullspace_numpy = nullspace(S_pm)
+pm_right_nullspace_numpy = [round(elem/min(pm_right_nullspace_numpy)) for elem in pm_right_nullspace_numpy]
+pm_left_nullspace_numpy = nullspace(S_pm.T)
+pm_right_nullspace_sympy = Matrix(S_pm).nullspace()
+pm_left_nullspace_sympy = Matrix(S_pm.T).nullspace()
+pm_rank_numpy = np.linalg.matrix_rank(S_pm)
+pm_rank_sympy = Matrix(S_pm).rank()
 
 # Third one: Lipopolysaccharide Biosynthesis
 lb_sbml = "xml/iPAE1146_Lipopolysaccharide_biosynthesis.xml"
@@ -36,5 +85,39 @@ lb_model = te.loadSBMLModel(lb_sbml)
 S_lb = lb_model.getFullStoichiometryMatrix()
 S_lb.colnames = get_reaction_names(lb_libsbml.getListOfReactions(), S_lb.colnames)
 S_lb.rownames = get_metabolite_names(lb_libsbml.getListOfSpecies(), S_lb.rownames)
+lb_right_nullspace = Matrix(S_lb).nullspace()
+lb_left_nullspace = Matrix(S_lb.T).nullspace()
+lb_rank = Matrix(S_lb).rank()
+
+# Combined one
+combined_sbml = "xml/iPAE1146_Combined_Subsystems.xml"
+combined_libsbml_doc = libsbml.readSBML(combined_sbml)
+combined_libsbml = combined_libsbml_doc.getModel()
+combined_model = te.loadSBMLModel(combined_sbml)
+S_combined = combined_model.getFullStoichiometryMatrix()
+S_combined.colnames = get_reaction_names(combined_libsbml.getListOfReactions(), S_combined.colnames)
+S_combined.rownames = get_metabolite_names(combined_libsbml.getListOfSpecies(), S_combined.rownames)
+combined_right_nullspace = Matrix(S_combined).nullspace()
+combined_left_nullspace = Matrix(S_combined.T).nullspace()
+combined_rank = Matrix(S_combined).rank()
 
 # Todo next: Get Fluxes v (to formulate dx=Sv)
+
+
+pp = PrettyPrinter()
+
+print("The stoichiometric matrix of Amino Sugar and Nucleotide Sugar Metabolism has rank " + str(
+    asansm_rank) + ".")
+print("The stoichiometric matrix of Pyrimidine Metabolism has rank " + str(pm_rank_numpy) + ".")
+print("The stoichiometric matrix of Lipopolysaccharide Biosynthesis has rank " + str(lb_rank) + ".")
+print("\nThe conservative relations in the Amino Sugar and Nucleotide Sugar Metabolism subsystem are: \n")
+pp.pprint(find_conservative_relations(S_asansm))
+
+print("\nThe conservative relations in the Pyrimidine Metabolism subsystem are: \n")
+pp.pprint(find_conservative_relations(S_pm))
+
+print("\nThe conservative relations in the Lipopolysaccharide Biosynthesis subsystem are: \n")
+pp.pprint(find_conservative_relations(S_lb))
+
+print("\nThe conservative relations in the combined subsystem are: \n")
+pp.pprint(find_conservative_relations(S_combined))
