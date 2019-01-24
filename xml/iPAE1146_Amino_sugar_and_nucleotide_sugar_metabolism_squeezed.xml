@@ -1,0 +1,1849 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<!-- Created by SBMLsqueezer version 2.1 on 2019-35-24 at 11:35:25 MEZ with JSBML version 1.1-alpha. -->
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1" xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" groups:required="false">
+  <model volumeUnits="volume" lengthUnits="metre" extentUnits="substance" substanceUnits="substance" timeUnits="second">
+    <groups:listOfGroups xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1">
+      <groups:group groups:name="Amino sugar and nucleotide sugar metabolism" groups:id="s_f144521dec6b6ba382c5b913ec8900ca" groups:kind="partonomy">
+        <groups:listOfMembers>
+          <groups:member groups:idRef="R_rJB00277" />
+          <groups:member groups:idRef="R_rxn02285" />
+          <groups:member groups:idRef="R_rxn13913" />
+          <groups:member groups:idRef="R_rxn00295" />
+          <groups:member groups:idRef="R_rxn01484" />
+          <groups:member groups:idRef="R_rxn00461" />
+          <groups:member groups:idRef="R_rxn01485" />
+          <groups:member groups:idRef="R_rxn03638" />
+          <groups:member groups:idRef="R_rxn00293" />
+        </groups:listOfMembers>
+      </groups:group>
+    </groups:listOfGroups>
+    <listOfUnitDefinitions>
+      <unitDefinition id="volume">
+        <listOfUnits>
+          <unit scale="0" kind="litre" multiplier="1" exponent="1" />
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition id="substance">
+        <listOfUnits>
+          <unit scale="0" kind="mole" multiplier="1" exponent="1" />
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition name="mole per second" id="mole_per_second">
+        <listOfUnits>
+          <unit scale="0" metaid="ba1126c3-bad9-44e0-a197-eb60d54bf072" kind="mole" multiplier="1" exponent="1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#ba1126c3-bad9-44e0-a197-eb60d54bf072">
+                  <bqbiol:isVersionOf>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000013" />
+                    </rdf:Bag>
+                  </bqbiol:isVersionOf>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+          <unit scale="0" metaid="c23f4dc6-821d-4d40-a5ae-80bd8ae065ec" kind="second" multiplier="1" exponent="-1">
+            <annotation>
+              <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Description rdf:about="#c23f4dc6-821d-4d40-a5ae-80bd8ae065ec">
+                  <bqbiol:isVersionOf>
+                    <rdf:Bag>
+                      <rdf:li rdf:resource="http://identifiers.org/unit/UO:0000010" />
+                    </rdf:Bag>
+                  </bqbiol:isVersionOf>
+                </rdf:Description>
+              </rdf:RDF>
+            </annotation>
+          </unit>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment constant="false" size="1" name="Cytoplasm" id="c" units="volume" spatialDimensions="3" />
+      <compartment name="Extracellular" constant="false" id="e" units="volume" spatialDimensions="3" />
+    </listOfCompartments>
+    <listOfSpecies>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="NAD" id="M_cpd00003_c" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H26N7O14P2</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="NADH" id="M_cpd00004_c" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H27N7O14P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="H+" id="M_cpd00067_c" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H</p>
+            <p>CHARGE: 1</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="H2O" id="M_cpd00001_c" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H2O</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="NADP" id="M_cpd00006_c" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H26N7O17P3</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="NADPH" id="M_cpd00005_c" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H27N7O17P3</p>
+            <p>CHARGE: -3</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="CoA" id="M_cpd00010_c" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C21H33N7O16P3S</p>
+            <p>CHARGE: -3</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="Acetyl-CoA" id="M_cpd00022_c" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C23H35N7O17P3S</p>
+            <p>CHARGE: -3</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="Phosphate" id="M_cpd00009_c" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: HO4P</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="Acetate" id="M_cpd00029_c" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C2H3O2</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="UDP-N-acetyl-D-galactosamine" id="M_cpd00175_c"
+      initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C17H25N3O17P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="UDP-N-acetyl fucosamine" id="M_cpd17092_c"
+      initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C17H25N3O16P2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="UDP-MurNAc" id="M_cpd00773_c" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C20H28N3O19P2</p>
+            <p>CHARGE: -3</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="UDP-N-acetylglucosamine enolpyruvate" id="M_cpd02820_c"
+      initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C20H26N3O19P2</p>
+            <p>CHARGE: -3</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="PPi" id="M_cpd00012_c" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: H2O7P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="ACP" id="M_cpd11493_c" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C11H21N2O7PRS</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="Acetyl-ACP" id="M_cpd11494_c" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C13H23N2O8PRS</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="Phosphoenolpyruvate" id="M_cpd00061_c"
+      initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C3H3O6P</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="UDP-N-acetyl-D-mannosamine (2NAc3N) acid" id="M_cpd17094_c"
+      initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C17H27O17N4P2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="UDP-N-acetyl-D-manosamine (2NAc3NAc) acid" id="M_cpd17095_c"
+      initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C19H29O18N4P2</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="N-Acetyl-D-glucosamine 6-phosphate" id="M_cpd00293_c"
+      initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C8H15NO9P</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="UTP" id="M_cpd00062_c" initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C9H12N2O15P3</p>
+            <p>CHARGE: -3</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="UDP-N-acetylglucosamine" id="M_cpd00037_c"
+      initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C17H25N3O17P2</p>
+            <p>CHARGE: -2</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="D-Glucosamine phosphate" id="M_cpd00288_c"
+      initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C6H14NO8P</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="D-Glucosamine1-phosphate" id="M_cpd03671_c"
+      initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C6H14NO8P</p>
+            <p>CHARGE: 0</p>
+          </body>
+        </notes>
+      </species>
+      <species boundaryCondition="false" constant="false" substanceUnits="substance" hasOnlySubstanceUnits="false" compartment="c" name="N-Acetyl-D-glucosamine1-phosphate" id="M_cpd02611_c"
+      initialConcentration="1">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>FORMULA: C8H15NO9P</p>
+            <p>CHARGE: -1</p>
+          </body>
+        </notes>
+      </species>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction name="UDP-N-acetyl fucosamine synthase" fast="false" id="R_rJB00277" reversible="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA3158 and PA3146)</p>
+            <p>SUBSYSTEM: Amino sugar and nucleotide sugar metabolism</p>
+            <p>EC Number:</p>
+            <p>Confidence Level:</p>
+            <p>AUTHORS:</p>
+            <p />
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00003_c" />
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00067_c" />
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00175_c" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00004_c" />
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00001_c" />
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd17092_c" />
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000528">
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+            <apply>
+              <divide />
+              <apply>
+                <minus />
+                <apply>
+                  <times />
+                  <apply>
+                    <times />
+                    <apply>
+                      <times />
+                      <ci>vmaf_R_rJB00277</ci>
+                      <apply>
+                        <power />
+                        <apply>
+                          <divide />
+                          <apply>
+                            <times />
+                            <ci>M_cpd00003_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                          <ci>kmc_R_rJB00277_M_cpd00003_c</ci>
+                        </apply>
+                        <ci>hco_R_rJB00277</ci>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <power />
+                      <apply>
+                        <divide />
+                        <apply>
+                          <times />
+                          <ci>M_cpd00067_c</ci>
+                          <ci>c</ci>
+                        </apply>
+                        <ci>kmc_R_rJB00277_M_cpd00067_c</ci>
+                      </apply>
+                      <ci>hco_R_rJB00277</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <power />
+                    <apply>
+                      <divide />
+                      <apply>
+                        <times />
+                        <ci>M_cpd00175_c</ci>
+                        <ci>c</ci>
+                      </apply>
+                      <ci>kmc_R_rJB00277_M_cpd00175_c</ci>
+                    </apply>
+                    <ci>hco_R_rJB00277</ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <times />
+                  <apply>
+                    <times />
+                    <apply>
+                      <times />
+                      <ci>vmar_R_rJB00277</ci>
+                      <apply>
+                        <power />
+                        <apply>
+                          <divide />
+                          <apply>
+                            <times />
+                            <ci>M_cpd00004_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                          <ci>kmc_R_rJB00277_M_cpd00004_c</ci>
+                        </apply>
+                        <ci>hco_R_rJB00277</ci>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <power />
+                      <apply>
+                        <divide />
+                        <apply>
+                          <times />
+                          <ci>M_cpd00001_c</ci>
+                          <ci>c</ci>
+                        </apply>
+                        <ci>kmc_R_rJB00277_M_cpd00001_c</ci>
+                      </apply>
+                      <ci>hco_R_rJB00277</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <power />
+                    <apply>
+                      <divide />
+                      <apply>
+                        <times />
+                        <ci>M_cpd17092_c</ci>
+                        <ci>c</ci>
+                      </apply>
+                      <ci>kmc_R_rJB00277_M_cpd17092_c</ci>
+                    </apply>
+                    <ci>hco_R_rJB00277</ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <minus />
+                <apply>
+                  <plus />
+                  <apply>
+                    <times />
+                    <apply>
+                      <times />
+                      <apply>
+                        <power />
+                        <apply>
+                          <plus />
+                          <cn type="integer" sbml:units="dimensionless">1</cn>
+                          <apply>
+                            <divide />
+                            <apply>
+                              <times />
+                              <ci>M_cpd00003_c</ci>
+                              <ci>c</ci>
+                            </apply>
+                            <ci>kmc_R_rJB00277_M_cpd00003_c</ci>
+                          </apply>
+                        </apply>
+                        <ci>hco_R_rJB00277</ci>
+                      </apply>
+                      <apply>
+                        <power />
+                        <apply>
+                          <plus />
+                          <cn type="integer" sbml:units="dimensionless">1</cn>
+                          <apply>
+                            <divide />
+                            <apply>
+                              <times />
+                              <ci>M_cpd00067_c</ci>
+                              <ci>c</ci>
+                            </apply>
+                            <ci>kmc_R_rJB00277_M_cpd00067_c</ci>
+                          </apply>
+                        </apply>
+                        <ci>hco_R_rJB00277</ci>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <power />
+                      <apply>
+                        <plus />
+                        <cn type="integer" sbml:units="dimensionless">1</cn>
+                        <apply>
+                          <divide />
+                          <apply>
+                            <times />
+                            <ci>M_cpd00175_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                          <ci>kmc_R_rJB00277_M_cpd00175_c</ci>
+                        </apply>
+                      </apply>
+                      <ci>hco_R_rJB00277</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times />
+                    <apply>
+                      <times />
+                      <apply>
+                        <power />
+                        <apply>
+                          <plus />
+                          <cn type="integer" sbml:units="dimensionless">1</cn>
+                          <apply>
+                            <divide />
+                            <apply>
+                              <times />
+                              <ci>M_cpd00004_c</ci>
+                              <ci>c</ci>
+                            </apply>
+                            <ci>kmc_R_rJB00277_M_cpd00004_c</ci>
+                          </apply>
+                        </apply>
+                        <ci>hco_R_rJB00277</ci>
+                      </apply>
+                      <apply>
+                        <power />
+                        <apply>
+                          <plus />
+                          <cn type="integer" sbml:units="dimensionless">1</cn>
+                          <apply>
+                            <divide />
+                            <apply>
+                              <times />
+                              <ci>M_cpd00001_c</ci>
+                              <ci>c</ci>
+                            </apply>
+                            <ci>kmc_R_rJB00277_M_cpd00001_c</ci>
+                          </apply>
+                        </apply>
+                        <ci>hco_R_rJB00277</ci>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <power />
+                      <apply>
+                        <plus />
+                        <cn type="integer" sbml:units="dimensionless">1</cn>
+                        <apply>
+                          <divide />
+                          <apply>
+                            <times />
+                            <ci>M_cpd17092_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                          <ci>kmc_R_rJB00277_M_cpd17092_c</ci>
+                        </apply>
+                      </apply>
+                      <ci>hco_R_rJB00277</ci>
+                    </apply>
+                  </apply>
+                </apply>
+                <cn type="integer" sbml:units="dimensionless">1</cn>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter name="Forward maximal velocity of reaction R_rJB00277" id="vmaf_R_rJB00277" units="mole_per_second" value="1" sboTerm="SBO:0000324" />
+            <localParameter name="Reaction cooperativity" id="hco_R_rJB00277" units="dimensionless" value="1" sboTerm="SBO:0000382" />
+            <localParameter name="Michaelis constant of species NAD in reaction R_rJB00277" id="kmc_R_rJB00277_M_cpd00003_c" units="substance" value="1" sboTerm="SBO:0000027" />
+            <localParameter name="Michaelis constant of species H+ in reaction R_rJB00277" id="kmc_R_rJB00277_M_cpd00067_c" units="substance" value="1" sboTerm="SBO:0000027" />
+            <localParameter name="Michaelis constant of species UDP-N-acetyl-D-galactosamine in reaction R_rJB00277" id="kmc_R_rJB00277_M_cpd00175_c" units="substance" value="1"
+            sboTerm="SBO:0000027" />
+            <localParameter name="Revere maximal velocity of reaction R_rJB00277" id="vmar_R_rJB00277" units="mole_per_second" value="1" sboTerm="SBO:0000325" />
+            <localParameter name="Michaelis constant of species NADH in reaction R_rJB00277" id="kmc_R_rJB00277_M_cpd00004_c" units="substance" value="1" sboTerm="SBO:0000027" />
+            <localParameter name="Michaelis constant of species H2O in reaction R_rJB00277" id="kmc_R_rJB00277_M_cpd00001_c" units="substance" value="1" sboTerm="SBO:0000027" />
+            <localParameter name="Michaelis constant of species UDP-N-acetyl fucosamine in reaction R_rJB00277" id="kmc_R_rJB00277_M_cpd17092_c" units="substance" value="1" sboTerm="SBO:0000027" />
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction name="UDP-N-acetylenolpyruvoylglucosamine reductase" fast="false" id="R_rxn02285" reversible="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA2977</p>
+            <p>SUBSYSTEM: Amino sugar and nucleotide sugar metabolism</p>
+            <p>EC Number: 1.1.1.158</p>
+            <p>Confidence Level:</p>
+            <p>AUTHORS:</p>
+            <p />
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00006_c" />
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00773_c" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00067_c" />
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00005_c" />
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd02820_c" />
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000528">
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+            <apply>
+              <divide />
+              <apply>
+                <minus />
+                <apply>
+                  <times />
+                  <apply>
+                    <times />
+                    <ci>vmaf_R_rxn02285</ci>
+                    <apply>
+                      <power />
+                      <apply>
+                        <divide />
+                        <apply>
+                          <times />
+                          <ci>M_cpd00006_c</ci>
+                          <ci>c</ci>
+                        </apply>
+                        <ci>kmc_R_rxn02285_M_cpd00006_c</ci>
+                      </apply>
+                      <ci>hco_R_rxn02285</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <power />
+                    <apply>
+                      <divide />
+                      <apply>
+                        <times />
+                        <ci>M_cpd00773_c</ci>
+                        <ci>c</ci>
+                      </apply>
+                      <ci>kmc_R_rxn02285_M_cpd00773_c</ci>
+                    </apply>
+                    <ci>hco_R_rxn02285</ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <times />
+                  <apply>
+                    <times />
+                    <apply>
+                      <times />
+                      <ci>vmar_R_rxn02285</ci>
+                      <apply>
+                        <power />
+                        <apply>
+                          <divide />
+                          <apply>
+                            <times />
+                            <ci>M_cpd00067_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                          <ci>kmc_R_rxn02285_M_cpd00067_c</ci>
+                        </apply>
+                        <ci>hco_R_rxn02285</ci>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <power />
+                      <apply>
+                        <divide />
+                        <apply>
+                          <times />
+                          <ci>M_cpd00005_c</ci>
+                          <ci>c</ci>
+                        </apply>
+                        <ci>kmc_R_rxn02285_M_cpd00005_c</ci>
+                      </apply>
+                      <ci>hco_R_rxn02285</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <power />
+                    <apply>
+                      <divide />
+                      <apply>
+                        <times />
+                        <ci>M_cpd02820_c</ci>
+                        <ci>c</ci>
+                      </apply>
+                      <ci>kmc_R_rxn02285_M_cpd02820_c</ci>
+                    </apply>
+                    <ci>hco_R_rxn02285</ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <minus />
+                <apply>
+                  <plus />
+                  <apply>
+                    <times />
+                    <apply>
+                      <power />
+                      <apply>
+                        <plus />
+                        <cn type="integer" sbml:units="dimensionless">1</cn>
+                        <apply>
+                          <divide />
+                          <apply>
+                            <times />
+                            <ci>M_cpd00006_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                          <ci>kmc_R_rxn02285_M_cpd00006_c</ci>
+                        </apply>
+                      </apply>
+                      <ci>hco_R_rxn02285</ci>
+                    </apply>
+                    <apply>
+                      <power />
+                      <apply>
+                        <plus />
+                        <cn type="integer" sbml:units="dimensionless">1</cn>
+                        <apply>
+                          <divide />
+                          <apply>
+                            <times />
+                            <ci>M_cpd00773_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                          <ci>kmc_R_rxn02285_M_cpd00773_c</ci>
+                        </apply>
+                      </apply>
+                      <ci>hco_R_rxn02285</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times />
+                    <apply>
+                      <times />
+                      <apply>
+                        <power />
+                        <apply>
+                          <plus />
+                          <cn type="integer" sbml:units="dimensionless">1</cn>
+                          <apply>
+                            <divide />
+                            <apply>
+                              <times />
+                              <ci>M_cpd00067_c</ci>
+                              <ci>c</ci>
+                            </apply>
+                            <ci>kmc_R_rxn02285_M_cpd00067_c</ci>
+                          </apply>
+                        </apply>
+                        <ci>hco_R_rxn02285</ci>
+                      </apply>
+                      <apply>
+                        <power />
+                        <apply>
+                          <plus />
+                          <cn type="integer" sbml:units="dimensionless">1</cn>
+                          <apply>
+                            <divide />
+                            <apply>
+                              <times />
+                              <ci>M_cpd00005_c</ci>
+                              <ci>c</ci>
+                            </apply>
+                            <ci>kmc_R_rxn02285_M_cpd00005_c</ci>
+                          </apply>
+                        </apply>
+                        <ci>hco_R_rxn02285</ci>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <power />
+                      <apply>
+                        <plus />
+                        <cn type="integer" sbml:units="dimensionless">1</cn>
+                        <apply>
+                          <divide />
+                          <apply>
+                            <times />
+                            <ci>M_cpd02820_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                          <ci>kmc_R_rxn02285_M_cpd02820_c</ci>
+                        </apply>
+                      </apply>
+                      <ci>hco_R_rxn02285</ci>
+                    </apply>
+                  </apply>
+                </apply>
+                <cn type="integer" sbml:units="dimensionless">1</cn>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter name="Forward maximal velocity of reaction R_rxn02285" id="vmaf_R_rxn02285" units="mole_per_second" value="1" sboTerm="SBO:0000324" />
+            <localParameter name="Reaction cooperativity" id="hco_R_rxn02285" units="dimensionless" value="1" sboTerm="SBO:0000382" />
+            <localParameter name="Michaelis constant of species NADP in reaction R_rxn02285" id="kmc_R_rxn02285_M_cpd00006_c" units="substance" value="1" sboTerm="SBO:0000027" />
+            <localParameter name="Michaelis constant of species UDP-MurNAc in reaction R_rxn02285" id="kmc_R_rxn02285_M_cpd00773_c" units="substance" value="1" sboTerm="SBO:0000027" />
+            <localParameter name="Revere maximal velocity of reaction R_rxn02285" id="vmar_R_rxn02285" units="mole_per_second" value="1" sboTerm="SBO:0000325" />
+            <localParameter name="Michaelis constant of species H+ in reaction R_rxn02285" id="kmc_R_rxn02285_M_cpd00067_c" units="substance" value="1" sboTerm="SBO:0000027" />
+            <localParameter name="Michaelis constant of species NADPH in reaction R_rxn02285" id="kmc_R_rxn02285_M_cpd00005_c" units="substance" value="1" sboTerm="SBO:0000027" />
+            <localParameter name="Michaelis constant of species UDP-N-acetylglucosamine enolpyruvate in reaction R_rxn02285" id="kmc_R_rxn02285_M_cpd02820_c" units="substance" value="1"
+            sboTerm="SBO:0000027" />
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction name="UDP-N-acetyl-mannosamine (2NAc3N) acid acetylase" fast="false" id="R_rxn13913" reversible="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: (PA3157 or PA3156)</p>
+            <p>SUBSYSTEM: Amino sugar and nucleotide sugar metabolism</p>
+            <p>EC Number:</p>
+            <p>Confidence Level:</p>
+            <p>AUTHORS:</p>
+            <p />
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd11494_c" />
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd17094_c" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd11493_c" />
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd17095_c" />
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000429">
+          <notes>
+            <body xmlns="http://www.w3.org/1999/xhtml">
+              <p>Reversibel rapid-equilibrium random order ternary-complex mechanism, two products</p>
+            </body>
+          </notes>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+            <apply>
+              <divide />
+              <apply>
+                <minus />
+                <apply>
+                  <times />
+                  <apply>
+                    <divide />
+                    <ci>vmaf_R_rxn13913</ci>
+                    <apply>
+                      <times />
+                      <ci>kic_R_rxn13913_M_cpd11494_c</ci>
+                      <ci>kmc_R_rxn13913_M_cpd17094_c</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times />
+                    <apply>
+                      <times />
+                      <ci>M_cpd11494_c</ci>
+                      <ci>c</ci>
+                    </apply>
+                    <apply>
+                      <times />
+                      <ci>M_cpd17094_c</ci>
+                      <ci>c</ci>
+                    </apply>
+                  </apply>
+                </apply>
+                <apply>
+                  <times />
+                  <apply>
+                    <divide />
+                    <ci>vmar_R_rxn13913</ci>
+                    <apply>
+                      <times />
+                      <ci>kic_R_rxn13913_M_cpd17095_c</ci>
+                      <ci>kmc_R_rxn13913_M_cpd11493_c</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times />
+                    <apply>
+                      <times />
+                      <ci>M_cpd11493_c</ci>
+                      <ci>c</ci>
+                    </apply>
+                    <apply>
+                      <times />
+                      <ci>M_cpd17095_c</ci>
+                      <ci>c</ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <plus />
+                <cn type="integer" sbml:units="dimensionless">1</cn>
+                <apply>
+                  <plus />
+                  <apply>
+                    <divide />
+                    <apply>
+                      <times />
+                      <apply>
+                        <times />
+                        <ci>M_cpd11494_c</ci>
+                        <ci>c</ci>
+                      </apply>
+                      <apply>
+                        <times />
+                        <ci>M_cpd17094_c</ci>
+                        <ci>c</ci>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <times />
+                      <ci>kic_R_rxn13913_M_cpd11494_c</ci>
+                      <ci>kmc_R_rxn13913_M_cpd17094_c</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <plus />
+                    <apply>
+                      <divide />
+                      <apply>
+                        <times />
+                        <ci>M_cpd11494_c</ci>
+                        <ci>c</ci>
+                      </apply>
+                      <ci>kic_R_rxn13913_M_cpd11494_c</ci>
+                    </apply>
+                    <apply>
+                      <plus />
+                      <apply>
+                        <divide />
+                        <apply>
+                          <times />
+                          <apply>
+                            <times />
+                            <ci>M_cpd11493_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                          <apply>
+                            <times />
+                            <ci>M_cpd17095_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                        </apply>
+                        <apply>
+                          <times />
+                          <ci>kic_R_rxn13913_M_cpd17095_c</ci>
+                          <ci>kmc_R_rxn13913_M_cpd11493_c</ci>
+                        </apply>
+                      </apply>
+                      <apply>
+                        <plus />
+                        <apply>
+                          <divide />
+                          <apply>
+                            <times />
+                            <ci>M_cpd17094_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                          <ci>kic_R_rxn13913_M_cpd17094_c</ci>
+                        </apply>
+                        <apply>
+                          <plus />
+                          <apply>
+                            <divide />
+                            <apply>
+                              <times />
+                              <ci>M_cpd17095_c</ci>
+                              <ci>c</ci>
+                            </apply>
+                            <ci>kic_R_rxn13913_M_cpd17095_c</ci>
+                          </apply>
+                          <apply>
+                            <divide />
+                            <apply>
+                              <times />
+                              <ci>M_cpd11493_c</ci>
+                              <ci>c</ci>
+                            </apply>
+                            <ci>kic_R_rxn13913_M_cpd11493_c</ci>
+                          </apply>
+                        </apply>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter name="Forward maximal velocity of reaction R_rxn13913" id="vmaf_R_rxn13913" units="mole_per_second" value="1" sboTerm="SBO:0000324" />
+            <localParameter name="Revere maximal velocity of reaction R_rxn13913" id="vmar_R_rxn13913" units="mole_per_second" value="1" sboTerm="SBO:0000325" />
+            <localParameter name="Michaelis constant of species UDP-N-acetyl-D-mannosamine (2NAc3N) acid in reaction R_rxn13913" id="kmc_R_rxn13913_M_cpd17094_c" units="substance" value="1"
+            sboTerm="SBO:0000027" />
+            <localParameter name="Michaelis constant of species ACP in reaction R_rxn13913" id="kmc_R_rxn13913_M_cpd11493_c" units="substance" value="1" sboTerm="SBO:0000027" />
+            <localParameter name="Inhibitory constant for species ACP of reaction R_rxn13913" id="kic_R_rxn13913_M_cpd11493_c" units="substance" value="1" sboTerm="SBO:0000261" />
+            <localParameter name="Inhibitory constant for species UDP-N-acetyl-D-manosamine (2NAc3NAc) acid of reaction R_rxn13913" id="kic_R_rxn13913_M_cpd17095_c" units="substance" value="1"
+            sboTerm="SBO:0000261" />
+            <localParameter name="Inhibitory constant for species Acetyl-ACP of reaction R_rxn13913" id="kic_R_rxn13913_M_cpd11494_c" units="substance" value="1" sboTerm="SBO:0000261" />
+            <localParameter name="Inhibitory constant for species UDP-N-acetyl-D-mannosamine (2NAc3N) acid of reaction R_rxn13913" id="kic_R_rxn13913_M_cpd17094_c" units="substance" value="1"
+            sboTerm="SBO:0000261" />
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction name="UDP-N-acetylglucosamine 4-epimerase" fast="false" id="R_rxn00295" reversible="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA3141</p>
+            <p>SUBSYSTEM: Amino sugar and nucleotide sugar metabolism</p>
+            <p>EC Number: 5.1.3.7</p>
+            <p>Confidence Level:</p>
+            <p>AUTHORS:</p>
+            <p />
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00037_c" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00175_c" />
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000326">
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+            <apply>
+              <divide />
+              <apply>
+                <minus />
+                <apply>
+                  <times />
+                  <apply>
+                    <divide />
+                    <ci>vmaf_R_rxn00295</ci>
+                    <ci>kmc_R_rxn00295_M_cpd00037_c</ci>
+                  </apply>
+                  <apply>
+                    <times />
+                    <ci>M_cpd00037_c</ci>
+                    <ci>c</ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <times />
+                  <apply>
+                    <divide />
+                    <ci>vmar_R_rxn00295</ci>
+                    <ci>kmc_R_rxn00295_M_cpd00175_c</ci>
+                  </apply>
+                  <apply>
+                    <times />
+                    <ci>M_cpd00175_c</ci>
+                    <ci>c</ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <plus />
+                <cn type="integer" sbml:units="substance">1</cn>
+                <apply>
+                  <plus />
+                  <apply>
+                    <divide />
+                    <apply>
+                      <times />
+                      <ci>M_cpd00037_c</ci>
+                      <ci>c</ci>
+                    </apply>
+                    <ci>kmc_R_rxn00295_M_cpd00037_c</ci>
+                  </apply>
+                  <apply>
+                    <divide />
+                    <apply>
+                      <times />
+                      <ci>M_cpd00175_c</ci>
+                      <ci>c</ci>
+                    </apply>
+                    <ci>kmc_R_rxn00295_M_cpd00175_c</ci>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter name="Forward maximal velocity of reaction R_rxn00295" id="vmaf_R_rxn00295" units="mole_per_second" value="1" sboTerm="SBO:0000324" />
+            <localParameter name="Michaelis constant of species UDP-N-acetylglucosamine in reaction R_rxn00295" id="kmc_R_rxn00295_M_cpd00037_c" units="substance" value="1" sboTerm="SBO:0000027" />
+            <localParameter name="Revere maximal velocity of reaction R_rxn00295" id="vmar_R_rxn00295" units="mole_per_second" value="1" sboTerm="SBO:0000325" />
+            <localParameter name="Michaelis constant of species UDP-N-acetyl-D-galactosamine in reaction R_rxn00295" id="kmc_R_rxn00295_M_cpd00175_c" units="substance" value="1"
+            sboTerm="SBO:0000027" />
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction name="N-acetylglucosamine-6-phosphate deacetylase" fast="false" id="R_rxn01484" reversible="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA3758</p>
+            <p>SUBSYSTEM: Amino sugar and nucleotide sugar metabolism</p>
+            <p>EC Number: 3.5.1.25</p>
+            <p>Confidence Level:</p>
+            <p>AUTHORS:</p>
+            <p />
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00001_c" />
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00293_c" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00029_c" />
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00288_c" />
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000429">
+          <notes>
+            <body xmlns="http://www.w3.org/1999/xhtml">
+              <p>Reversibel rapid-equilibrium random order ternary-complex mechanism, two products</p>
+            </body>
+          </notes>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+            <apply>
+              <divide />
+              <apply>
+                <minus />
+                <apply>
+                  <times />
+                  <apply>
+                    <divide />
+                    <ci>vmaf_R_rxn01484</ci>
+                    <apply>
+                      <times />
+                      <ci>kic_R_rxn01484_M_cpd00001_c</ci>
+                      <ci>kmc_R_rxn01484_M_cpd00293_c</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times />
+                    <apply>
+                      <times />
+                      <ci>M_cpd00001_c</ci>
+                      <ci>c</ci>
+                    </apply>
+                    <apply>
+                      <times />
+                      <ci>M_cpd00293_c</ci>
+                      <ci>c</ci>
+                    </apply>
+                  </apply>
+                </apply>
+                <apply>
+                  <times />
+                  <apply>
+                    <divide />
+                    <ci>vmar_R_rxn01484</ci>
+                    <apply>
+                      <times />
+                      <ci>kic_R_rxn01484_M_cpd00288_c</ci>
+                      <ci>kmc_R_rxn01484_M_cpd00029_c</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times />
+                    <apply>
+                      <times />
+                      <ci>M_cpd00029_c</ci>
+                      <ci>c</ci>
+                    </apply>
+                    <apply>
+                      <times />
+                      <ci>M_cpd00288_c</ci>
+                      <ci>c</ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <plus />
+                <cn type="integer" sbml:units="dimensionless">1</cn>
+                <apply>
+                  <plus />
+                  <apply>
+                    <divide />
+                    <apply>
+                      <times />
+                      <apply>
+                        <times />
+                        <ci>M_cpd00001_c</ci>
+                        <ci>c</ci>
+                      </apply>
+                      <apply>
+                        <times />
+                        <ci>M_cpd00293_c</ci>
+                        <ci>c</ci>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <times />
+                      <ci>kic_R_rxn01484_M_cpd00001_c</ci>
+                      <ci>kmc_R_rxn01484_M_cpd00293_c</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <plus />
+                    <apply>
+                      <divide />
+                      <apply>
+                        <times />
+                        <ci>M_cpd00001_c</ci>
+                        <ci>c</ci>
+                      </apply>
+                      <ci>kic_R_rxn01484_M_cpd00001_c</ci>
+                    </apply>
+                    <apply>
+                      <plus />
+                      <apply>
+                        <divide />
+                        <apply>
+                          <times />
+                          <apply>
+                            <times />
+                            <ci>M_cpd00029_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                          <apply>
+                            <times />
+                            <ci>M_cpd00288_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                        </apply>
+                        <apply>
+                          <times />
+                          <ci>kic_R_rxn01484_M_cpd00288_c</ci>
+                          <ci>kmc_R_rxn01484_M_cpd00029_c</ci>
+                        </apply>
+                      </apply>
+                      <apply>
+                        <plus />
+                        <apply>
+                          <divide />
+                          <apply>
+                            <times />
+                            <ci>M_cpd00293_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                          <ci>kic_R_rxn01484_M_cpd00293_c</ci>
+                        </apply>
+                        <apply>
+                          <plus />
+                          <apply>
+                            <divide />
+                            <apply>
+                              <times />
+                              <ci>M_cpd00288_c</ci>
+                              <ci>c</ci>
+                            </apply>
+                            <ci>kic_R_rxn01484_M_cpd00288_c</ci>
+                          </apply>
+                          <apply>
+                            <divide />
+                            <apply>
+                              <times />
+                              <ci>M_cpd00029_c</ci>
+                              <ci>c</ci>
+                            </apply>
+                            <ci>kic_R_rxn01484_M_cpd00029_c</ci>
+                          </apply>
+                        </apply>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter name="Forward maximal velocity of reaction R_rxn01484" id="vmaf_R_rxn01484" units="mole_per_second" value="1" sboTerm="SBO:0000324" />
+            <localParameter name="Revere maximal velocity of reaction R_rxn01484" id="vmar_R_rxn01484" units="mole_per_second" value="1" sboTerm="SBO:0000325" />
+            <localParameter name="Michaelis constant of species N-Acetyl-D-glucosamine 6-phosphate in reaction R_rxn01484" id="kmc_R_rxn01484_M_cpd00293_c" units="substance" value="1"
+            sboTerm="SBO:0000027" />
+            <localParameter name="Michaelis constant of species Acetate in reaction R_rxn01484" id="kmc_R_rxn01484_M_cpd00029_c" units="substance" value="1" sboTerm="SBO:0000027" />
+            <localParameter name="Inhibitory constant for species Acetate of reaction R_rxn01484" id="kic_R_rxn01484_M_cpd00029_c" units="substance" value="1" sboTerm="SBO:0000261" />
+            <localParameter name="Inhibitory constant for species D-Glucosamine phosphate of reaction R_rxn01484" id="kic_R_rxn01484_M_cpd00288_c" units="substance" value="1" sboTerm="SBO:0000261" />
+            <localParameter name="Inhibitory constant for species H2O of reaction R_rxn01484" id="kic_R_rxn01484_M_cpd00001_c" units="substance" value="1" sboTerm="SBO:0000261" />
+            <localParameter name="Inhibitory constant for species N-Acetyl-D-glucosamine 6-phosphate of reaction R_rxn01484" id="kic_R_rxn01484_M_cpd00293_c" units="substance" value="1"
+            sboTerm="SBO:0000261" />
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction name="UDP-N-acetylglucosamine 1-carboxyvinyltransferase" fast="false" id="R_rxn00461" reversible="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA4450</p>
+            <p>SUBSYSTEM: Amino sugar and nucleotide sugar metabolism</p>
+            <p>EC Number: 2.5.1.7</p>
+            <p>Confidence Level:</p>
+            <p>AUTHORS:</p>
+            <p />
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00061_c" />
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00037_c" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00067_c" />
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00009_c" />
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd02820_c" />
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000528">
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+            <apply>
+              <divide />
+              <apply>
+                <minus />
+                <apply>
+                  <times />
+                  <apply>
+                    <times />
+                    <ci>vmaf_R_rxn00461</ci>
+                    <apply>
+                      <power />
+                      <apply>
+                        <divide />
+                        <apply>
+                          <times />
+                          <ci>M_cpd00061_c</ci>
+                          <ci>c</ci>
+                        </apply>
+                        <ci>kmc_R_rxn00461_M_cpd00061_c</ci>
+                      </apply>
+                      <ci>hco_R_rxn00461</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <power />
+                    <apply>
+                      <divide />
+                      <apply>
+                        <times />
+                        <ci>M_cpd00037_c</ci>
+                        <ci>c</ci>
+                      </apply>
+                      <ci>kmc_R_rxn00461_M_cpd00037_c</ci>
+                    </apply>
+                    <ci>hco_R_rxn00461</ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <times />
+                  <apply>
+                    <times />
+                    <apply>
+                      <times />
+                      <ci>vmar_R_rxn00461</ci>
+                      <apply>
+                        <power />
+                        <apply>
+                          <divide />
+                          <apply>
+                            <times />
+                            <ci>M_cpd00067_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                          <ci>kmc_R_rxn00461_M_cpd00067_c</ci>
+                        </apply>
+                        <ci>hco_R_rxn00461</ci>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <power />
+                      <apply>
+                        <divide />
+                        <apply>
+                          <times />
+                          <ci>M_cpd00009_c</ci>
+                          <ci>c</ci>
+                        </apply>
+                        <ci>kmc_R_rxn00461_M_cpd00009_c</ci>
+                      </apply>
+                      <ci>hco_R_rxn00461</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <power />
+                    <apply>
+                      <divide />
+                      <apply>
+                        <times />
+                        <ci>M_cpd02820_c</ci>
+                        <ci>c</ci>
+                      </apply>
+                      <ci>kmc_R_rxn00461_M_cpd02820_c</ci>
+                    </apply>
+                    <ci>hco_R_rxn00461</ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <minus />
+                <apply>
+                  <plus />
+                  <apply>
+                    <times />
+                    <apply>
+                      <power />
+                      <apply>
+                        <plus />
+                        <cn type="integer" sbml:units="dimensionless">1</cn>
+                        <apply>
+                          <divide />
+                          <apply>
+                            <times />
+                            <ci>M_cpd00061_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                          <ci>kmc_R_rxn00461_M_cpd00061_c</ci>
+                        </apply>
+                      </apply>
+                      <ci>hco_R_rxn00461</ci>
+                    </apply>
+                    <apply>
+                      <power />
+                      <apply>
+                        <plus />
+                        <cn type="integer" sbml:units="dimensionless">1</cn>
+                        <apply>
+                          <divide />
+                          <apply>
+                            <times />
+                            <ci>M_cpd00037_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                          <ci>kmc_R_rxn00461_M_cpd00037_c</ci>
+                        </apply>
+                      </apply>
+                      <ci>hco_R_rxn00461</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times />
+                    <apply>
+                      <times />
+                      <apply>
+                        <power />
+                        <apply>
+                          <plus />
+                          <cn type="integer" sbml:units="dimensionless">1</cn>
+                          <apply>
+                            <divide />
+                            <apply>
+                              <times />
+                              <ci>M_cpd00067_c</ci>
+                              <ci>c</ci>
+                            </apply>
+                            <ci>kmc_R_rxn00461_M_cpd00067_c</ci>
+                          </apply>
+                        </apply>
+                        <ci>hco_R_rxn00461</ci>
+                      </apply>
+                      <apply>
+                        <power />
+                        <apply>
+                          <plus />
+                          <cn type="integer" sbml:units="dimensionless">1</cn>
+                          <apply>
+                            <divide />
+                            <apply>
+                              <times />
+                              <ci>M_cpd00009_c</ci>
+                              <ci>c</ci>
+                            </apply>
+                            <ci>kmc_R_rxn00461_M_cpd00009_c</ci>
+                          </apply>
+                        </apply>
+                        <ci>hco_R_rxn00461</ci>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <power />
+                      <apply>
+                        <plus />
+                        <cn type="integer" sbml:units="dimensionless">1</cn>
+                        <apply>
+                          <divide />
+                          <apply>
+                            <times />
+                            <ci>M_cpd02820_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                          <ci>kmc_R_rxn00461_M_cpd02820_c</ci>
+                        </apply>
+                      </apply>
+                      <ci>hco_R_rxn00461</ci>
+                    </apply>
+                  </apply>
+                </apply>
+                <cn type="integer" sbml:units="dimensionless">1</cn>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter name="Forward maximal velocity of reaction R_rxn00461" id="vmaf_R_rxn00461" units="mole_per_second" value="1" sboTerm="SBO:0000324" />
+            <localParameter name="Reaction cooperativity" id="hco_R_rxn00461" units="dimensionless" value="1" sboTerm="SBO:0000382" />
+            <localParameter name="Michaelis constant of species Phosphoenolpyruvate in reaction R_rxn00461" id="kmc_R_rxn00461_M_cpd00061_c" units="substance" value="1" sboTerm="SBO:0000027" />
+            <localParameter name="Michaelis constant of species UDP-N-acetylglucosamine in reaction R_rxn00461" id="kmc_R_rxn00461_M_cpd00037_c" units="substance" value="1" sboTerm="SBO:0000027" />
+            <localParameter name="Revere maximal velocity of reaction R_rxn00461" id="vmar_R_rxn00461" units="mole_per_second" value="1" sboTerm="SBO:0000325" />
+            <localParameter name="Michaelis constant of species H+ in reaction R_rxn00461" id="kmc_R_rxn00461_M_cpd00067_c" units="substance" value="1" sboTerm="SBO:0000027" />
+            <localParameter name="Michaelis constant of species Phosphate in reaction R_rxn00461" id="kmc_R_rxn00461_M_cpd00009_c" units="substance" value="1" sboTerm="SBO:0000027" />
+            <localParameter name="Michaelis constant of species UDP-N-acetylglucosamine enolpyruvate in reaction R_rxn00461" id="kmc_R_rxn00461_M_cpd02820_c" units="substance" value="1"
+            sboTerm="SBO:0000027" />
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction name="phosphoglucosamine mutase" fast="false" id="R_rxn01485" reversible="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA4749</p>
+            <p>SUBSYSTEM: Amino sugar and nucleotide sugar metabolism</p>
+            <p>EC Number: 5.4.2.10,5.4.2.2</p>
+            <p>Confidence Level:</p>
+            <p>AUTHORS:</p>
+            <p />
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd03671_c" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00288_c" />
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000326">
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+            <apply>
+              <divide />
+              <apply>
+                <minus />
+                <apply>
+                  <times />
+                  <apply>
+                    <divide />
+                    <ci>vmaf_R_rxn01485</ci>
+                    <ci>kmc_R_rxn01485_M_cpd03671_c</ci>
+                  </apply>
+                  <apply>
+                    <times />
+                    <ci>M_cpd03671_c</ci>
+                    <ci>c</ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <times />
+                  <apply>
+                    <divide />
+                    <ci>vmar_R_rxn01485</ci>
+                    <ci>kmc_R_rxn01485_M_cpd00288_c</ci>
+                  </apply>
+                  <apply>
+                    <times />
+                    <ci>M_cpd00288_c</ci>
+                    <ci>c</ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <plus />
+                <cn type="integer" sbml:units="substance">1</cn>
+                <apply>
+                  <plus />
+                  <apply>
+                    <divide />
+                    <apply>
+                      <times />
+                      <ci>M_cpd03671_c</ci>
+                      <ci>c</ci>
+                    </apply>
+                    <ci>kmc_R_rxn01485_M_cpd03671_c</ci>
+                  </apply>
+                  <apply>
+                    <divide />
+                    <apply>
+                      <times />
+                      <ci>M_cpd00288_c</ci>
+                      <ci>c</ci>
+                    </apply>
+                    <ci>kmc_R_rxn01485_M_cpd00288_c</ci>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter name="Forward maximal velocity of reaction R_rxn01485" id="vmaf_R_rxn01485" units="mole_per_second" value="1" sboTerm="SBO:0000324" />
+            <localParameter name="Michaelis constant of species D-Glucosamine1-phosphate in reaction R_rxn01485" id="kmc_R_rxn01485_M_cpd03671_c" units="substance" value="1" sboTerm="SBO:0000027" />
+            <localParameter name="Revere maximal velocity of reaction R_rxn01485" id="vmar_R_rxn01485" units="mole_per_second" value="1" sboTerm="SBO:0000325" />
+            <localParameter name="Michaelis constant of species D-Glucosamine phosphate in reaction R_rxn01485" id="kmc_R_rxn01485_M_cpd00288_c" units="substance" value="1" sboTerm="SBO:0000027" />
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction name="glucosamine-1-phosphate N-acetyltransferase" fast="false" id="R_rxn03638" reversible="false">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA5552</p>
+            <p>SUBSYSTEM: Amino sugar and nucleotide sugar metabolism</p>
+            <p>EC Number: 2.3.1.157,2.3.1.4</p>
+            <p>Confidence Level:</p>
+            <p>AUTHORS:</p>
+            <p />
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00022_c" />
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd03671_c" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00067_c" />
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00010_c" />
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd02611_c" />
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000429">
+          <notes>
+            <body xmlns="http://www.w3.org/1999/xhtml">
+              <p>Convenience kinetics</p>
+            </body>
+          </notes>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+            <apply>
+              <divide />
+              <apply>
+                <times />
+                <apply>
+                  <times />
+                  <ci>vmax_R_rxn03638</ci>
+                  <apply>
+                    <divide />
+                    <apply>
+                      <times />
+                      <ci>M_cpd00022_c</ci>
+                      <ci>c</ci>
+                    </apply>
+                    <ci>kmc_R_rxn03638_M_cpd00022_c</ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <divide />
+                  <apply>
+                    <times />
+                    <ci>M_cpd03671_c</ci>
+                    <ci>c</ci>
+                  </apply>
+                  <ci>kmc_R_rxn03638_M_cpd03671_c</ci>
+                </apply>
+              </apply>
+              <apply>
+                <times />
+                <apply>
+                  <plus />
+                  <cn type="integer" sbml:units="dimensionless">1</cn>
+                  <apply>
+                    <divide />
+                    <apply>
+                      <times />
+                      <ci>M_cpd00022_c</ci>
+                      <ci>c</ci>
+                    </apply>
+                    <ci>kmc_R_rxn03638_M_cpd00022_c</ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <plus />
+                  <cn type="integer" sbml:units="dimensionless">1</cn>
+                  <apply>
+                    <divide />
+                    <apply>
+                      <times />
+                      <ci>M_cpd03671_c</ci>
+                      <ci>c</ci>
+                    </apply>
+                    <ci>kmc_R_rxn03638_M_cpd03671_c</ci>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter name="Forward maximal velocity of reaction R_rxn03638" id="vmax_R_rxn03638" units="mole_per_second" value="1" sboTerm="SBO:0000186" />
+            <localParameter name="Michaelis constant of species Acetyl-CoA in reaction R_rxn03638" id="kmc_R_rxn03638_M_cpd00022_c" units="substance" value="1" sboTerm="SBO:0000027" />
+            <localParameter name="Michaelis constant of species D-Glucosamine1-phosphate in reaction R_rxn03638" id="kmc_R_rxn03638_M_cpd03671_c" units="substance" value="1" sboTerm="SBO:0000027" />
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction name="UDP-N-acetylglucosamine diphosphorylase" fast="false" id="R_rxn00293" reversible="true">
+        <notes>
+          <body xmlns="http://www.w3.org/1999/xhtml">
+            <p>GENE_ASSOCIATION: PA5552</p>
+            <p>SUBSYSTEM: Amino sugar and nucleotide sugar metabolism</p>
+            <p>EC Number: 2.7.7.23</p>
+            <p>Confidence Level:</p>
+            <p>AUTHORS:</p>
+            <p />
+          </body>
+        </notes>
+        <listOfReactants>
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00062_c" />
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd02611_c" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00012_c" />
+          <speciesReference stoichiometry="1" constant="true" species="M_cpd00037_c" />
+        </listOfProducts>
+        <kineticLaw sboTerm="SBO:0000429">
+          <notes>
+            <body xmlns="http://www.w3.org/1999/xhtml">
+              <p>Reversibel rapid-equilibrium random order ternary-complex mechanism, two products</p>
+            </body>
+          </notes>
+          <math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+            <apply>
+              <divide />
+              <apply>
+                <minus />
+                <apply>
+                  <times />
+                  <apply>
+                    <divide />
+                    <ci>vmaf_R_rxn00293</ci>
+                    <apply>
+                      <times />
+                      <ci>kic_R_rxn00293_M_cpd00062_c</ci>
+                      <ci>kmc_R_rxn00293_M_cpd02611_c</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times />
+                    <apply>
+                      <times />
+                      <ci>M_cpd00062_c</ci>
+                      <ci>c</ci>
+                    </apply>
+                    <apply>
+                      <times />
+                      <ci>M_cpd02611_c</ci>
+                      <ci>c</ci>
+                    </apply>
+                  </apply>
+                </apply>
+                <apply>
+                  <times />
+                  <apply>
+                    <divide />
+                    <ci>vmar_R_rxn00293</ci>
+                    <apply>
+                      <times />
+                      <ci>kic_R_rxn00293_M_cpd00037_c</ci>
+                      <ci>kmc_R_rxn00293_M_cpd00012_c</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times />
+                    <apply>
+                      <times />
+                      <ci>M_cpd00012_c</ci>
+                      <ci>c</ci>
+                    </apply>
+                    <apply>
+                      <times />
+                      <ci>M_cpd00037_c</ci>
+                      <ci>c</ci>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <plus />
+                <cn type="integer" sbml:units="dimensionless">1</cn>
+                <apply>
+                  <plus />
+                  <apply>
+                    <divide />
+                    <apply>
+                      <times />
+                      <apply>
+                        <times />
+                        <ci>M_cpd00062_c</ci>
+                        <ci>c</ci>
+                      </apply>
+                      <apply>
+                        <times />
+                        <ci>M_cpd02611_c</ci>
+                        <ci>c</ci>
+                      </apply>
+                    </apply>
+                    <apply>
+                      <times />
+                      <ci>kic_R_rxn00293_M_cpd00062_c</ci>
+                      <ci>kmc_R_rxn00293_M_cpd02611_c</ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <plus />
+                    <apply>
+                      <divide />
+                      <apply>
+                        <times />
+                        <ci>M_cpd00062_c</ci>
+                        <ci>c</ci>
+                      </apply>
+                      <ci>kic_R_rxn00293_M_cpd00062_c</ci>
+                    </apply>
+                    <apply>
+                      <plus />
+                      <apply>
+                        <divide />
+                        <apply>
+                          <times />
+                          <apply>
+                            <times />
+                            <ci>M_cpd00012_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                          <apply>
+                            <times />
+                            <ci>M_cpd00037_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                        </apply>
+                        <apply>
+                          <times />
+                          <ci>kic_R_rxn00293_M_cpd00037_c</ci>
+                          <ci>kmc_R_rxn00293_M_cpd00012_c</ci>
+                        </apply>
+                      </apply>
+                      <apply>
+                        <plus />
+                        <apply>
+                          <divide />
+                          <apply>
+                            <times />
+                            <ci>M_cpd02611_c</ci>
+                            <ci>c</ci>
+                          </apply>
+                          <ci>kic_R_rxn00293_M_cpd02611_c</ci>
+                        </apply>
+                        <apply>
+                          <plus />
+                          <apply>
+                            <divide />
+                            <apply>
+                              <times />
+                              <ci>M_cpd00037_c</ci>
+                              <ci>c</ci>
+                            </apply>
+                            <ci>kic_R_rxn00293_M_cpd00037_c</ci>
+                          </apply>
+                          <apply>
+                            <divide />
+                            <apply>
+                              <times />
+                              <ci>M_cpd00012_c</ci>
+                              <ci>c</ci>
+                            </apply>
+                            <ci>kic_R_rxn00293_M_cpd00012_c</ci>
+                          </apply>
+                        </apply>
+                      </apply>
+                    </apply>
+                  </apply>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+          <listOfLocalParameters>
+            <localParameter name="Forward maximal velocity of reaction R_rxn00293" id="vmaf_R_rxn00293" units="mole_per_second" value="1" sboTerm="SBO:0000324" />
+            <localParameter name="Revere maximal velocity of reaction R_rxn00293" id="vmar_R_rxn00293" units="mole_per_second" value="1" sboTerm="SBO:0000325" />
+            <localParameter name="Michaelis constant of species N-Acetyl-D-glucosamine1-phosphate in reaction R_rxn00293" id="kmc_R_rxn00293_M_cpd02611_c" units="substance" value="1"
+            sboTerm="SBO:0000027" />
+            <localParameter name="Michaelis constant of species PPi in reaction R_rxn00293" id="kmc_R_rxn00293_M_cpd00012_c" units="substance" value="1" sboTerm="SBO:0000027" />
+            <localParameter name="Inhibitory constant for species PPi of reaction R_rxn00293" id="kic_R_rxn00293_M_cpd00012_c" units="substance" value="1" sboTerm="SBO:0000261" />
+            <localParameter name="Inhibitory constant for species UDP-N-acetylglucosamine of reaction R_rxn00293" id="kic_R_rxn00293_M_cpd00037_c" units="substance" value="1" sboTerm="SBO:0000261" />
+            <localParameter name="Inhibitory constant for species UTP of reaction R_rxn00293" id="kic_R_rxn00293_M_cpd00062_c" units="substance" value="1" sboTerm="SBO:0000261" />
+            <localParameter name="Inhibitory constant for species N-Acetyl-D-glucosamine1-phosphate of reaction R_rxn00293" id="kic_R_rxn00293_M_cpd02611_c" units="substance" value="1"
+            sboTerm="SBO:0000261" />
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

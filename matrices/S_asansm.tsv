@@ -1,0 +1,27 @@
+	UDP-N-acetyl fucosamine synthase	UDP-N-acetylenolpyruvoylglucosamine reductase	UDP-N-acetyl-mannosamine (2NAc3N) acid acetylase	UDP-N-acetylglucosamine 4-epimerase	N-acetylglucosamine-6-phosphate deacetylase	UDP-N-acetylglucosamine 1-carboxyvinyltransferase	phosphoglucosamine mutase	glucosamine-1-phosphate N-acetyltransferase	UDP-N-acetylglucosamine diphosphorylase
+NAD	-1	0	0	0	0	0	0	0	0
+NADH	1	0	0	0	0	0	0	0	0
+H+	-1	1	0	0	0	1	0	1	0
+H2O	1	0	0	0	-1	0	0	0	0
+NADP	0	-1	0	0	0	0	0	0	0
+NADPH	0	1	0	0	0	0	0	0	0
+CoA	0	0	0	0	0	0	0	1	0
+Acetyl-CoA	0	0	0	0	0	0	0	-1	0
+Phosphate	0	0	0	0	0	1	0	0	0
+Acetate	0	0	0	0	1	0	0	0	0
+UDP-N-acetyl-D-galactosamine	-1	0	0	1	0	0	0	0	0
+UDP-N-acetyl fucosamine	1	0	0	0	0	0	0	0	0
+UDP-MurNAc	0	-1	0	0	0	0	0	0	0
+UDP-N-acetylglucosamine enolpyruvate	0	1	0	0	0	1	0	0	0
+PPi	0	0	0	0	0	0	0	0	1
+ACP	0	0	1	0	0	0	0	0	0
+Acetyl-ACP	0	0	-1	0	0	0	0	0	0
+Phosphoenolpyruvate	0	0	0	0	0	-1	0	0	0
+UDP-N-acetyl-D-mannosamine (2NAc3N) acid	0	0	-1	0	0	0	0	0	0
+UDP-N-acetyl-D-manosamine (2NAc3NAc) acid	0	0	1	0	0	0	0	0	0
+N-Acetyl-D-glucosamine 6-phosphate	0	0	0	0	-1	0	0	0	0
+UTP	0	0	0	0	0	0	0	0	-1
+UDP-N-acetylglucosamine	0	0	0	-1	0	-1	0	0	1
+D-Glucosamine phosphate	0	0	0	0	1	0	1	0	0
+D-Glucosamine1-phosphate	0	0	0	0	0	0	-1	-1	0
+N-Acetyl-D-glucosamine1-phosphate	0	0	0	0	0	0	0	1	-1

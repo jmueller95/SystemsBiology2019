@@ -1,6 +1,11 @@
+# SBMLSqueezer was run with the default parameters except:
+# - Set "Ueberschreibe vorhandene..." to True, because model already contained (dummy) kinetic laws
+# - Set "Maximale Anzahl an Edukten" to 10 (maximum number of educts might be bigger than 3 and it can't hurt)
+
 import tellurium as te
 import libsbml
 import numpy as np
+import pandas as pd
 from sympy import Matrix
 from pprint import PrettyPrinter
 
@@ -47,8 +52,20 @@ def find_conservative_relations(S_matrix):
     return conservative_relationship_dict
 
 
+def write_stoichiometric_matrix_to_file(M, filepath):
+    M_df = pd.DataFrame(data=M, index=M.rownames, columns=M.colnames, dtype=int)
+    with open(filepath, "w") as outfile:
+        outfile.write(M_df.to_csv(sep="\t"))
+
+
+def write_left_nullspace_to_file(M, filepath, species_names):  # pass rownames of corresponding S as species_names
+    M_df = pd.DataFrame([[round(x, 4) for x in line] for line in M], columns=species_names)
+    with open(filepath, "w") as outfile:
+        outfile.write(M_df.to_csv(sep="\t"))
+
+
 # We start with the smallest subsystem: Amino Sugar and Nucleotide Sugar Metabolism
-asansm_sbml = "xml/iPAE1146_Amino_sugar_and_nucleotide_sugar_metabolism.xml"
+asansm_sbml = "xml/iPAE1146_Amino_sugar_and_nucleotide_sugar_metabolism_squeezed.xml"
 asansm_libsbml_doc = libsbml.readSBML(asansm_sbml)
 asansm_libsbml = asansm_libsbml_doc.getModel()
 asansm_model = te.loadSBMLModel(asansm_sbml)
@@ -58,11 +75,13 @@ S_asansm.rownames = get_metabolite_names(asansm_libsbml.getListOfSpecies(), S_as
 asansm_right_nullspace = Matrix(S_asansm).nullspace()
 asansm_left_nullspace = Matrix(S_asansm.T).nullspace()
 asansm_rank = Matrix(S_asansm).rank()
+write_stoichiometric_matrix_to_file(S_asansm, "matrices/S_asansm.tsv")
+write_left_nullspace_to_file(asansm_left_nullspace, "matrices/asansm_left_nullspace.tsv", S_asansm.rownames)
 
 # Next subsystem: Pyrimidine Metabolism
 # This one is a little special because Matrix().nullspace computes an empty right nullspace here, but there is one!
 # So we do it the pedestrian way...
-pm_sbml = "xml/iPAE1146_Pyrimidine_metabolism.xml"
+pm_sbml = "xml/iPAE1146_Pyrimidine_metabolism_squeezed.xml"
 pm_libsbml_doc = libsbml.readSBML(pm_sbml)
 pm_libsbml = pm_libsbml_doc.getModel()
 pm_model = te.loadSBMLModel(pm_sbml)
@@ -70,15 +89,20 @@ S_pm = pm_model.getFullStoichiometryMatrix()
 S_pm.colnames = get_reaction_names(pm_libsbml.getListOfReactions(), S_pm.colnames)
 S_pm.rownames = get_metabolite_names(pm_libsbml.getListOfSpecies(), S_pm.rownames)
 pm_right_nullspace_numpy = nullspace(S_pm)
-pm_right_nullspace_numpy = [round(elem/min(pm_right_nullspace_numpy)) for elem in pm_right_nullspace_numpy]
-pm_left_nullspace_numpy = nullspace(S_pm.T)
+pm_right_nullspace_numpy = [round(elem / min(pm_right_nullspace_numpy)) for elem in pm_right_nullspace_numpy]
 pm_right_nullspace_sympy = Matrix(S_pm).nullspace()
-pm_left_nullspace_sympy = Matrix(S_pm.T).nullspace()
+pm_left_nullspace = Matrix(S_pm.T).nullspace()
 pm_rank_numpy = np.linalg.matrix_rank(S_pm)
 pm_rank_sympy = Matrix(S_pm).rank()
+write_stoichiometric_matrix_to_file(S_pm, "matrices/S_pm.tsv")
+write_left_nullspace_to_file(pm_left_nullspace, "matrices/pm_left_nullspace.tsv", S_pm.rownames)
+# Writing to file is also a little different here due to the different calculation of the nullspace
+with open("matrices/pm_nullspace.tsv", "w") as outfile:
+    pm_nullspace_df = pd.DataFrame([pm_right_nullspace_numpy], columns=S_pm.colnames)
+    outfile.write(pm_nullspace_df.to_csv(sep="\t"))
 
 # Third one: Lipopolysaccharide Biosynthesis
-lb_sbml = "xml/iPAE1146_Lipopolysaccharide_biosynthesis.xml"
+lb_sbml = "xml/iPAE1146_Lipopolysaccharide_biosynthesis_squeezed.xml"
 lb_libsbml_doc = libsbml.readSBML(lb_sbml)
 lb_libsbml = lb_libsbml_doc.getModel()
 lb_model = te.loadSBMLModel(lb_sbml)
@@ -88,9 +112,12 @@ S_lb.rownames = get_metabolite_names(lb_libsbml.getListOfSpecies(), S_lb.rowname
 lb_right_nullspace = Matrix(S_lb).nullspace()
 lb_left_nullspace = Matrix(S_lb.T).nullspace()
 lb_rank = Matrix(S_lb).rank()
+write_stoichiometric_matrix_to_file(S_lb, "matrices/S_lb.tsv")
+write_left_nullspace_to_file(lb_left_nullspace, "matrices/lb_left_nullspace.tsv", S_lb.rownames)
+
 
 # Combined one
-combined_sbml = "xml/iPAE1146_Combined_Subsystems.xml"
+combined_sbml = "xml/iPAE1146_Combined_Subsystems_squeezed.xml"
 combined_libsbml_doc = libsbml.readSBML(combined_sbml)
 combined_libsbml = combined_libsbml_doc.getModel()
 combined_model = te.loadSBMLModel(combined_sbml)
@@ -100,6 +127,8 @@ S_combined.rownames = get_metabolite_names(combined_libsbml.getListOfSpecies(), 
 combined_right_nullspace = Matrix(S_combined).nullspace()
 combined_left_nullspace = Matrix(S_combined.T).nullspace()
 combined_rank = Matrix(S_combined).rank()
+write_stoichiometric_matrix_to_file(S_combined, "matrices/S_combined.tsv")
+write_left_nullspace_to_file(combined_left_nullspace, "matrices/combined_left_nullspace.tsv", S_combined.rownames)
 
 # Todo next: Get Fluxes v (to formulate dx=Sv)
 
