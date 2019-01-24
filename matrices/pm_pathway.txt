@@ -1,0 +1,11 @@
+UTPammonia ligase (ADP-froming)
+- nucleoside-diphosphate kinase (ATP, CDP)
+ribon (CDP)
+nucleoside-diphosphate kinase (ATP, dCDP)
+dCTP deaminase
+-ndk ATP dUDP
+- ribon (UDP)
+ndp ATP UDP
+
+-ndk ATP dTDP
+-thymidine-triphosphatase irreversible
