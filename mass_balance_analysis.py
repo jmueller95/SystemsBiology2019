@@ -64,6 +64,12 @@ def write_left_nullspace_to_file(M, filepath, species_names):  # pass rownames o
         outfile.write(M_df.to_csv(sep="\t"))
 
 
+def write_eigenvalues_to_file(model, filepath, species_names):
+    M_df = pd.DataFrame([model.getFullEigenValues()], columns=species_names)
+    with open(filepath, "w") as outfile:
+        outfile.write(M_df.to_csv(sep="\t"))
+
+
 # We start with the smallest subsystem: Amino Sugar and Nucleotide Sugar Metabolism
 asansm_sbml = "xml/iPAE1146_Amino_sugar_and_nucleotide_sugar_metabolism_squeezed.xml"
 asansm_libsbml_doc = libsbml.readSBML(asansm_sbml)
@@ -75,8 +81,7 @@ S_asansm.rownames = get_metabolite_names(asansm_libsbml.getListOfSpecies(), S_as
 asansm_right_nullspace = Matrix(S_asansm).nullspace()
 asansm_left_nullspace = Matrix(S_asansm.T).nullspace()
 asansm_rank = Matrix(S_asansm).rank()
-write_stoichiometric_matrix_to_file(S_asansm, "matrices/S_asansm.tsv")
-write_left_nullspace_to_file(asansm_left_nullspace, "matrices/asansm_left_nullspace.tsv", S_asansm.rownames)
+
 
 # Next subsystem: Pyrimidine Metabolism
 # This one is a little special because Matrix().nullspace computes an empty right nullspace here, but there is one!
@@ -94,12 +99,6 @@ pm_right_nullspace_sympy = Matrix(S_pm).nullspace()
 pm_left_nullspace = Matrix(S_pm.T).nullspace()
 pm_rank_numpy = np.linalg.matrix_rank(S_pm)
 pm_rank_sympy = Matrix(S_pm).rank()
-write_stoichiometric_matrix_to_file(S_pm, "matrices/S_pm.tsv")
-write_left_nullspace_to_file(pm_left_nullspace, "matrices/pm_left_nullspace.tsv", S_pm.rownames)
-# Writing to file is also a little different here due to the different calculation of the nullspace
-with open("matrices/pm_nullspace.tsv", "w") as outfile:
-    pm_nullspace_df = pd.DataFrame([pm_right_nullspace_numpy], columns=S_pm.colnames)
-    outfile.write(pm_nullspace_df.to_csv(sep="\t"))
 
 # Third one: Lipopolysaccharide Biosynthesis
 lb_sbml = "xml/iPAE1146_Lipopolysaccharide_biosynthesis_squeezed.xml"
@@ -112,9 +111,6 @@ S_lb.rownames = get_metabolite_names(lb_libsbml.getListOfSpecies(), S_lb.rowname
 lb_right_nullspace = Matrix(S_lb).nullspace()
 lb_left_nullspace = Matrix(S_lb.T).nullspace()
 lb_rank = Matrix(S_lb).rank()
-write_stoichiometric_matrix_to_file(S_lb, "matrices/S_lb.tsv")
-write_left_nullspace_to_file(lb_left_nullspace, "matrices/lb_left_nullspace.tsv", S_lb.rownames)
-
 
 # Combined one
 combined_sbml = "xml/iPAE1146_Combined_Subsystems_squeezed.xml"
@@ -127,12 +123,28 @@ S_combined.rownames = get_metabolite_names(combined_libsbml.getListOfSpecies(), 
 combined_right_nullspace = Matrix(S_combined).nullspace()
 combined_left_nullspace = Matrix(S_combined.T).nullspace()
 combined_rank = Matrix(S_combined).rank()
+
+
+"""
+#Write all the tables to files 
+write_stoichiometric_matrix_to_file(S_asansm, "matrices/S_asansm.tsv")
+write_left_nullspace_to_file(asansm_left_nullspace, "matrices/asansm_left_nullspace.tsv", S_asansm.rownames)
+write_stoichiometric_matrix_to_file(S_pm, "matrices/S_pm.tsv")
+write_left_nullspace_to_file(pm_left_nullspace, "matrices/pm_left_nullspace.tsv", S_pm.rownames)
+# Writing to file is also a little different in PM subsystem due to the different calculation of the nullspace
+with open("matrices/pm_nullspace.tsv", "w") as outfile:
+    pm_nullspace_df = pd.DataFrame([pm_right_nullspace_numpy], columns=S_pm.colnames)
+    outfile.write(pm_nullspace_df.to_csv(sep="\t"))
+write_stoichiometric_matrix_to_file(S_lb, "matrices/S_lb.tsv")
+write_left_nullspace_to_file(lb_left_nullspace, "matrices/lb_left_nullspace.tsv", S_lb.rownames)
 write_stoichiometric_matrix_to_file(S_combined, "matrices/S_combined.tsv")
 write_left_nullspace_to_file(combined_left_nullspace, "matrices/combined_left_nullspace.tsv", S_combined.rownames)
+write_eigenvalues_to_file(asansm_model, "matrices/asansm_eigenvalues.tsv", S_asansm.rownames)
+write_eigenvalues_to_file(lb_model, "matrices/lb_eigenvalues.tsv", S_lb.rownames)
+write_eigenvalues_to_file(pm_model, "matrices/pm_eigenvalues.tsv", S_pm.rownames)
+write_eigenvalues_to_file(combined_model, "matrices/combined_eigenvalues.tsv", S_combined.rownames)
 
-# Todo next: Get Fluxes v (to formulate dx=Sv)
-
-
+#Print ranks and conservation relations
 pp = PrettyPrinter()
 
 print("The stoichiometric matrix of Amino Sugar and Nucleotide Sugar Metabolism has rank " + str(
@@ -150,3 +162,6 @@ pp.pprint(find_conservative_relations(S_lb))
 
 print("\nThe conservative relations in the combined subsystem are: \n")
 pp.pprint(find_conservative_relations(S_combined))
+"""
+
+# Todo next: Get Fluxes v (to formulate dx=Sv)
