@@ -1,0 +1,1141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created by EscherConverter version 1.2.0 on 2019-51-25 at 22:51:37 CET with JSBML version 1.2. -->
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" layout:required="false" level="3" version="1" xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1">
+  <model id="_3mvqW14ioWWm" name="new_map">
+    <notes>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+        <p>
+Last Modified Thu Jan 17 2019 23:58:11 GMT+0100 (CET)</p><p>
+          <a href="https://escher.github.io">Escher</a></p></body>
+    </notes>
+    <layout:listOfLayouts xmlns:layout="http://www.sbml.org/sbml/level3/version1/layout/version1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <layout:layout layout:id="Escher_Layout" layout:name="Escher Layout">
+        <layout:dimensions layout:depth="1" layout:height="1028.0840454101562" layout:width="3731.4933471679688"/>
+        <layout:listOfSpeciesGlyphs>
+          <layout:speciesGlyph layout:id="_389" layout:species="cpd00022_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="499.8207702636719" layout:y="200.87713623046875" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_393" layout:species="cpd00010_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="782.4252014160156" layout:y="331.4565734863281" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_394" layout:species="cpd00067_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="826.9432678222656" layout:y="115.3465576171875" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="20"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_395" layout:species="cpd02611_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="1139.918765788122" layout:y="208.5156805361462" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="20"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_396" layout:species="cpd03671_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="536.9104919433594" layout:y="456.4728698730469" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="20"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_400" layout:species="cpd00288_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="531.9104919433594" layout:y="801.4728698730469" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_404" layout:species="cpd00001_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="456.9104919433594" layout:y="1086.4728698730469" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="20"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_405" layout:species="cpd00029_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="456.9104919433594" layout:y="876.4728698730469" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="20"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_406" layout:species="cpd00293_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="531.9104919433594" layout:y="1151.4728698730469" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_410" layout:species="cpd00012_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="1423.3158618489501" layout:y="293.3926490229876" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="20"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_411" layout:species="cpd00037_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="1489.0935423449405" layout:y="209.07985091570185" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_412" layout:species="cpd00062_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="1213.32586968138" layout:y="291.3424808676285" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="20"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_423" layout:species="cpd00009_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="2058.4194700793155" layout:y="129.8676316774206" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="20"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_424" layout:species="cpd00061_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="1848.4194700793155" layout:y="296.1859910524206" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="20"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_425" layout:species="cpd00067_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="2058.4194700793155" layout:y="289.8676316774206" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="20"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_426" layout:species="cpd02820_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="2302.4394896105655" layout:y="202.76149154070185" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_430" layout:species="cpd00005_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="2651.2353880480655" layout:y="134.0799119508581" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="20"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_431" layout:species="cpd00006_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="2926.2353880480655" layout:y="209.0799119508581" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_432" layout:species="cpd00067_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="2651.2353880480655" layout:y="294.0799119508581" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="20"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_433" layout:species="cpd00773_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="2861.2353880480655" layout:y="294.0799119508581" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="20"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_437" layout:species="cpd00175_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="1489.0935423449405" layout:y="559.0798509157019" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_449" layout:species="cpd00001_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="1959.4319212511905" layout:y="484.07985091570185" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="20"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_450" layout:species="cpd00003_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="1749.4319212511905" layout:y="484.07985091570185" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="20"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_451" layout:species="cpd00004_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="2024.4319212511905" layout:y="559.0798509157019" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_452" layout:species="cpd00067_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="1749.4319212511905" layout:y="644.0798509157019" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="20"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_453" layout:species="cpd17092_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="1959.4319212511905" layout:y="644.0798509157019" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="20"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_454" layout:species="cpd11494_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="1611.8512878417969" layout:y="1033.8473205566406" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_458" layout:species="cpd11493_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="1896.8512878417969" layout:y="1118.8473205566406" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="20"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_459" layout:species="cpd17094_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="1686.8512878417969" layout:y="1118.8473205566406" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="20"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+          <layout:speciesGlyph layout:id="_460" layout:species="cpd17095_c" sboTerm="SBO:0000247">
+            <layout:boundingBox>
+              <layout:position layout:x="1961.8512878417969" layout:y="1033.8473205566406" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="30" layout:width="30"/>
+            </layout:boundingBox>
+          </layout:speciesGlyph>
+        </layout:listOfSpeciesGlyphs>
+        <layout:listOfReactionGlyphs>
+          <layout:reactionGlyph layout:id="_60" layout:reaction="rxn03638">
+            <layout:boundingBox>
+              <layout:position layout:x="730.7615051269531" layout:y="206.27102661132812" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="15" layout:width="15"/>
+            </layout:boundingBox>
+            <layout:listOfSpeciesReferenceGlyphs>
+              <layout:speciesReferenceGlyph layout:id="rxn03638_srg_cpd00067_c" layout:role="sideproduct" layout:speciesGlyph="_394" layout:speciesReference="rxn03638_product_1" sboTerm="SBO:0000603">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="758.2615051269531" layout:y="213.77102661132812" layout:z="0"/>
+                      <layout:end layout:x="738.2615051269531" layout:y="213.77102661132812" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="758.2615051269531" layout:y="213.77102661132812" layout:z="0"/>
+                      <layout:end layout:x="738.2615051269531" layout:y="213.77102661132812" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn03638_srg_cpd00022_c" layout:role="substrate" layout:speciesGlyph="_389" layout:speciesReference="rxn03638_reactant_1" sboTerm="SBO:0000010">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="CubicBezier">
+                      <layout:start layout:x="514.8207702636719" layout:y="215.87713623046875" layout:z="0"/>
+                      <layout:end layout:x="718.2615051269531" layout:y="213.77102661132812" layout:z="0"/>
+                      <layout:basePoint1 layout:x="573.5707702636719" layout:y="215.87713623046875" layout:z="0"/>
+                      <layout:basePoint2 layout:x="610.9718322753906" layout:y="213.77102661132812" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="718.2615051269531" layout:y="213.77102661132812" layout:z="0"/>
+                      <layout:end layout:x="738.2615051269531" layout:y="213.77102661132812" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn03638_srg_cpd00010_c" layout:role="product" layout:speciesGlyph="_393" layout:speciesReference="rxn03638_product_2" sboTerm="SBO:0000011">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="758.2615051269531" layout:y="213.77102661132812" layout:z="0"/>
+                      <layout:end layout:x="738.2615051269531" layout:y="213.77102661132812" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn03638_srg_cpd02611_c" layout:role="sideproduct" layout:speciesGlyph="_395" layout:speciesReference="rxn03638_product_3" sboTerm="SBO:0000603">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="758.2615051269531" layout:y="213.77102661132812" layout:z="0"/>
+                      <layout:end layout:x="738.2615051269531" layout:y="213.77102661132812" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn03638_srg_cpd03671_c" layout:role="sidesubstrate" layout:speciesGlyph="_396" layout:speciesReference="rxn03638_reactant_2" sboTerm="SBO:0000604">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="CubicBezier">
+                      <layout:start layout:x="546.9104919433594" layout:y="466.4728698730469" layout:z="0"/>
+                      <layout:end layout:x="718.2615051269531" layout:y="213.77102661132812" layout:z="0"/>
+                      <layout:basePoint1 layout:x="555.3870849609375" layout:y="299.1669006347656" layout:z="0"/>
+                      <layout:basePoint2 layout:x="545.8944091796875" layout:y="211.66488647460938" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="718.2615051269531" layout:y="213.77102661132812" layout:z="0"/>
+                      <layout:end layout:x="738.2615051269531" layout:y="213.77102661132812" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+            </layout:listOfSpeciesReferenceGlyphs>
+          </layout:reactionGlyph>
+          <layout:reactionGlyph layout:id="_61" layout:reaction="rxn01485">
+            <layout:boundingBox>
+              <layout:position layout:x="539.4104919433594" layout:y="633.9728698730469" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="15" layout:width="15"/>
+            </layout:boundingBox>
+            <layout:listOfSpeciesReferenceGlyphs>
+              <layout:speciesReferenceGlyph layout:id="rxn01485_srg_cpd00288_c" layout:role="product" layout:speciesGlyph="_400" layout:speciesReference="rxn01485_product_1" sboTerm="SBO:0000011">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="546.9104919433594" layout:y="661.4728698730469" layout:z="0"/>
+                      <layout:end layout:x="546.9104919433594" layout:y="641.4728698730469" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="546.9104919433594" layout:y="661.4728698730469" layout:z="0"/>
+                      <layout:end layout:x="546.9104919433594" layout:y="641.4728698730469" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn01485_srg_cpd03671_c" layout:role="sidesubstrate" layout:speciesGlyph="_396" layout:speciesReference="rxn01485_reactant_1" sboTerm="SBO:0000604">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="CubicBezier">
+                      <layout:start layout:x="546.9104919433594" layout:y="466.4728698730469" layout:z="0"/>
+                      <layout:end layout:x="546.9104919433594" layout:y="621.4728698730469" layout:z="0"/>
+                      <layout:basePoint1 layout:x="546.9104919433594" layout:y="525.2228698730469" layout:z="0"/>
+                      <layout:basePoint2 layout:x="546.9104919433594" layout:y="579.4728698730469" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="546.9104919433594" layout:y="621.4728698730469" layout:z="0"/>
+                      <layout:end layout:x="546.9104919433594" layout:y="641.4728698730469" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+            </layout:listOfSpeciesReferenceGlyphs>
+          </layout:reactionGlyph>
+          <layout:reactionGlyph layout:id="_62" layout:reaction="rxn01484">
+            <layout:boundingBox>
+              <layout:position layout:x="539.4104919433594" layout:y="983.9728698730469" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="15" layout:width="15"/>
+            </layout:boundingBox>
+            <layout:listOfSpeciesReferenceGlyphs>
+              <layout:speciesReferenceGlyph layout:id="rxn01484_srg_cpd00293_c" layout:role="substrate" layout:speciesGlyph="_406" layout:speciesReference="rxn01484_reactant_1" sboTerm="SBO:0000010">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="CubicBezier">
+                      <layout:start layout:x="546.9104919433594" layout:y="1166.4728698730469" layout:z="0"/>
+                      <layout:end layout:x="546.9104919433594" layout:y="1011.4728698730469" layout:z="0"/>
+                      <layout:basePoint1 layout:x="546.9104919433594" layout:y="1107.7228698730469" layout:z="0"/>
+                      <layout:basePoint2 layout:x="546.9104919433594" layout:y="1053.4728698730469" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="546.9104919433594" layout:y="1011.4728698730469" layout:z="0"/>
+                      <layout:end layout:x="546.9104919433594" layout:y="991.4728698730469" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn01484_srg_cpd00288_c" layout:role="product" layout:speciesGlyph="_400" layout:speciesReference="rxn01484_product_1" sboTerm="SBO:0000011">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="546.9104919433594" layout:y="971.4728698730469" layout:z="0"/>
+                      <layout:end layout:x="546.9104919433594" layout:y="991.4728698730469" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn01484_srg_cpd00001_c" layout:role="sidesubstrate" layout:speciesGlyph="_404" layout:speciesReference="rxn01484_reactant_2" sboTerm="SBO:0000604">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="CubicBezier">
+                      <layout:start layout:x="466.9104919433594" layout:y="1096.4728698730469" layout:z="0"/>
+                      <layout:end layout:x="546.9104919433594" layout:y="1011.4728698730469" layout:z="0"/>
+                      <layout:basePoint1 layout:x="528.9104919433594" layout:y="1062.7228698730469" layout:z="0"/>
+                      <layout:basePoint2 layout:x="546.9104919433594" layout:y="1057.4728698730469" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="546.9104919433594" layout:y="1011.4728698730469" layout:z="0"/>
+                      <layout:end layout:x="546.9104919433594" layout:y="991.4728698730469" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn01484_srg_cpd00029_c" layout:role="sideproduct" layout:speciesGlyph="_405" layout:speciesReference="rxn01484_product_2" sboTerm="SBO:0000603">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="546.9104919433594" layout:y="971.4728698730469" layout:z="0"/>
+                      <layout:end layout:x="546.9104919433594" layout:y="991.4728698730469" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="546.9104919433594" layout:y="971.4728698730469" layout:z="0"/>
+                      <layout:end layout:x="546.9104919433594" layout:y="991.4728698730469" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+            </layout:listOfSpeciesReferenceGlyphs>
+          </layout:reactionGlyph>
+          <layout:reactionGlyph layout:id="_63" layout:reaction="rxn00293">
+            <layout:boundingBox>
+              <layout:position layout:x="1321.6018822053024" layout:y="214.8713774529025" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="15" layout:width="15"/>
+            </layout:boundingBox>
+            <layout:listOfSpeciesReferenceGlyphs>
+              <layout:speciesReferenceGlyph layout:id="rxn00293_srg_cpd00012_c" layout:role="sideproduct" layout:speciesGlyph="_410" layout:speciesReference="rxn00293_product_1" sboTerm="SBO:0000603">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1349.1009290784032" layout:y="222.56663156293655" layout:z="0"/>
+                      <layout:end layout:x="1329.1018822053024" layout:y="222.3713774529025" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1349.1009290784032" layout:y="222.56663156293655" layout:z="0"/>
+                      <layout:end layout:x="1329.1018822053024" layout:y="222.3713774529025" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn00293_srg_cpd00062_c" layout:role="sidesubstrate" layout:speciesGlyph="_412" layout:speciesReference="rxn00293_reactant_1" sboTerm="SBO:0000604">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="CubicBezier">
+                      <layout:start layout:x="1223.32586968138" layout:y="301.3424808676285" layout:z="0"/>
+                      <layout:end layout:x="1309.1028353322004" layout:y="222.17612334286832" layout:z="0"/>
+                      <layout:basePoint1 layout:x="1257.679549020846" layout:y="239.67492687169693" layout:z="0"/>
+                      <layout:basePoint2 layout:x="1263.1050275240655" layout:y="221.72703888978833" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1309.1028353322004" layout:y="222.17612334286832" layout:z="0"/>
+                      <layout:end layout:x="1329.1018822053024" layout:y="222.3713774529025" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn00293_srg_cpd02611_c" layout:role="sidesubstrate" layout:speciesGlyph="_395" layout:speciesReference="rxn00293_reactant_2" sboTerm="SBO:0000604">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="CubicBezier">
+                      <layout:start layout:x="1149.918765788122" layout:y="218.5156805361462" layout:z="0"/>
+                      <layout:end layout:x="1309.1028353322004" layout:y="222.17612334286832" layout:z="0"/>
+                      <layout:basePoint1 layout:x="1208.665965977858" layout:y="219.08923948437177" layout:z="0"/>
+                      <layout:basePoint2 layout:x="1267.1048368986858" layout:y="221.76608971179644" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1309.1028353322004" layout:y="222.17612334286832" layout:z="0"/>
+                      <layout:end layout:x="1329.1018822053024" layout:y="222.3713774529025" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn00293_srg_cpd00037_c" layout:role="product" layout:speciesGlyph="_411" layout:speciesReference="rxn00293_product_2" sboTerm="SBO:0000011">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1349.1009290784032" layout:y="222.56663156293655" layout:z="0"/>
+                      <layout:end layout:x="1329.1018822053024" layout:y="222.3713774529025" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+            </layout:listOfSpeciesReferenceGlyphs>
+          </layout:reactionGlyph>
+          <layout:reactionGlyph layout:id="_65" layout:reaction="rxn00461">
+            <layout:boundingBox>
+              <layout:position layout:x="1955.9194700793155" layout:y="212.3676316774206" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="15" layout:width="15"/>
+            </layout:boundingBox>
+            <layout:listOfSpeciesReferenceGlyphs>
+              <layout:speciesReferenceGlyph layout:id="rxn00461_srg_cpd00067_c" layout:role="sideproduct" layout:speciesGlyph="_425" layout:speciesReference="rxn00461_product_1" sboTerm="SBO:0000603">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1983.4194700793155" layout:y="219.8676316774206" layout:z="0"/>
+                      <layout:end layout:x="1963.4194700793155" layout:y="219.8676316774206" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1983.4194700793155" layout:y="219.8676316774206" layout:z="0"/>
+                      <layout:end layout:x="1963.4194700793155" layout:y="219.8676316774206" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn00461_srg_cpd00061_c" layout:role="sidesubstrate" layout:speciesGlyph="_424" layout:speciesReference="rxn00461_reactant_1" sboTerm="SBO:0000604">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="CubicBezier">
+                      <layout:start layout:x="1858.4194700793155" layout:y="306.1859910524206" layout:z="0"/>
+                      <layout:end layout:x="1943.4194700793155" layout:y="219.8676316774206" layout:z="0"/>
+                      <layout:basePoint1 layout:x="1892.1694700793155" layout:y="244.1859910524206" layout:z="0"/>
+                      <layout:basePoint2 layout:x="1897.4194700793155" layout:y="219.8676316774206" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1943.4194700793155" layout:y="219.8676316774206" layout:z="0"/>
+                      <layout:end layout:x="1963.4194700793155" layout:y="219.8676316774206" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn00461_srg_cpd02820_c" layout:role="product" layout:speciesGlyph="_426" layout:speciesReference="rxn00461_product_2" sboTerm="SBO:0000011">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1983.4194700793155" layout:y="219.8676316774206" layout:z="0"/>
+                      <layout:end layout:x="1963.4194700793155" layout:y="219.8676316774206" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn00461_srg_cpd00037_c" layout:role="substrate" layout:speciesGlyph="_411" layout:speciesReference="rxn00461_reactant_2" sboTerm="SBO:0000010">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="CubicBezier">
+                      <layout:start layout:x="1504.0935423449405" layout:y="224.07985091570185" layout:z="0"/>
+                      <layout:end layout:x="1943.4194700793155" layout:y="219.8676316774206" layout:z="0"/>
+                      <layout:basePoint1 layout:x="1562.8435423449405" layout:y="224.07985091570185" layout:z="0"/>
+                      <layout:basePoint2 layout:x="1901.4194700793155" layout:y="219.8676316774206" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1943.4194700793155" layout:y="219.8676316774206" layout:z="0"/>
+                      <layout:end layout:x="1963.4194700793155" layout:y="219.8676316774206" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn00461_srg_cpd00009_c" layout:role="sideproduct" layout:speciesGlyph="_423" layout:speciesReference="rxn00461_product_3" sboTerm="SBO:0000603">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1983.4194700793155" layout:y="219.8676316774206" layout:z="0"/>
+                      <layout:end layout:x="1963.4194700793155" layout:y="219.8676316774206" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+            </layout:listOfSpeciesReferenceGlyphs>
+          </layout:reactionGlyph>
+          <layout:reactionGlyph layout:id="_66" layout:reaction="rxn02285">
+            <layout:boundingBox>
+              <layout:position layout:x="2758.7353880480655" layout:y="216.5799119508581" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="15" layout:width="15"/>
+            </layout:boundingBox>
+            <layout:listOfSpeciesReferenceGlyphs>
+              <layout:speciesReferenceGlyph layout:id="rxn02285_srg_cpd00067_c" layout:role="sideproduct" layout:speciesGlyph="_432" layout:speciesReference="rxn02285_product_1" sboTerm="SBO:0000603">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="2746.2353880480655" layout:y="224.0799119508581" layout:z="0"/>
+                      <layout:end layout:x="2766.2353880480655" layout:y="224.0799119508581" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="2746.2353880480655" layout:y="224.0799119508581" layout:z="0"/>
+                      <layout:end layout:x="2766.2353880480655" layout:y="224.0799119508581" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn02285_srg_cpd00773_c" layout:role="sidesubstrate" layout:speciesGlyph="_433" layout:speciesReference="rxn02285_reactant_1" sboTerm="SBO:0000604">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="CubicBezier">
+                      <layout:start layout:x="2871.2353880480655" layout:y="304.0799119508581" layout:z="0"/>
+                      <layout:end layout:x="2786.2353880480655" layout:y="224.0799119508581" layout:z="0"/>
+                      <layout:basePoint1 layout:x="2837.4853880480655" layout:y="242.0799119508581" layout:z="0"/>
+                      <layout:basePoint2 layout:x="2832.2353880480655" layout:y="224.0799119508581" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="2786.2353880480655" layout:y="224.0799119508581" layout:z="0"/>
+                      <layout:end layout:x="2766.2353880480655" layout:y="224.0799119508581" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn02285_srg_cpd02820_c" layout:role="product" layout:speciesGlyph="_426" layout:speciesReference="rxn02285_product_2" sboTerm="SBO:0000011">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="2746.2353880480655" layout:y="224.0799119508581" layout:z="0"/>
+                      <layout:end layout:x="2766.2353880480655" layout:y="224.0799119508581" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn02285_srg_cpd00006_c" layout:role="substrate" layout:speciesGlyph="_431" layout:speciesReference="rxn02285_reactant_2" sboTerm="SBO:0000010">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="CubicBezier">
+                      <layout:start layout:x="2941.2353880480655" layout:y="224.0799119508581" layout:z="0"/>
+                      <layout:end layout:x="2786.2353880480655" layout:y="224.0799119508581" layout:z="0"/>
+                      <layout:basePoint1 layout:x="2882.4853880480655" layout:y="224.0799119508581" layout:z="0"/>
+                      <layout:basePoint2 layout:x="2828.2353880480655" layout:y="224.0799119508581" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="2786.2353880480655" layout:y="224.0799119508581" layout:z="0"/>
+                      <layout:end layout:x="2766.2353880480655" layout:y="224.0799119508581" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn02285_srg_cpd00005_c" layout:role="sideproduct" layout:speciesGlyph="_430" layout:speciesReference="rxn02285_product_3" sboTerm="SBO:0000603">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="2746.2353880480655" layout:y="224.0799119508581" layout:z="0"/>
+                      <layout:end layout:x="2766.2353880480655" layout:y="224.0799119508581" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+            </layout:listOfSpeciesReferenceGlyphs>
+          </layout:reactionGlyph>
+          <layout:reactionGlyph layout:id="_67" layout:reaction="rxn00295">
+            <layout:boundingBox>
+              <layout:position layout:x="1496.5935423449405" layout:y="391.57985091570185" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="15" layout:width="15"/>
+            </layout:boundingBox>
+            <layout:listOfSpeciesReferenceGlyphs>
+              <layout:speciesReferenceGlyph layout:id="rxn00295_srg_cpd00175_c" layout:role="product" layout:speciesGlyph="_437" layout:speciesReference="rxn00295_product_1" sboTerm="SBO:0000011">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1504.0935423449405" layout:y="419.07985091570185" layout:z="0"/>
+                      <layout:end layout:x="1504.0935423449405" layout:y="399.07985091570185" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1504.0935423449405" layout:y="419.07985091570185" layout:z="0"/>
+                      <layout:end layout:x="1504.0935423449405" layout:y="399.07985091570185" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn00295_srg_cpd00037_c" layout:role="substrate" layout:speciesGlyph="_411" layout:speciesReference="rxn00295_reactant_1" sboTerm="SBO:0000010">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="CubicBezier">
+                      <layout:start layout:x="1504.0935423449405" layout:y="224.07985091570185" layout:z="0"/>
+                      <layout:end layout:x="1504.0935423449405" layout:y="379.07985091570185" layout:z="0"/>
+                      <layout:basePoint1 layout:x="1504.0935423449405" layout:y="282.82985091570185" layout:z="0"/>
+                      <layout:basePoint2 layout:x="1504.0935423449405" layout:y="337.07985091570185" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1504.0935423449405" layout:y="379.07985091570185" layout:z="0"/>
+                      <layout:end layout:x="1504.0935423449405" layout:y="399.07985091570185" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+            </layout:listOfSpeciesReferenceGlyphs>
+          </layout:reactionGlyph>
+          <layout:reactionGlyph layout:id="_69" layout:reaction="rJB00277">
+            <layout:boundingBox>
+              <layout:position layout:x="1856.9319212511905" layout:y="566.5798509157019" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="15" layout:width="15"/>
+            </layout:boundingBox>
+            <layout:listOfSpeciesReferenceGlyphs>
+              <layout:speciesReferenceGlyph layout:id="rJB00277_srg_cpd00067_c" layout:role="sidesubstrate" layout:speciesGlyph="_452" layout:speciesReference="rJB00277_reactant_1" sboTerm="SBO:0000604">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="CubicBezier">
+                      <layout:start layout:x="1759.4319212511905" layout:y="654.0798509157019" layout:z="0"/>
+                      <layout:end layout:x="1844.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                      <layout:basePoint1 layout:x="1793.1819212511905" layout:y="592.0798509157019" layout:z="0"/>
+                      <layout:basePoint2 layout:x="1798.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1844.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                      <layout:end layout:x="1864.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rJB00277_srg_cpd00175_c" layout:role="substrate" layout:speciesGlyph="_437" layout:speciesReference="rJB00277_reactant_2" sboTerm="SBO:0000010">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="CubicBezier">
+                      <layout:start layout:x="1504.0935423449405" layout:y="574.0798509157019" layout:z="0"/>
+                      <layout:end layout:x="1844.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                      <layout:basePoint1 layout:x="1562.8435423449405" layout:y="574.0798509157019" layout:z="0"/>
+                      <layout:basePoint2 layout:x="1802.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1844.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                      <layout:end layout:x="1864.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rJB00277_srg_cpd00001_c" layout:role="sideproduct" layout:speciesGlyph="_449" layout:speciesReference="rJB00277_product_1" sboTerm="SBO:0000603">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1884.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                      <layout:end layout:x="1864.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rJB00277_srg_cpd17092_c" layout:role="sideproduct" layout:speciesGlyph="_453" layout:speciesReference="rJB00277_product_2" sboTerm="SBO:0000603">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1884.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                      <layout:end layout:x="1864.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rJB00277_srg_cpd00004_c" layout:role="product" layout:speciesGlyph="_451" layout:speciesReference="rJB00277_product_3" sboTerm="SBO:0000011">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1884.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                      <layout:end layout:x="1864.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1884.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                      <layout:end layout:x="1864.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rJB00277_srg_cpd00003_c" layout:role="sidesubstrate" layout:speciesGlyph="_450" layout:speciesReference="rJB00277_reactant_3" sboTerm="SBO:0000604">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="CubicBezier">
+                      <layout:start layout:x="1759.4319212511905" layout:y="494.07985091570185" layout:z="0"/>
+                      <layout:end layout:x="1844.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                      <layout:basePoint1 layout:x="1793.1819212511905" layout:y="556.0798509157019" layout:z="0"/>
+                      <layout:basePoint2 layout:x="1798.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1844.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                      <layout:end layout:x="1864.4319212511905" layout:y="574.0798509157019" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+            </layout:listOfSpeciesReferenceGlyphs>
+          </layout:reactionGlyph>
+          <layout:reactionGlyph layout:id="_70" layout:reaction="rxn13913">
+            <layout:boundingBox>
+              <layout:position layout:x="1794.3512878417969" layout:y="1041.3473205566406" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="15" layout:width="15"/>
+            </layout:boundingBox>
+            <layout:listOfSpeciesReferenceGlyphs>
+              <layout:speciesReferenceGlyph layout:id="rxn13913_srg_cpd17095_c" layout:role="product" layout:speciesGlyph="_460" layout:speciesReference="rxn13913_product_1" sboTerm="SBO:0000011">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1821.8512878417969" layout:y="1048.8473205566406" layout:z="0"/>
+                      <layout:end layout:x="1801.8512878417969" layout:y="1048.8473205566406" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn13913_srg_cpd17094_c" layout:role="sidesubstrate" layout:speciesGlyph="_459" layout:speciesReference="rxn13913_reactant_1" sboTerm="SBO:0000604">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="CubicBezier">
+                      <layout:start layout:x="1696.8512878417969" layout:y="1128.8473205566406" layout:z="0"/>
+                      <layout:end layout:x="1781.8512878417969" layout:y="1048.8473205566406" layout:z="0"/>
+                      <layout:basePoint1 layout:x="1730.6012878417969" layout:y="1066.8473205566406" layout:z="0"/>
+                      <layout:basePoint2 layout:x="1735.8512878417969" layout:y="1048.8473205566406" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1781.8512878417969" layout:y="1048.8473205566406" layout:z="0"/>
+                      <layout:end layout:x="1801.8512878417969" layout:y="1048.8473205566406" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn13913_srg_cpd11493_c" layout:role="sideproduct" layout:speciesGlyph="_458" layout:speciesReference="rxn13913_product_2" sboTerm="SBO:0000603">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1821.8512878417969" layout:y="1048.8473205566406" layout:z="0"/>
+                      <layout:end layout:x="1801.8512878417969" layout:y="1048.8473205566406" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1821.8512878417969" layout:y="1048.8473205566406" layout:z="0"/>
+                      <layout:end layout:x="1801.8512878417969" layout:y="1048.8473205566406" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+              <layout:speciesReferenceGlyph layout:id="rxn13913_srg_cpd11494_c" layout:role="substrate" layout:speciesGlyph="_454" layout:speciesReference="rxn13913_reactant_2" sboTerm="SBO:0000010">
+                <layout:curve>
+                  <layout:listOfCurveSegments>
+                    <layout:curveSegment xsi:type="CubicBezier">
+                      <layout:start layout:x="1626.8512878417969" layout:y="1048.8473205566406" layout:z="0"/>
+                      <layout:end layout:x="1781.8512878417969" layout:y="1048.8473205566406" layout:z="0"/>
+                      <layout:basePoint1 layout:x="1685.6012878417969" layout:y="1048.8473205566406" layout:z="0"/>
+                      <layout:basePoint2 layout:x="1739.8512878417969" layout:y="1048.8473205566406" layout:z="0"/>
+                    </layout:curveSegment>
+                    <layout:curveSegment xsi:type="LineSegment">
+                      <layout:start layout:x="1781.8512878417969" layout:y="1048.8473205566406" layout:z="0"/>
+                      <layout:end layout:x="1801.8512878417969" layout:y="1048.8473205566406" layout:z="0"/>
+                    </layout:curveSegment>
+                  </layout:listOfCurveSegments>
+                </layout:curve>
+              </layout:speciesReferenceGlyph>
+            </layout:listOfSpeciesReferenceGlyphs>
+          </layout:reactionGlyph>
+        </layout:listOfReactionGlyphs>
+        <layout:listOfTextGlyphs>
+          <layout:textGlyph layout:graphicalObject="_389" layout:id="tg_1" layout:originOfText="cpd00022_c">
+            <layout:boundingBox>
+              <layout:position layout:x="351.30255126953125" layout:y="216.92205810546875" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_393" layout:id="tg_2" layout:originOfText="cpd00010_c">
+            <layout:boundingBox>
+              <layout:position layout:x="775.0169372558594" layout:y="385.4116516113281" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_394" layout:id="tg_3" layout:originOfText="cpd00067_c">
+            <layout:boundingBox>
+              <layout:position layout:x="829.2779235839844" layout:y="79.0281982421875" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_395" layout:id="tg_4" layout:originOfText="cpd02611_c">
+            <layout:boundingBox>
+              <layout:position layout:x="916.8986241865596" layout:y="152.16478942286494" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_396" layout:id="tg_5" layout:originOfText="cpd03671_c">
+            <layout:boundingBox>
+              <layout:position layout:x="202.26605224609375" layout:y="452.7748718261719" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_400" layout:id="tg_6" layout:originOfText="cpd00288_c">
+            <layout:boundingBox>
+              <layout:position layout:x="590.8655700683594" layout:y="809.1095886230469" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_404" layout:id="tg_7" layout:originOfText="cpd00001_c">
+            <layout:boundingBox>
+              <layout:position layout:x="397.9716491699219" layout:y="1083.3056335449219" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_405" layout:id="tg_8" layout:originOfText="cpd00029_c">
+            <layout:boundingBox>
+              <layout:position layout:x="360.0615539550781" layout:y="869.0933532714844" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_406" layout:id="tg_9" layout:originOfText="cpd00293_c">
+            <layout:boundingBox>
+              <layout:position layout:x="586.6532897949219" layout:y="1152.7912292480469" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_410" layout:id="tg_10" layout:originOfText="cpd00012_c">
+            <layout:boundingBox>
+              <layout:position layout:x="1417.0299731770751" layout:y="326.0293677729876" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_411" layout:id="tg_11" layout:originOfText="cpd00037_c">
+            <layout:boundingBox>
+              <layout:position layout:x="1400.6203367785342" layout:y="151.42689681413935" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_412" layout:id="tg_12" layout:originOfText="cpd00062_c">
+            <layout:boundingBox>
+              <layout:position layout:x="1198.6155425329425" layout:y="323.9791996176285" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_423" layout:id="tg_13" layout:originOfText="cpd00009_c">
+            <layout:boundingBox>
+              <layout:position layout:x="2001.7827513293155" layout:y="93.5492723024206" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_424" layout:id="tg_14" layout:originOfText="cpd00061_c">
+            <layout:boundingBox>
+              <layout:position layout:x="1709.6440794543155" layout:y="324.07985091570185" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_425" layout:id="tg_15" layout:originOfText="cpd00067_c">
+            <layout:boundingBox>
+              <layout:position layout:x="2067.0723021105655" layout:y="319.8676316774206" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_426" layout:id="tg_16" layout:originOfText="cpd02820_c">
+            <layout:boundingBox>
+              <layout:position layout:x="2122.3293821886905" layout:y="151.4106004274206" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_430" layout:id="tg_17" layout:originOfText="cpd00005_c">
+            <layout:boundingBox>
+              <layout:position layout:x="2607.2353880480655" layout:y="104.0799119508581" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_431" layout:id="tg_18" layout:originOfText="cpd00006_c">
+            <layout:boundingBox>
+              <layout:position layout:x="2887.2353880480655" layout:y="244.0799119508581" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_432" layout:id="tg_19" layout:originOfText="cpd00067_c">
+            <layout:boundingBox>
+              <layout:position layout:x="2607.2353880480655" layout:y="324.0799119508581" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_433" layout:id="tg_20" layout:originOfText="cpd00773_c">
+            <layout:boundingBox>
+              <layout:position layout:x="2817.2353880480655" layout:y="324.0799119508581" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_437" layout:id="tg_21" layout:originOfText="cpd00175_c">
+            <layout:boundingBox>
+              <layout:position layout:x="1118.4004881457217" layout:y="564.6104295289831" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_449" layout:id="tg_22" layout:originOfText="cpd00001_c">
+            <layout:boundingBox>
+              <layout:position layout:x="1947.0237181261905" layout:y="447.76149154070185" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_450" layout:id="tg_23" layout:originOfText="cpd00003_c">
+            <layout:boundingBox>
+              <layout:position layout:x="1734.9175169543155" layout:y="445.65541243913935" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_451" layout:id="tg_24" layout:originOfText="cpd00004_c">
+            <layout:boundingBox>
+              <layout:position layout:x="2067.5703489855655" layout:y="562.4880540407019" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_452" layout:id="tg_25" layout:originOfText="cpd00067_c">
+            <layout:boundingBox>
+              <layout:position layout:x="1749.6601927355655" layout:y="678.2921311891394" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_453" layout:id="tg_26" layout:originOfText="cpd17092_c">
+            <layout:boundingBox>
+              <layout:position layout:x="1864.8850462511905" layout:y="682.5042893922644" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_454" layout:id="tg_27" layout:originOfText="cpd11494_c">
+            <layout:boundingBox>
+              <layout:position layout:x="1475.9698791503906" layout:y="1035.1493225097656" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_458" layout:id="tg_28" layout:originOfText="cpd11493_c">
+            <layout:boundingBox>
+              <layout:position layout:x="1928.6716003417969" layout:y="1119.3616027832031" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_459" layout:id="tg_29" layout:originOfText="cpd17094_c">
+            <layout:boundingBox>
+              <layout:position layout:x="1430.1332702636719" layout:y="1165.6963195800781" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_460" layout:id="tg_30" layout:originOfText="cpd17095_c">
+            <layout:boundingBox>
+              <layout:position layout:x="2023.9447937011719" layout:y="1037.2556457519531" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="20" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_60" layout:id="tg_31" layout:originOfText="rxn03638">
+            <layout:boundingBox>
+              <layout:position layout:x="10.0911865234375" layout:y="135.86093139648438" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="0" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_61" layout:id="tg_32" layout:originOfText="rxn01485">
+            <layout:boundingBox>
+              <layout:position layout:x="29.0623779296875" layout:y="634.6238708496094" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="0" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_62" layout:id="tg_33" layout:originOfText="rxn01484">
+            <layout:boundingBox>
+              <layout:position layout:x="561.9104919433594" layout:y="1001.4728698730469" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="0" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_63" layout:id="tg_34" layout:originOfText="rxn00293">
+            <layout:boundingBox>
+              <layout:position layout:x="956.5759422638962" layout:y="112.32257984548062" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="0" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_65" layout:id="tg_35" layout:originOfText="rxn00461">
+            <layout:boundingBox>
+              <layout:position layout:x="1502.7265989855655" layout:y="45.076005700858104" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="0" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_66" layout:id="tg_36" layout:originOfText="rxn02285">
+            <layout:boundingBox>
+              <layout:position layout:x="2248.790685899628" layout:y="408.20765853288935" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="0" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_67" layout:id="tg_37" layout:originOfText="rxn00295">
+            <layout:boundingBox>
+              <layout:position layout:x="1519.0935423449405" layout:y="409.07985091570185" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="0" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_69" layout:id="tg_38" layout:originOfText="rJB00277">
+            <layout:boundingBox>
+              <layout:position layout:x="1603.8201048449405" layout:y="769.9652268922644" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="0" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+          <layout:textGlyph layout:graphicalObject="_70" layout:id="tg_39" layout:originOfText="rxn13913">
+            <layout:boundingBox>
+              <layout:position layout:x="1467.5251159667969" layout:y="975.1494445800781" layout:z="0"/>
+              <layout:dimensions layout:depth="1" layout:height="0" layout:width="160"/>
+            </layout:boundingBox>
+          </layout:textGlyph>
+        </layout:listOfTextGlyphs>
+      </layout:layout>
+    </layout:listOfLayouts>
+    <listOfCompartments>
+      <compartment constant="true" id="c" name="Cytosol" sboTerm="SBO:0000290" spatialDimensions="3"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd00022_c" name="Acetyl-CoA" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd00010_c" name="CoA" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd00067_c" name="H+" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd02611_c" name="N-Acetyl-D-glucosamine1-phosphate" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd03671_c" name="D-Glucosamine1-phosphate" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd00288_c" name="D-Glucosamine phosphate" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd00001_c" name="H2O" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd00029_c" name="Acetate" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd00293_c" name="N-Acetyl-D-glucosamine 6-phosphate" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd00012_c" name="PPi" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd00037_c" name="UDP-N-acetylglucosamine" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd00062_c" name="UTP" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd00009_c" name="Phosphate" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd00061_c" name="Phosphoenolpyruvate" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd02820_c" name="UDP-N-acetylglucosamine enolpyruvate" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd00005_c" name="NADPH" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd00006_c" name="NADP" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd00773_c" name="UDP-MurNAc" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd00175_c" name="UDP-N-acetyl-D-galactosamine" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd00003_c" name="NAD" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd00004_c" name="NADH" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd17092_c" name="UDP-N-acetyl fucosamine" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd11494_c" name="Acetyl-ACP" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd11493_c" name="ACP" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd17094_c" name="UDP-N-acetyl-D-mannosamine (2NAc3N) acid" sboTerm="SBO:0000247"/>
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="true" id="cpd17095_c" name="UDP-N-acetyl-D-manosamine (2NAc3NAc) acid" sboTerm="SBO:0000247"/>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction compartment="c" fast="false" id="rxn03638" name="glucosamine-1-phosphate N-acetyltransferase" reversible="false" sboTerm="SBO:0000375">
+        <listOfReactants>
+          <speciesReference constant="true" id="rxn03638_reactant_1" sboTerm="SBO:0000010" species="cpd00022_c" stoichiometry="1"/>
+          <speciesReference constant="true" id="rxn03638_reactant_2" sboTerm="SBO:0000010" species="cpd03671_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="rxn03638_product_1" species="cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" id="rxn03638_product_2" species="cpd00010_c" stoichiometry="1"/>
+          <speciesReference constant="true" id="rxn03638_product_3" species="cpd02611_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction compartment="c" fast="false" id="rxn01485" name="phosphoglucosamine mutase" reversible="true" sboTerm="SBO:0000375">
+        <listOfReactants>
+          <speciesReference constant="true" id="rxn01485_reactant_1" sboTerm="SBO:0000010" species="cpd03671_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="rxn01485_product_1" species="cpd00288_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction compartment="c" fast="false" id="rxn01484" name="N-acetylglucosamine-6-phosphate deacetylase" reversible="true" sboTerm="SBO:0000375">
+        <listOfReactants>
+          <speciesReference constant="true" id="rxn01484_reactant_1" sboTerm="SBO:0000010" species="cpd00293_c" stoichiometry="1"/>
+          <speciesReference constant="true" id="rxn01484_reactant_2" sboTerm="SBO:0000010" species="cpd00001_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="rxn01484_product_1" species="cpd00288_c" stoichiometry="1"/>
+          <speciesReference constant="true" id="rxn01484_product_2" species="cpd00029_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction compartment="c" fast="false" id="rxn00293" name="UDP-N-acetylglucosamine diphosphorylase" reversible="true" sboTerm="SBO:0000375">
+        <listOfReactants>
+          <speciesReference constant="true" id="rxn00293_reactant_1" sboTerm="SBO:0000010" species="cpd00062_c" stoichiometry="1"/>
+          <speciesReference constant="true" id="rxn00293_reactant_2" sboTerm="SBO:0000010" species="cpd02611_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="rxn00293_product_1" species="cpd00012_c" stoichiometry="1"/>
+          <speciesReference constant="true" id="rxn00293_product_2" species="cpd00037_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction compartment="c" fast="false" id="rxn00461" name="UDP-N-acetylglucosamine 1-carboxyvinyltransferase" reversible="true" sboTerm="SBO:0000375">
+        <listOfReactants>
+          <speciesReference constant="true" id="rxn00461_reactant_1" sboTerm="SBO:0000010" species="cpd00061_c" stoichiometry="1"/>
+          <speciesReference constant="true" id="rxn00461_reactant_2" sboTerm="SBO:0000010" species="cpd00037_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="rxn00461_product_1" species="cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" id="rxn00461_product_2" species="cpd02820_c" stoichiometry="1"/>
+          <speciesReference constant="true" id="rxn00461_product_3" species="cpd00009_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction compartment="c" fast="false" id="rxn02285" name="UDP-N-acetylenolpyruvoylglucosamine reductase" reversible="true" sboTerm="SBO:0000375">
+        <listOfReactants>
+          <speciesReference constant="true" id="rxn02285_reactant_1" sboTerm="SBO:0000010" species="cpd00773_c" stoichiometry="1"/>
+          <speciesReference constant="true" id="rxn02285_reactant_2" sboTerm="SBO:0000010" species="cpd00006_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="rxn02285_product_1" species="cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" id="rxn02285_product_2" species="cpd02820_c" stoichiometry="1"/>
+          <speciesReference constant="true" id="rxn02285_product_3" species="cpd00005_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction compartment="c" fast="false" id="rxn00295" name="UDP-N-acetylglucosamine 4-epimerase" reversible="true" sboTerm="SBO:0000375">
+        <listOfReactants>
+          <speciesReference constant="true" id="rxn00295_reactant_1" sboTerm="SBO:0000010" species="cpd00037_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="rxn00295_product_1" species="cpd00175_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction compartment="c" fast="false" id="rJB00277" name="UDP-N-acetyl fucosamine synthase" reversible="true" sboTerm="SBO:0000375">
+        <listOfReactants>
+          <speciesReference constant="true" id="rJB00277_reactant_1" sboTerm="SBO:0000010" species="cpd00067_c" stoichiometry="1"/>
+          <speciesReference constant="true" id="rJB00277_reactant_2" sboTerm="SBO:0000010" species="cpd00175_c" stoichiometry="1"/>
+          <speciesReference constant="true" id="rJB00277_reactant_3" sboTerm="SBO:0000010" species="cpd00003_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="rJB00277_product_1" species="cpd00001_c" stoichiometry="1"/>
+          <speciesReference constant="true" id="rJB00277_product_2" species="cpd17092_c" stoichiometry="1"/>
+          <speciesReference constant="true" id="rJB00277_product_3" species="cpd00004_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction compartment="c" fast="false" id="rxn13913" name="UDP-N-acetyl-mannosamine (2NAc3N) acid acetylase" reversible="true" sboTerm="SBO:0000375">
+        <listOfReactants>
+          <speciesReference constant="true" id="rxn13913_reactant_1" sboTerm="SBO:0000010" species="cpd17094_c" stoichiometry="1"/>
+          <speciesReference constant="true" id="rxn13913_reactant_2" sboTerm="SBO:0000010" species="cpd11494_c" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" id="rxn13913_product_1" species="cpd17095_c" stoichiometry="1"/>
+          <speciesReference constant="true" id="rxn13913_product_2" species="cpd11493_c" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>
