@@ -9,6 +9,11 @@ import pandas as pd
 from sympy import Matrix
 from pprint import PrettyPrinter
 
+asansm_sbml = "fbc/iPAE1146_Amino_sugar_and_nucleotide_sugar_metabolism_fbc_squeezed.xml"
+pm_sbml = "fbc/iPAE1146_Pyrimidine_metabolism_fbc_squeezed.xml"
+lb_sbml = "fbc/iPAE1146_Lipopolysaccharide_biosynthesis_fbc_squeezed.xml"
+combined_sbml = "fbc/iPAE1146_Combined_Subsystems_fbc_squeezed.xml"
+
 
 def get_reaction_names(listOfReactions, reactionIDs):
     return [listOfReactions.get(id).getName() for id in reactionIDs]
@@ -71,7 +76,6 @@ def write_eigenvalues_to_file(model, filepath, species_names):
 
 
 # We start with the smallest subsystem: Amino Sugar and Nucleotide Sugar Metabolism
-asansm_sbml = "xml/iPAE1146_Amino_sugar_and_nucleotide_sugar_metabolism_squeezed.xml"
 asansm_libsbml_doc = libsbml.readSBML(asansm_sbml)
 asansm_libsbml = asansm_libsbml_doc.getModel()
 asansm_model = te.loadSBMLModel(asansm_sbml)
@@ -82,11 +86,9 @@ asansm_right_nullspace = Matrix(S_asansm).nullspace()
 asansm_left_nullspace = Matrix(S_asansm.T).nullspace()
 asansm_rank = Matrix(S_asansm).rank()
 
-
 # Next subsystem: Pyrimidine Metabolism
 # This one is a little special because Matrix().nullspace computes an empty right nullspace here, but there is one!
 # So we do it the pedestrian way...
-pm_sbml = "xml/iPAE1146_Pyrimidine_metabolism_squeezed.xml"
 pm_libsbml_doc = libsbml.readSBML(pm_sbml)
 pm_libsbml = pm_libsbml_doc.getModel()
 pm_model = te.loadSBMLModel(pm_sbml)
@@ -101,7 +103,6 @@ pm_rank_numpy = np.linalg.matrix_rank(S_pm)
 pm_rank_sympy = Matrix(S_pm).rank()
 
 # Third one: Lipopolysaccharide Biosynthesis
-lb_sbml = "xml/iPAE1146_Lipopolysaccharide_biosynthesis_squeezed.xml"
 lb_libsbml_doc = libsbml.readSBML(lb_sbml)
 lb_libsbml = lb_libsbml_doc.getModel()
 lb_model = te.loadSBMLModel(lb_sbml)
@@ -113,7 +114,6 @@ lb_left_nullspace = Matrix(S_lb.T).nullspace()
 lb_rank = Matrix(S_lb).rank()
 
 # Combined one
-combined_sbml = "xml/iPAE1146_Combined_Subsystems_squeezed.xml"
 combined_libsbml_doc = libsbml.readSBML(combined_sbml)
 combined_libsbml = combined_libsbml_doc.getModel()
 combined_model = te.loadSBMLModel(combined_sbml)
@@ -125,7 +125,6 @@ combined_left_nullspace = Matrix(S_combined.T).nullspace()
 combined_rank = Matrix(S_combined).rank()
 
 
-"""
 #Write all the tables to files 
 write_stoichiometric_matrix_to_file(S_asansm, "matrices/S_asansm.tsv")
 write_left_nullspace_to_file(asansm_left_nullspace, "matrices/asansm_left_nullspace.tsv", S_asansm.rownames)
@@ -162,6 +161,14 @@ pp.pprint(find_conservative_relations(S_lb))
 
 print("\nThe conservative relations in the combined subsystem are: \n")
 pp.pprint(find_conservative_relations(S_combined))
-"""
+S_asansm_latex = asansm_model.getFullStoichiometryMatrix()
+S_asansm_latex_df = pd.DataFrame(data=S_asansm_latex, index=S_asansm_latex.rownames, columns=S_asansm_latex.colnames, dtype=int)
+with open("matrices/S_asansm_latex.txt", "w") as outfile:
+    outfile.write(S_asansm_latex_df.to_latex(bold_rows=True))
 
-# Todo next: Get Fluxes v (to formulate dx=Sv)
+S_asansm_latex = asansm_model.getFullStoichiometryMatrix()
+asansm_left_null_latex_df = pd.DataFrame(data=[[elem for elem in line] for line in asansm_left_nullspace],
+                                         columns=S_asansm_latex.rownames, dtype=int)
+with open("matrices/asansm_left_nullspace_latex.txt","w") as outfile:
+    outfile.write(asansm_left_null_latex_df.to_latex(bold_rows=True))
+# Todo next: Redo with _fbc'd models, repaint pathway in pm map (mark 2 UDPs)

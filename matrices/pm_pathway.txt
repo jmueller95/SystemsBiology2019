@@ -9,3 +9,8 @@ ndp ATP UDP
 
 -ndk ATP dTDP
 -thymidine-triphosphatase irreversible
+
+
+UTP->CTP->CDP->dCDP->dCTP->dUTP->dUDP->UDP->UTP
+
+TTP->dTDP->TTP

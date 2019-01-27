@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg class="escher-svg"
+    xmlns="http://www.w3.org/2000/svg" width="3099.657684326172" height="1206.8061828613281">
+    <defs>
+        <style type="text/css">svg.escher-svg .gene-label,svg.escher-svg .label{text-rendering:optimizelegibility;cursor:default}svg.escher-svg #mouse-node{fill:none}svg.escher-svg #canvas{stroke:#ccc;stroke-width:7px;fill:#fff}svg.escher-svg .resize-rect{fill:#000;opacity:0;stroke:none}svg.escher-svg .label{font-family:sans-serif;font-style:italic;font-weight:700;font-size:8px;fill:#000;stroke:none}svg.escher-svg .reaction-label{font-size:30px;fill:#202078;text-rendering:optimizelegibility}svg.escher-svg .node-label{font-size:20px}svg.escher-svg .gene-label{font-size:18px;fill:#202078}svg.escher-svg .text-label .label,svg.escher-svg .text-label-input{font-size:50px}svg.escher-svg .node-circle{stroke-width:2px}svg.escher-svg .midmarker-circle,svg.escher-svg .multimarker-circle{fill:#fff;fill-opacity:.2;stroke:#323232}svg.escher-svg g.selected .node-circle{stroke-width:6px;stroke:#1471c7}svg.escher-svg g.selected .label{fill:#1471c7}svg.escher-svg .metabolite-circle{stroke:#a24510;fill:#e0865b}svg.escher-svg g.selected .metabolite-circle{stroke:#050200}svg.escher-svg .segment{stroke:#334E75;stroke-width:10px;fill:none}svg.escher-svg .arrowhead{fill:#334E75}svg.escher-svg .stoichiometry-label-rect{fill:#fff;opacity:.5}svg.escher-svg .stoichiometry-label{fill:#334E75;font-size:17px}svg.escher-svg .membrane{fill:none;stroke:#fb0}svg.escher-svg .brush .extent{fill-opacity:.1;fill:#000;stroke:#fff;shape-rendering:crispEdges}svg.escher-svg #brush-container .background{fill:none}svg.escher-svg .bezier-circle{fill:#fff}svg.escher-svg .bezier-circle.b1{stroke:red}svg.escher-svg .bezier-circle.b2{stroke:#00f}svg.escher-svg .connect-line{stroke:#c8c8c8}svg.escher-svg .direction-arrow{stroke:#000;stroke-width:1px;fill:#fff;opacity:.3}svg.escher-svg .start-reaction-cursor{cursor:pointer}svg.escher-svg .start-reaction-target{stroke:#646464;fill:none;opacity:.5}svg.escher-svg .rotation-center-line{stroke:red;stroke-width:5px}svg.escher-svg .highlight{fill:#D97000;text-decoration:underline}svg.escher-svg .cursor-grab{cursor:grab;cursor:-webkit-grab}svg.escher-svg .cursor-grabbing{cursor:grabbing;cursor:-webkit-grabbing}svg.escher-svg .edit-text-cursor{cursor:text}</style>
+    </defs>
+    <g class="zoom-g cursor-grab" transform="translate(631.8356628417969,-178.72213745117188) scale(1)">
+        <g class="canvas-group">
+            <rect id="mouse-node" width="0px" height="0px" pointer-events="all"/>
+            <rect id="canvas" width="3099.657684326172" height="1206.8061828613281" transform="translate(-631.8356628417969,178.72213745117188)" style="visibility: hidden;"/>
+            <rect class="drag-rect resize-rect" transform="translate(-681.8356628417969,228.72213745117188)" height="1106.8061828613281" id="dragleft" width="100" cursor="ew-resize" style="pointer-events: auto;"/>
+            <rect class="drag-rect resize-rect" transform="translate(2417.822021484375,228.72213745117188)" id="dragright" height="1106.8061828613281" width="100" cursor="ew-resize" style="pointer-events: auto;"/>
+            <rect class="drag-rect resize-rect" transform="translate(-581.8356628417969,128.72213745117188)" height="100" id="dragtop" width="2999.657684326172" cursor="ns-resize" style="pointer-events: auto;"/>
+            <rect class="drag-rect resize-rect" transform="translate(-581.8356628417969,1335.5283203125)" id="dragbottom" height="100" width="2999.657684326172" cursor="ns-resize" style="pointer-events: auto;"/>
+        </g>
+        <g id="brush-container"/>
+        <g id="reactions">
+            <g id="r60" class="reaction">
+                <g class="reaction-label-group" transform="translate(-621.7444763183594,314.58306884765625)">
+                    <text class="reaction-label label" visibility="visible">glucosamine-1-phosphate N-acetyltransferase</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s375">
+                    <path class="segment" d="M86.42584228515625,392.4931640625 106.42584228515625,392.4931640625"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s376">
+                    <path class="segment" d="M126.42584228515625,392.4931640625 106.42584228515625,392.4931640625"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s377">
+                    <path class="segment" d="M126.42584228515625,392.4931640625 C115.77288818359375,394.5992431640625 165.81097412109375,375.6441955566406 165.65321429518164,482.1787580840077"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(165.65321429518164,482.1787580840077)rotate(360.08484538144216)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s378">
+                    <path class="segment" d="M86.42584228515625,392.4931640625 C-20.86383056640625,392.4931640625 -58.264892578125,394.5992736816406 -87.014892578125,394.5992736816406"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s379">
+                    <path class="segment" d="M126.42584228515625,392.4931640625 C176.63812255859375,392.4931640625 169.25146484375,370.2809753417969 189.39325823602528,333.08695322413774"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(189.39325823602528,333.08695322413774)rotate(208.43701065121124)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s380">
+                    <path class="segment" d="M126.42584228515625,392.4931640625 C145.04632568359375,394.59930419921875 209.34067277433905,396.68298483285093 485.08315623256385,397.17851462392144"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(485.08315623256385,397.17851462392144)rotate(270.1029646746189)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s381">
+                    <path class="segment" d="M86.42584228515625,392.4931640625 C-85.94125366210938,390.38702392578125 -76.44857788085938,477.8890380859375 -83.91316464401822,625.2206276507216"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r61" class="reaction">
+                <g class="reaction-label-group" transform="translate(-602.7732849121094,813.3460083007812)">
+                    <text class="reaction-label label" visibility="visible">phosphoglucosamine mutase</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s382">
+                    <path class="segment" d="M-84.9251708984375,800.1950073242188 -84.9251708984375,820.1950073242188"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s383">
+                    <path class="segment" d="M-84.9251708984375,840.1950073242188 -84.9251708984375,820.1950073242188"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s384">
+                    <path class="segment" d="M-84.9251708984375,840.1950073242188 C-84.9251708984375,882.1950073242188 -84.9251708984375,936.4450073242188 -84.9251708984375,952.1950073242188"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(-84.9251708984375,952.1950073242188)rotate(360)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s385">
+                    <path class="segment" d="M-84.9251708984375,800.1950073242188 C-84.9251708984375,758.1950073242188 -84.9251708984375,703.9450073242188 -84.9251708984375,678.1950073242188"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(-84.9251708984375,678.1950073242188)rotate(180)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r62" class="reaction">
+                <g class="reaction-label-group" transform="translate(-69.9251708984375,1180.1950073242188)">
+                    <text class="reaction-label label" visibility="visible">N-acetylglucosamine-6-phosphate deacetylase</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s386">
+                    <path class="segment" d="M-84.9251708984375,1190.1950073242188 -84.9251708984375,1170.1950073242188"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s387">
+                    <path class="segment" d="M-84.9251708984375,1150.1950073242188 -84.9251708984375,1170.1950073242188"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s388">
+                    <path class="segment" d="M-84.9251708984375,1190.1950073242188 C-84.9251708984375,1236.1950073242188 -102.9251708984375,1241.4450073242188 -135.94122821438788,1259.4174578792724"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(-135.94122821438788,1259.4174578792724)rotate(421.4381235158731)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s389">
+                    <path class="segment" d="M-84.9251708984375,1150.1950073242188 C-84.9251708984375,1104.1950073242188 -102.9251708984375,1098.9450073242188 -135.94122821438788,1080.972556769165"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(-135.94122821438788,1080.972556769165)rotate(118.56187648412694)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s390">
+                    <path class="segment" d="M-84.9251708984375,1150.1950073242188 C-84.9251708984375,1108.1950073242188 -84.9251708984375,1053.9450073242188 -84.9251708984375,1038.1950073242188"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(-84.9251708984375,1038.1950073242188)rotate(180)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s391">
+                    <path class="segment" d="M-84.9251708984375,1190.1950073242188 C-84.9251708984375,1232.1950073242188 -84.9251708984375,1286.4450073242188 -84.9251708984375,1302.1950073242188"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(-84.9251708984375,1302.1950073242188)rotate(360)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r63" class="reaction">
+                <g class="reaction-label-group" transform="translate(324.7402794220993,291.0447172966525)">
+                    <text class="reaction-label label" visibility="visible">UDP-N-acetylglucosamine diphosphorylase</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s392">
+                    <path class="segment" d="M677.2671724904035,400.8982607940402 697.2662193635056,401.09351490407437"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s393">
+                    <path class="segment" d="M717.2652662366063,401.2887690141084 697.2662193635056,401.09351490407437"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s394">
+                    <path class="segment" d="M717.2652662366063,401.2887690141084 C763.2630740447394,401.7378534671873 768.3370951498991,419.78824985686185 785.9863631592476,452.97819349011013"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(785.9863631592476,452.97819349011013)rotate(331.997494223632)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s395">
+                    <path class="segment" d="M717.2652662366063,401.2887690141084 C759.2632646701204,401.6988026451804 813.5106793134073,402.2284294186478 829.2599287259752,402.38219203029985"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(829.2599287259752,402.38219203029985)rotate(270.5593707077603)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s396">
+                    <path class="segment" d="M677.2671724904035,400.8982607940402 C631.2693646822686,400.4491763409602 625.8438861790492,418.3970643228688 607.5499660808945,451.2360884722904"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(607.5499660808945,451.2360884722904)rotate(389.1212471918878)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s397">
+                    <path class="segment" d="M677.2671724904035,400.8982607940402 C635.2691740568889,400.4882271629683 576.830303136061,397.81137693554365 551.0815302869428,397.5599872688746"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(551.0815302869428,397.5599872688746)rotate(90.55937070775994)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r65" class="reaction">
+                <g class="reaction-label-group" transform="translate(870.8909361437686,223.79814315202998)">
+                    <text class="reaction-label label" visibility="visible">UDP-N-acetylglucosamine 1-carboxyvinyltransferase</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s405">
+                    <path class="segment" d="M1311.5838072375186,398.5897691285925 1331.5838072375186,398.5897691285925"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s406">
+                    <path class="segment" d="M1351.5838072375186,398.5897691285925 1331.5838072375186,398.5897691285925"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s407">
+                    <path class="segment" d="M1351.5838072375186,398.5897691285925 C1397.5838072375186,398.5897691285925 1402.8338072375186,380.5897691285925 1420.8062577925723,347.5737118126421"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1420.8062577925723,347.5737118126421)rotate(208.56187648412697)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s408">
+                    <path class="segment" d="M1311.5838072375186,398.5897691285925 C1269.5838072375186,398.5897691285925 931.0078795031436,402.80198836687373 915.2578795031436,402.80198836687373"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(915.2578795031436,402.80198836687373)rotate(90)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s409">
+                    <path class="segment" d="M1311.5838072375186,398.5897691285925 C1265.5838072375186,398.5897691285925 1260.3338072375186,422.9081285035925 1242.361356682465,455.92418581954286"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1242.361356682465,455.92418581954286)rotate(388.56187648412697)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s410">
+                    <path class="segment" d="M1351.5838072375186,398.5897691285925 C1397.5838072375186,398.5897691285925 1402.8338072375186,416.5897691285925 1420.8062577925723,449.60582644454286"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1420.8062577925723,449.60582644454286)rotate(331.43812351587303)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s411">
+                    <path class="segment" d="M1351.5838072375186,398.5897691285925 C1393.5838072375186,398.5897691285925 1626.8538267687686,396.48362899187373 1642.6038267687686,396.48362899187373"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1642.6038267687686,396.48362899187373)rotate(270)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r66" class="reaction">
+                <g class="reaction-label-group" transform="translate(1616.955023057831,586.9297959840612)">
+                    <text class="reaction-label label" visibility="visible">UDP-N-acetylenolpyruvoylglucosamine reductase</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s412">
+                    <path class="segment" d="M2154.3997252062686,402.80204940203 2134.3997252062686,402.80204940203"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s413">
+                    <path class="segment" d="M2114.3997252062686,402.80204940203 2134.3997252062686,402.80204940203"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s414">
+                    <path class="segment" d="M2114.3997252062686,402.80204940203 C2068.3997252062686,402.80204940203 2063.1497252062686,384.80204940203 2045.177274651215,351.7859920860796"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(2045.177274651215,351.7859920860796)rotate(151.43812351587303)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s415">
+                    <path class="segment" d="M2154.3997252062686,402.80204940203 C2200.3997252062686,402.80204940203 2205.6497252062686,420.80204940203 2223.622175761322,453.81810671798036"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(2223.622175761322,453.81810671798036)rotate(331.43812351587303)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s416">
+                    <path class="segment" d="M2114.3997252062686,402.80204940203 C2068.3997252062686,402.80204940203 2063.1497252062686,420.80204940203 2045.177274651215,453.81810671798036"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(2045.177274651215,453.81810671798036)rotate(388.56187648412697)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s417">
+                    <path class="segment" d="M2154.3997252062686,402.80204940203 C2196.3997252062686,402.80204940203 2250.6497252062686,402.80204940203 2266.3997252062686,402.80204940203"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(2266.3997252062686,402.80204940203)rotate(270)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s418">
+                    <path class="segment" d="M2114.3997252062686,402.80204940203 C2072.3997252062686,402.80204940203 1744.3538267687686,396.48362899187373 1728.6038267687686,396.48362899187373"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1728.6038267687686,396.48362899187373)rotate(90)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r67" class="reaction">
+                <g class="reaction-label-group" transform="translate(887.2578795031436,587.8019883668737)">
+                    <text class="reaction-label label" visibility="visible">UDP-N-acetylglucosamine 4-epimerase</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s419">
+                    <path class="segment" d="M872.2578795031436,557.8019883668737 872.2578795031436,577.8019883668737"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s420">
+                    <path class="segment" d="M872.2578795031436,597.8019883668737 872.2578795031436,577.8019883668737"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s421">
+                    <path class="segment" d="M872.2578795031436,557.8019883668737 C872.2578795031436,515.8019883668737 872.2578795031436,461.55198836687373 872.2578795031436,445.80198836687373"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(872.2578795031436,445.80198836687373)rotate(180)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s422">
+                    <path class="segment" d="M872.2578795031436,597.8019883668737 C872.2578795031436,639.8019883668737 872.2578795031436,694.0519883668737 872.2578795031436,709.8019883668737"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(872.2578795031436,709.8019883668737)rotate(360)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r69" class="reaction">
+                <g class="reaction-label-group" transform="translate(971.9844420031436,948.6873643434362)">
+                    <text class="reaction-label label" visibility="visible">UDP-N-acetyl fucosamine synthase</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s431">
+                    <path class="segment" d="M1212.5962584093936,752.8019883668737 1232.5962584093936,752.8019883668737"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s432">
+                    <path class="segment" d="M1252.5962584093936,752.8019883668737 1232.5962584093936,752.8019883668737"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s433">
+                    <path class="segment" d="M1252.5962584093936,752.8019883668737 C1298.5962584093936,752.8019883668737 1303.8462584093936,734.8019883668737 1321.8187089644473,701.7859310509233"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1321.8187089644473,701.7859310509233)rotate(208.56187648412697)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s434">
+                    <path class="segment" d="M1212.5962584093936,752.8019883668737 C1166.5962584093936,752.8019883668737 1161.3462584093936,734.8019883668737 1143.37380785434,701.7859310509233"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1143.37380785434,701.7859310509233)rotate(151.43812351587303)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s435">
+                    <path class="segment" d="M1252.5962584093936,752.8019883668737 C1294.5962584093936,752.8019883668737 1348.8462584093936,752.8019883668737 1364.5962584093936,752.8019883668737"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1364.5962584093936,752.8019883668737)rotate(270)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s436">
+                    <path class="segment" d="M1212.5962584093936,752.8019883668737 C1166.5962584093936,752.8019883668737 1161.3462584093936,770.8019883668737 1143.37380785434,803.8180456828242"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1143.37380785434,803.8180456828242)rotate(388.56187648412697)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s437">
+                    <path class="segment" d="M1212.5962584093936,752.8019883668737 C1170.5962584093936,752.8019883668737 931.0078795031436,752.8019883668737 915.2578795031436,752.8019883668737"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(915.2578795031436,752.8019883668737)rotate(90)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s438">
+                    <path class="segment" d="M1252.5962584093936,752.8019883668737 C1298.5962584093936,752.8019883668737 1303.8462584093936,770.8019883668737 1321.8187089644473,803.8180456828242"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1321.8187089644473,803.8180456828242)rotate(331.43812351587303)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+            <g id="r70" class="reaction">
+                <g class="reaction-label-group" transform="translate(835.689453125,1153.87158203125)">
+                    <text class="reaction-label label" visibility="visible">UDP-N-acetyl-mannosamine (2NAc3N) acid acetylase</text>
+                    <g class="all-genes-label-group"/></g>
+                <g class="segment-group" id="s439">
+                    <path class="segment" d="M1150.015625,1227.5694580078125 1170.015625,1227.5694580078125"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s440">
+                    <path class="segment" d="M1190.015625,1227.5694580078125 1170.015625,1227.5694580078125"/>
+                    <g class="arrowheads"/>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s441">
+                    <path class="segment" d="M1190.015625,1227.5694580078125 C1236.015625,1227.5694580078125 1241.265625,1245.5694580078125 1259.2380755550537,1278.5855153237628"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1259.2380755550537,1278.5855153237628)rotate(331.43812351587303)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s442">
+                    <path class="segment" d="M1150.015625,1227.5694580078125 C1104.015625,1227.5694580078125 1098.765625,1245.5694580078125 1080.7931744449463,1278.5855153237628"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1080.7931744449463,1278.5855153237628)rotate(388.56187648412697)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s443">
+                    <path class="segment" d="M1150.015625,1227.5694580078125 C1108.015625,1227.5694580078125 1053.765625,1227.5694580078125 1038.015625,1227.5694580078125"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1038.015625,1227.5694580078125)rotate(90)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+                <g class="segment-group" id="s444">
+                    <path class="segment" d="M1190.015625,1227.5694580078125 C1232.015625,1227.5694580078125 1286.265625,1227.5694580078125 1302.015625,1227.5694580078125"/>
+                    <g class="arrowheads">
+                        <path class="arrowhead" d="M-10,0 L0,13 L10,0 Z" transform="translate(1302.015625,1227.5694580078125)rotate(270)"/>
+                    </g>
+                    <g class="stoichiometry-labels"/></g>
+            </g>
+        </g>
+        <g id="nodes">
+            <g class="node" id="n389">
+                <circle class="node-circle metabolite-circle" transform="translate(-117.014892578125,394.5992736816406)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(-280.5331115722656,415.6441955566406)">Acetyl-CoA</text>
+            </g>
+            <g class="node" id="n390">
+                <circle class="node-circle multimarker-circle" transform="translate(86.42584228515625,392.4931640625)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n391">
+                <circle class="node-circle midmarker-circle" transform="translate(106.42584228515625,392.4931640625)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n392">
+                <circle class="node-circle multimarker-circle" transform="translate(126.42584228515625,392.4931640625)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n393">
+                <circle class="node-circle metabolite-circle" transform="translate(165.58953857421875,525.1787109375)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(143.1812744140625,584.1337890625)">CoA</text>
+            </g>
+            <g class="node" id="n394">
+                <circle class="node-circle metabolite-circle" transform="translate(205.10760498046875,304.0686950683594)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(197.4422607421875,277.7503356933594)">H+</text>
+            </g>
+            <g class="node" id="n395">
+                <circle class="node-circle metabolite-circle" transform="translate(518.0831029463252,397.23781798731807)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(285.0629613447627,350.8869268740368)">N-Acetyl-D-glucosamine1-phosphate</text>
+            </g>
+            <g class="node" id="n396">
+                <circle class="node-circle metabolite-circle" transform="translate(-84.9251708984375,645.1950073242188)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(-429.5696105957031,651.4970092773438)">D-Glucosamine1-phosphate</text>
+            </g>
+            <g class="node" id="n397">
+                <circle class="node-circle multimarker-circle" transform="translate(-84.9251708984375,800.1950073242188)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n398">
+                <circle class="node-circle midmarker-circle" transform="translate(-84.9251708984375,820.1950073242188)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n399">
+                <circle class="node-circle multimarker-circle" transform="translate(-84.9251708984375,840.1950073242188)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n400">
+                <circle class="node-circle metabolite-circle" transform="translate(-84.9251708984375,995.1950073242188)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(-40.9700927734375,1007.8317260742188)">D-Glucosamine phosphate</text>
+            </g>
+            <g class="node" id="n401">
+                <circle class="node-circle multimarker-circle" transform="translate(-84.9251708984375,1190.1950073242188)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n402">
+                <circle class="node-circle midmarker-circle" transform="translate(-84.9251708984375,1170.1950073242188)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n403">
+                <circle class="node-circle multimarker-circle" transform="translate(-84.9251708984375,1150.1950073242188)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n404">
+                <circle class="node-circle metabolite-circle" transform="translate(-164.9251708984375,1275.1950073242188)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(-233.864013671875,1282.0277709960938)">H2O</text>
+            </g>
+            <g class="node" id="n405">
+                <circle class="node-circle metabolite-circle" transform="translate(-164.9251708984375,1065.1950073242188)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(-271.77410888671875,1067.8154907226562)">Acetate</text>
+            </g>
+            <g class="node" id="n406">
+                <circle class="node-circle metabolite-circle" transform="translate(-84.9251708984375,1345.1950073242188)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(-45.182373046875,1351.5133666992188)">N-Acetyl-D-glucosamine 6-phosphate</text>
+            </g>
+            <g class="node" id="n407">
+                <circle class="node-circle multimarker-circle" transform="translate(677.2671724904035,400.8982607940402)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n408">
+                <circle class="node-circle midmarker-circle" transform="translate(697.2662193635056,401.09351490407437)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n409">
+                <circle class="node-circle multimarker-circle" transform="translate(717.2652662366063,401.2887690141084)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n410">
+                <circle class="node-circle metabolite-circle" transform="translate(801.4801990071533,482.1147864741595)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(785.1943103352783,524.7515052241595)">PPi</text>
+            </g>
+            <g class="node" id="n411">
+                <circle class="node-circle metabolite-circle" transform="translate(872.2578795031436,402.80198836687373)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(768.7846739367374,350.14903426531123)">UDP-N-acetylglucosamine</text>
+            </g>
+            <g class="node" id="n412">
+                <circle class="node-circle metabolite-circle" transform="translate(591.4902068395832,480.0646183188004)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(566.7798796911457,522.7013370688004)">UTP</text>
+            </g>
+            <g class="node" id="n420">
+                <circle class="node-circle multimarker-circle" transform="translate(1311.5838072375186,398.5897691285925)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n421">
+                <circle class="node-circle midmarker-circle" transform="translate(1331.5838072375186,398.5897691285925)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n422">
+                <circle class="node-circle multimarker-circle" transform="translate(1351.5838072375186,398.5897691285925)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n423">
+                <circle class="node-circle metabolite-circle" transform="translate(1436.5838072375186,318.5897691285925)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(1369.9470884875186,292.2714097535925)">Phosphate</text>
+            </g>
+            <g class="node" id="n424">
+                <circle class="node-circle metabolite-circle" transform="translate(1226.5838072375186,484.9081285035925)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(1077.8084166125186,522.8019883668737)">Phosphoenolpyruvate</text>
+            </g>
+            <g class="node" id="n425">
+                <circle class="node-circle metabolite-circle" transform="translate(1436.5838072375186,478.5897691285925)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(1435.2366392687686,518.5897691285925)">H+</text>
+            </g>
+            <g class="node" id="n426">
+                <circle class="node-circle metabolite-circle" transform="translate(1685.6038267687686,396.48362899187373)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(1490.4937193468936,350.1327378785925)">UDP-N-acetylglucosamine enolpyruvate</text>
+            </g>
+            <g class="node" id="n427">
+                <circle class="node-circle multimarker-circle" transform="translate(2154.3997252062686,402.80204940203)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n428">
+                <circle class="node-circle midmarker-circle" transform="translate(2134.3997252062686,402.80204940203)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n429">
+                <circle class="node-circle multimarker-circle" transform="translate(2114.3997252062686,402.80204940203)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n430">
+                <circle class="node-circle metabolite-circle" transform="translate(2029.3997252062686,322.80204940203)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(1975.3997252062686,302.80204940203)">NADPH</text>
+            </g>
+            <g class="node" id="n431">
+                <circle class="node-circle metabolite-circle" transform="translate(2239.3997252062686,482.80204940203)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(2185.3997252062686,522.80204940203)">NADP</text>
+            </g>
+            <g class="node" id="n432">
+                <circle class="node-circle metabolite-circle" transform="translate(2029.3997252062686,482.80204940203)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(1975.3997252062686,522.80204940203)">H+</text>
+            </g>
+            <g class="node" id="n433">
+                <circle class="node-circle metabolite-circle" transform="translate(2309.3997252062686,402.80204940203)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(2255.3997252062686,442.80204940203)">UDP-MurNAc</text>
+            </g>
+            <g class="node" id="n434">
+                <circle class="node-circle multimarker-circle" transform="translate(872.2578795031436,557.8019883668737)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n435">
+                <circle class="node-circle midmarker-circle" transform="translate(872.2578795031436,577.8019883668737)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n436">
+                <circle class="node-circle multimarker-circle" transform="translate(872.2578795031436,597.8019883668737)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n437">
+                <circle class="node-circle metabolite-circle" transform="translate(872.2578795031436,752.8019883668737)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(486.56482530392486,763.332566980155)">UDP-N-acetyl-D-galactosamine</text>
+            </g>
+            <g class="node" id="n446">
+                <circle class="node-circle multimarker-circle" transform="translate(1212.5962584093936,752.8019883668737)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n447">
+                <circle class="node-circle midmarker-circle" transform="translate(1232.5962584093936,752.8019883668737)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n448">
+                <circle class="node-circle multimarker-circle" transform="translate(1252.5962584093936,752.8019883668737)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n449">
+                <circle class="node-circle metabolite-circle" transform="translate(1337.5962584093936,672.8019883668737)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(1315.1880552843936,646.4836289918737)">H2O</text>
+            </g>
+            <g class="node" id="n450">
+                <circle class="node-circle metabolite-circle" transform="translate(1127.5962584093936,672.8019883668737)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(1103.0818541125186,644.3775498903112)">NAD</text>
+            </g>
+            <g class="node" id="n451">
+                <circle class="node-circle metabolite-circle" transform="translate(1407.5962584093936,752.8019883668737)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(1435.7346861437686,761.2101914918737)">NADH</text>
+            </g>
+            <g class="node" id="n452">
+                <circle class="node-circle metabolite-circle" transform="translate(1127.5962584093936,832.8019883668737)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(1117.8245298937686,877.0142686403112)">H+</text>
+            </g>
+            <g class="node" id="n453">
+                <circle class="node-circle metabolite-circle" transform="translate(1337.5962584093936,832.8019883668737)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(1233.0493834093936,881.2264268434362)">UDP-N-acetyl fucosamine</text>
+            </g>
+            <g class="node" id="n454">
+                <circle class="node-circle metabolite-circle" transform="translate(1065.015625,1307.5694580078125)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(927.4500732421875,1330.51611328125)">Acetyl-ACP</text>
+            </g>
+            <g class="node" id="n455">
+                <circle class="node-circle multimarker-circle" transform="translate(1150.015625,1227.5694580078125)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n456">
+                <circle class="node-circle midmarker-circle" transform="translate(1170.015625,1227.5694580078125)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n457">
+                <circle class="node-circle multimarker-circle" transform="translate(1190.015625,1227.5694580078125)" r="5" style="visibility: hidden;"/>
+            </g>
+            <g class="node" id="n458">
+                <circle class="node-circle metabolite-circle" transform="translate(1275.015625,1307.5694580078125)" r="10"/>
+                <text class="node-label label" visibility="visible" transform="translate(1296.8359375,1318.083740234375)">ACP</text>
+            </g>
+            <g class="node" id="n459">
+                <circle class="node-circle metabolite-circle" transform="translate(995.015625,1227.5694580078125)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(740.8121948242188,1193.5113525390625)">UDP-N-acetyl-D-mannosamine (2NAc3N) acid</text>
+            </g>
+            <g class="node" id="n460">
+                <circle class="node-circle metabolite-circle" transform="translate(1345.015625,1227.5694580078125)" r="20"/>
+                <text class="node-label label" visibility="visible" transform="translate(1392.109130859375,1235.977783203125)">UDP-N-acetyl-D-manosamine (2NAc3NAc) acid</text>
+            </g>
+        </g>
+        <g id="beziers"/>
+        <g id="text-labels"/>
+        <g id="direction-arrow-container" transform="translate(0,0)rotate(90)">
+            <path class="direction-arrow" d="M0 -5 L0 5 L20 5 L20 10 L30 0 L20 -10 L20 -5 Z" style="visibility: hidden;" transform="translate(30,0)scale(2.5)"/>
+        </g>
+    </g>
+</svg>
