@@ -7,7 +7,7 @@ with open("../maps/iPAE1146_Amino_sugar_and_nucleotide_sugar_metabolism.json") a
 with open("../maps/iPAE1146_Pyrimidine_metabolism.json") as pm_file:
     pm_json = json.load(pm_file)
 
-with open("../maps/iPAE1146_Lipopolysaccharide_biosynthesis.json")as lb_file:
+with open("../maps/iPAE1146_Lipopolysaccharide_biosynthesis_v2.json")as lb_file:
     lb_json = json.load(lb_file)
 
 # The merged json will be a list of two dictionaries (we call them 'header' and 'content')
