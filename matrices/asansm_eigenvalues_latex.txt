@@ -1,0 +1,32 @@
+\begin{tabular}{lr}
+\toprule
+{} &         0 \\
+\midrule
+\textbf{NAD                                      } & -0.991245 \\
+\textbf{NADH                                     } & -0.883799 \\
+\textbf{H+                                       } & -0.586288 \\
+\textbf{H2O                                      } & -0.516560 \\
+\textbf{NADP                                     } & -0.135113 \\
+\textbf{NADPH                                    } & -0.402355 \\
+\textbf{CoA                                      } & -0.294397 \\
+\textbf{Acetyl-CoA                               } & -0.225522 \\
+\textbf{Phosphate                                } &  0.000000 \\
+\textbf{Acetate                                  } &  0.000000 \\
+\textbf{UDP-N-acetyl-D-galactosamine             } &  0.000000 \\
+\textbf{UDP-N-acetyl fucosamine                  } &  0.000000 \\
+\textbf{UDP-MurNAc                               } &  0.000000 \\
+\textbf{UDP-N-acetylglucosamine enolpyruvate     } &  0.000000 \\
+\textbf{PPi                                      } &  0.000000 \\
+\textbf{ACP                                      } &  0.000000 \\
+\textbf{Acetyl-ACP                               } &  0.000000 \\
+\textbf{Phosphoenolpyruvate                      } & -0.571428 \\
+\textbf{UDP-N-acetyl-D-mannosamine (2NAc3N) acid } &  0.000000 \\
+\textbf{UDP-N-acetyl-D-manosamine (2NAc3NAc) acid} &  0.000000 \\
+\textbf{N-Acetyl-D-glucosamine 6-phosphate       } &  0.000000 \\
+\textbf{UTP                                      } &  0.000000 \\
+\textbf{UDP-N-acetylglucosamine                  } &  0.000000 \\
+\textbf{D-Glucosamine phosphate                  } &  0.000000 \\
+\textbf{D-Glucosamine1-phosphate                 } &  0.000000 \\
+\textbf{N-Acetyl-D-glucosamine1-phosphate        } &  0.000000 \\
+\bottomrule
+\end{tabular}

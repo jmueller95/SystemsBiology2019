@@ -124,8 +124,7 @@ combined_right_nullspace = Matrix(S_combined).nullspace()
 combined_left_nullspace = Matrix(S_combined.T).nullspace()
 combined_rank = Matrix(S_combined).rank()
 
-
-#Write all the tables to files 
+# Write all the tables to files
 write_stoichiometric_matrix_to_file(S_asansm, "matrices/S_asansm.tsv")
 write_left_nullspace_to_file(asansm_left_nullspace, "matrices/asansm_left_nullspace.tsv", S_asansm.rownames)
 write_stoichiometric_matrix_to_file(S_pm, "matrices/S_pm.tsv")
@@ -143,7 +142,7 @@ write_eigenvalues_to_file(lb_model, "matrices/lb_eigenvalues.tsv", S_lb.rownames
 write_eigenvalues_to_file(pm_model, "matrices/pm_eigenvalues.tsv", S_pm.rownames)
 write_eigenvalues_to_file(combined_model, "matrices/combined_eigenvalues.tsv", S_combined.rownames)
 
-#Print ranks and conservation relations
+# Print ranks and conservation relations
 pp = PrettyPrinter()
 
 print("The stoichiometric matrix of Amino Sugar and Nucleotide Sugar Metabolism has rank " + str(
@@ -162,13 +161,17 @@ pp.pprint(find_conservative_relations(S_lb))
 print("\nThe conservative relations in the combined subsystem are: \n")
 pp.pprint(find_conservative_relations(S_combined))
 S_asansm_latex = asansm_model.getFullStoichiometryMatrix()
-S_asansm_latex_df = pd.DataFrame(data=S_asansm_latex, index=S_asansm_latex.rownames, columns=S_asansm_latex.colnames, dtype=int)
+S_asansm_latex_df = pd.DataFrame(data=S_asansm_latex, index=S_asansm_latex.rownames, columns=S_asansm_latex.colnames,
+                                 dtype=int)
 with open("matrices/S_asansm_latex.txt", "w") as outfile:
     outfile.write(S_asansm_latex_df.to_latex(bold_rows=True))
 
 S_asansm_latex = asansm_model.getFullStoichiometryMatrix()
 asansm_left_null_latex_df = pd.DataFrame(data=[[elem for elem in line] for line in asansm_left_nullspace],
                                          columns=S_asansm_latex.rownames, dtype=int)
-with open("matrices/asansm_left_nullspace_latex.txt","w") as outfile:
+with open("matrices/asansm_left_nullspace_latex.txt", "w") as outfile:
     outfile.write(asansm_left_null_latex_df.to_latex(bold_rows=True))
-# Todo next: Redo with _fbc'd models, repaint pathway in pm map (mark 2 UDPs)
+
+asansm_eigenvalues_df = pd.DataFrame([asansm_model.getFullEigenValues()], columns=S_asansm.rownames)
+with open("matrices/asansm_eigenvalues_latex.txt", "w") as outfile:
+    outfile.write(asansm_eigenvalues_df.transpose().to_latex(bold_rows=True))
