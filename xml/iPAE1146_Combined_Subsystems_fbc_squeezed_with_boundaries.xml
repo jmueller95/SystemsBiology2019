@@ -60,7 +60,7 @@
       <compartment id="e" name="Extracellular" spatialDimensions="3" units="volume" constant="false"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="M_cpd00003_c" name="NAD" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C21H26N7O14P2">
+      <species id="M_cpd00003_c" name="NAD" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C21H26N7O14P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H26N7O14P2</p>
@@ -68,7 +68,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00004_c" name="NADH" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-2" fbc:chemicalFormula="C21H27N7O14P2">
+      <species id="M_cpd00004_c" name="NADH" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C21H27N7O14P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H27N7O14P2</p>
@@ -92,7 +92,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00006_c" name="NADP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-2" fbc:chemicalFormula="C21H26N7O17P3">
+      <species id="M_cpd00006_c" name="NADP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C21H26N7O17P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H26N7O17P3</p>
@@ -100,7 +100,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00005_c" name="NADPH" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-3" fbc:chemicalFormula="C21H27N7O17P3">
+      <species id="M_cpd00005_c" name="NADPH" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C21H27N7O17P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H27N7O17P3</p>
@@ -116,7 +116,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00011_c" name="CO2" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="CO2">
+      <species id="M_cpd00011_c" name="CO2" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="CO2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: CO2</p>
@@ -148,7 +148,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15560_c" name="Ubiquinone-8" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C49H74O4">
+      <species id="M_cpd15560_c" name="Ubiquinone-8" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C49H74O4">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C49H74O4</p>
@@ -156,7 +156,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15561_c" name="Ubiquinol-8" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C49H76O4">
+      <species id="M_cpd15561_c" name="Ubiquinol-8" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C49H76O4">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C49H76O4</p>
@@ -164,7 +164,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd01351_c" name="Ubiquinone-9" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C54H82O4">
+      <species id="M_cpd01351_c" name="Ubiquinone-9" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C54H82O4">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C54H82O4</p>
@@ -172,7 +172,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cJB00125_c" name="Ubiquinol-9" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C54H84O4">
+      <species id="M_cJB00125_c" name="Ubiquinol-9" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C54H84O4">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C54H84O4</p>
@@ -180,7 +180,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00029_c" name="Acetate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C2H3O2">
+      <species id="M_cpd00029_c" name="Acetate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C2H3O2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C2H3O2</p>
@@ -188,7 +188,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00171_c" name="D-Ribulose5-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H10O8P">
+      <species id="M_cpd00171_c" name="D-Ribulose5-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H10O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O8P</p>
@@ -196,7 +196,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00007_c" name="O2" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="O2">
+      <species id="M_cpd00007_c" name="O2" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="O2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: O2</p>
@@ -204,7 +204,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00025_c" name="H2O2" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O2">
+      <species id="M_cpd00025_c" name="H2O2" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H2O2</p>
@@ -212,7 +212,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd11468_c" name="Dodecanoyl-ACP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C23H43N2O8PRS">
+      <species id="M_cpd11468_c" name="Dodecanoyl-ACP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C23H43N2O8PRS">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C23H43N2O8PRS</p>
@@ -220,7 +220,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd11482_c" name="(R)-3-Hydroxydecanoyl-[acyl-carrier protein]" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C21H39N2O9PRS">
+      <species id="M_cpd11482_c" name="(R)-3-Hydroxydecanoyl-[acyl-carrier protein]" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C21H39N2O9PRS">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H39N2O9PRS</p>
@@ -268,7 +268,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00175_c" name="UDP-N-acetyl-D-galactosamine" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-2" fbc:chemicalFormula="C17H25N3O17P2">
+      <species id="M_cpd00175_c" name="UDP-N-acetyl-D-galactosamine" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C17H25N3O17P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H25N3O17P2</p>
@@ -276,7 +276,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17092_c" name="UDP-N-acetyl fucosamine" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C17H25N3O16P2">
+      <species id="M_cpd17092_c" name="UDP-N-acetyl fucosamine" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C17H25N3O16P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H25N3O16P2</p>
@@ -284,7 +284,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00026_c" name="UDP-glucose" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-2" fbc:chemicalFormula="C15H22N2O17P2">
+      <species id="M_cpd00026_c" name="UDP-glucose" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C15H22N2O17P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C15H22N2O17P2</p>
@@ -308,7 +308,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00330_c" name="Dihydrofolate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-2" fbc:chemicalFormula="C19H19N7O6">
+      <species id="M_cpd00330_c" name="Dihydrofolate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C19H19N7O6">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C19H19N7O6</p>
@@ -316,7 +316,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00125_c" name="5-10-Methylenetetrahydrofolate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-2" fbc:chemicalFormula="C20H21N7O6">
+      <species id="M_cpd00125_c" name="5-10-Methylenetetrahydrofolate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C20H21N7O6">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C20H21N7O6</p>
@@ -340,7 +340,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00013_c" name="NH3" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="1" fbc:chemicalFormula="H4N">
+      <species id="M_cpd00013_c" name="NH3" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="H4N">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H4N</p>
@@ -348,7 +348,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00012_c" name="PPi" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-2" fbc:chemicalFormula="H2O7P2">
+      <species id="M_cpd00012_c" name="PPi" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="H2O7P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H2O7P2</p>
@@ -356,7 +356,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd02113_c" name="dTDP-rhamnose" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-2" fbc:chemicalFormula="C16H24N2O15P2">
+      <species id="M_cpd02113_c" name="dTDP-rhamnose" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C16H24N2O15P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C16H24N2O15P2</p>
@@ -364,7 +364,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd01999_c" name="GDP-D-rhamnose" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-2" fbc:chemicalFormula="C16H23N5O15P2">
+      <species id="M_cpd01999_c" name="GDP-D-rhamnose" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C16H23N5O15P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C16H23N5O15P2</p>
@@ -380,7 +380,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd11494_c" name="Acetyl-ACP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C13H23N2O8PRS">
+      <species id="M_cpd11494_c" name="Acetyl-ACP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C13H23N2O8PRS">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C13H23N2O8PRS</p>
@@ -396,7 +396,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00247_c" name="Orotate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H3N2O4">
+      <species id="M_cpd00247_c" name="Orotate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H3N2O4">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H3N2O4</p>
@@ -404,7 +404,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17046_c" name="2-hydroxydodecanoyl-[acyl-carrier protein]" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H23O2X">
+      <species id="M_cpd17046_c" name="2-hydroxydodecanoyl-[acyl-carrier protein]" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C12H23O2X">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C12H23O2X</p>
@@ -468,7 +468,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00035_c" name="L-Alanine" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H7NO2">
+      <species id="M_cpd00035_c" name="L-Alanine" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C3H7NO2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H7NO2</p>
@@ -516,7 +516,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15499_c" name="Menaquinol_8" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C51H74O2">
+      <species id="M_cpd15499_c" name="Menaquinol_8" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C51H74O2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C51H74O2</p>
@@ -524,7 +524,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd15500_c" name="Menaquinone_8" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C51H72O2">
+      <species id="M_cpd15500_c" name="Menaquinone_8" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C51H72O2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C51H72O2</p>
@@ -540,7 +540,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00046_c" name="CMP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C9H13N3O8P">
+      <species id="M_cpd00046_c" name="CMP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C9H13N3O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H13N3O8P</p>
@@ -548,7 +548,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00043_c" name="UDP-galactose" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-2" fbc:chemicalFormula="C15H22N2O17P2">
+      <species id="M_cpd00043_c" name="UDP-galactose" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C15H22N2O17P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C15H22N2O17P2</p>
@@ -556,7 +556,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17100_c" name="Man(2NAc3N)(3,-CH3C=NH)A-(beta1,4)-Man(2NAc3NAc)A-(beta1,3)-Fuc2NAc-PP-Undecaprenyl" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C81H137O28N5P4">
+      <species id="M_cpd17100_c" name="Man(2NAc3N)(3,-CH3C=NH)A-(beta1,4)-Man(2NAc3NAc)A-(beta1,3)-Fuc2NAc-PP-Undecaprenyl" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C81H137O28N5P4">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C81H137O28N5P4</p>
@@ -564,7 +564,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17065_c" name="Pseudomonas aeruginosa LPS core + KDO2-lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C156H274N4O95P5">
+      <species id="M_cpd17065_c" name="Pseudomonas aeruginosa LPS core + KDO2-lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C156H274N4O95P5">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C156H274N4O95P5</p>
@@ -572,7 +572,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd02229_c" name="Bactoprenyl diphosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-2" fbc:chemicalFormula="C55H90O7P2">
+      <species id="M_cpd02229_c" name="Bactoprenyl diphosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C55H90O7P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C55H90O7P2</p>
@@ -580,7 +580,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17057_c" name="Pseudomonas aeruginosa B-band lipopolysaccharide" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C182H322O116N9P7">
+      <species id="M_cpd17057_c" name="Pseudomonas aeruginosa B-band lipopolysaccharide" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C182H322O116N9P7">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C182H322O116N9P7</p>
@@ -596,7 +596,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17095_c" name="UDP-N-acetyl-D-manosamine (2NAc3NAc) acid" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C19H29O18N4P2">
+      <species id="M_cpd17095_c" name="UDP-N-acetyl-D-manosamine (2NAc3NAc) acid" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C19H29O18N4P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C19H29O18N4P2</p>
@@ -612,7 +612,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00293_c" name="N-Acetyl-D-glucosamine 6-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C8H15NO9P">
+      <species id="M_cpd00293_c" name="N-Acetyl-D-glucosamine 6-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C8H15NO9P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C8H15NO9P</p>
@@ -620,7 +620,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00103_c" name="PRPP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-3" fbc:chemicalFormula="C5H10O14P3">
+      <species id="M_cpd00103_c" name="PRPP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C5H10O14P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O14P3</p>
@@ -636,7 +636,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00101_c" name="ribose-5-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H10O8P">
+      <species id="M_cpd00101_c" name="ribose-5-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H10O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O8P</p>
@@ -644,7 +644,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00859_c" name="Pseudouridine 5&apos;-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C9H12N2O9P">
+      <species id="M_cpd00859_c" name="Pseudouridine 5&apos;-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C9H12N2O9P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H12N2O9P</p>
@@ -652,7 +652,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17063_c" name="PA_core6_lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C152H271N2O84P2">
+      <species id="M_cpd17063_c" name="PA_core6_lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C152H271N2O84P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C152H271N2O84P2</p>
@@ -660,7 +660,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17064_c" name="PA_core7_lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C152H268N2O93P5">
+      <species id="M_cpd17064_c" name="PA_core7_lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C152H268N2O93P5">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C152H268N2O93P5</p>
@@ -668,7 +668,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00286_c" name="Undecaprenylphosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C55H90O4P">
+      <species id="M_cpd00286_c" name="Undecaprenylphosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C55H90O4P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C55H90O4P</p>
@@ -676,7 +676,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd08316_c" name="D-Glycero-D-manno-heptose1-7-bisphosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-2" fbc:chemicalFormula="C7H14O13P2">
+      <species id="M_cpd08316_c" name="D-Glycero-D-manno-heptose1-7-bisphosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C7H14O13P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H14O13P2</p>
@@ -684,7 +684,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd04920_c" name="D-Glycero-D-manno-heptose1-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C7H14O10P">
+      <species id="M_cpd04920_c" name="D-Glycero-D-manno-heptose1-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C7H14O10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H14O10P</p>
@@ -692,7 +692,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00299_c" name="dUMP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C9H12N2O8P">
+      <species id="M_cpd00299_c" name="dUMP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C9H12N2O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H12N2O8P</p>
@@ -716,7 +716,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00238_c" name="Sedoheptulose7-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C7H14O10P">
+      <species id="M_cpd00238_c" name="Sedoheptulose7-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C7H14O10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H14O10P</p>
@@ -740,7 +740,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17069_c" name="Pseudomonas aeruginosa Lipid X" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C28H52NO12P">
+      <species id="M_cpd17069_c" name="Pseudomonas aeruginosa Lipid X" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C28H52NO12P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C28H52NO12P</p>
@@ -748,7 +748,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00356_c" name="dCTP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-3" fbc:chemicalFormula="C9H13N3O13P3">
+      <species id="M_cpd00356_c" name="dCTP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C9H13N3O13P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H13N3O13P3</p>
@@ -772,7 +772,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00089_c" name="Glucose-1-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P">
+      <species id="M_cpd00089_c" name="Glucose-1-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C6H12O9P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H12O9P</p>
@@ -780,7 +780,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00810_c" name="Orotidylic acid" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H11N2O11P">
+      <species id="M_cpd00810_c" name="Orotidylic acid" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C10H11N2O11P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H11N2O11P</p>
@@ -788,7 +788,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00875_c" name="KDO" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C8H13O8">
+      <species id="M_cpd00875_c" name="KDO" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C8H13O8">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C8H13O8</p>
@@ -804,7 +804,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17067_c" name="Pseudomonas Lipid A Disaccharide" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C56H103N2O20P">
+      <species id="M_cpd17067_c" name="Pseudomonas Lipid A Disaccharide" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C56H103N2O20P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C56H103N2O20P</p>
@@ -812,7 +812,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00282_c" name="S-Dihydroorotate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H5N2O4">
+      <species id="M_cpd00282_c" name="S-Dihydroorotate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H5N2O4">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H5N2O4</p>
@@ -828,7 +828,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17098_c" name="Fuc2NAc-PP-Undecaprenyl" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C63H103O11N1P2">
+      <species id="M_cpd17098_c" name="Fuc2NAc-PP-Undecaprenyl" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C63H103O11N1P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C63H103O11N1P2</p>
@@ -836,7 +836,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00946_c" name="Undecaprenyl diphospho N-acetyl-glucosamine" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-2" fbc:chemicalFormula="C63H103NO12P2">
+      <species id="M_cpd00946_c" name="Undecaprenyl diphospho N-acetyl-glucosamine" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C63H103NO12P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C63H103NO12P2</p>
@@ -844,7 +844,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17093_c" name="UDP-N-acetyl-D-mannosamine (2NAc(CH3C=NH)) acid" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C17H27O17N4P2">
+      <species id="M_cpd17093_c" name="UDP-N-acetyl-D-mannosamine (2NAc(CH3C=NH)) acid" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C17H27O17N4P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H27O17N4P2</p>
@@ -852,7 +852,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17099_c" name="Man(2NAc3NAc)A-(beta1,3)-Fuc2NAc-PP-Undecaprenyl" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C71H119O19N3P3">
+      <species id="M_cpd17099_c" name="Man(2NAc3NAc)A-(beta1,3)-Fuc2NAc-PP-Undecaprenyl" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C71H119O19N3P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C71H119O19N3P3</p>
@@ -860,7 +860,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00861_c" name="UDP-N-acetyl-D-mannosamine" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-2" fbc:chemicalFormula="C17H25N3O17P2">
+      <species id="M_cpd00861_c" name="UDP-N-acetyl-D-mannosamine" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C17H25N3O17P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H25N3O17P2</p>
@@ -868,7 +868,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17096_c" name="UDP-N-acetyl-D-mannosamine-3-N" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C17H28O17N4P2">
+      <species id="M_cpd17096_c" name="UDP-N-acetyl-D-mannosamine-3-N" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C17H28O17N4P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H28O17N4P2</p>
@@ -884,7 +884,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd03830_c" name="ADP-D-glycero-D-manno-heptose" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-2" fbc:chemicalFormula="C17H25N5O16P2">
+      <species id="M_cpd03830_c" name="ADP-D-glycero-D-manno-heptose" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C17H25N5O16P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H25N5O16P2</p>
@@ -892,7 +892,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd03831_c" name="ADP-L-glycero-D-manno-heptose" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-2" fbc:chemicalFormula="C17H25N5O16P2">
+      <species id="M_cpd03831_c" name="ADP-L-glycero-D-manno-heptose" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C17H25N5O16P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H25N5O16P2</p>
@@ -900,7 +900,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00126_c" name="GMP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H13N5O8P">
+      <species id="M_cpd00126_c" name="GMP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C10H13N5O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O8P</p>
@@ -908,7 +908,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00817_c" name="D-Arabinose5-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H10O8P">
+      <species id="M_cpd00817_c" name="D-Arabinose5-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C5H10O8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O8P</p>
@@ -916,7 +916,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd02730_c" name="3-Deoxy-D-manno-octulosonate8-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-2" fbc:chemicalFormula="C8H13O11P">
+      <species id="M_cpd02730_c" name="3-Deoxy-D-manno-octulosonate8-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C8H13O11P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C8H13O11P</p>
@@ -924,7 +924,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17071_c" name="UDP-3-O-(3OH-C10:0)-N-acetylglucosamine" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C27H43N3O19P2">
+      <species id="M_cpd17071_c" name="UDP-3-O-(3OH-C10:0)-N-acetylglucosamine" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C27H43N3O19P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C27H43N3O19P2</p>
@@ -932,7 +932,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17072_c" name="UDP-3-O-(3OH-C10:0)-D-glucosamine" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C25H42N3O18P2">
+      <species id="M_cpd17072_c" name="UDP-3-O-(3OH-C10:0)-D-glucosamine" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C25H42N3O18P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C25H42N3O18P2</p>
@@ -940,7 +940,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00288_c" name="D-Glucosamine phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H14NO8P">
+      <species id="M_cpd00288_c" name="D-Glucosamine phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C6H14NO8P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H14NO8P</p>
@@ -948,7 +948,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00357_c" name="TTP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H14N2O14P3">
+      <species id="M_cpd00357_c" name="TTP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C10H14N2O14P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H14N2O14P3</p>
@@ -956,7 +956,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd04918_c" name="D-Glycero-D-manno-heptose7-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C7H14O10P">
+      <species id="M_cpd04918_c" name="D-Glycero-D-manno-heptose7-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C7H14O10P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H14O10P</p>
@@ -972,7 +972,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17055_c" name="Pseudomonas aeruginosa KDO-lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C88H157N2O32P2">
+      <species id="M_cpd17055_c" name="Pseudomonas aeruginosa KDO-lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C88H157N2O32P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C88H157N2O32P2</p>
@@ -980,7 +980,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17054_c" name="Pseudomonas aeruginosa KDO2-lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C96H168N2O39P2">
+      <species id="M_cpd17054_c" name="Pseudomonas aeruginosa KDO2-lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C96H168N2O39P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C96H168N2O39P2</p>
@@ -988,7 +988,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17060_c" name="PA_core3_lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C116H205N2O56P2">
+      <species id="M_cpd17060_c" name="PA_core3_lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C116H205N2O56P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C116H205N2O56P2</p>
@@ -996,7 +996,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17061_c" name="PA_core4_lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C134H238N2O71P2">
+      <species id="M_cpd17061_c" name="PA_core4_lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C134H238N2O71P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C134H238N2O71P2</p>
@@ -1004,7 +1004,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17059_c" name="PA_core2_lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C110H194N2O51P2">
+      <species id="M_cpd17059_c" name="PA_core2_lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C110H194N2O51P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C110H194N2O51P2</p>
@@ -1012,7 +1012,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17062_c" name="PA_core5_lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C146H260N2O79P2">
+      <species id="M_cpd17062_c" name="PA_core5_lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C146H260N2O79P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C146H260N2O79P2</p>
@@ -1020,7 +1020,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17058_c" name="PA_core1_lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C103H181N2O45P2">
+      <species id="M_cpd17058_c" name="PA_core1_lipidA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C103H181N2O45P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C103H181N2O45P2</p>
@@ -1028,7 +1028,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17086_c" name="rha1glcnacppund" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C70H117P3O18N4">
+      <species id="M_cpd17086_c" name="rha1glcnacppund" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C70H117P3O18N4">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C70H117P3O18N4</p>
@@ -1036,7 +1036,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17087_c" name="rha3glcnacppund" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C82H143P5O32N4">
+      <species id="M_cpd17087_c" name="rha3glcnacppund" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C82H143P5O32N4">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C82H143P5O32N4</p>
@@ -1044,7 +1044,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17088_c" name="rha4glcnacppund" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C88H156P6O39N4">
+      <species id="M_cpd17088_c" name="rha4glcnacppund" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C88H156P6O39N4">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C88H156P6O39N4</p>
@@ -1052,7 +1052,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd02611_c" name="N-Acetyl-D-glucosamine1-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="-1" fbc:chemicalFormula="C8H15NO9P">
+      <species id="M_cpd02611_c" name="N-Acetyl-D-glucosamine1-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C8H15NO9P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C8H15NO9P</p>
@@ -1060,7 +1060,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17056_c" name="Pseudomonas aeruginosa A-band lipopolysaccharide" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false" fbc:charge="0" fbc:chemicalFormula="C189H341P9O127N8">
+      <species id="M_cpd17056_c" name="Pseudomonas aeruginosa A-band lipopolysaccharide" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C189H341P9O127N8">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C189H341P9O127N8</p>
@@ -1295,638 +1295,6 @@
       <parameter id="kG_M_cpd00035_c" name="Energy constant of species L-Alanine" value="1" units="dimensionless" constant="true"/>
       <parameter id="kG_M_cpd17065_c" name="Energy constant of species Pseudomonas aeruginosa LPS core + KDO2-lipidA" value="1" units="dimensionless" constant="true"/>
     </listOfParameters>
-    <listOfRules>
-      <rateRule variable="M_cpd00003_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -9 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd02611_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 1 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17068_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -33 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00249_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 13 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00946_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 25 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00367_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 16 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00007_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -24 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00356_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -11 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd11468_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -93 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00282_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -107 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17059_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -3 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00171_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 18 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17054_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 6 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd03830_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -11 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd02229_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 43 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd04920_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 24 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00023_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 12 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd11494_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -7 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd11421_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -31 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00238_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -19 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00533_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 45 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd01999_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -24 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd02546_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 4 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00029_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 25 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17092_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -24 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00773_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -8 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00103_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -30 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00861_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 2 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd08316_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -25 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd15561_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 23 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cJB00125_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 22 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00026_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -10 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17061_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 8 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17065_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -41 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00043_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -11 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00022_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -2 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00125_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -29 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00046_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -5 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00654_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 15 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00025_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 24 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00357_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 3 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17100_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -11 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00330_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 29 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd03831_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 8 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00184_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 14 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17072_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -1 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17096_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 1 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00286_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -65 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00297_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 30 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00875_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -18 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17098_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 2 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00035_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -2 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd02113_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -8 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17056_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 3 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00037_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -93 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00067_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 514 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00817_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -42 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00101_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -30 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00298_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -10 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17070_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -39 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00004_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 9 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00052_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -4 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00091_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 203 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00247_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 91 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00859_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 30 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd11480_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -21 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd15560_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -23 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd01351_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -22 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd11493_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 184 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd04918_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 6 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00002_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -314 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00978_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 36 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd03671_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -5 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00006_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 26 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17067_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -11 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17064_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 37 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00061_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -28 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00146_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -30 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17063_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -29 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17095_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -22 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd15500_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -21 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00092_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -34 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00008_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 317 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00005_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -26 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd11420_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 31 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00009_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 197 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd02730_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 7 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00126_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 17 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00307_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -27 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00011_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 26 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00089_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -36 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00299_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -36 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00001_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -172 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00096_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -21 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17086_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 1 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17058_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 1 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00041_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -28 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00293_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -5 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17088_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 2 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17057_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 40 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00012_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 118 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17046_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -41 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00206_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -34 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00810_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -27 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd15499_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 21 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17055_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 1 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00175_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -3 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd11482_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -22 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17062_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -6 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17071_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 2 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17069_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 14 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00053_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -12 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00288_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 8 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17093_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -30 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00062_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -56 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17066_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 51 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17099_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 2 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00013_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 6 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17060_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> -1 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00014_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 54 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17087_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 1 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00343_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 45 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00358_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 21 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd17094_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 19 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd00010_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 2 </cn>
-        </math>
-      </rateRule>
-      <rateRule variable="M_cpd02820_c">
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <cn> 12 </cn>
-        </math>
-      </rateRule>
-    </listOfRules>
     <listOfReactions>
       <reaction metaid="R_rxn05289" id="R_rxn05289" name="thioredoxin reductase (NADPH)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn05289" fbc:upperFluxBound="UPPER_BOUND_rxn05289">
         <notes>
