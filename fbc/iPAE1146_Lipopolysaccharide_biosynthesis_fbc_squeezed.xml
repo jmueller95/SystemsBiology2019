@@ -2,7 +2,7 @@
 <!-- Created by SBMLsqueezer version 2.1 on 2019-52-25 at 02:52:24 MEZ with JSBML version 1.1-alpha. -->
 <sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" level="3"
 xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" version="1" fbc:required="false" groups:required="false">
-  <model areaUnits="area" extentUnits="substance" fbc:strict="true" substanceUnits="substance" volumeUnits="volume" lengthUnits="metre" timeUnits="second">
+  <model areaUnits="area" extentUnits="substance" fbc:strict="false" substanceUnits="substance" volumeUnits="volume" lengthUnits="metre" timeUnits="second">
     <groups:listOfGroups xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1">
       <groups:group groups:name="Lipopolysaccharide biosynthesis" groups:id="s_d43837092649c0dc4eaf8b83f741a16f" groups:kind="partonomy">
         <groups:listOfMembers>

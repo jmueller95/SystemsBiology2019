@@ -1,18 +1,19 @@
 #!/usr/bin/env python
 import libsbml
-import operator
+import re
 
-from collections import defaultdict, OrderedDict
-from pprint import pprint
+from collections import defaultdict
+
+SPECIES_PATTERN = re.compile("M_\\w*_c")
+
 
 def main():
-    
     doc = libsbml.readSBMLFromFile("iPAE1146_with_groups.xml")
     model = doc.getModel()
 
     groups_plugin = model.getPlugin("groups")
     groups = groups_plugin.getListOfGroups()
-    
+
     subsystem_balance = dict()
     for group in groups:
         net_balance = defaultdict(int)
@@ -20,10 +21,10 @@ def main():
         product_balance = defaultdict(int)
         for member in group.getListOfMembers():
             r_id = member.getIdRef()
-            reaction = model.getReaction(r_id) 
+            reaction = model.getReaction(r_id)
             for reactant in reaction.getListOfReactants():
                 s_id = reactant.getSpecies()
-                name = model.getSpecies(s_id).getName() 
+                name = model.getSpecies(s_id).getName()
                 stoichiometry = reactant.getStoichiometry()
                 reactant_balance[name] += stoichiometry
             for product in reaction.getListOfProducts():
@@ -41,15 +42,14 @@ def main():
             for key in to_remove:
                 net_balance.pop(key)
         subsystem_balance[group.name] = net_balance
-        
+
     subsystem_metabolites = dict()
     for key in subsystem_balance.keys():
         subsystem_metabolites[key] = list(subsystem_balance[key].keys())
 
-    
     candidates = defaultdict(list)
     chosen_groups = ["Lipopolysaccharide biosynthesis",
-                     "Amino sugar and nucleotide sugar metabolism", 
+                     "Amino sugar and nucleotide sugar metabolism",
                      "Pyrimidine metabolism"]
     for this in chosen_groups:
         for other in subsystem_metabolites.keys():
@@ -62,11 +62,11 @@ def main():
                     is_part_demand = subsystem_balance[this][metabolite] < 0 and subsystem_balance[other][metabolite] > 0
                     if is_part_sink or is_part_demand:
                         candidates[this].append(metabolite)
-        
+
     add_boundary_species(candidates)
-    
-def add_boundary_species(candidates):  
-    
+
+
+def add_boundary_species(candidates):
     asansm_sbml = "fbc/iPAE1146_Amino_sugar_and_nucleotide_sugar_metabolism_fbc_squeezed.xml"
     pm_sbml = "fbc/iPAE1146_Pyrimidine_metabolism_fbc_squeezed.xml"
     lb_sbml = "fbc/iPAE1146_Lipopolysaccharide_biosynthesis_fbc_squeezed.xml"
@@ -99,26 +99,77 @@ def add_boundary_species(candidates):
 
 def set_boundary_species(model, candidates):
     species_occurrence = defaultdict(int)
+    species_reaction_map = defaultdict(list)
     for reaction in model.getListOfReactions():
+        kinetic_law = reaction.getKineticLaw()
+        for l_param in kinetic_law.getListOfLocalParameters():
+            model.addParameter(l_param)
+            param = model.getParameter(l_param.getId())
+            param.setConstant(True)
         for reactant in reaction.getListOfReactants():
             species = model.getSpecies(reactant.getSpecies())
             species_occurrence[species.getName()] += 1
+            species_reaction_map[species.getName()].append(reaction.getId())
         for product in reaction.getListOfProducts():
             species = model.getSpecies(product.getSpecies())
             species_occurrence[species.getName()] += 1
-    
+            species_reaction_map[species.getName()].append(reaction.getId())
+
     to_remove = set()
     for key in species_occurrence.keys():
-         if species_occurrence[key] == 1 or key in candidates:
-                to_remove.add(key)
-    
+        if species_occurrence[key] == 1 or key in candidates:
+            to_remove.add(key)
+
     for key in to_remove:
         species_occurrence.pop(key)
-        
+
     non_boundary_species = [species for species in species_occurrence.keys()]
     for species in model.getListOfSpecies():
         if species.getName() not in non_boundary_species:
-            species.setBoundaryCondition(True)
-            
+            for r_id in species_reaction_map[species.getName()]:
+                reaction = model.getReaction(r_id)
+                if reaction.getReversible():
+                    # Exchange reaction
+                    reaction.setSBOTerm(627)
+                else:
+                    # Sink reaction
+                    reaction.setSBOTerm(632)
+                if species.getId() in reaction.getListOfReactants() or reaction.getReversible():
+                    # add flux for filling
+                    r_flux = model.createReaction()
+                    r_flux.setId(r_id + "_" + species.getId() + "_fill")
+                    r_flux.addProduct(species)
+                    # discontinued in level 3 version 2, but needed in level 3 version 1
+                    r_flux.setFast(False)
+                    r_flux.setReversible(False)
+                    kinetic_law = r_flux.createKineticLaw()
+                    l_param = kinetic_law.createLocalParameter()
+                    l_param.setId("FILL_RATE")
+                    l_param.setValue(1)
+                    l_param.setConstant(False)
+                    l_param.setUnits("mmol_per_gDW_per_hr")
+                    kinetic_law.setFormula("FILL_RATE")
+                if species.getId() in reaction.getListOfProducts() or reaction.getReversible():
+                    # add flux for emptying
+                    r_flux = model.createReaction()
+                    r_flux.setId(r_id + "_" + species.getId() + "_drain")
+                    r_flux.addReactant(species)
+                    r_flux.setFast(False)
+                    r_flux.setReversible(False)
+                    kinetic_law = r_flux.createKineticLaw()
+                    kl = reaction.getKineticLaw()
+                    formula = kl.getFormula()
+                    modifiers = set()
+                    for modifier in re.findall(SPECIES_PATTERN, formula):
+                        modifiers.add(modifier)
+                    for modifier in modifiers:
+                        if modifier != species.getId():
+                            modifier_reference = r_flux.createModifier()
+                            modifier_reference.setSpecies(modifier)
+                    kinetic_law.setFormula(formula)
+        else:
+            species.setInitialAmount(0)
+
+
 if __name__ == "__main__":
     main()

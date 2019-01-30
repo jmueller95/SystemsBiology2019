@@ -2,7 +2,7 @@
 <!-- Created by SBMLsqueezer version 2.1 on 2019-49-25 at 02:49:45 MEZ with JSBML version 1.1-alpha. -->
 <sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" level="3"
 xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1" version="1" fbc:required="false" groups:required="false">
-  <model areaUnits="area" extentUnits="substance" fbc:strict="true" substanceUnits="substance" volumeUnits="volume" lengthUnits="metre" timeUnits="second">
+  <model areaUnits="area" extentUnits="substance" fbc:strict="false" substanceUnits="substance" volumeUnits="volume" lengthUnits="metre" timeUnits="second">
     <groups:listOfGroups xmlns:groups="http://www.sbml.org/sbml/level3/version1/groups/version1">
       <groups:group groups:name="Amino sugar and nucleotide sugar metabolism" groups:id="s_f144521dec6b6ba382c5b913ec8900ca" groups:kind="partonomy">
         <groups:listOfMembers>
