@@ -6088,28 +6088,15 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn05289_M_cpd00067_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn05289_M_cpd00067_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00006_c"/>
+          <modifierSpeciesReference species="M_cpd11420_c"/>
           <modifierSpeciesReference species="M_cpd00005_c"/>
           <modifierSpeciesReference species="M_cpd11421_c"/>
-          <modifierSpeciesReference species="M_cpd11420_c"/>
-          <modifierSpeciesReference species="M_cpd00006_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -6293,27 +6280,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01465_M_cpd00067_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn01465_M_cpd00067_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00343_c"/>
-          <modifierSpeciesReference species="M_cpd00282_c"/>
           <modifierSpeciesReference species="M_cpd00001_c"/>
+          <modifierSpeciesReference species="M_cpd00282_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -6428,30 +6402,17 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00410_M_cpd00067_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn00410_M_cpd00067_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00013_c"/>
           <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00052_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
           <modifierSpeciesReference species="M_cpd00062_c"/>
           <modifierSpeciesReference species="M_cpd00009_c"/>
-          <modifierSpeciesReference species="M_cpd00013_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -6721,9 +6682,9 @@
           <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd00343_c"/>
           <modifierSpeciesReference species="M_cpd00282_c"/>
-          <modifierSpeciesReference species="M_cpd00067_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -6856,10 +6817,10 @@
           <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00067_c"/>
+          <modifierSpeciesReference species="M_cpd11420_c"/>
           <modifierSpeciesReference species="M_cpd00005_c"/>
           <modifierSpeciesReference species="M_cpd11421_c"/>
-          <modifierSpeciesReference species="M_cpd11420_c"/>
-          <modifierSpeciesReference species="M_cpd00067_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -7061,10 +7022,10 @@
           <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd11421_c"/>
-          <modifierSpeciesReference species="M_cpd11420_c"/>
-          <modifierSpeciesReference species="M_cpd00006_c"/>
           <modifierSpeciesReference species="M_cpd00067_c"/>
+          <modifierSpeciesReference species="M_cpd00006_c"/>
+          <modifierSpeciesReference species="M_cpd11420_c"/>
+          <modifierSpeciesReference species="M_cpd11421_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -7266,12 +7227,12 @@
           <speciesReference species="M_cpd00009_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00013_c"/>
           <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00052_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
           <modifierSpeciesReference species="M_cpd00062_c"/>
           <modifierSpeciesReference species="M_cpd00067_c"/>
-          <modifierSpeciesReference species="M_cpd00013_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -7541,9 +7502,9 @@
           <speciesReference species="M_cpd15560_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00282_c"/>
           <modifierSpeciesReference species="M_cpd15561_c"/>
           <modifierSpeciesReference species="M_cpd00247_c"/>
+          <modifierSpeciesReference species="M_cpd00282_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -7676,9 +7637,9 @@
           <speciesReference species="M_cpd15561_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00247_c"/>
           <modifierSpeciesReference species="M_cpd15560_c"/>
           <modifierSpeciesReference species="M_cpd00282_c"/>
-          <modifierSpeciesReference species="M_cpd00247_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -7812,8 +7773,8 @@
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00247_c"/>
-          <modifierSpeciesReference species="M_cpd00282_c"/>
           <modifierSpeciesReference species="M_cJB00125_c"/>
+          <modifierSpeciesReference species="M_cpd00282_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -8063,27 +8024,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01513_M_cpd00002_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn01513_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00297_c"/>
           <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00298_c"/>
+          <modifierSpeciesReference species="M_cpd00297_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -8198,27 +8146,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00364_M_cpd00002_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn00364_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00008_c"/>
-          <modifierSpeciesReference species="M_cpd00046_c"/>
           <modifierSpeciesReference species="M_cpd00096_c"/>
+          <modifierSpeciesReference species="M_cpd00046_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -8333,26 +8268,13 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01219_M_cpd00002_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn01219_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00206_c"/>
           <modifierSpeciesReference species="M_cpd00008_c"/>
+          <modifierSpeciesReference species="M_cpd00206_c"/>
           <modifierSpeciesReference species="M_cpd00533_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -8468,30 +8390,17 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00410_M_cpd00002_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn00410_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00013_c"/>
           <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00052_c"/>
           <modifierSpeciesReference species="M_cpd00062_c"/>
-          <modifierSpeciesReference species="M_cpd00009_c"/>
           <modifierSpeciesReference species="M_cpd00067_c"/>
-          <modifierSpeciesReference species="M_cpd00013_c"/>
+          <modifierSpeciesReference species="M_cpd00009_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -8743,27 +8652,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00119_M_cpd00002_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn00119_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00008_c"/>
-          <modifierSpeciesReference species="M_cpd00014_c"/>
           <modifierSpeciesReference species="M_cpd00091_c"/>
+          <modifierSpeciesReference species="M_cpd00014_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -8878,27 +8774,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01517_M_cpd00002_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn01517_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00978_c"/>
           <modifierSpeciesReference species="M_cpd00299_c"/>
-          <modifierSpeciesReference species="M_cpd00008_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -9013,27 +8896,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00409_M_cpd00002_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn00409_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00008_c"/>
-          <modifierSpeciesReference species="M_cpd00096_c"/>
           <modifierSpeciesReference species="M_cpd00052_c"/>
+          <modifierSpeciesReference species="M_cpd00096_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -9148,27 +9018,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01673_M_cpd00002_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn01673_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00008_c"/>
-          <modifierSpeciesReference species="M_cpd00356_c"/>
           <modifierSpeciesReference species="M_cpd00533_c"/>
+          <modifierSpeciesReference species="M_cpd00356_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -9283,27 +9140,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01512_M_cpd00002_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn01512_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00297_c"/>
           <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00357_c"/>
+          <modifierSpeciesReference species="M_cpd00297_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -9418,27 +9262,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01678_M_cpd00002_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn01678_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00358_c"/>
-          <modifierSpeciesReference species="M_cpd00978_c"/>
           <modifierSpeciesReference species="M_cpd00008_c"/>
+          <modifierSpeciesReference species="M_cpd00978_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -9553,27 +9384,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00117_M_cpd00002_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn00117_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00062_c"/>
-          <modifierSpeciesReference species="M_cpd00014_c"/>
           <modifierSpeciesReference species="M_cpd00008_c"/>
+          <modifierSpeciesReference species="M_cpd00014_c"/>
+          <modifierSpeciesReference species="M_cpd00062_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -9688,27 +9506,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01513_M_cpd00008_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn01513_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00297_c"/>
-          <modifierSpeciesReference species="M_cpd00298_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00298_c"/>
+          <modifierSpeciesReference species="M_cpd00297_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -9823,27 +9628,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00364_M_cpd00008_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn00364_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00046_c"/>
-          <modifierSpeciesReference species="M_cpd00096_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00096_c"/>
+          <modifierSpeciesReference species="M_cpd00046_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -9958,27 +9750,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01219_M_cpd00008_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn01219_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00206_c"/>
-          <modifierSpeciesReference species="M_cpd00533_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00533_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -10093,30 +9872,17 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00410_M_cpd00008_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn00410_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00013_c"/>
           <modifierSpeciesReference species="M_cpd00052_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
           <modifierSpeciesReference species="M_cpd00062_c"/>
-          <modifierSpeciesReference species="M_cpd00009_c"/>
           <modifierSpeciesReference species="M_cpd00067_c"/>
-          <modifierSpeciesReference species="M_cpd00013_c"/>
+          <modifierSpeciesReference species="M_cpd00009_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -10368,26 +10134,13 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00119_M_cpd00008_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn00119_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00014_c"/>
           <modifierSpeciesReference species="M_cpd00091_c"/>
+          <modifierSpeciesReference species="M_cpd00014_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -10503,27 +10256,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01517_M_cpd00008_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn01517_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00978_c"/>
-          <modifierSpeciesReference species="M_cpd00299_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00299_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -10638,27 +10378,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00409_M_cpd00008_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn00409_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00096_c"/>
           <modifierSpeciesReference species="M_cpd00052_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00096_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -10773,27 +10500,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01673_M_cpd00008_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn01673_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00356_c"/>
           <modifierSpeciesReference species="M_cpd00533_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00356_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -10908,27 +10622,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01512_M_cpd00008_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn01512_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00297_c"/>
           <modifierSpeciesReference species="M_cpd00357_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00297_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -11041,19 +10742,6 @@
               </apply>
             </apply>
           </math>
-        </kineticLaw>
-      </reaction>
-      <reaction id="R_rxn01678_M_cpd00008_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R_rxn01678_M_cpd00008_c_drain" reversible="false" fast="false">
@@ -11178,27 +10866,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00117_M_cpd00008_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn00117_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00062_c"/>
           <modifierSpeciesReference species="M_cpd00014_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00062_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -11331,10 +11006,10 @@
           <speciesReference species="M_cpd11420_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00067_c"/>
+          <modifierSpeciesReference species="M_cpd00006_c"/>
           <modifierSpeciesReference species="M_cpd00005_c"/>
           <modifierSpeciesReference species="M_cpd11421_c"/>
-          <modifierSpeciesReference species="M_cpd00006_c"/>
-          <modifierSpeciesReference species="M_cpd00067_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -11536,10 +11211,10 @@
           <speciesReference species="M_cpd11421_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00005_c"/>
-          <modifierSpeciesReference species="M_cpd11420_c"/>
-          <modifierSpeciesReference species="M_cpd00006_c"/>
           <modifierSpeciesReference species="M_cpd00067_c"/>
+          <modifierSpeciesReference species="M_cpd00006_c"/>
+          <modifierSpeciesReference species="M_cpd11420_c"/>
+          <modifierSpeciesReference species="M_cpd00005_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -11745,8 +11420,8 @@
           <modifierSpeciesReference species="M_cpd00052_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
           <modifierSpeciesReference species="M_cpd00062_c"/>
-          <modifierSpeciesReference species="M_cpd00009_c"/>
           <modifierSpeciesReference species="M_cpd00067_c"/>
+          <modifierSpeciesReference species="M_cpd00009_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -12016,9 +11691,9 @@
           <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00247_c"/>
           <modifierSpeciesReference species="M_cpd00810_c"/>
           <modifierSpeciesReference species="M_cpd00103_c"/>
+          <modifierSpeciesReference species="M_cpd00247_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -12133,30 +11808,17 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00410_M_cpd00052_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn00410_M_cpd00052_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00013_c"/>
           <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
           <modifierSpeciesReference species="M_cpd00062_c"/>
-          <modifierSpeciesReference species="M_cpd00009_c"/>
           <modifierSpeciesReference species="M_cpd00067_c"/>
-          <modifierSpeciesReference species="M_cpd00013_c"/>
+          <modifierSpeciesReference species="M_cpd00009_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -12408,27 +12070,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00409_M_cpd00052_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn00409_M_cpd00052_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00008_c"/>
-          <modifierSpeciesReference species="M_cpd00096_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00096_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -12541,19 +12190,6 @@
               </apply>
             </apply>
           </math>
-        </kineticLaw>
-      </reaction>
-      <reaction id="R_rxn00119_M_cpd00014_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00014_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
         </kineticLaw>
       </reaction>
       <reaction id="R_rxn00119_M_cpd00014_c_drain" reversible="false" fast="false">
@@ -12678,27 +12314,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00117_M_cpd00014_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00014_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
       <reaction id="R_rxn00117_M_cpd00014_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00014_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00062_c"/>
           <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00062_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -12832,8 +12455,8 @@
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00008_c"/>
-          <modifierSpeciesReference species="M_cpd00096_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00096_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -12966,9 +12589,9 @@
           <speciesReference species="M_cpd00103_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00247_c"/>
           <modifierSpeciesReference species="M_cpd00012_c"/>
           <modifierSpeciesReference species="M_cpd00810_c"/>
+          <modifierSpeciesReference species="M_cpd00247_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -13371,9 +12994,9 @@
           <speciesReference species="M_cpd00357_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00297_c"/>
           <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00297_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -13486,6 +13109,71 @@
               </apply>
             </apply>
           </math>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_fill_M_cpd00067_c" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FILL_RATE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_fill_M_cpd00002_c" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FILL_RATE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_fill_M_cpd00008_c" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FILL_RATE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_fill_M_cpd00052_c" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FILL_RATE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="R_fill_M_cpd00014_c" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="M_cpd00014_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FILL_RATE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
         </kineticLaw>
       </reaction>
     </listOfReactions>

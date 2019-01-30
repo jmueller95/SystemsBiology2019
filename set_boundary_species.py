@@ -123,6 +123,7 @@ def set_boundary_species(model, candidates):
     for key in to_remove:
         species_occurrence.pop(key)
 
+    # build filling/draining fluxes for species possibly exchanged with other subsystems
     non_boundary_species = [species for species in species_occurrence.keys()]
     for species in model.getListOfSpecies():
         if species.getName() not in non_boundary_species:
@@ -169,6 +170,28 @@ def set_boundary_species(model, candidates):
                     kinetic_law.setFormula(formula)
         else:
             species.setInitialAmount(0)
+
+    # merge filling reactions, as they do not depend on a kinetic law
+    for species in model.getListOfSpecies():
+        if species.getName() not in non_boundary_species:
+            reactions = [reaction.getId() for reaction in model.getListOfReactions()
+                         if species.getId() in reaction.getId() and "fill" in reaction.getId()]
+            if len(reactions) > 1:
+                for r_id in reactions:
+                    model.removeReaction(r_id)
+                r_flux = model.createReaction()
+                r_flux.setId("R_fill_" + species.getId())
+                r_flux.addProduct(species)
+                # discontinued in level 3 version 2, but needed in level 3 version 1
+                r_flux.setFast(False)
+                r_flux.setReversible(False)
+                kinetic_law = r_flux.createKineticLaw()
+                l_param = kinetic_law.createLocalParameter()
+                l_param.setId("FILL_RATE")
+                l_param.setValue(1)
+                l_param.setConstant(False)
+                l_param.setUnits("mmol_per_gDW_per_hr")
+                kinetic_law.setFormula("FILL_RATE")
 
 
 if __name__ == "__main__":
