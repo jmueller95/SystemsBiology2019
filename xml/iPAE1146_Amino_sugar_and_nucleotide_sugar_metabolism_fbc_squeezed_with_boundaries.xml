@@ -60,7 +60,7 @@
       <compartment id="e" name="Extracellular" spatialDimensions="3" units="volume" constant="false"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="M_cpd00003_c" name="NAD" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C21H26N7O14P2">
+      <species id="M_cpd00003_c" name="NAD" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C21H26N7O14P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H26N7O14P2</p>
@@ -68,7 +68,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00004_c" name="NADH" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C21H27N7O14P2">
+      <species id="M_cpd00004_c" name="NADH" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C21H27N7O14P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H27N7O14P2</p>
@@ -76,7 +76,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00067_c" name="H+" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="H">
+      <species id="M_cpd00067_c" name="H+" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="1" fbc:chemicalFormula="H">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H</p>
@@ -84,7 +84,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00001_c" name="H2O" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O">
+      <species id="M_cpd00001_c" name="H2O" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="H2O">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H2O</p>
@@ -92,7 +92,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00006_c" name="NADP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C21H26N7O17P3">
+      <species id="M_cpd00006_c" name="NADP" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C21H26N7O17P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H26N7O17P3</p>
@@ -100,7 +100,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00005_c" name="NADPH" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C21H27N7O17P3">
+      <species id="M_cpd00005_c" name="NADPH" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C21H27N7O17P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H27N7O17P3</p>
@@ -108,7 +108,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00010_c" name="CoA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C21H33N7O16P3S">
+      <species id="M_cpd00010_c" name="CoA" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C21H33N7O16P3S">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C21H33N7O16P3S</p>
@@ -116,7 +116,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00022_c" name="Acetyl-CoA" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C23H35N7O17P3S">
+      <species id="M_cpd00022_c" name="Acetyl-CoA" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C23H35N7O17P3S">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C23H35N7O17P3S</p>
@@ -124,7 +124,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00009_c" name="Phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="HO4P">
+      <species id="M_cpd00009_c" name="Phosphate" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="HO4P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: HO4P</p>
@@ -132,7 +132,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00029_c" name="Acetate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C2H3O2">
+      <species id="M_cpd00029_c" name="Acetate" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C2H3O2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C2H3O2</p>
@@ -148,7 +148,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17092_c" name="UDP-N-acetyl fucosamine" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C17H25N3O16P2">
+      <species id="M_cpd17092_c" name="UDP-N-acetyl fucosamine" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C17H25N3O16P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H25N3O16P2</p>
@@ -156,7 +156,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00773_c" name="UDP-MurNAc" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C20H28N3O19P2">
+      <species id="M_cpd00773_c" name="UDP-MurNAc" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C20H28N3O19P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C20H28N3O19P2</p>
@@ -172,7 +172,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00012_c" name="PPi" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="H2O7P2">
+      <species id="M_cpd00012_c" name="PPi" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="H2O7P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: H2O7P2</p>
@@ -180,7 +180,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd11493_c" name="ACP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C11H21N2O7PRS">
+      <species id="M_cpd11493_c" name="ACP" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C11H21N2O7PRS">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C11H21N2O7PRS</p>
@@ -188,7 +188,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd11494_c" name="Acetyl-ACP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C13H23N2O8PRS">
+      <species id="M_cpd11494_c" name="Acetyl-ACP" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C13H23N2O8PRS">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C13H23N2O8PRS</p>
@@ -196,7 +196,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00061_c" name="Phosphoenolpyruvate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C3H3O6P">
+      <species id="M_cpd00061_c" name="Phosphoenolpyruvate" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-2" fbc:chemicalFormula="C3H3O6P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H3O6P</p>
@@ -204,7 +204,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17094_c" name="UDP-N-acetyl-D-mannosamine (2NAc3N) acid" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C17H27O17N4P2">
+      <species id="M_cpd17094_c" name="UDP-N-acetyl-D-mannosamine (2NAc3N) acid" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C17H27O17N4P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C17H27O17N4P2</p>
@@ -212,7 +212,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd17095_c" name="UDP-N-acetyl-D-manosamine (2NAc3NAc) acid" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C19H29O18N4P2">
+      <species id="M_cpd17095_c" name="UDP-N-acetyl-D-manosamine (2NAc3NAc) acid" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="0" fbc:chemicalFormula="C19H29O18N4P2">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C19H29O18N4P2</p>
@@ -220,7 +220,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00293_c" name="N-Acetyl-D-glucosamine 6-phosphate" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C8H15NO9P">
+      <species id="M_cpd00293_c" name="N-Acetyl-D-glucosamine 6-phosphate" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-1" fbc:chemicalFormula="C8H15NO9P">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C8H15NO9P</p>
@@ -228,7 +228,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_cpd00062_c" name="UTP" compartment="c" initialConcentration="1" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C9H12N2O15P3">
+      <species id="M_cpd00062_c" name="UTP" compartment="c" initialAmount="0" substanceUnits="substance" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:charge="-3" fbc:chemicalFormula="C9H12N2O15P3">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H12N2O15P3</p>
@@ -288,66 +288,66 @@
       <parameter id="UPPER_BOUND_rxn03638" name="UPPER_BOUND_rxn03638" value="1000" constant="true"/>
       <parameter id="LOWER_BOUND_rxn00293" name="LOWER_BOUND_rxn00293" value="-1000" constant="true"/>
       <parameter id="UPPER_BOUND_rxn00293" name="UPPER_BOUND_rxn00293" value="1000" constant="true"/>
-      <parameter sboTerm="SBO:0000324" id="vmaf_R_rJB00277" name="Forward maximal velocity of reaction R_rJB00277" value="1" units="mole_per_second" constant="true"/>
-      <parameter sboTerm="SBO:0000382" id="hco_R_rJB00277" name="Reaction cooperativity" value="1" units="dimensionless" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rJB00277_M_cpd00003_c" name="Michaelis constant of species NAD in reaction R_rJB00277" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rJB00277_M_cpd00067_c" name="Michaelis constant of species H+ in reaction R_rJB00277" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rJB00277_M_cpd00175_c" name="Michaelis constant of species UDP-N-acetyl-D-galactosamine in reaction R_rJB00277" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000325" id="vmar_R_rJB00277" name="Revere maximal velocity of reaction R_rJB00277" value="1" units="mole_per_second" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rJB00277_M_cpd00004_c" name="Michaelis constant of species NADH in reaction R_rJB00277" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rJB00277_M_cpd00001_c" name="Michaelis constant of species H2O in reaction R_rJB00277" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rJB00277_M_cpd17092_c" name="Michaelis constant of species UDP-N-acetyl fucosamine in reaction R_rJB00277" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000324" id="vmaf_R_rxn02285" name="Forward maximal velocity of reaction R_rxn02285" value="1" units="mole_per_second" constant="true"/>
-      <parameter sboTerm="SBO:0000382" id="hco_R_rxn02285" name="Reaction cooperativity" value="1" units="dimensionless" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn02285_M_cpd00006_c" name="Michaelis constant of species NADP in reaction R_rxn02285" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn02285_M_cpd00773_c" name="Michaelis constant of species UDP-MurNAc in reaction R_rxn02285" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000325" id="vmar_R_rxn02285" name="Revere maximal velocity of reaction R_rxn02285" value="1" units="mole_per_second" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn02285_M_cpd00067_c" name="Michaelis constant of species H+ in reaction R_rxn02285" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn02285_M_cpd00005_c" name="Michaelis constant of species NADPH in reaction R_rxn02285" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn02285_M_cpd02820_c" name="Michaelis constant of species UDP-N-acetylglucosamine enolpyruvate in reaction R_rxn02285" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000324" id="vmaf_R_rxn13913" name="Forward maximal velocity of reaction R_rxn13913" value="1" units="mole_per_second" constant="true"/>
-      <parameter sboTerm="SBO:0000325" id="vmar_R_rxn13913" name="Revere maximal velocity of reaction R_rxn13913" value="1" units="mole_per_second" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn13913_M_cpd17094_c" name="Michaelis constant of species UDP-N-acetyl-D-mannosamine (2NAc3N) acid in reaction R_rxn13913" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn13913_M_cpd11493_c" name="Michaelis constant of species ACP in reaction R_rxn13913" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000261" id="kic_R_rxn13913_M_cpd11493_c" name="Inhibitory constant for species ACP of reaction R_rxn13913" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000261" id="kic_R_rxn13913_M_cpd17095_c" name="Inhibitory constant for species UDP-N-acetyl-D-manosamine (2NAc3NAc) acid of reaction R_rxn13913" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000261" id="kic_R_rxn13913_M_cpd11494_c" name="Inhibitory constant for species Acetyl-ACP of reaction R_rxn13913" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000261" id="kic_R_rxn13913_M_cpd17094_c" name="Inhibitory constant for species UDP-N-acetyl-D-mannosamine (2NAc3N) acid of reaction R_rxn13913" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000324" id="vmaf_R_rxn00295" name="Forward maximal velocity of reaction R_rxn00295" value="1" units="mole_per_second" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn00295_M_cpd00037_c" name="Michaelis constant of species UDP-N-acetylglucosamine in reaction R_rxn00295" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000325" id="vmar_R_rxn00295" name="Revere maximal velocity of reaction R_rxn00295" value="1" units="mole_per_second" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn00295_M_cpd00175_c" name="Michaelis constant of species UDP-N-acetyl-D-galactosamine in reaction R_rxn00295" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000324" id="vmaf_R_rxn01484" name="Forward maximal velocity of reaction R_rxn01484" value="1" units="mole_per_second" constant="true"/>
-      <parameter sboTerm="SBO:0000325" id="vmar_R_rxn01484" name="Revere maximal velocity of reaction R_rxn01484" value="1" units="mole_per_second" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn01484_M_cpd00293_c" name="Michaelis constant of species N-Acetyl-D-glucosamine 6-phosphate in reaction R_rxn01484" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn01484_M_cpd00029_c" name="Michaelis constant of species Acetate in reaction R_rxn01484" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000261" id="kic_R_rxn01484_M_cpd00029_c" name="Inhibitory constant for species Acetate of reaction R_rxn01484" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000261" id="kic_R_rxn01484_M_cpd00288_c" name="Inhibitory constant for species D-Glucosamine phosphate of reaction R_rxn01484" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000261" id="kic_R_rxn01484_M_cpd00001_c" name="Inhibitory constant for species H2O of reaction R_rxn01484" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000261" id="kic_R_rxn01484_M_cpd00293_c" name="Inhibitory constant for species N-Acetyl-D-glucosamine 6-phosphate of reaction R_rxn01484" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000324" id="vmaf_R_rxn00461" name="Forward maximal velocity of reaction R_rxn00461" value="1" units="mole_per_second" constant="true"/>
-      <parameter sboTerm="SBO:0000382" id="hco_R_rxn00461" name="Reaction cooperativity" value="1" units="dimensionless" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn00461_M_cpd00061_c" name="Michaelis constant of species Phosphoenolpyruvate in reaction R_rxn00461" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn00461_M_cpd00037_c" name="Michaelis constant of species UDP-N-acetylglucosamine in reaction R_rxn00461" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000325" id="vmar_R_rxn00461" name="Revere maximal velocity of reaction R_rxn00461" value="1" units="mole_per_second" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn00461_M_cpd00067_c" name="Michaelis constant of species H+ in reaction R_rxn00461" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn00461_M_cpd00009_c" name="Michaelis constant of species Phosphate in reaction R_rxn00461" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn00461_M_cpd02820_c" name="Michaelis constant of species UDP-N-acetylglucosamine enolpyruvate in reaction R_rxn00461" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000324" id="vmaf_R_rxn01485" name="Forward maximal velocity of reaction R_rxn01485" value="1" units="mole_per_second" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn01485_M_cpd03671_c" name="Michaelis constant of species D-Glucosamine1-phosphate in reaction R_rxn01485" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000325" id="vmar_R_rxn01485" name="Revere maximal velocity of reaction R_rxn01485" value="1" units="mole_per_second" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn01485_M_cpd00288_c" name="Michaelis constant of species D-Glucosamine phosphate in reaction R_rxn01485" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000186" id="vmax_R_rxn03638" name="Forward maximal velocity of reaction R_rxn03638" value="1" units="mole_per_second" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn03638_M_cpd00022_c" name="Michaelis constant of species Acetyl-CoA in reaction R_rxn03638" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn03638_M_cpd03671_c" name="Michaelis constant of species D-Glucosamine1-phosphate in reaction R_rxn03638" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000324" id="vmaf_R_rxn00293" name="Forward maximal velocity of reaction R_rxn00293" value="1" units="mole_per_second" constant="true"/>
-      <parameter sboTerm="SBO:0000325" id="vmar_R_rxn00293" name="Revere maximal velocity of reaction R_rxn00293" value="1" units="mole_per_second" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn00293_M_cpd02611_c" name="Michaelis constant of species N-Acetyl-D-glucosamine1-phosphate in reaction R_rxn00293" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn00293_M_cpd00012_c" name="Michaelis constant of species PPi in reaction R_rxn00293" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000261" id="kic_R_rxn00293_M_cpd00012_c" name="Inhibitory constant for species PPi of reaction R_rxn00293" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000261" id="kic_R_rxn00293_M_cpd00037_c" name="Inhibitory constant for species UDP-N-acetylglucosamine of reaction R_rxn00293" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000261" id="kic_R_rxn00293_M_cpd00062_c" name="Inhibitory constant for species UTP of reaction R_rxn00293" value="1" units="substance" constant="true"/>
-      <parameter sboTerm="SBO:0000261" id="kic_R_rxn00293_M_cpd02611_c" name="Inhibitory constant for species N-Acetyl-D-glucosamine1-phosphate of reaction R_rxn00293" value="1" units="substance" constant="true"/>
+      <parameter sboTerm="SBO:0000324" id="vmaf_R_rJB00277" name="Forward maximal velocity of reaction R_rJB00277" value="1" units="mole_per_second" constant="false"/>
+      <parameter sboTerm="SBO:0000382" id="hco_R_rJB00277" name="Reaction cooperativity" value="1" units="dimensionless" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rJB00277_M_cpd00003_c" name="Michaelis constant of species NAD in reaction R_rJB00277" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rJB00277_M_cpd00067_c" name="Michaelis constant of species H+ in reaction R_rJB00277" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rJB00277_M_cpd00175_c" name="Michaelis constant of species UDP-N-acetyl-D-galactosamine in reaction R_rJB00277" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000325" id="vmar_R_rJB00277" name="Revere maximal velocity of reaction R_rJB00277" value="1" units="mole_per_second" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rJB00277_M_cpd00004_c" name="Michaelis constant of species NADH in reaction R_rJB00277" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rJB00277_M_cpd00001_c" name="Michaelis constant of species H2O in reaction R_rJB00277" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rJB00277_M_cpd17092_c" name="Michaelis constant of species UDP-N-acetyl fucosamine in reaction R_rJB00277" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000324" id="vmaf_R_rxn02285" name="Forward maximal velocity of reaction R_rxn02285" value="1" units="mole_per_second" constant="false"/>
+      <parameter sboTerm="SBO:0000382" id="hco_R_rxn02285" name="Reaction cooperativity" value="1" units="dimensionless" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn02285_M_cpd00006_c" name="Michaelis constant of species NADP in reaction R_rxn02285" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn02285_M_cpd00773_c" name="Michaelis constant of species UDP-MurNAc in reaction R_rxn02285" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000325" id="vmar_R_rxn02285" name="Revere maximal velocity of reaction R_rxn02285" value="1" units="mole_per_second" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn02285_M_cpd00067_c" name="Michaelis constant of species H+ in reaction R_rxn02285" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn02285_M_cpd00005_c" name="Michaelis constant of species NADPH in reaction R_rxn02285" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn02285_M_cpd02820_c" name="Michaelis constant of species UDP-N-acetylglucosamine enolpyruvate in reaction R_rxn02285" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000324" id="vmaf_R_rxn13913" name="Forward maximal velocity of reaction R_rxn13913" value="1" units="mole_per_second" constant="false"/>
+      <parameter sboTerm="SBO:0000325" id="vmar_R_rxn13913" name="Revere maximal velocity of reaction R_rxn13913" value="1" units="mole_per_second" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn13913_M_cpd17094_c" name="Michaelis constant of species UDP-N-acetyl-D-mannosamine (2NAc3N) acid in reaction R_rxn13913" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn13913_M_cpd11493_c" name="Michaelis constant of species ACP in reaction R_rxn13913" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000261" id="kic_R_rxn13913_M_cpd11493_c" name="Inhibitory constant for species ACP of reaction R_rxn13913" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000261" id="kic_R_rxn13913_M_cpd17095_c" name="Inhibitory constant for species UDP-N-acetyl-D-manosamine (2NAc3NAc) acid of reaction R_rxn13913" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000261" id="kic_R_rxn13913_M_cpd11494_c" name="Inhibitory constant for species Acetyl-ACP of reaction R_rxn13913" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000261" id="kic_R_rxn13913_M_cpd17094_c" name="Inhibitory constant for species UDP-N-acetyl-D-mannosamine (2NAc3N) acid of reaction R_rxn13913" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000324" id="vmaf_R_rxn00295" name="Forward maximal velocity of reaction R_rxn00295" value="1" units="mole_per_second" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn00295_M_cpd00037_c" name="Michaelis constant of species UDP-N-acetylglucosamine in reaction R_rxn00295" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000325" id="vmar_R_rxn00295" name="Revere maximal velocity of reaction R_rxn00295" value="1" units="mole_per_second" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn00295_M_cpd00175_c" name="Michaelis constant of species UDP-N-acetyl-D-galactosamine in reaction R_rxn00295" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000324" id="vmaf_R_rxn01484" name="Forward maximal velocity of reaction R_rxn01484" value="1" units="mole_per_second" constant="false"/>
+      <parameter sboTerm="SBO:0000325" id="vmar_R_rxn01484" name="Revere maximal velocity of reaction R_rxn01484" value="1" units="mole_per_second" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn01484_M_cpd00293_c" name="Michaelis constant of species N-Acetyl-D-glucosamine 6-phosphate in reaction R_rxn01484" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn01484_M_cpd00029_c" name="Michaelis constant of species Acetate in reaction R_rxn01484" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000261" id="kic_R_rxn01484_M_cpd00029_c" name="Inhibitory constant for species Acetate of reaction R_rxn01484" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000261" id="kic_R_rxn01484_M_cpd00288_c" name="Inhibitory constant for species D-Glucosamine phosphate of reaction R_rxn01484" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000261" id="kic_R_rxn01484_M_cpd00001_c" name="Inhibitory constant for species H2O of reaction R_rxn01484" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000261" id="kic_R_rxn01484_M_cpd00293_c" name="Inhibitory constant for species N-Acetyl-D-glucosamine 6-phosphate of reaction R_rxn01484" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000324" id="vmaf_R_rxn00461" name="Forward maximal velocity of reaction R_rxn00461" value="1" units="mole_per_second" constant="false"/>
+      <parameter sboTerm="SBO:0000382" id="hco_R_rxn00461" name="Reaction cooperativity" value="1" units="dimensionless" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn00461_M_cpd00061_c" name="Michaelis constant of species Phosphoenolpyruvate in reaction R_rxn00461" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn00461_M_cpd00037_c" name="Michaelis constant of species UDP-N-acetylglucosamine in reaction R_rxn00461" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000325" id="vmar_R_rxn00461" name="Revere maximal velocity of reaction R_rxn00461" value="1" units="mole_per_second" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn00461_M_cpd00067_c" name="Michaelis constant of species H+ in reaction R_rxn00461" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn00461_M_cpd00009_c" name="Michaelis constant of species Phosphate in reaction R_rxn00461" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn00461_M_cpd02820_c" name="Michaelis constant of species UDP-N-acetylglucosamine enolpyruvate in reaction R_rxn00461" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000324" id="vmaf_R_rxn01485" name="Forward maximal velocity of reaction R_rxn01485" value="1" units="mole_per_second" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn01485_M_cpd03671_c" name="Michaelis constant of species D-Glucosamine1-phosphate in reaction R_rxn01485" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000325" id="vmar_R_rxn01485" name="Revere maximal velocity of reaction R_rxn01485" value="1" units="mole_per_second" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn01485_M_cpd00288_c" name="Michaelis constant of species D-Glucosamine phosphate in reaction R_rxn01485" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000186" id="vmax_R_rxn03638" name="Forward maximal velocity of reaction R_rxn03638" value="1" units="mole_per_second" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn03638_M_cpd00022_c" name="Michaelis constant of species Acetyl-CoA in reaction R_rxn03638" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn03638_M_cpd03671_c" name="Michaelis constant of species D-Glucosamine1-phosphate in reaction R_rxn03638" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000324" id="vmaf_R_rxn00293" name="Forward maximal velocity of reaction R_rxn00293" value="1" units="mole_per_second" constant="false"/>
+      <parameter sboTerm="SBO:0000325" id="vmar_R_rxn00293" name="Revere maximal velocity of reaction R_rxn00293" value="1" units="mole_per_second" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn00293_M_cpd02611_c" name="Michaelis constant of species N-Acetyl-D-glucosamine1-phosphate in reaction R_rxn00293" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000027" id="kmc_R_rxn00293_M_cpd00012_c" name="Michaelis constant of species PPi in reaction R_rxn00293" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000261" id="kic_R_rxn00293_M_cpd00012_c" name="Inhibitory constant for species PPi of reaction R_rxn00293" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000261" id="kic_R_rxn00293_M_cpd00037_c" name="Inhibitory constant for species UDP-N-acetylglucosamine of reaction R_rxn00293" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000261" id="kic_R_rxn00293_M_cpd00062_c" name="Inhibitory constant for species UTP of reaction R_rxn00293" value="1" units="substance" constant="false"/>
+      <parameter sboTerm="SBO:0000261" id="kic_R_rxn00293_M_cpd02611_c" name="Inhibitory constant for species N-Acetyl-D-glucosamine1-phosphate of reaction R_rxn00293" value="1" units="substance" constant="false"/>
     </listOfParameters>
     <listOfReactions>
       <reaction metaid="R_rJB00277" sboTerm="SBO:0000627" id="R_rJB00277" name="UDP-N-acetyl fucosamine synthase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rJB00277" fbc:upperFluxBound="UPPER_BOUND_rJB00277">
@@ -1797,11 +1797,11 @@
           <speciesReference species="M_cpd00003_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00004_c"/>
           <modifierSpeciesReference species="M_cpd00175_c"/>
           <modifierSpeciesReference species="M_cpd00067_c"/>
-          <modifierSpeciesReference species="M_cpd17092_c"/>
           <modifierSpeciesReference species="M_cpd00001_c"/>
+          <modifierSpeciesReference species="M_cpd17092_c"/>
+          <modifierSpeciesReference species="M_cpd00004_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -2033,11 +2033,11 @@
           <speciesReference species="M_cpd00004_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00003_c"/>
           <modifierSpeciesReference species="M_cpd00175_c"/>
           <modifierSpeciesReference species="M_cpd00067_c"/>
-          <modifierSpeciesReference species="M_cpd17092_c"/>
           <modifierSpeciesReference species="M_cpd00001_c"/>
+          <modifierSpeciesReference species="M_cpd00003_c"/>
+          <modifierSpeciesReference species="M_cpd17092_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -2256,11 +2256,11 @@
           <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00004_c"/>
-          <modifierSpeciesReference species="M_cpd00003_c"/>
           <modifierSpeciesReference species="M_cpd00175_c"/>
-          <modifierSpeciesReference species="M_cpd17092_c"/>
           <modifierSpeciesReference species="M_cpd00001_c"/>
+          <modifierSpeciesReference species="M_cpd00003_c"/>
+          <modifierSpeciesReference species="M_cpd17092_c"/>
+          <modifierSpeciesReference species="M_cpd00004_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -2479,10 +2479,10 @@
           <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd02820_c"/>
-          <modifierSpeciesReference species="M_cpd00006_c"/>
           <modifierSpeciesReference species="M_cpd00005_c"/>
           <modifierSpeciesReference species="M_cpd00773_c"/>
+          <modifierSpeciesReference species="M_cpd02820_c"/>
+          <modifierSpeciesReference species="M_cpd00006_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -2671,10 +2671,10 @@
           <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd02820_c"/>
+          <modifierSpeciesReference species="M_cpd00061_c"/>
           <modifierSpeciesReference species="M_cpd00037_c"/>
           <modifierSpeciesReference species="M_cpd00009_c"/>
-          <modifierSpeciesReference species="M_cpd00061_c"/>
+          <modifierSpeciesReference species="M_cpd02820_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -2863,11 +2863,11 @@
           <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00004_c"/>
-          <modifierSpeciesReference species="M_cpd00003_c"/>
           <modifierSpeciesReference species="M_cpd00175_c"/>
           <modifierSpeciesReference species="M_cpd00067_c"/>
+          <modifierSpeciesReference species="M_cpd00003_c"/>
           <modifierSpeciesReference species="M_cpd17092_c"/>
+          <modifierSpeciesReference species="M_cpd00004_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -3086,9 +3086,9 @@
           <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00293_c"/>
           <modifierSpeciesReference species="M_cpd00288_c"/>
           <modifierSpeciesReference species="M_cpd00029_c"/>
-          <modifierSpeciesReference species="M_cpd00293_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -3221,10 +3221,10 @@
           <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd02820_c"/>
-          <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd00005_c"/>
+          <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd00773_c"/>
+          <modifierSpeciesReference species="M_cpd02820_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -3426,10 +3426,10 @@
           <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd02820_c"/>
           <modifierSpeciesReference species="M_cpd00067_c"/>
-          <modifierSpeciesReference species="M_cpd00006_c"/>
           <modifierSpeciesReference species="M_cpd00773_c"/>
+          <modifierSpeciesReference species="M_cpd02820_c"/>
+          <modifierSpeciesReference species="M_cpd00006_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -3631,10 +3631,10 @@
           <speciesReference species="M_cpd00009_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd02820_c"/>
-          <modifierSpeciesReference species="M_cpd00037_c"/>
-          <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd00061_c"/>
+          <modifierSpeciesReference species="M_cpd00067_c"/>
+          <modifierSpeciesReference species="M_cpd00037_c"/>
+          <modifierSpeciesReference species="M_cpd02820_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -3836,9 +3836,9 @@
           <speciesReference species="M_cpd00029_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00288_c"/>
-          <modifierSpeciesReference species="M_cpd00293_c"/>
           <modifierSpeciesReference species="M_cpd00001_c"/>
+          <modifierSpeciesReference species="M_cpd00293_c"/>
+          <modifierSpeciesReference species="M_cpd00288_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -3971,11 +3971,11 @@
           <speciesReference species="M_cpd17092_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00004_c"/>
-          <modifierSpeciesReference species="M_cpd00003_c"/>
           <modifierSpeciesReference species="M_cpd00175_c"/>
           <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd00001_c"/>
+          <modifierSpeciesReference species="M_cpd00003_c"/>
+          <modifierSpeciesReference species="M_cpd00004_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -4207,10 +4207,10 @@
           <speciesReference species="M_cpd00773_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd02820_c"/>
-          <modifierSpeciesReference species="M_cpd00067_c"/>
-          <modifierSpeciesReference species="M_cpd00006_c"/>
           <modifierSpeciesReference species="M_cpd00005_c"/>
+          <modifierSpeciesReference species="M_cpd00067_c"/>
+          <modifierSpeciesReference species="M_cpd02820_c"/>
+          <modifierSpeciesReference species="M_cpd00006_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -4413,8 +4413,8 @@
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd02611_c"/>
-          <modifierSpeciesReference species="M_cpd00062_c"/>
           <modifierSpeciesReference species="M_cpd00037_c"/>
+          <modifierSpeciesReference species="M_cpd00062_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -4547,9 +4547,9 @@
           <speciesReference species="M_cpd11493_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd17094_c"/>
           <modifierSpeciesReference species="M_cpd17095_c"/>
           <modifierSpeciesReference species="M_cpd11494_c"/>
-          <modifierSpeciesReference species="M_cpd17094_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -4682,8 +4682,8 @@
           <speciesReference species="M_cpd11494_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd17095_c"/>
           <modifierSpeciesReference species="M_cpd17094_c"/>
+          <modifierSpeciesReference species="M_cpd17095_c"/>
           <modifierSpeciesReference species="M_cpd11493_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -4817,10 +4817,10 @@
           <speciesReference species="M_cpd00061_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd02820_c"/>
-          <modifierSpeciesReference species="M_cpd00037_c"/>
           <modifierSpeciesReference species="M_cpd00067_c"/>
+          <modifierSpeciesReference species="M_cpd00037_c"/>
           <modifierSpeciesReference species="M_cpd00009_c"/>
+          <modifierSpeciesReference species="M_cpd02820_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -5157,8 +5157,8 @@
           <speciesReference species="M_cpd17095_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd11494_c"/>
           <modifierSpeciesReference species="M_cpd17094_c"/>
+          <modifierSpeciesReference species="M_cpd11494_c"/>
           <modifierSpeciesReference species="M_cpd11493_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -5292,9 +5292,9 @@
           <speciesReference species="M_cpd00293_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00001_c"/>
           <modifierSpeciesReference species="M_cpd00288_c"/>
           <modifierSpeciesReference species="M_cpd00029_c"/>
-          <modifierSpeciesReference species="M_cpd00001_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -5427,9 +5427,9 @@
           <speciesReference species="M_cpd00062_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00012_c"/>
           <modifierSpeciesReference species="M_cpd02611_c"/>
           <modifierSpeciesReference species="M_cpd00037_c"/>
+          <modifierSpeciesReference species="M_cpd00012_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">

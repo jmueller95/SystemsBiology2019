@@ -105,7 +105,7 @@ def set_boundary_species(model, candidates):
         for l_param in kinetic_law.getListOfLocalParameters():
             model.addParameter(l_param)
             param = model.getParameter(l_param.getId())
-            param.setConstant(True)
+            param.setConstant(False)
         for reactant in reaction.getListOfReactants():
             species = model.getSpecies(reactant.getSpecies())
             species_occurrence[species.getName()] += 1
@@ -168,11 +168,10 @@ def set_boundary_species(model, candidates):
                             modifier_reference = r_flux.createModifier()
                             modifier_reference.setSpecies(modifier)
                     kinetic_law.setFormula(formula)
-        else:
-            species.setInitialAmount(0)
 
     # merge filling reactions, as they do not depend on a kinetic law
     for species in model.getListOfSpecies():
+        species.setInitialAmount(0)
         if species.getName() not in non_boundary_species:
             reactions = [reaction.getId() for reaction in model.getListOfReactions()
                          if species.getId() in reaction.getId() and "fill" in reaction.getId()]
