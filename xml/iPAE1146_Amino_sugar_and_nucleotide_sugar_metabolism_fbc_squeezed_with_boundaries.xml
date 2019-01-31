@@ -350,7 +350,7 @@
       <parameter sboTerm="SBO:0000261" id="kic_R_rxn00293_M_cpd02611_c" name="Inhibitory constant for species N-Acetyl-D-glucosamine1-phosphate of reaction R_rxn00293" value="1" units="substance" constant="false"/>
     </listOfParameters>
     <listOfReactions>
-      <reaction metaid="R_rJB00277" sboTerm="SBO:0000627" id="R_rJB00277" name="UDP-N-acetyl fucosamine synthase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rJB00277" fbc:upperFluxBound="UPPER_BOUND_rJB00277">
+      <reaction metaid="R_rJB00277" id="R_rJB00277" name="UDP-N-acetyl fucosamine synthase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rJB00277" fbc:upperFluxBound="UPPER_BOUND_rJB00277">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA3158 and PA3146)</p>
@@ -594,7 +594,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn02285" sboTerm="SBO:0000627" id="R_rxn02285" name="UDP-N-acetylenolpyruvoylglucosamine reductase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn02285" fbc:upperFluxBound="UPPER_BOUND_rxn02285">
+      <reaction metaid="R_rxn02285" id="R_rxn02285" name="UDP-N-acetylenolpyruvoylglucosamine reductase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn02285" fbc:upperFluxBound="UPPER_BOUND_rxn02285">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA2977</p>
@@ -817,7 +817,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn13913" sboTerm="SBO:0000627" id="R_rxn13913" name="UDP-N-acetyl-mannosamine (2NAc3N) acid acetylase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn13913" fbc:upperFluxBound="UPPER_BOUND_rxn13913">
+      <reaction metaid="R_rxn13913" id="R_rxn13913" name="UDP-N-acetyl-mannosamine (2NAc3N) acid acetylase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn13913" fbc:upperFluxBound="UPPER_BOUND_rxn13913">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA3157 or PA3156)</p>
@@ -1051,7 +1051,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01484" sboTerm="SBO:0000627" id="R_rxn01484" name="N-acetylglucosamine-6-phosphate deacetylase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01484" fbc:upperFluxBound="UPPER_BOUND_rxn01484">
+      <reaction metaid="R_rxn01484" id="R_rxn01484" name="N-acetylglucosamine-6-phosphate deacetylase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01484" fbc:upperFluxBound="UPPER_BOUND_rxn01484">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3758</p>
@@ -1209,7 +1209,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00461" sboTerm="SBO:0000627" id="R_rxn00461" name="UDP-N-acetylglucosamine 1-carboxyvinyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00461" fbc:upperFluxBound="UPPER_BOUND_rxn00461">
+      <reaction metaid="R_rxn00461" id="R_rxn00461" name="UDP-N-acetylglucosamine 1-carboxyvinyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00461" fbc:upperFluxBound="UPPER_BOUND_rxn00461">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA4450</p>
@@ -1520,7 +1520,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn03638" sboTerm="SBO:0000632" id="R_rxn03638" name="glucosamine-1-phosphate N-acetyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn03638" fbc:upperFluxBound="UPPER_BOUND_rxn03638">
+      <reaction metaid="R_rxn03638" id="R_rxn03638" name="glucosamine-1-phosphate N-acetyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn03638" fbc:upperFluxBound="UPPER_BOUND_rxn03638">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA5552</p>
@@ -1621,7 +1621,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00293" sboTerm="SBO:0000627" id="R_rxn00293" name="UDP-N-acetylglucosamine diphosphorylase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00293" fbc:upperFluxBound="UPPER_BOUND_rxn00293">
+      <reaction metaid="R_rxn00293" id="R_rxn00293" name="UDP-N-acetylglucosamine diphosphorylase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00293" fbc:upperFluxBound="UPPER_BOUND_rxn00293">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA5552</p>
@@ -1779,7 +1779,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rJB00277_M_cpd00003_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rJB00277_M_cpd00003_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd00003_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -1792,16 +1792,16 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rJB00277_M_cpd00003_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rJB00277_M_cpd00003_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00003_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00175_c"/>
-          <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd00001_c"/>
-          <modifierSpeciesReference species="M_cpd17092_c"/>
+          <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd00004_c"/>
+          <modifierSpeciesReference species="M_cpd17092_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -2015,7 +2015,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rJB00277_M_cpd00004_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rJB00277_M_cpd00004_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd00004_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -2028,16 +2028,16 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rJB00277_M_cpd00004_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rJB00277_M_cpd00004_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00004_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00175_c"/>
-          <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd00001_c"/>
-          <modifierSpeciesReference species="M_cpd00003_c"/>
+          <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd17092_c"/>
+          <modifierSpeciesReference species="M_cpd00003_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -2251,16 +2251,16 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rJB00277_M_cpd00067_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rJB00277_M_cpd00067_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00175_c"/>
           <modifierSpeciesReference species="M_cpd00001_c"/>
-          <modifierSpeciesReference species="M_cpd00003_c"/>
-          <modifierSpeciesReference species="M_cpd17092_c"/>
           <modifierSpeciesReference species="M_cpd00004_c"/>
+          <modifierSpeciesReference species="M_cpd17092_c"/>
+          <modifierSpeciesReference species="M_cpd00003_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -2474,13 +2474,13 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn02285_M_cpd00067_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn02285_M_cpd00067_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00005_c"/>
           <modifierSpeciesReference species="M_cpd00773_c"/>
+          <modifierSpeciesReference species="M_cpd00005_c"/>
           <modifierSpeciesReference species="M_cpd02820_c"/>
           <modifierSpeciesReference species="M_cpd00006_c"/>
         </listOfModifiers>
@@ -2666,973 +2666,13 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00461_M_cpd00067_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00461_M_cpd00067_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00061_c"/>
-          <modifierSpeciesReference species="M_cpd00037_c"/>
           <modifierSpeciesReference species="M_cpd00009_c"/>
-          <modifierSpeciesReference species="M_cpd02820_c"/>
-        </listOfModifiers>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <apply>
-              <divide/>
-              <apply>
-                <minus/>
-                <apply>
-                  <times/>
-                  <ci> vmaf_R_rxn00461 </ci>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd00061_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rxn00461_M_cpd00061_c </ci>
-                    </apply>
-                    <ci> hco_R_rxn00461 </ci>
-                  </apply>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd00037_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rxn00461_M_cpd00037_c </ci>
-                    </apply>
-                    <ci> hco_R_rxn00461 </ci>
-                  </apply>
-                </apply>
-                <apply>
-                  <times/>
-                  <ci> vmar_R_rxn00461 </ci>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd00067_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rxn00461_M_cpd00067_c </ci>
-                    </apply>
-                    <ci> hco_R_rxn00461 </ci>
-                  </apply>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd00009_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rxn00461_M_cpd00009_c </ci>
-                    </apply>
-                    <ci> hco_R_rxn00461 </ci>
-                  </apply>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd02820_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rxn00461_M_cpd02820_c </ci>
-                    </apply>
-                    <ci> hco_R_rxn00461 </ci>
-                  </apply>
-                </apply>
-              </apply>
-              <apply>
-                <minus/>
-                <apply>
-                  <plus/>
-                  <apply>
-                    <times/>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd00061_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rxn00461_M_cpd00061_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rxn00461 </ci>
-                    </apply>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd00037_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rxn00461_M_cpd00037_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rxn00461 </ci>
-                    </apply>
-                  </apply>
-                  <apply>
-                    <times/>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd00067_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rxn00461_M_cpd00067_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rxn00461 </ci>
-                    </apply>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd00009_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rxn00461_M_cpd00009_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rxn00461 </ci>
-                    </apply>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd02820_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rxn00461_M_cpd02820_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rxn00461 </ci>
-                    </apply>
-                  </apply>
-                </apply>
-                <cn type="integer"> 1 </cn>
-              </apply>
-            </apply>
-          </math>
-        </kineticLaw>
-      </reaction>
-      <reaction id="R_rJB00277_M_cpd00001_c_drain" reversible="false" fast="false">
-        <listOfReactants>
-          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00175_c"/>
-          <modifierSpeciesReference species="M_cpd00067_c"/>
-          <modifierSpeciesReference species="M_cpd00003_c"/>
-          <modifierSpeciesReference species="M_cpd17092_c"/>
-          <modifierSpeciesReference species="M_cpd00004_c"/>
-        </listOfModifiers>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <apply>
-              <divide/>
-              <apply>
-                <minus/>
-                <apply>
-                  <times/>
-                  <ci> vmaf_R_rJB00277 </ci>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd00003_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rJB00277_M_cpd00003_c </ci>
-                    </apply>
-                    <ci> hco_R_rJB00277 </ci>
-                  </apply>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd00067_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rJB00277_M_cpd00067_c </ci>
-                    </apply>
-                    <ci> hco_R_rJB00277 </ci>
-                  </apply>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd00175_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rJB00277_M_cpd00175_c </ci>
-                    </apply>
-                    <ci> hco_R_rJB00277 </ci>
-                  </apply>
-                </apply>
-                <apply>
-                  <times/>
-                  <ci> vmar_R_rJB00277 </ci>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd00004_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rJB00277_M_cpd00004_c </ci>
-                    </apply>
-                    <ci> hco_R_rJB00277 </ci>
-                  </apply>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd00001_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rJB00277_M_cpd00001_c </ci>
-                    </apply>
-                    <ci> hco_R_rJB00277 </ci>
-                  </apply>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd17092_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rJB00277_M_cpd17092_c </ci>
-                    </apply>
-                    <ci> hco_R_rJB00277 </ci>
-                  </apply>
-                </apply>
-              </apply>
-              <apply>
-                <minus/>
-                <apply>
-                  <plus/>
-                  <apply>
-                    <times/>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd00003_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rJB00277_M_cpd00003_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rJB00277 </ci>
-                    </apply>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd00067_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rJB00277_M_cpd00067_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rJB00277 </ci>
-                    </apply>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd00175_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rJB00277_M_cpd00175_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rJB00277 </ci>
-                    </apply>
-                  </apply>
-                  <apply>
-                    <times/>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd00004_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rJB00277_M_cpd00004_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rJB00277 </ci>
-                    </apply>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd00001_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rJB00277_M_cpd00001_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rJB00277 </ci>
-                    </apply>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd17092_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rJB00277_M_cpd17092_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rJB00277 </ci>
-                    </apply>
-                  </apply>
-                </apply>
-                <cn type="integer"> 1 </cn>
-              </apply>
-            </apply>
-          </math>
-        </kineticLaw>
-      </reaction>
-      <reaction id="R_rxn01484_M_cpd00001_c_drain" reversible="false" fast="false">
-        <listOfReactants>
-          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00293_c"/>
-          <modifierSpeciesReference species="M_cpd00288_c"/>
-          <modifierSpeciesReference species="M_cpd00029_c"/>
-        </listOfModifiers>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <apply>
-              <divide/>
-              <apply>
-                <minus/>
-                <apply>
-                  <times/>
-                  <apply>
-                    <divide/>
-                    <ci> vmaf_R_rxn01484 </ci>
-                    <apply>
-                      <times/>
-                      <ci> kic_R_rxn01484_M_cpd00001_c </ci>
-                      <ci> kmc_R_rxn01484_M_cpd00293_c </ci>
-                    </apply>
-                  </apply>
-                  <ci> M_cpd00001_c </ci>
-                  <ci> c </ci>
-                  <ci> M_cpd00293_c </ci>
-                  <ci> c </ci>
-                </apply>
-                <apply>
-                  <times/>
-                  <apply>
-                    <divide/>
-                    <ci> vmar_R_rxn01484 </ci>
-                    <apply>
-                      <times/>
-                      <ci> kic_R_rxn01484_M_cpd00288_c </ci>
-                      <ci> kmc_R_rxn01484_M_cpd00029_c </ci>
-                    </apply>
-                  </apply>
-                  <ci> M_cpd00029_c </ci>
-                  <ci> c </ci>
-                  <ci> M_cpd00288_c </ci>
-                  <ci> c </ci>
-                </apply>
-              </apply>
-              <apply>
-                <plus/>
-                <cn type="integer"> 1 </cn>
-                <apply>
-                  <divide/>
-                  <apply>
-                    <times/>
-                    <ci> M_cpd00001_c </ci>
-                    <ci> c </ci>
-                    <ci> M_cpd00293_c </ci>
-                    <ci> c </ci>
-                  </apply>
-                  <apply>
-                    <times/>
-                    <ci> kic_R_rxn01484_M_cpd00001_c </ci>
-                    <ci> kmc_R_rxn01484_M_cpd00293_c </ci>
-                  </apply>
-                </apply>
-                <apply>
-                  <divide/>
-                  <apply>
-                    <times/>
-                    <ci> M_cpd00001_c </ci>
-                    <ci> c </ci>
-                  </apply>
-                  <ci> kic_R_rxn01484_M_cpd00001_c </ci>
-                </apply>
-                <apply>
-                  <divide/>
-                  <apply>
-                    <times/>
-                    <ci> M_cpd00029_c </ci>
-                    <ci> c </ci>
-                    <ci> M_cpd00288_c </ci>
-                    <ci> c </ci>
-                  </apply>
-                  <apply>
-                    <times/>
-                    <ci> kic_R_rxn01484_M_cpd00288_c </ci>
-                    <ci> kmc_R_rxn01484_M_cpd00029_c </ci>
-                  </apply>
-                </apply>
-                <apply>
-                  <divide/>
-                  <apply>
-                    <times/>
-                    <ci> M_cpd00293_c </ci>
-                    <ci> c </ci>
-                  </apply>
-                  <ci> kic_R_rxn01484_M_cpd00293_c </ci>
-                </apply>
-                <apply>
-                  <divide/>
-                  <apply>
-                    <times/>
-                    <ci> M_cpd00288_c </ci>
-                    <ci> c </ci>
-                  </apply>
-                  <ci> kic_R_rxn01484_M_cpd00288_c </ci>
-                </apply>
-                <apply>
-                  <divide/>
-                  <apply>
-                    <times/>
-                    <ci> M_cpd00029_c </ci>
-                    <ci> c </ci>
-                  </apply>
-                  <ci> kic_R_rxn01484_M_cpd00029_c </ci>
-                </apply>
-              </apply>
-            </apply>
-          </math>
-        </kineticLaw>
-      </reaction>
-      <reaction id="R_rxn02285_M_cpd00006_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction id="R_rxn02285_M_cpd00006_c_drain" reversible="false" fast="false">
-        <listOfReactants>
-          <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00005_c"/>
-          <modifierSpeciesReference species="M_cpd00067_c"/>
-          <modifierSpeciesReference species="M_cpd00773_c"/>
-          <modifierSpeciesReference species="M_cpd02820_c"/>
-        </listOfModifiers>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <apply>
-              <divide/>
-              <apply>
-                <minus/>
-                <apply>
-                  <times/>
-                  <ci> vmaf_R_rxn02285 </ci>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd00006_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rxn02285_M_cpd00006_c </ci>
-                    </apply>
-                    <ci> hco_R_rxn02285 </ci>
-                  </apply>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd00773_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rxn02285_M_cpd00773_c </ci>
-                    </apply>
-                    <ci> hco_R_rxn02285 </ci>
-                  </apply>
-                </apply>
-                <apply>
-                  <times/>
-                  <ci> vmar_R_rxn02285 </ci>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd00067_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rxn02285_M_cpd00067_c </ci>
-                    </apply>
-                    <ci> hco_R_rxn02285 </ci>
-                  </apply>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd00005_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rxn02285_M_cpd00005_c </ci>
-                    </apply>
-                    <ci> hco_R_rxn02285 </ci>
-                  </apply>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd02820_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rxn02285_M_cpd02820_c </ci>
-                    </apply>
-                    <ci> hco_R_rxn02285 </ci>
-                  </apply>
-                </apply>
-              </apply>
-              <apply>
-                <minus/>
-                <apply>
-                  <plus/>
-                  <apply>
-                    <times/>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd00006_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rxn02285_M_cpd00006_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rxn02285 </ci>
-                    </apply>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd00773_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rxn02285_M_cpd00773_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rxn02285 </ci>
-                    </apply>
-                  </apply>
-                  <apply>
-                    <times/>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd00067_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rxn02285_M_cpd00067_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rxn02285 </ci>
-                    </apply>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd00005_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rxn02285_M_cpd00005_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rxn02285 </ci>
-                    </apply>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd02820_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rxn02285_M_cpd02820_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rxn02285 </ci>
-                    </apply>
-                  </apply>
-                </apply>
-                <cn type="integer"> 1 </cn>
-              </apply>
-            </apply>
-          </math>
-        </kineticLaw>
-      </reaction>
-      <reaction id="R_rxn02285_M_cpd00005_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction id="R_rxn02285_M_cpd00005_c_drain" reversible="false" fast="false">
-        <listOfReactants>
-          <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00067_c"/>
-          <modifierSpeciesReference species="M_cpd00773_c"/>
-          <modifierSpeciesReference species="M_cpd02820_c"/>
-          <modifierSpeciesReference species="M_cpd00006_c"/>
-        </listOfModifiers>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <apply>
-              <divide/>
-              <apply>
-                <minus/>
-                <apply>
-                  <times/>
-                  <ci> vmaf_R_rxn02285 </ci>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd00006_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rxn02285_M_cpd00006_c </ci>
-                    </apply>
-                    <ci> hco_R_rxn02285 </ci>
-                  </apply>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd00773_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rxn02285_M_cpd00773_c </ci>
-                    </apply>
-                    <ci> hco_R_rxn02285 </ci>
-                  </apply>
-                </apply>
-                <apply>
-                  <times/>
-                  <ci> vmar_R_rxn02285 </ci>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd00067_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rxn02285_M_cpd00067_c </ci>
-                    </apply>
-                    <ci> hco_R_rxn02285 </ci>
-                  </apply>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd00005_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rxn02285_M_cpd00005_c </ci>
-                    </apply>
-                    <ci> hco_R_rxn02285 </ci>
-                  </apply>
-                  <apply>
-                    <power/>
-                    <apply>
-                      <divide/>
-                      <apply>
-                        <times/>
-                        <ci> M_cpd02820_c </ci>
-                        <ci> c </ci>
-                      </apply>
-                      <ci> kmc_R_rxn02285_M_cpd02820_c </ci>
-                    </apply>
-                    <ci> hco_R_rxn02285 </ci>
-                  </apply>
-                </apply>
-              </apply>
-              <apply>
-                <minus/>
-                <apply>
-                  <plus/>
-                  <apply>
-                    <times/>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd00006_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rxn02285_M_cpd00006_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rxn02285 </ci>
-                    </apply>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd00773_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rxn02285_M_cpd00773_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rxn02285 </ci>
-                    </apply>
-                  </apply>
-                  <apply>
-                    <times/>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd00067_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rxn02285_M_cpd00067_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rxn02285 </ci>
-                    </apply>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd00005_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rxn02285_M_cpd00005_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rxn02285 </ci>
-                    </apply>
-                    <apply>
-                      <power/>
-                      <apply>
-                        <plus/>
-                        <cn type="integer"> 1 </cn>
-                        <apply>
-                          <divide/>
-                          <apply>
-                            <times/>
-                            <ci> M_cpd02820_c </ci>
-                            <ci> c </ci>
-                          </apply>
-                          <ci> kmc_R_rxn02285_M_cpd02820_c </ci>
-                        </apply>
-                      </apply>
-                      <ci> hco_R_rxn02285 </ci>
-                    </apply>
-                  </apply>
-                </apply>
-                <cn type="integer"> 1 </cn>
-              </apply>
-            </apply>
-          </math>
-        </kineticLaw>
-      </reaction>
-      <reaction id="R_rxn00461_M_cpd00009_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00009_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction id="R_rxn00461_M_cpd00009_c_drain" reversible="false" fast="false">
-        <listOfReactants>
-          <speciesReference species="M_cpd00009_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00061_c"/>
-          <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd00037_c"/>
           <modifierSpeciesReference species="M_cpd02820_c"/>
         </listOfModifiers>
@@ -3818,164 +2858,16 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01484_M_cpd00029_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd00029_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction id="R_rxn01484_M_cpd00029_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rJB00277_M_cpd00001_c_drain" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="M_cpd00029_c" stoichiometry="1" constant="true"/>
-        </listOfReactants>
-        <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00001_c"/>
-          <modifierSpeciesReference species="M_cpd00293_c"/>
-          <modifierSpeciesReference species="M_cpd00288_c"/>
-        </listOfModifiers>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <apply>
-              <divide/>
-              <apply>
-                <minus/>
-                <apply>
-                  <times/>
-                  <apply>
-                    <divide/>
-                    <ci> vmaf_R_rxn01484 </ci>
-                    <apply>
-                      <times/>
-                      <ci> kic_R_rxn01484_M_cpd00001_c </ci>
-                      <ci> kmc_R_rxn01484_M_cpd00293_c </ci>
-                    </apply>
-                  </apply>
-                  <ci> M_cpd00001_c </ci>
-                  <ci> c </ci>
-                  <ci> M_cpd00293_c </ci>
-                  <ci> c </ci>
-                </apply>
-                <apply>
-                  <times/>
-                  <apply>
-                    <divide/>
-                    <ci> vmar_R_rxn01484 </ci>
-                    <apply>
-                      <times/>
-                      <ci> kic_R_rxn01484_M_cpd00288_c </ci>
-                      <ci> kmc_R_rxn01484_M_cpd00029_c </ci>
-                    </apply>
-                  </apply>
-                  <ci> M_cpd00029_c </ci>
-                  <ci> c </ci>
-                  <ci> M_cpd00288_c </ci>
-                  <ci> c </ci>
-                </apply>
-              </apply>
-              <apply>
-                <plus/>
-                <cn type="integer"> 1 </cn>
-                <apply>
-                  <divide/>
-                  <apply>
-                    <times/>
-                    <ci> M_cpd00001_c </ci>
-                    <ci> c </ci>
-                    <ci> M_cpd00293_c </ci>
-                    <ci> c </ci>
-                  </apply>
-                  <apply>
-                    <times/>
-                    <ci> kic_R_rxn01484_M_cpd00001_c </ci>
-                    <ci> kmc_R_rxn01484_M_cpd00293_c </ci>
-                  </apply>
-                </apply>
-                <apply>
-                  <divide/>
-                  <apply>
-                    <times/>
-                    <ci> M_cpd00001_c </ci>
-                    <ci> c </ci>
-                  </apply>
-                  <ci> kic_R_rxn01484_M_cpd00001_c </ci>
-                </apply>
-                <apply>
-                  <divide/>
-                  <apply>
-                    <times/>
-                    <ci> M_cpd00029_c </ci>
-                    <ci> c </ci>
-                    <ci> M_cpd00288_c </ci>
-                    <ci> c </ci>
-                  </apply>
-                  <apply>
-                    <times/>
-                    <ci> kic_R_rxn01484_M_cpd00288_c </ci>
-                    <ci> kmc_R_rxn01484_M_cpd00029_c </ci>
-                  </apply>
-                </apply>
-                <apply>
-                  <divide/>
-                  <apply>
-                    <times/>
-                    <ci> M_cpd00293_c </ci>
-                    <ci> c </ci>
-                  </apply>
-                  <ci> kic_R_rxn01484_M_cpd00293_c </ci>
-                </apply>
-                <apply>
-                  <divide/>
-                  <apply>
-                    <times/>
-                    <ci> M_cpd00288_c </ci>
-                    <ci> c </ci>
-                  </apply>
-                  <ci> kic_R_rxn01484_M_cpd00288_c </ci>
-                </apply>
-                <apply>
-                  <divide/>
-                  <apply>
-                    <times/>
-                    <ci> M_cpd00029_c </ci>
-                    <ci> c </ci>
-                  </apply>
-                  <ci> kic_R_rxn01484_M_cpd00029_c </ci>
-                </apply>
-              </apply>
-            </apply>
-          </math>
-        </kineticLaw>
-      </reaction>
-      <reaction id="R_rJB00277_M_cpd17092_c_fill" reversible="false" fast="false">
-        <listOfProducts>
-          <speciesReference species="M_cpd17092_c" stoichiometry="1" constant="true"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FILL_RATE </ci>
-          </math>
-          <listOfLocalParameters>
-            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
-          </listOfLocalParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction id="R_rJB00277_M_cpd17092_c_drain" reversible="false" fast="false">
-        <listOfReactants>
-          <speciesReference species="M_cpd17092_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00175_c"/>
           <modifierSpeciesReference species="M_cpd00067_c"/>
-          <modifierSpeciesReference species="M_cpd00001_c"/>
-          <modifierSpeciesReference species="M_cpd00003_c"/>
           <modifierSpeciesReference species="M_cpd00004_c"/>
+          <modifierSpeciesReference species="M_cpd17092_c"/>
+          <modifierSpeciesReference species="M_cpd00003_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -4189,9 +3081,131 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn02285_M_cpd00773_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01484_M_cpd00001_c_drain" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00293_c"/>
+          <modifierSpeciesReference species="M_cpd00029_c"/>
+          <modifierSpeciesReference species="M_cpd00288_c"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> vmaf_R_rxn01484 </ci>
+                    <apply>
+                      <times/>
+                      <ci> kic_R_rxn01484_M_cpd00001_c </ci>
+                      <ci> kmc_R_rxn01484_M_cpd00293_c </ci>
+                    </apply>
+                  </apply>
+                  <ci> M_cpd00001_c </ci>
+                  <ci> c </ci>
+                  <ci> M_cpd00293_c </ci>
+                  <ci> c </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> vmar_R_rxn01484 </ci>
+                    <apply>
+                      <times/>
+                      <ci> kic_R_rxn01484_M_cpd00288_c </ci>
+                      <ci> kmc_R_rxn01484_M_cpd00029_c </ci>
+                    </apply>
+                  </apply>
+                  <ci> M_cpd00029_c </ci>
+                  <ci> c </ci>
+                  <ci> M_cpd00288_c </ci>
+                  <ci> c </ci>
+                </apply>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> M_cpd00001_c </ci>
+                    <ci> c </ci>
+                    <ci> M_cpd00293_c </ci>
+                    <ci> c </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> kic_R_rxn01484_M_cpd00001_c </ci>
+                    <ci> kmc_R_rxn01484_M_cpd00293_c </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> M_cpd00001_c </ci>
+                    <ci> c </ci>
+                  </apply>
+                  <ci> kic_R_rxn01484_M_cpd00001_c </ci>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> M_cpd00029_c </ci>
+                    <ci> c </ci>
+                    <ci> M_cpd00288_c </ci>
+                    <ci> c </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> kic_R_rxn01484_M_cpd00288_c </ci>
+                    <ci> kmc_R_rxn01484_M_cpd00029_c </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> M_cpd00293_c </ci>
+                    <ci> c </ci>
+                  </apply>
+                  <ci> kic_R_rxn01484_M_cpd00293_c </ci>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> M_cpd00288_c </ci>
+                    <ci> c </ci>
+                  </apply>
+                  <ci> kic_R_rxn01484_M_cpd00288_c </ci>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> M_cpd00029_c </ci>
+                    <ci> c </ci>
+                  </apply>
+                  <ci> kic_R_rxn01484_M_cpd00029_c </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000627" id="R_rxn02285_M_cpd00006_c_fill" reversible="false" fast="false">
         <listOfProducts>
-          <speciesReference species="M_cpd00773_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -4202,12 +3216,217 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn02285_M_cpd00773_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn02285_M_cpd00006_c_drain" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="M_cpd00773_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00773_c"/>
+          <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd00005_c"/>
+          <modifierSpeciesReference species="M_cpd02820_c"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <ci> vmaf_R_rxn02285 </ci>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd00006_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rxn02285_M_cpd00006_c </ci>
+                    </apply>
+                    <ci> hco_R_rxn02285 </ci>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd00773_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rxn02285_M_cpd00773_c </ci>
+                    </apply>
+                    <ci> hco_R_rxn02285 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> vmar_R_rxn02285 </ci>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd00067_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rxn02285_M_cpd00067_c </ci>
+                    </apply>
+                    <ci> hco_R_rxn02285 </ci>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd00005_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rxn02285_M_cpd00005_c </ci>
+                    </apply>
+                    <ci> hco_R_rxn02285 </ci>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd02820_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rxn02285_M_cpd02820_c </ci>
+                    </apply>
+                    <ci> hco_R_rxn02285 </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <minus/>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd00006_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rxn02285_M_cpd00006_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rxn02285 </ci>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd00773_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rxn02285_M_cpd00773_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rxn02285 </ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd00067_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rxn02285_M_cpd00067_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rxn02285 </ci>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd00005_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rxn02285_M_cpd00005_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rxn02285 </ci>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd02820_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rxn02285_M_cpd02820_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rxn02285 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000627" id="R_rxn02285_M_cpd00005_c_fill" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FILL_RATE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000627" id="R_rxn02285_M_cpd00005_c_drain" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00773_c"/>
           <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd02820_c"/>
           <modifierSpeciesReference species="M_cpd00006_c"/>
@@ -4394,7 +3613,788 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00293_M_cpd00012_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00461_M_cpd00009_c_fill" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="M_cpd00009_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FILL_RATE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000627" id="R_rxn00461_M_cpd00009_c_drain" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="M_cpd00009_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00067_c"/>
+          <modifierSpeciesReference species="M_cpd00061_c"/>
+          <modifierSpeciesReference species="M_cpd00037_c"/>
+          <modifierSpeciesReference species="M_cpd02820_c"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <ci> vmaf_R_rxn00461 </ci>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd00061_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rxn00461_M_cpd00061_c </ci>
+                    </apply>
+                    <ci> hco_R_rxn00461 </ci>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd00037_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rxn00461_M_cpd00037_c </ci>
+                    </apply>
+                    <ci> hco_R_rxn00461 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> vmar_R_rxn00461 </ci>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd00067_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rxn00461_M_cpd00067_c </ci>
+                    </apply>
+                    <ci> hco_R_rxn00461 </ci>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd00009_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rxn00461_M_cpd00009_c </ci>
+                    </apply>
+                    <ci> hco_R_rxn00461 </ci>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd02820_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rxn00461_M_cpd02820_c </ci>
+                    </apply>
+                    <ci> hco_R_rxn00461 </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <minus/>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd00061_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rxn00461_M_cpd00061_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rxn00461 </ci>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd00037_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rxn00461_M_cpd00037_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rxn00461 </ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd00067_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rxn00461_M_cpd00067_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rxn00461 </ci>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd00009_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rxn00461_M_cpd00009_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rxn00461 </ci>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd02820_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rxn00461_M_cpd02820_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rxn00461 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000627" id="R_rxn01484_M_cpd00029_c_fill" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="M_cpd00029_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FILL_RATE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000627" id="R_rxn01484_M_cpd00029_c_drain" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="M_cpd00029_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00293_c"/>
+          <modifierSpeciesReference species="M_cpd00288_c"/>
+          <modifierSpeciesReference species="M_cpd00001_c"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> vmaf_R_rxn01484 </ci>
+                    <apply>
+                      <times/>
+                      <ci> kic_R_rxn01484_M_cpd00001_c </ci>
+                      <ci> kmc_R_rxn01484_M_cpd00293_c </ci>
+                    </apply>
+                  </apply>
+                  <ci> M_cpd00001_c </ci>
+                  <ci> c </ci>
+                  <ci> M_cpd00293_c </ci>
+                  <ci> c </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <apply>
+                    <divide/>
+                    <ci> vmar_R_rxn01484 </ci>
+                    <apply>
+                      <times/>
+                      <ci> kic_R_rxn01484_M_cpd00288_c </ci>
+                      <ci> kmc_R_rxn01484_M_cpd00029_c </ci>
+                    </apply>
+                  </apply>
+                  <ci> M_cpd00029_c </ci>
+                  <ci> c </ci>
+                  <ci> M_cpd00288_c </ci>
+                  <ci> c </ci>
+                </apply>
+              </apply>
+              <apply>
+                <plus/>
+                <cn type="integer"> 1 </cn>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> M_cpd00001_c </ci>
+                    <ci> c </ci>
+                    <ci> M_cpd00293_c </ci>
+                    <ci> c </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> kic_R_rxn01484_M_cpd00001_c </ci>
+                    <ci> kmc_R_rxn01484_M_cpd00293_c </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> M_cpd00001_c </ci>
+                    <ci> c </ci>
+                  </apply>
+                  <ci> kic_R_rxn01484_M_cpd00001_c </ci>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> M_cpd00029_c </ci>
+                    <ci> c </ci>
+                    <ci> M_cpd00288_c </ci>
+                    <ci> c </ci>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <ci> kic_R_rxn01484_M_cpd00288_c </ci>
+                    <ci> kmc_R_rxn01484_M_cpd00029_c </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> M_cpd00293_c </ci>
+                    <ci> c </ci>
+                  </apply>
+                  <ci> kic_R_rxn01484_M_cpd00293_c </ci>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> M_cpd00288_c </ci>
+                    <ci> c </ci>
+                  </apply>
+                  <ci> kic_R_rxn01484_M_cpd00288_c </ci>
+                </apply>
+                <apply>
+                  <divide/>
+                  <apply>
+                    <times/>
+                    <ci> M_cpd00029_c </ci>
+                    <ci> c </ci>
+                  </apply>
+                  <ci> kic_R_rxn01484_M_cpd00029_c </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000627" id="R_rJB00277_M_cpd17092_c_fill" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="M_cpd17092_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FILL_RATE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000627" id="R_rJB00277_M_cpd17092_c_drain" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="M_cpd17092_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00175_c"/>
+          <modifierSpeciesReference species="M_cpd00001_c"/>
+          <modifierSpeciesReference species="M_cpd00067_c"/>
+          <modifierSpeciesReference species="M_cpd00004_c"/>
+          <modifierSpeciesReference species="M_cpd00003_c"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <ci> vmaf_R_rJB00277 </ci>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd00003_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rJB00277_M_cpd00003_c </ci>
+                    </apply>
+                    <ci> hco_R_rJB00277 </ci>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd00067_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rJB00277_M_cpd00067_c </ci>
+                    </apply>
+                    <ci> hco_R_rJB00277 </ci>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd00175_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rJB00277_M_cpd00175_c </ci>
+                    </apply>
+                    <ci> hco_R_rJB00277 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> vmar_R_rJB00277 </ci>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd00004_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rJB00277_M_cpd00004_c </ci>
+                    </apply>
+                    <ci> hco_R_rJB00277 </ci>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd00001_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rJB00277_M_cpd00001_c </ci>
+                    </apply>
+                    <ci> hco_R_rJB00277 </ci>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd17092_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rJB00277_M_cpd17092_c </ci>
+                    </apply>
+                    <ci> hco_R_rJB00277 </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <minus/>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd00003_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rJB00277_M_cpd00003_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rJB00277 </ci>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd00067_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rJB00277_M_cpd00067_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rJB00277 </ci>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd00175_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rJB00277_M_cpd00175_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rJB00277 </ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd00004_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rJB00277_M_cpd00004_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rJB00277 </ci>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd00001_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rJB00277_M_cpd00001_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rJB00277 </ci>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd17092_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rJB00277_M_cpd17092_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rJB00277 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000627" id="R_rxn02285_M_cpd00773_c_fill" reversible="false" fast="false">
+        <listOfProducts>
+          <speciesReference species="M_cpd00773_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <ci> FILL_RATE </ci>
+          </math>
+          <listOfLocalParameters>
+            <localParameter id="FILL_RATE" value="1" units="mmol_per_gDW_per_hr"/>
+          </listOfLocalParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000627" id="R_rxn02285_M_cpd00773_c_drain" reversible="false" fast="false">
+        <listOfReactants>
+          <speciesReference species="M_cpd00773_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00067_c"/>
+          <modifierSpeciesReference species="M_cpd00005_c"/>
+          <modifierSpeciesReference species="M_cpd02820_c"/>
+          <modifierSpeciesReference species="M_cpd00006_c"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <divide/>
+              <apply>
+                <minus/>
+                <apply>
+                  <times/>
+                  <ci> vmaf_R_rxn02285 </ci>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd00006_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rxn02285_M_cpd00006_c </ci>
+                    </apply>
+                    <ci> hco_R_rxn02285 </ci>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd00773_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rxn02285_M_cpd00773_c </ci>
+                    </apply>
+                    <ci> hco_R_rxn02285 </ci>
+                  </apply>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> vmar_R_rxn02285 </ci>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd00067_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rxn02285_M_cpd00067_c </ci>
+                    </apply>
+                    <ci> hco_R_rxn02285 </ci>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd00005_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rxn02285_M_cpd00005_c </ci>
+                    </apply>
+                    <ci> hco_R_rxn02285 </ci>
+                  </apply>
+                  <apply>
+                    <power/>
+                    <apply>
+                      <divide/>
+                      <apply>
+                        <times/>
+                        <ci> M_cpd02820_c </ci>
+                        <ci> c </ci>
+                      </apply>
+                      <ci> kmc_R_rxn02285_M_cpd02820_c </ci>
+                    </apply>
+                    <ci> hco_R_rxn02285 </ci>
+                  </apply>
+                </apply>
+              </apply>
+              <apply>
+                <minus/>
+                <apply>
+                  <plus/>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd00006_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rxn02285_M_cpd00006_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rxn02285 </ci>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd00773_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rxn02285_M_cpd00773_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rxn02285 </ci>
+                    </apply>
+                  </apply>
+                  <apply>
+                    <times/>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd00067_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rxn02285_M_cpd00067_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rxn02285 </ci>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd00005_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rxn02285_M_cpd00005_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rxn02285 </ci>
+                    </apply>
+                    <apply>
+                      <power/>
+                      <apply>
+                        <plus/>
+                        <cn type="integer"> 1 </cn>
+                        <apply>
+                          <divide/>
+                          <apply>
+                            <times/>
+                            <ci> M_cpd02820_c </ci>
+                            <ci> c </ci>
+                          </apply>
+                          <ci> kmc_R_rxn02285_M_cpd02820_c </ci>
+                        </apply>
+                      </apply>
+                      <ci> hco_R_rxn02285 </ci>
+                    </apply>
+                  </apply>
+                </apply>
+                <cn type="integer"> 1 </cn>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction sboTerm="SBO:0000627" id="R_rxn00293_M_cpd00012_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -4407,14 +4407,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00293_M_cpd00012_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00293_M_cpd00012_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd02611_c"/>
           <modifierSpeciesReference species="M_cpd00037_c"/>
           <modifierSpeciesReference species="M_cpd00062_c"/>
+          <modifierSpeciesReference species="M_cpd02611_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -4529,7 +4529,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn13913_M_cpd11493_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn13913_M_cpd11493_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd11493_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -4542,13 +4542,13 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn13913_M_cpd11493_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn13913_M_cpd11493_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd11493_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd17094_c"/>
           <modifierSpeciesReference species="M_cpd17095_c"/>
+          <modifierSpeciesReference species="M_cpd17094_c"/>
           <modifierSpeciesReference species="M_cpd11494_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -4664,7 +4664,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn13913_M_cpd11494_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn13913_M_cpd11494_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd11494_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -4677,14 +4677,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn13913_M_cpd11494_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn13913_M_cpd11494_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd11494_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd17094_c"/>
-          <modifierSpeciesReference species="M_cpd17095_c"/>
           <modifierSpeciesReference species="M_cpd11493_c"/>
+          <modifierSpeciesReference species="M_cpd17095_c"/>
+          <modifierSpeciesReference species="M_cpd17094_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -4799,7 +4799,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00461_M_cpd00061_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00461_M_cpd00061_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd00061_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -4812,14 +4812,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00461_M_cpd00061_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00461_M_cpd00061_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00061_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00009_c"/>
           <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd00037_c"/>
-          <modifierSpeciesReference species="M_cpd00009_c"/>
           <modifierSpeciesReference species="M_cpd02820_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -5004,7 +5004,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn13913_M_cpd17094_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn13913_M_cpd17094_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd17094_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -5017,14 +5017,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn13913_M_cpd17094_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn13913_M_cpd17094_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd17094_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd11493_c"/>
           <modifierSpeciesReference species="M_cpd17095_c"/>
           <modifierSpeciesReference species="M_cpd11494_c"/>
-          <modifierSpeciesReference species="M_cpd11493_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -5139,7 +5139,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn13913_M_cpd17095_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn13913_M_cpd17095_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd17095_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -5152,14 +5152,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn13913_M_cpd17095_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn13913_M_cpd17095_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd17095_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd11493_c"/>
           <modifierSpeciesReference species="M_cpd17094_c"/>
           <modifierSpeciesReference species="M_cpd11494_c"/>
-          <modifierSpeciesReference species="M_cpd11493_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -5274,7 +5274,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01484_M_cpd00293_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01484_M_cpd00293_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd00293_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -5287,14 +5287,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01484_M_cpd00293_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01484_M_cpd00293_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00293_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00001_c"/>
-          <modifierSpeciesReference species="M_cpd00288_c"/>
           <modifierSpeciesReference species="M_cpd00029_c"/>
+          <modifierSpeciesReference species="M_cpd00288_c"/>
+          <modifierSpeciesReference species="M_cpd00001_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -5409,7 +5409,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00293_M_cpd00062_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00293_M_cpd00062_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd00062_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -5422,14 +5422,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00293_M_cpd00062_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00293_M_cpd00062_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00062_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd02611_c"/>
-          <modifierSpeciesReference species="M_cpd00037_c"/>
           <modifierSpeciesReference species="M_cpd00012_c"/>
+          <modifierSpeciesReference species="M_cpd00037_c"/>
+          <modifierSpeciesReference species="M_cpd02611_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">

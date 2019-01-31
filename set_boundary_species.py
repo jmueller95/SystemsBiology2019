@@ -43,17 +43,30 @@ def main():
                 net_balance.pop(key)
         subsystem_balance[group.name] = net_balance
 
+    chosen_groups = ["Amino sugar and nucleotide sugar metabolism",
+                     "Lipopolysaccharide biosynthesis",
+                     "Pyrimidine metabolism"]
+
+    subsystem_balance["Combined"] = subsystem_balance[chosen_groups[0]]
+    for group_name in chosen_groups[1:]:
+        balance = subsystem_balance[group_name]
+        for key, value in balance.items():
+            subsystem_balance["Combined"][key] += value
+
     subsystem_metabolites = dict()
     for key in subsystem_balance.keys():
         subsystem_metabolites[key] = list(subsystem_balance[key].keys())
 
+    subsystem_metabolites["Combined"] = list(set(
+        subsystem_balance[chosen_groups[0]].keys()).
+        union(subsystem_balance[chosen_groups[1]].keys()).
+        union(subsystem_balance[chosen_groups[2]].keys()))
+
     candidates = defaultdict(list)
-    chosen_groups = ["Lipopolysaccharide biosynthesis",
-                     "Amino sugar and nucleotide sugar metabolism",
-                     "Pyrimidine metabolism"]
+
     for this in chosen_groups:
         for other in subsystem_metabolites.keys():
-            if this == other:
+            if this == other or this == "Combined" and other in chosen_groups:
                 continue
             metabolites = set(subsystem_metabolites[this]).intersection(subsystem_metabolites[other])
             if metabolites:
@@ -93,7 +106,7 @@ def add_boundary_species(candidates):
     for candidate_list in candidates.values():
         for species in candidate_list:
             boundary_species.add(species)
-    set_boundary_species(combined_libsbml, list(boundary_species))
+    set_boundary_species(combined_libsbml, candidates["Combined"])
     libsbml.writeSBMLToFile(combined_libsbml_doc, "xml/iPAE1146_Combined_Subsystems_fbc_squeezed_with_boundaries.xml")
 
 
@@ -129,17 +142,12 @@ def set_boundary_species(model, candidates):
         if species.getName() not in non_boundary_species:
             for r_id in species_reaction_map[species.getName()]:
                 reaction = model.getReaction(r_id)
-                if reaction.getReversible():
-                    # Exchange reaction
-                    reaction.setSBOTerm(627)
-                else:
-                    # Sink reaction
-                    reaction.setSBOTerm(632)
                 if species.getId() in reaction.getListOfReactants() or reaction.getReversible():
                     # add flux for filling
                     r_flux = model.createReaction()
                     r_flux.setId(r_id + "_" + species.getId() + "_fill")
                     r_flux.addProduct(species)
+                    r_flux.setSBOTerm(627)
                     # discontinued in level 3 version 2, but needed in level 3 version 1
                     r_flux.setFast(False)
                     r_flux.setReversible(False)
@@ -155,6 +163,8 @@ def set_boundary_species(model, candidates):
                     r_flux = model.createReaction()
                     r_flux.setId(r_id + "_" + species.getId() + "_drain")
                     r_flux.addReactant(species)
+                    r_flux.setSBOTerm(627)
+                    # discontinued in level 3 version 2, but needed in level 3 version 1
                     r_flux.setFast(False)
                     r_flux.setReversible(False)
                     kinetic_law = r_flux.createKineticLaw()

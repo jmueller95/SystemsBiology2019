@@ -825,7 +825,7 @@
       <parameter sboTerm="SBO:0000261" id="kic_R_rxn01362_M_cpd00810_c" name="Inhibitory constant for species Orotidylic acid of reaction R_rxn01362" value="1" units="substance" constant="false"/>
     </listOfParameters>
     <listOfReactions>
-      <reaction metaid="R_rxn05289" sboTerm="SBO:0000627" id="R_rxn05289" name="thioredoxin reductase (NADPH)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn05289" fbc:upperFluxBound="UPPER_BOUND_rxn05289">
+      <reaction metaid="R_rxn05289" id="R_rxn05289" name="thioredoxin reductase (NADPH)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn05289" fbc:upperFluxBound="UPPER_BOUND_rxn05289">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA2616 or PA0849)</p>
@@ -1049,7 +1049,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn06076" sboTerm="SBO:0000632" id="R_rxn06076" name="ribonucleoside-diphosphate reductase (CDP)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn06076" fbc:upperFluxBound="UPPER_BOUND_rxn06076">
+      <reaction metaid="R_rxn06076" id="R_rxn06076" name="ribonucleoside-diphosphate reductase (CDP)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn06076" fbc:upperFluxBound="UPPER_BOUND_rxn06076">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA1156 and PA1155)</p>
@@ -1215,7 +1215,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn06075" sboTerm="SBO:0000632" id="R_rxn06075" name="ribonucleoside-diphosphate reductase (UDP)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn06075" fbc:upperFluxBound="UPPER_BOUND_rxn06075">
+      <reaction metaid="R_rxn06075" id="R_rxn06075" name="ribonucleoside-diphosphate reductase (UDP)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn06075" fbc:upperFluxBound="UPPER_BOUND_rxn06075">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA1156 and PA1155)</p>
@@ -1381,7 +1381,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00711" sboTerm="SBO:0000632" id="R_rxn00711" name="uracil phosphoribosyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00711" fbc:upperFluxBound="UPPER_BOUND_rxn00711">
+      <reaction metaid="R_rxn00711" id="R_rxn00711" name="uracil phosphoribosyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00711" fbc:upperFluxBound="UPPER_BOUND_rxn00711">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA4646 or PA0403)</p>
@@ -1465,7 +1465,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00776" sboTerm="SBO:0000632" id="R_rxn00776" name="yUMP synthetase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00776" fbc:upperFluxBound="UPPER_BOUND_rxn00776">
+      <reaction metaid="R_rxn00776" id="R_rxn00776" name="yUMP synthetase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00776" fbc:upperFluxBound="UPPER_BOUND_rxn00776">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: (PA4742 or PA2975 or PA3246 or PA3114 or PA4544)</p>
@@ -1549,7 +1549,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01520" sboTerm="SBO:0000632" id="R_rxn01520" name="thymidylate synthase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01520" fbc:upperFluxBound="UPPER_BOUND_rxn01520">
+      <reaction metaid="R_rxn01520" id="R_rxn01520" name="thymidylate synthase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01520" fbc:upperFluxBound="UPPER_BOUND_rxn01520">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0342</p>
@@ -1633,7 +1633,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01018" sboTerm="SBO:0000632" id="R_rxn01018" name="aspartate carbamoyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01018" fbc:upperFluxBound="UPPER_BOUND_rxn01018">
+      <reaction metaid="R_rxn01018" id="R_rxn01018" name="aspartate carbamoyltransferase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01018" fbc:upperFluxBound="UPPER_BOUND_rxn01018">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0402</p>
@@ -1799,7 +1799,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00717" sboTerm="SBO:0000632" id="R_rxn00717" name="Cytosine deaminase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00717" fbc:upperFluxBound="UPPER_BOUND_rxn00717">
+      <reaction metaid="R_rxn00717" id="R_rxn00717" name="Cytosine deaminase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00717" fbc:upperFluxBound="UPPER_BOUND_rxn00717">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA0437</p>
@@ -1987,7 +1987,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00710" sboTerm="SBO:0000632" id="R_rxn00710" name="orotidine-5&apos;-phosphate decarboxylase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00710" fbc:upperFluxBound="UPPER_BOUND_rxn00710">
+      <reaction metaid="R_rxn00710" id="R_rxn00710" name="orotidine-5&apos;-phosphate decarboxylase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00710" fbc:upperFluxBound="UPPER_BOUND_rxn00710">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA2876</p>
@@ -2071,7 +2071,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01513" sboTerm="SBO:0000627" id="R_rxn01513" name="dTMP kinase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01513" fbc:upperFluxBound="UPPER_BOUND_rxn01513">
+      <reaction metaid="R_rxn01513" id="R_rxn01513" name="dTMP kinase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01513" fbc:upperFluxBound="UPPER_BOUND_rxn01513">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA2962</p>
@@ -2230,7 +2230,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01360" sboTerm="SBO:0000632" id="R_rxn01360" name="(S)-Dihydroorotateoxygen oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01360" fbc:upperFluxBound="UPPER_BOUND_rxn01360">
+      <reaction metaid="R_rxn01360" id="R_rxn01360" name="(S)-Dihydroorotateoxygen oxidoreductase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01360" fbc:upperFluxBound="UPPER_BOUND_rxn01360">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3050</p>
@@ -2315,7 +2315,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn08335" sboTerm="SBO:0000627" id="R_rxn08335" name="dihydoorotic acid dehydrogenase (quinone8)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn08335" fbc:upperFluxBound="UPPER_BOUND_rxn08335">
+      <reaction metaid="R_rxn08335" id="R_rxn08335" name="dihydoorotic acid dehydrogenase (quinone8)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn08335" fbc:upperFluxBound="UPPER_BOUND_rxn08335">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3050</p>
@@ -2462,7 +2462,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rJB00259" sboTerm="SBO:0000627" id="R_rJB00259" name="dihydoorotic acid dehydrogenase (quinone9)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rJB00259" fbc:upperFluxBound="UPPER_BOUND_rJB00259">
+      <reaction metaid="R_rJB00259" id="R_rJB00259" name="dihydoorotic acid dehydrogenase (quinone9)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rJB00259" fbc:upperFluxBound="UPPER_BOUND_rJB00259">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3050</p>
@@ -2609,7 +2609,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn08336" sboTerm="SBO:0000632" id="R_rxn08336" name="dihydroorotic acid (menaquinone-8)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn08336" fbc:upperFluxBound="UPPER_BOUND_rxn08336">
+      <reaction metaid="R_rxn08336" id="R_rxn08336" name="dihydroorotic acid (menaquinone-8)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn08336" fbc:upperFluxBound="UPPER_BOUND_rxn08336">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3050</p>
@@ -2693,7 +2693,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00364" sboTerm="SBO:0000627" id="R_rxn00364" name="cytidylate kinase (CMP)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00364" fbc:upperFluxBound="UPPER_BOUND_rxn00364">
+      <reaction metaid="R_rxn00364" id="R_rxn00364" name="cytidylate kinase (CMP)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00364" fbc:upperFluxBound="UPPER_BOUND_rxn00364">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3163</p>
@@ -2851,7 +2851,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01219" sboTerm="SBO:0000627" id="R_rxn01219" name="cytidylate kinase (dCMP)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01219" fbc:upperFluxBound="UPPER_BOUND_rxn01219">
+      <reaction metaid="R_rxn01219" id="R_rxn01219" name="cytidylate kinase (dCMP)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01219" fbc:upperFluxBound="UPPER_BOUND_rxn01219">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3163</p>
@@ -3009,7 +3009,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01672" sboTerm="SBO:0000632" id="R_rxn01672" name="dCTP deaminase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01672" fbc:upperFluxBound="UPPER_BOUND_rxn01672">
+      <reaction metaid="R_rxn01672" id="R_rxn01672" name="dCTP deaminase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01672" fbc:upperFluxBound="UPPER_BOUND_rxn01672">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3480</p>
@@ -3197,7 +3197,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01465" sboTerm="SBO:0000627" id="R_rxn01465" name="dihydroorotase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01465" fbc:upperFluxBound="UPPER_BOUND_rxn01465">
+      <reaction metaid="R_rxn01465" id="R_rxn01465" name="dihydroorotase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01465" fbc:upperFluxBound="UPPER_BOUND_rxn01465">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3527</p>
@@ -3355,7 +3355,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00363" sboTerm="SBO:0000632" id="R_rxn00363" name="5&apos;-nucleotidase (CMP)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00363" fbc:upperFluxBound="UPPER_BOUND_rxn00363">
+      <reaction metaid="R_rxn00363" id="R_rxn00363" name="5&apos;-nucleotidase (CMP)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00363" fbc:upperFluxBound="UPPER_BOUND_rxn00363">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3625</p>
@@ -3521,7 +3521,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01218" sboTerm="SBO:0000632" id="R_rxn01218" name="5&apos;-nucleotidase (dCMP)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01218" fbc:upperFluxBound="UPPER_BOUND_rxn01218">
+      <reaction metaid="R_rxn01218" id="R_rxn01218" name="5&apos;-nucleotidase (dCMP)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01218" fbc:upperFluxBound="UPPER_BOUND_rxn01218">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3625</p>
@@ -3687,7 +3687,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01145" sboTerm="SBO:0000632" id="R_rxn01145" name="5&apos;-nucleotidase (dTMP)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01145" fbc:upperFluxBound="UPPER_BOUND_rxn01145">
+      <reaction metaid="R_rxn01145" id="R_rxn01145" name="5&apos;-nucleotidase (dTMP)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01145" fbc:upperFluxBound="UPPER_BOUND_rxn01145">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3625</p>
@@ -3853,7 +3853,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00708" sboTerm="SBO:0000632" id="R_rxn00708" name="5&apos;-nucleotidase (UMP)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00708" fbc:upperFluxBound="UPPER_BOUND_rxn00708">
+      <reaction metaid="R_rxn00708" id="R_rxn00708" name="5&apos;-nucleotidase (UMP)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00708" fbc:upperFluxBound="UPPER_BOUND_rxn00708">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3625</p>
@@ -4019,7 +4019,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00412" sboTerm="SBO:0000632" id="R_rxn00412" name="CTP synthase (glutamine)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00412" fbc:upperFluxBound="UPPER_BOUND_rxn00412">
+      <reaction metaid="R_rxn00412" id="R_rxn00412" name="CTP synthase (glutamine)" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00412" fbc:upperFluxBound="UPPER_BOUND_rxn00412">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3637</p>
@@ -4273,7 +4273,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00410" sboTerm="SBO:0000627" id="R_rxn00410" name="UTPammonia ligase(ADP-forming)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00410" fbc:upperFluxBound="UPPER_BOUND_rxn00410">
+      <reaction metaid="R_rxn00410" id="R_rxn00410" name="UTPammonia ligase(ADP-forming)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00410" fbc:upperFluxBound="UPPER_BOUND_rxn00410">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3637</p>
@@ -4568,7 +4568,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00119" sboTerm="SBO:0000627" id="R_rxn00119" name="UMP kinase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00119" fbc:upperFluxBound="UPPER_BOUND_rxn00119">
+      <reaction metaid="R_rxn00119" id="R_rxn00119" name="UMP kinase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00119" fbc:upperFluxBound="UPPER_BOUND_rxn00119">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3654</p>
@@ -4729,7 +4729,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01517" sboTerm="SBO:0000627" id="R_rxn01517" name="uridylate kinase (dUMP)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01517" fbc:upperFluxBound="UPPER_BOUND_rxn01517">
+      <reaction metaid="R_rxn01517" id="R_rxn01517" name="uridylate kinase (dUMP)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01517" fbc:upperFluxBound="UPPER_BOUND_rxn01517">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3654</p>
@@ -4888,7 +4888,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00409" sboTerm="SBO:0000627" id="R_rxn00409" name="nucleoside-diphosphate kinase (ATP:CDP)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00409" fbc:upperFluxBound="UPPER_BOUND_rxn00409">
+      <reaction metaid="R_rxn00409" id="R_rxn00409" name="nucleoside-diphosphate kinase (ATP:CDP)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00409" fbc:upperFluxBound="UPPER_BOUND_rxn00409">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3807</p>
@@ -5046,7 +5046,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01673" sboTerm="SBO:0000627" id="R_rxn01673" name="nucleoside-diphosphate kinase (ATP:dCDP)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01673" fbc:upperFluxBound="UPPER_BOUND_rxn01673">
+      <reaction metaid="R_rxn01673" id="R_rxn01673" name="nucleoside-diphosphate kinase (ATP:dCDP)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01673" fbc:upperFluxBound="UPPER_BOUND_rxn01673">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3807</p>
@@ -5204,7 +5204,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01512" sboTerm="SBO:0000627" id="R_rxn01512" name="nucleoside-diphosphate kinase (ATP:dTDP)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01512" fbc:upperFluxBound="UPPER_BOUND_rxn01512">
+      <reaction metaid="R_rxn01512" id="R_rxn01512" name="nucleoside-diphosphate kinase (ATP:dTDP)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01512" fbc:upperFluxBound="UPPER_BOUND_rxn01512">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3807</p>
@@ -5362,7 +5362,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01678" sboTerm="SBO:0000627" id="R_rxn01678" name="nucleoside-diphosphate kinase (ATP:dUDP)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01678" fbc:upperFluxBound="UPPER_BOUND_rxn01678">
+      <reaction metaid="R_rxn01678" id="R_rxn01678" name="nucleoside-diphosphate kinase (ATP:dUDP)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01678" fbc:upperFluxBound="UPPER_BOUND_rxn01678">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3807</p>
@@ -5520,7 +5520,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn00117" sboTerm="SBO:0000627" id="R_rxn00117" name="nucleoside-diphosphate kinase (ATP:UDP)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00117" fbc:upperFluxBound="UPPER_BOUND_rxn00117">
+      <reaction metaid="R_rxn00117" id="R_rxn00117" name="nucleoside-diphosphate kinase (ATP:UDP)" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn00117" fbc:upperFluxBound="UPPER_BOUND_rxn00117">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA3807</p>
@@ -5678,7 +5678,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01514" sboTerm="SBO:0000632" id="R_rxn01514" name="thymidine-triphosphatase irreversible" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01514" fbc:upperFluxBound="UPPER_BOUND_rxn01514">
+      <reaction metaid="R_rxn01514" id="R_rxn01514" name="thymidine-triphosphatase irreversible" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01514" fbc:upperFluxBound="UPPER_BOUND_rxn01514">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA5067</p>
@@ -5845,7 +5845,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01519" sboTerm="SBO:0000632" id="R_rxn01519" name="dUTP diphosphatase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01519" fbc:upperFluxBound="UPPER_BOUND_rxn01519">
+      <reaction metaid="R_rxn01519" id="R_rxn01519" name="dUTP diphosphatase" reversible="false" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01519" fbc:upperFluxBound="UPPER_BOUND_rxn01519">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA5321</p>
@@ -5930,7 +5930,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_rxn01362" sboTerm="SBO:0000627" id="R_rxn01362" name="orotate phosphoribosyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01362" fbc:upperFluxBound="UPPER_BOUND_rxn01362">
+      <reaction metaid="R_rxn01362" id="R_rxn01362" name="orotate phosphoribosyltransferase" reversible="true" fast="false" fbc:lowerFluxBound="LOWER_BOUND_rxn01362" fbc:upperFluxBound="UPPER_BOUND_rxn01362">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>GENE_ASSOCIATION: PA5331</p>
@@ -6088,15 +6088,15 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn05289_M_cpd00067_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn05289_M_cpd00067_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00005_c"/>
           <modifierSpeciesReference species="M_cpd11420_c"/>
-          <modifierSpeciesReference species="M_cpd11421_c"/>
           <modifierSpeciesReference species="M_cpd00006_c"/>
+          <modifierSpeciesReference species="M_cpd11421_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -6280,14 +6280,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01465_M_cpd00067_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01465_M_cpd00067_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00001_c"/>
-          <modifierSpeciesReference species="M_cpd00343_c"/>
           <modifierSpeciesReference species="M_cpd00282_c"/>
+          <modifierSpeciesReference species="M_cpd00343_c"/>
+          <modifierSpeciesReference species="M_cpd00001_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -6402,17 +6402,17 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00410_M_cpd00067_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00410_M_cpd00067_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00067_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00013_c"/>
-          <modifierSpeciesReference species="M_cpd00062_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
-          <modifierSpeciesReference species="M_cpd00052_c"/>
           <modifierSpeciesReference species="M_cpd00009_c"/>
           <modifierSpeciesReference species="M_cpd00008_c"/>
+          <modifierSpeciesReference species="M_cpd00052_c"/>
+          <modifierSpeciesReference species="M_cpd00013_c"/>
+          <modifierSpeciesReference species="M_cpd00062_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -6664,7 +6664,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01465_M_cpd00001_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01465_M_cpd00001_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -6677,14 +6677,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01465_M_cpd00001_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01465_M_cpd00001_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00001_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00343_c"/>
-          <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd00282_c"/>
+          <modifierSpeciesReference species="M_cpd00067_c"/>
+          <modifierSpeciesReference species="M_cpd00343_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -6799,7 +6799,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn05289_M_cpd00006_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn05289_M_cpd00006_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -6812,14 +6812,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn05289_M_cpd00006_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn05289_M_cpd00006_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00006_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd00005_c"/>
           <modifierSpeciesReference species="M_cpd11420_c"/>
-          <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd11421_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -7004,7 +7004,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn05289_M_cpd00005_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn05289_M_cpd00005_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -7017,15 +7017,15 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn05289_M_cpd00005_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn05289_M_cpd00005_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00005_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd11420_c"/>
-          <modifierSpeciesReference species="M_cpd00067_c"/>
-          <modifierSpeciesReference species="M_cpd11421_c"/>
           <modifierSpeciesReference species="M_cpd00006_c"/>
+          <modifierSpeciesReference species="M_cpd11421_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -7209,7 +7209,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00410_M_cpd00009_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00410_M_cpd00009_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd00009_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -7222,17 +7222,17 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00410_M_cpd00009_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00410_M_cpd00009_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00009_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00013_c"/>
-          <modifierSpeciesReference species="M_cpd00062_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd00052_c"/>
-          <modifierSpeciesReference species="M_cpd00008_c"/>
+          <modifierSpeciesReference species="M_cpd00013_c"/>
+          <modifierSpeciesReference species="M_cpd00062_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -7484,7 +7484,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08335_M_cpd15560_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn08335_M_cpd15560_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd15560_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -7497,14 +7497,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08335_M_cpd15560_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn08335_M_cpd15560_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd15560_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00282_c"/>
           <modifierSpeciesReference species="M_cpd15561_c"/>
           <modifierSpeciesReference species="M_cpd00247_c"/>
-          <modifierSpeciesReference species="M_cpd00282_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -7619,7 +7619,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08335_M_cpd15561_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn08335_M_cpd15561_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd15561_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -7632,14 +7632,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn08335_M_cpd15561_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn08335_M_cpd15561_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd15561_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00247_c"/>
-          <modifierSpeciesReference species="M_cpd15560_c"/>
           <modifierSpeciesReference species="M_cpd00282_c"/>
+          <modifierSpeciesReference species="M_cpd15560_c"/>
+          <modifierSpeciesReference species="M_cpd00247_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -7754,7 +7754,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rJB00259_M_cpd01351_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rJB00259_M_cpd01351_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd01351_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -7767,7 +7767,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rJB00259_M_cpd01351_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rJB00259_M_cpd01351_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd01351_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -7889,7 +7889,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rJB00259_M_cJB00125_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rJB00259_M_cJB00125_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cJB00125_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -7902,14 +7902,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rJB00259_M_cJB00125_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rJB00259_M_cJB00125_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cJB00125_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd01351_c"/>
           <modifierSpeciesReference species="M_cpd00282_c"/>
           <modifierSpeciesReference species="M_cpd00247_c"/>
+          <modifierSpeciesReference species="M_cpd01351_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -8024,14 +8024,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01513_M_cpd00002_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01513_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00297_c"/>
           <modifierSpeciesReference species="M_cpd00298_c"/>
+          <modifierSpeciesReference species="M_cpd00008_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -8146,13 +8146,13 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00364_M_cpd00002_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00364_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00046_c"/>
+          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00096_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -8268,13 +8268,13 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01219_M_cpd00002_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01219_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00533_c"/>
+          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00206_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -8390,17 +8390,17 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00410_M_cpd00002_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00410_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00013_c"/>
-          <modifierSpeciesReference species="M_cpd00062_c"/>
-          <modifierSpeciesReference species="M_cpd00067_c"/>
-          <modifierSpeciesReference species="M_cpd00052_c"/>
           <modifierSpeciesReference species="M_cpd00009_c"/>
           <modifierSpeciesReference species="M_cpd00008_c"/>
+          <modifierSpeciesReference species="M_cpd00067_c"/>
+          <modifierSpeciesReference species="M_cpd00052_c"/>
+          <modifierSpeciesReference species="M_cpd00013_c"/>
+          <modifierSpeciesReference species="M_cpd00062_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -8652,14 +8652,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00119_M_cpd00002_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00119_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00008_c"/>
-          <modifierSpeciesReference species="M_cpd00091_c"/>
           <modifierSpeciesReference species="M_cpd00014_c"/>
+          <modifierSpeciesReference species="M_cpd00091_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -8774,14 +8774,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01517_M_cpd00002_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01517_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00299_c"/>
           <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00978_c"/>
-          <modifierSpeciesReference species="M_cpd00299_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -8896,13 +8896,13 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00409_M_cpd00002_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00409_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00052_c"/>
+          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00096_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -9018,13 +9018,13 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01673_M_cpd00002_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01673_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00533_c"/>
+          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00356_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -9140,14 +9140,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01512_M_cpd00002_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01512_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00297_c"/>
           <modifierSpeciesReference species="M_cpd00357_c"/>
+          <modifierSpeciesReference species="M_cpd00008_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -9262,7 +9262,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01678_M_cpd00002_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01678_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -9384,14 +9384,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00117_M_cpd00002_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00117_M_cpd00002_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00002_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00008_c"/>
-          <modifierSpeciesReference species="M_cpd00062_c"/>
           <modifierSpeciesReference species="M_cpd00014_c"/>
+          <modifierSpeciesReference species="M_cpd00062_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -9506,13 +9506,13 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01513_M_cpd00008_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01513_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00002_c"/>
           <modifierSpeciesReference species="M_cpd00297_c"/>
+          <modifierSpeciesReference species="M_cpd00002_c"/>
           <modifierSpeciesReference species="M_cpd00298_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -9628,13 +9628,13 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00364_M_cpd00008_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00364_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00002_c"/>
           <modifierSpeciesReference species="M_cpd00046_c"/>
+          <modifierSpeciesReference species="M_cpd00002_c"/>
           <modifierSpeciesReference species="M_cpd00096_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -9750,13 +9750,13 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01219_M_cpd00008_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01219_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00533_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00533_c"/>
           <modifierSpeciesReference species="M_cpd00206_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -9872,17 +9872,17 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00410_M_cpd00008_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00410_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00013_c"/>
-          <modifierSpeciesReference species="M_cpd00062_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00009_c"/>
           <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd00052_c"/>
-          <modifierSpeciesReference species="M_cpd00009_c"/>
+          <modifierSpeciesReference species="M_cpd00013_c"/>
+          <modifierSpeciesReference species="M_cpd00062_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -10134,14 +10134,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00119_M_cpd00008_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00119_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
           <modifierSpeciesReference species="M_cpd00002_c"/>
-          <modifierSpeciesReference species="M_cpd00091_c"/>
           <modifierSpeciesReference species="M_cpd00014_c"/>
+          <modifierSpeciesReference species="M_cpd00091_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -10256,14 +10256,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01517_M_cpd00008_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01517_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00978_c"/>
           <modifierSpeciesReference species="M_cpd00299_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00978_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -10378,13 +10378,13 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00409_M_cpd00008_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00409_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00052_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00052_c"/>
           <modifierSpeciesReference species="M_cpd00096_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -10500,13 +10500,13 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01673_M_cpd00008_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01673_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00533_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00533_c"/>
           <modifierSpeciesReference species="M_cpd00356_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -10622,13 +10622,13 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01512_M_cpd00008_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01512_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00002_c"/>
           <modifierSpeciesReference species="M_cpd00297_c"/>
+          <modifierSpeciesReference species="M_cpd00002_c"/>
           <modifierSpeciesReference species="M_cpd00357_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -10744,13 +10744,13 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01678_M_cpd00008_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01678_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00978_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00978_c"/>
           <modifierSpeciesReference species="M_cpd00358_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -10866,14 +10866,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00117_M_cpd00008_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00117_M_cpd00008_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00008_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00062_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
           <modifierSpeciesReference species="M_cpd00014_c"/>
+          <modifierSpeciesReference species="M_cpd00062_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -10988,7 +10988,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn05289_M_cpd11420_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn05289_M_cpd11420_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd11420_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -11001,15 +11001,15 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn05289_M_cpd11420_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn05289_M_cpd11420_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd11420_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00005_c"/>
           <modifierSpeciesReference species="M_cpd00067_c"/>
-          <modifierSpeciesReference species="M_cpd11421_c"/>
+          <modifierSpeciesReference species="M_cpd00005_c"/>
           <modifierSpeciesReference species="M_cpd00006_c"/>
+          <modifierSpeciesReference species="M_cpd11421_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -11193,7 +11193,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn05289_M_cpd11421_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn05289_M_cpd11421_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd11421_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -11206,14 +11206,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn05289_M_cpd11421_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn05289_M_cpd11421_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd11421_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd00005_c"/>
           <modifierSpeciesReference species="M_cpd11420_c"/>
-          <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd00006_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -11398,7 +11398,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00410_M_cpd00013_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00410_M_cpd00013_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd00013_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -11411,17 +11411,17 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00410_M_cpd00013_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00410_M_cpd00013_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00013_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00062_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
-          <modifierSpeciesReference species="M_cpd00067_c"/>
-          <modifierSpeciesReference species="M_cpd00052_c"/>
           <modifierSpeciesReference species="M_cpd00009_c"/>
           <modifierSpeciesReference species="M_cpd00008_c"/>
+          <modifierSpeciesReference species="M_cpd00067_c"/>
+          <modifierSpeciesReference species="M_cpd00052_c"/>
+          <modifierSpeciesReference species="M_cpd00062_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -11673,7 +11673,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01362_M_cpd00012_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01362_M_cpd00012_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -11686,13 +11686,13 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01362_M_cpd00012_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01362_M_cpd00012_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00012_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00247_c"/>
           <modifierSpeciesReference species="M_cpd00810_c"/>
+          <modifierSpeciesReference species="M_cpd00247_c"/>
           <modifierSpeciesReference species="M_cpd00103_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -11808,17 +11808,17 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00410_M_cpd00052_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00410_M_cpd00052_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00013_c"/>
-          <modifierSpeciesReference species="M_cpd00062_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
-          <modifierSpeciesReference species="M_cpd00067_c"/>
           <modifierSpeciesReference species="M_cpd00009_c"/>
           <modifierSpeciesReference species="M_cpd00008_c"/>
+          <modifierSpeciesReference species="M_cpd00067_c"/>
+          <modifierSpeciesReference species="M_cpd00013_c"/>
+          <modifierSpeciesReference species="M_cpd00062_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -12070,13 +12070,13 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00409_M_cpd00052_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00409_M_cpd00052_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00052_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00096_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -12192,13 +12192,13 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00119_M_cpd00014_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00119_M_cpd00014_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00014_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00091_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -12314,14 +12314,14 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00117_M_cpd00014_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00117_M_cpd00014_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00014_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
+          <modifierSpeciesReference species="M_cpd00002_c"/>
           <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00062_c"/>
-          <modifierSpeciesReference species="M_cpd00002_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -12436,7 +12436,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00364_M_cpd00046_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00364_M_cpd00046_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd00046_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -12449,13 +12449,13 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00364_M_cpd00046_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00364_M_cpd00046_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00046_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00096_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -12571,7 +12571,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01362_M_cpd00103_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01362_M_cpd00103_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd00103_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -12584,14 +12584,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01362_M_cpd00103_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01362_M_cpd00103_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00103_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00247_c"/>
           <modifierSpeciesReference species="M_cpd00810_c"/>
           <modifierSpeciesReference species="M_cpd00012_c"/>
+          <modifierSpeciesReference species="M_cpd00247_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -12706,7 +12706,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00119_M_cpd00091_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00119_M_cpd00091_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd00091_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -12719,13 +12719,13 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn00119_M_cpd00091_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn00119_M_cpd00091_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00091_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00008_c"/>
           <modifierSpeciesReference species="M_cpd00014_c"/>
         </listOfModifiers>
         <kineticLaw>
@@ -12841,7 +12841,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01673_M_cpd00356_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01673_M_cpd00356_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd00356_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -12854,14 +12854,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01673_M_cpd00356_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01673_M_cpd00356_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00356_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00008_c"/>
-          <modifierSpeciesReference species="M_cpd00533_c"/>
           <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00533_c"/>
+          <modifierSpeciesReference species="M_cpd00008_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -12976,7 +12976,7 @@
           </math>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01512_M_cpd00357_c_fill" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01512_M_cpd00357_c_fill" reversible="false" fast="false">
         <listOfProducts>
           <speciesReference species="M_cpd00357_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -12989,14 +12989,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_rxn01512_M_cpd00357_c_drain" reversible="false" fast="false">
+      <reaction sboTerm="SBO:0000627" id="R_rxn01512_M_cpd00357_c_drain" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpd00357_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfModifiers>
-          <modifierSpeciesReference species="M_cpd00008_c"/>
-          <modifierSpeciesReference species="M_cpd00002_c"/>
           <modifierSpeciesReference species="M_cpd00297_c"/>
+          <modifierSpeciesReference species="M_cpd00002_c"/>
+          <modifierSpeciesReference species="M_cpd00008_c"/>
         </listOfModifiers>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
