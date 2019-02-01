@@ -16,6 +16,7 @@ def main():
 
     subsystem_balance = dict()
     for group in groups:
+        # get stoichiometric balance for reactants and products and save the net value
         net_balance = defaultdict(int)
         reactant_balance = defaultdict(int)
         product_balance = defaultdict(int)
@@ -32,27 +33,27 @@ def main():
                 name = model.getSpecies(s_id).getName()
                 stoichiometry = product.getStoichiometry()
                 product_balance[name] += stoichiometry
+            # get all reaction participants
             keys = set(product_balance.keys()).union(reactant_balance.keys())
             for key in keys:
-                net_balance[key] += product_balance[key] - reactant_balance[key]
-            to_remove = list()
-            for key in net_balance.keys():
-                if net_balance[key] == 0:
-                    to_remove.append(key)
-            for key in to_remove:
-                net_balance.pop(key)
+                net = product_balance[key] - reactant_balance[key]
+                if net != 0:
+                    net_balance[key] += net
         subsystem_balance[group.name] = net_balance
 
     chosen_groups = ["Amino sugar and nucleotide sugar metabolism",
                      "Lipopolysaccharide biosynthesis",
-                     "Pyrimidine metabolism"]
-
+                     "Pyrimidine metabolism",
+                     "Combined"]
+    
+    # get balance for the combined system
     subsystem_balance["Combined"] = subsystem_balance[chosen_groups[0]]
     for group_name in chosen_groups[1:]:
         balance = subsystem_balance[group_name]
         for key, value in balance.items():
             subsystem_balance["Combined"][key] += value
-
+    
+    # get all unbalanced metabolites in a subsystem
     subsystem_metabolites = dict()
     for key in subsystem_balance.keys():
         subsystem_metabolites[key] = list(subsystem_balance[key].keys())
@@ -63,14 +64,17 @@ def main():
         union(subsystem_balance[chosen_groups[2]].keys()))
 
     candidates = defaultdict(list)
-
+    
+    # only consider relevant subsystems
     for this in chosen_groups:
         for other in subsystem_metabolites.keys():
+            # only check distinc subsystem combinations
             if this == other or this == "Combined" and other in chosen_groups:
                 continue
             metabolites = set(subsystem_metabolites[this]).intersection(subsystem_metabolites[other])
             if metabolites:
                 for metabolite in metabolites:
+                    # only consider compativ
                     is_part_sink = subsystem_balance[this][metabolite] > 0 and subsystem_balance[other][metabolite] < 0
                     is_part_demand = subsystem_balance[this][metabolite] < 0 and subsystem_balance[other][metabolite] > 0
                     if is_part_sink or is_part_demand:
@@ -113,8 +117,10 @@ def add_boundary_species(candidates):
 def set_boundary_species(model, candidates):
     species_occurrence = defaultdict(int)
     species_reaction_map = defaultdict(list)
+    # get number of times species occurs across all reactions
     for reaction in model.getListOfReactions():
         kinetic_law = reaction.getKineticLaw()
+        # extract local parameters into global ones, allowing to copy kinetic laws 
         for l_param in kinetic_law.getListOfLocalParameters():
             model.addParameter(l_param)
             param = model.getParameter(l_param.getId())
@@ -130,6 +136,7 @@ def set_boundary_species(model, candidates):
 
     to_remove = set()
     for key in species_occurrence.keys():
+        # unbalanced species or those only occuring once have to be exchanged across system boundaries
         if species_occurrence[key] == 1 or key in candidates:
             to_remove.add(key)
 
@@ -139,7 +146,7 @@ def set_boundary_species(model, candidates):
     # build filling/draining fluxes for species possibly exchanged with other subsystems
     non_boundary_species = [species for species in species_occurrence.keys()]
     for species in model.getListOfSpecies():
-        if species.getName() not in non_boundary_species:
+        if species.getName() not in non_boundary_species:     
             for r_id in species_reaction_map[species.getName()]:
                 reaction = model.getReaction(r_id)
                 if species.getId() in reaction.getListOfReactants() or reaction.getReversible():
@@ -147,10 +154,12 @@ def set_boundary_species(model, candidates):
                     r_flux = model.createReaction()
                     r_flux.setId(r_id + "_" + species.getId() + "_fill")
                     r_flux.addProduct(species)
+                    # Exchange reaction
                     r_flux.setSBOTerm(627)
                     # discontinued in level 3 version 2, but needed in level 3 version 1
                     r_flux.setFast(False)
                     r_flux.setReversible(False)
+                    # create a simple kinetic law for constant influx
                     kinetic_law = r_flux.createKineticLaw()
                     l_param = kinetic_law.createLocalParameter()
                     l_param.setId("FILL_RATE")
@@ -169,6 +178,7 @@ def set_boundary_species(model, candidates):
                     r_flux.setReversible(False)
                     kinetic_law = r_flux.createKineticLaw()
                     kl = reaction.getKineticLaw()
+                    # copy kinetic law from reaction producing this species, so we cannot drain more than the available amount
                     formula = kl.getFormula()
                     modifiers = set()
                     for modifier in re.findall(SPECIES_PATTERN, formula):
@@ -179,7 +189,7 @@ def set_boundary_species(model, candidates):
                             modifier_reference.setSpecies(modifier)
                     kinetic_law.setFormula(formula)
 
-    # merge filling reactions, as they do not depend on a kinetic law
+    # merge filling reactions, as they do not depend on a complex kinetic law for easier manipulation
     for species in model.getListOfSpecies():
         species.setInitialAmount(0)
         if species.getName() not in non_boundary_species:
